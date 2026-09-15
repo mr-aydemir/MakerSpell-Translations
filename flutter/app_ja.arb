@@ -1,0 +1,4271 @@
+{
+    "@@locale": "ja",
+    "listingOptionsTimedOut": "オプションを読み込みます。接続を確認してもう一度お試しください。",
+    "settingsTitle": "設定",
+    "appPreferences": "アプリの設定",
+    "privacyAndData": "プライバシーとデータ",
+    "privacyAndDataSubtitle": "プライバシー、広告、アカウントデータを管理",
+    "privacyPolicy": "プライバシーポリシー",
+    "privacyPolicySubtitle": "どのようなデータを参照してください。 MakerSpell プロセスと理由",
+    "accountDeletionPage": "アカウント削除ページ",
+    "accountDeletionPageSubtitle": "アプリにアクセスできない場合でも削除をリクエスト",
+    "deleteSelectedData": "選択したデータの削除",
+    "dataDeletionSubtitle": "選択したデータを削除し、アカウントを維持",
+    "dataDeletionIntro": "永続的に削除したいMakerSpellデータを選択します。",
+    "dataDeletionKeepAccount": "ログインアカウント、電子メール、サブスクリプションアクセス、保存記録、および個人ドライブファイルは残ります。",
+    "dataCategoryProfile": "プロフィール詳細",
+    "dataCategoryProfileDescription": "表示名、プロファイル画像参照、パブリック暗号化キー、言語設定。",
+    "dataCategoryActivity": "活動と統計",
+    "dataCategoryActivityDescription": "利用カウンター、アプリ統計、マイグレーション履歴の完成",
+    "dataCategoryDiagnostics": "技術的な診断",
+    "dataCategoryDiagnosticsDescription": "あなたのアカウントにリンクされているプライバシーフィルタ付きアプリとプリンター診断イベント。",
+    "dataCategorySupport": "サポート履歴",
+    "dataCategorySupportDescription": "メッセージをサポートし、アカウントにリンクされているスクリーンショットを添付します。",
+    "dataCategoryDriveConnection": "Google Drive 接続",
+    "dataCategoryDriveConnectionDescription": "接続メタデータと認可。ドライブ内のファイルは削除されません。",
+    "selectAllOptionalData": "任意のデータをすべて選択",
+    "selectAtLeastOneDataCategory": "少なくとも1つのデータカテゴリを選択します。",
+    "deleteSelectedDataQuestion": "選択したデータを永久に削除しますか?",
+    "deleteSelectedDataWarning": "これは元に戻すことができません。 MakerSpellアカウントは有効です。",
+    "selectedDataDeleted": "選択したデータが削除されました。アカウントは有効です。",
+    "dataDeletionFailed": "選択したデータは削除できません: {error}",
+    "@dataDeletionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "dataDeletionWebRequest": "削除リクエストをWebに送信する",
+    "adPrivacyOptions": "広告のプライバシー選択",
+    "adPrivacyOptionsSubtitle": "広告に使用する同意の選択肢の見直しまたは変更",
+    "adPrivacyOptionsUnavailable": "広告のプライバシーの選択肢は、あなたの地域やまだ使用されていないために必要ではないです。.",
+    "couldNotOpenLink": "リンクを開くことができません。",
+    "modelCustomizerTitle": "モデルをカスタマイズ",
+    "modelCustomizerDescription": "ニーズに合わせてこのパラメトリックモデルを調整し、生成されたプリント可能なファイルをダウンロードします。",
+    "modelCustomizerOpen": "カスタマイズ",
+    "modelCustomizerDownloadHint": "変更を行うと、customizer のダウンロードボタンを使用します。 MakerSpell は生成されたファイルを自動的にキャプチャします。",
+    "modelCustomizerDownloadFailed": "生成されたファイルはダウンロードに追加できません。",
+    "theme": "テーマ",
+    "themeSubtitle": "ご希望のテーマを選択してください",
+    "dark": "ダーク",
+    "light": "ライトライト",
+    "system": "システム",
+    "language": "言語",
+    "languageSubtitle": "アプリケーション言語の選択",
+    "translationContributionTitle": "翻訳に貢献",
+    "translationContributionTileSubtitle": "あなたの言語を見直し、修正を提案",
+    "translationContributionDescription": "英語のソースと一緒に現在の翻訳を確認します。 変更する行だけが承認のために送信されます。 アプリの言語は変更されません。",
+    "translationContributionLanguage": "査読する言語",
+    "translationContributionSearch": "翻訳を検索する",
+    "translationContributionEditTitle": "修正を提案する",
+    "translationContributionEdit": "翻訳の編集",
+    "translationContributionProposedText": "提案された翻訳",
+    "translationContributionTokenError": "プレースホルダー、リンク、およびフォーマットトークンは変更されていないままでなければなりません。",
+    "translationContributionContactTitle": "貢献者情報",
+    "translationContributionContinue": "お問い合わせ",
+    "translationContributionPending": "{count} 修正(s) 準備完了",
+    "@translationContributionPending": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "translationContributionSubmit": "{count} 補正を送信する",
+    "@translationContributionSubmit": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "translationContributionSent": "ありがとうございます。 翻訳の修正をお送りしました。",
+    "translationContributionFailed": "修正は送信できません: {error}",
+    "@translationContributionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "translationContributionLoadFailed": "翻訳カタログは読み込めません。",
+    "english": "スタッフ",
+    "turkish": "トルコ語",
+    "unitSystem": "ユニットシステム",
+    "unitSystemSubtitle": "推奨測定基準",
+    "metric": "メートル",
+    "imperial": "インチ",
+    "cancel": "取消し",
+    "printSettings": "プリント設定",
+    "sliceCompatibilityTitle": "スライスする前にチェック",
+    "sliceCompatibilityDescription": "これらのチェックはモデルを非互換にしません。 違いを確認し、必要に応じてプリント設定を変更したり、現在の選択を続行したりします。",
+    "sliceCompatibilityContinue": "とにかく",
+    "sliceCompatibilityVolumeTitle": "ビルドボリュームを上回るモデル",
+    "sliceCompatibilityVolumeDescription": "現在のシーンの一部は、選択したプリンタのプレートや印刷可能な高さの外側にあります。印刷前に配置とスケールをチェックしてください。",
+    "sliceCompatibilityPrinterTitle": "3MFは別のプリンターのために準備されました",
+    "sliceCompatibilityPrinterDescription": "プロジェクトプロファイル: {project}. 選択したプリンタ: {selected}.",
+    "@sliceCompatibilityPrinterDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "sliceCompatibilityMaterialsTitle": "プリンターサポートよりも、より多くの材料スロットが使用されます",
+    "sliceCompatibilityMaterialsDescription": "このプロジェクトでは、{required}材料スロットを使用します。このプリンタプロファイルは{supported}をサポートしています。",
+    "@sliceCompatibilityMaterialsDescription": {
+        "placeholders": {
+            "required": {
+                "type": "int"
+            },
+            "supported": {
+                "type": "int"
+            }
+        }
+    },
+    "sliceCompatibilityNozzleTitle": "ノズル径はプロジェクトと異なる",
+    "sliceCompatibilityNozzleDescription": "プロジェクト: {project} mm。 選択: {selected} mm。",
+    "@sliceCompatibilityNozzleDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "sliceCompatibilityFilamentTitle": "フィラメントタイプはプロジェクトによって異なります",
+    "sliceCompatibilityFilamentDescription": "プロジェクト: {project}. 選択: {selected}.",
+    "@sliceCompatibilityFilamentDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "slicerPreferencesTitle": "スライサーの好み",
+    "sliceCompatibilityWarningsPreferenceTitle": "事前スライス警告",
+    "showPrinterProfileMismatchWarningsTitle": "プリンタープロフィールの相違の警告",
+    "showPrinterProfileMismatchWarningsDescription": "3MFプロジェクトが異なるプリンタープロファイルのために準備されたときに警告します。 互換性ダイアログから無効化された警告は、ここで再び有効にすることができます。",
+    "showNozzleMismatchWarningsTitle": "ノズル差警告",
+    "showNozzleMismatchWarningsDescription": "MakerSpell で選択したノズル径がプロジェクトに埋め込まれた値と異なる場合警告します。",
+    "showFilamentMismatchWarningsTitle": "フィラメントの違い警告",
+    "showFilamentMismatchWarningsDescription": "選択したフィラメントタイプがプロジェクトに埋め込まれた材料と異なる場合警告します。",
+    "searchSettings": "設定検索",
+    "discoveringModels": "素晴らしい3Dモデルを発見...",
+    "searchByTagHint": "タグで検索(タグ:キーワード)...",
+    "searchAllPlatformsHint": "すべてのプラットフォームで検索...",
+    "recentSearches": "最近の検索",
+    "searchSuggestions": "提案",
+    "clearAll": "すべてクリア",
+    "removeSearchHistory": "検索履歴から削除",
+    "savedSearches": "保存された検索",
+    "followingAndSearches": "フォロー&検索",
+    "followedDesigners": "フォローされたデザイナー",
+    "noFollowedUpdates": "続いていない",
+    "noFollowedUpdatesDescription": "プロフィールからデザイナーをフォローするか、Exploreで検索を保存して、個人的な更新リストを作成してください。",
+    "saveSearch": "検索を保存",
+    "removeSavedSearch": "保存された検索を削除",
+    "noSavedSearches": "保存された検索はまだありません",
+    "noSavedSearchesDescription": "ここから検索を保存して、最新のマッチングモデルに戻ります。",
+    "runSavedSearch": "最新のマッチングモデルを表示",
+    "noFiltersAvailable": "利用可能なフィルターなし",
+    "globalFilters": "グローバルフィルター",
+    "platformFilters": "{platform} フィルター",
+    "explore": "ツアー",
+    "favorites": "お気に入り",
+    "shop": "ショップ",
+    "workspace": "ワークスペース",
+    "close": "閉じる",
+    "contests": "コンテスト",
+    "contestsDescription": "コミュニティコンテストに参加し、注目すべき課題を発見し、デザインを紹介しましょう。",
+    "downloadedModels": "ダウンロードモデル",
+    "downloadedModelsDescription": "ダウンロードしたファイルを表示し、モデルビューアで開きます。それらを共有するか、アクティブなダウンロードを管理します。",
+    "networkPrinters": "ネットワークプリンター",
+    "myPrinters": "私のプリンター",
+    "networkPrintersDescription": "ローカルネットワーク上のプリンターを発見し、管理します。デバイスパネルを開き、プリンターを手動で追加し、ジョブを送信します。",
+    "loadingMore": "もっと読む...",
+    "somethingWentWrong": "何かが間違っていた",
+    "tryAgain": "お問い合わせ",
+    "nothingHereYet": "詳しくはこちら",
+    "emptyModelsDescription": "より多くのモデルを発見するためにあなたの検索を更新するか、または変更するために引き下げて下さい",
+    "free": "無料",
+    "@platformFilters": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "platforms": "プラットフォーム",
+    "all": "すべて",
+    "platformCount": "{count}プラットフォーム",
+    "noCategoriesAvailable": "カテゴリーなし",
+    "allPlatforms": "すべてのプラットフォーム",
+    "selectAll": "全てを選択",
+    "sortBy": "並び替え",
+    "tapOnePlatform": "1つのプラットフォームをタップ",
+    "selectedCount": "{count} 選択",
+    "resetToDefaults": "デフォルトへのリセット",
+    "multi": "ユニット",
+    "onlyOne": "1 つだけ",
+    "done": "ログイン",
+    "clear": "クリア",
+    "couldNotLoadCategories": "カテゴリをロードできません:\\n{error}",
+    "apply": "適用",
+    "sortTrending": "トレンド",
+    "sortBestMatch": "ベストマッチ",
+    "sortNewest": "新着情報",
+    "sortDownloads": "ダウンロード",
+    "sortLikes": "ほとんどの好み",
+    "@platformCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@selectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@couldNotLoadCategories": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "filters": "フィルター",
+    "reset": "リセット",
+    "none": "なし",
+    "ascendingOrder": "昇順注文",
+    "ok": "OK",
+    "calculating": "計算...",
+    "unknown": "不明",
+    "loading": "ローディング...",
+    "makerSyncUser": "MakerSpell ユーザー",
+    "guest": "ゲスト",
+    "driveConnected": "ドライブ: {email}",
+    "driveNotConnected": "接続されていないドライブ",
+    "driveModelBackup": "ドライブにモデルファイルをバックアップする",
+    "driveModelBackupDescription": "ダウンロードしたモデルとソースファイルを自動バックアップして、マーケットプレースリストに使用されます。",
+    "driveModelBackupPremiumDescription": "MakerSpell Pro または Shop のサブスクリプションは、この機能を使用する必要があります。",
+    "driveModelBackupViewPlans": "プロとショップのプランを見る",
+    "driveModelSyncNow": "今すぐ同期",
+    "driveModelWifiOnly": "Wi-Fi経由で同期",
+    "driveModelWifiOnlyDescription": "モバイルデータを使用しながらモデルバックアップをキューに入れ、Wi-Fiが利用可能になったら自動的に続行します。",
+    "driveModelWifiRequired": "Wi-Fiのみ同期が有効になっているため、Wi-Fiが必要です。",
+    "driveModelSyncCompleted": "{count}モデルファイル(s)で完了したドライブ同期。",
+    "@driveModelSyncCompleted": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveModelSyncFailed": "モデルファイル同期失敗: {error}",
+    "@driveModelSyncFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "driveBackupNotificationTitle": "ドライブにモデルをバックアップ",
+    "driveBackupNotificationPreparing": "{count}モデルファイルの準備...",
+    "@driveBackupNotificationPreparing": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveBackupNotificationProgress": "{percent}%・{current}/{total}・{fileName}",
+    "@driveBackupNotificationProgress": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            },
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "driveBackupNotificationCompleteTitle": "ドライブバックアップ完了",
+    "driveBackupNotificationCompleteBody": "{count} モデルファイル(s)同期。",
+    "@driveBackupNotificationCompleteBody": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveBackupNotificationPendingTitle": "ドライブバックアップのpaused",
+    "driveBackupNotificationPendingBody": "{count} ファイルが同期されるのを待っています。",
+    "@driveBackupNotificationPendingBody": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "notSignedIn": "サインインされていない",
+    "connected": "コネクティッド",
+    "signOut": "サインアップ",
+    "signInWithGoogle": "Googleでログイン",
+    "premium": "プレミアム",
+    "unlockPremium": "プレミアムのロック解除",
+    "removeAds": "広告を削除",
+    "upgrade": "アップグレード",
+    "makerSyncFree": "MakerSpell 無料",
+    "chooseMakerSpellPlan": "MakerSpellプランを選択",
+    "freePlanBenefits": "無制限のプロジェクトスライシングと、プロと広告のない経験を得る、またはMakerSpellショップですべてのプロとショップ機能のロックを解除します。",
+    "freeCoreTitle": "無料でできること",
+    "freeCoreDescription": "コア検索、準備、プリントワークフローはサブスクリプションを必要としません。",
+    "freeCoreFeatureDiscovery": "モデルを発見し、ソースとライセンスを確認します",
+    "freeCoreFeatureSlicing": "ローカルにスライスし、自由な許容内のGコードを輸出して下さい",
+    "freeCoreFeaturePrinters": "対応するローカルプリンタの発見と管理",
+    "freeCoreFeatureWeeklyAllowance": "{catalog} カタログ + {local} 週あたりのローカルスライシングプロジェクト, プラス {welcome} 新しいアカウントのための歓迎プロジェクト",
+    "@freeCoreFeatureWeeklyAllowance": {
+        "placeholders": {
+            "catalog": {
+                "type": "int"
+            },
+            "local": {
+                "type": "int"
+            },
+            "welcome": {
+                "type": "int"
+            }
+        }
+    },
+    "freeCoreFeatureRewardedUnlock": "許容範囲外? 任意の報酬のビデオは、24時間(最大{daily}まで)のスライシングを解除します",
+    "@freeCoreFeatureRewardedUnlock": {
+        "placeholders": {
+            "daily": {
+                "type": "int"
+            }
+        }
+    },
+    "continueWithFree": "無料で続行",
+    "continueFreeWithAd": "続き無料・ワン広告を見る",
+    "freeActionProLimitNote": "このワークフローは、Free で利用できます。Pro は使用制限と広告のみを削除します。",
+    "makerToolsSection": "オプションメーカーのアップグレード",
+    "sellerToolsSection": "売り手のための個別のツール",
+    "proOptionalUpgradeNote": "コアワークフローを自由に使用したり、無制限の使用と広告なしでProを選択したりしてください。",
+    "betaAccessBannerTitle": "21日間のプロアクセス — 支払い方法は必要ありません",
+    "betaAccessBannerDescription": "オープンテスト報酬は有効です。更新や自動チャージは行いません。",
+    "settingsCommerceFeaturesTitle": "ショップとeコマースツールを表示",
+    "settingsCommerceFeaturesDescription": "コア印刷ワークフローとは別に、販売、リスト、価格設定、ストア機能を維持します。",
+    "settingsCommerceFeaturesIncludedWithShop": "MakerSpell 店舗が有効であるため、可視性。",
+    "proPlanActive": "プロプランが有効",
+    "proPlanBenefits": "無制限のプロジェクトスライシングとアドフリーエクスペリエンスが有効になっています。",
+    "shopPlanActive": "ショッププランが有効",
+    "shopPlanBenefits": "全MakerSpell プロとショップの機能が有効になっています。",
+    "viewPlans": "プランを見る",
+    "upgradeToShop": "店舗へのアップグレード",
+    "viewPlanDetails": "プラン詳細を見る",
+    "checkingSubscription": "サブスクリプションの確認",
+    "pleaseWait": "お問い合わせ",
+    "activeNodes": "アクティブノード",
+    "cloudPlatformSynchronizations": "クラウドプラットフォームの同期",
+    "manageActiveNodes": "アクティブノードの管理",
+    "connectedCount": "{connected} / {total} 接続",
+    "account": "パスワード",
+    "signIn": "サインイン",
+    "signedIn": "サインイン",
+    "continueWithGoogle": "Googleでフォローする",
+    "onboardingSkip": "スキップ",
+    "onboardingNext": "次へ",
+    "onboardingBack": "背面",
+    "onboardingGetStarted": "スタート",
+    "onboardingWelcomeTitle": "すべてのメーカーのニーズ,\n1つの場所",
+    "onboardingWelcomeDescription": "アプリ間でジャンプすることなく複数のプラットフォームからプリント可能なモデルを発見。",
+    "onboardingDiscoverTitle": "次のプリントを見つける",
+    "onboardingDiscoverDescription": "お気に入りを検索、比較、保存、モデルライブラリを整理します。",
+    "onboardingSliceTitle": "あなたの携帯電話からスプライスとプリント",
+    "onboardingSliceDescription": "お使いの携帯電話でモデルを準備してスライスし、プリンターにGコードを送信し、ローカルネットワーク上のプリンターを監視および管理します。",
+    "onboardingShopTitle": "プリントをビジネスに変える",
+    "onboardingShopDescription": "MakerSpell ショップで、マーケットプレイスを接続し、リストを作成したり、価格を計算したり、チームと連携したりします。",
+    "onboardingCloudTitle": "あなたのプロジェクトをあなたと保ちましょう",
+    "onboardingCloudDescription": "Googleでサインインして、自分のドライブ、同期設定、購入を接続し、デバイス間でMakerSpellデータにアクセスします。",
+    "onboardingGoogleSignIn": "Googleでログイン",
+    "onboardingGoogleSigningIn": "サインイン",
+    "onboardingGoogleConnected": "Googleアカウントが接続されている",
+    "onboardingGoogleOptional": "オプション — 設定から Google Drive を後で接続することもできます。",
+    "onboardingGoogleSignInFailed": "Googleのサインインは完了できませんでした。 サインインせずに、もう一度試すことができます。",
+    "onboardingPurposeTitle": "MakerSpell は使えますか?",
+    "onboardingCommerceTitle": "eコマースに興味がありますか?",
+    "onboardingCommerceDescription": "あなたの答えは、私たちが推奨する開始目標だけを形作ります。 あなたは後で手動で推奨事項を調整することができます。",
+    "onboardingCommerceYes": "はい、販売または販売予定",
+    "onboardingCommerceYesDescription": "推奨事項にツール、製品の準備、およびワークフローの販売が追加されます。",
+    "onboardingCommerceNo": "いいえ、私は個人的な使用のためにここにいます",
+    "onboardingCommerceNoDescription": "モデル発見、スライシング、プリンター制御のコアフローをおすすめします。",
+    "onboardingPurposeDescription": "1 つ以上の目標を選択し、それらを優先注文にドラッグします。あなたは明示的にあなたの家を選択し、後で設定で変更することができます。",
+    "usagePurposeDiscover": "プリントするモデルを探す",
+    "usagePurposeDiscoverDescription": "モデルの発見、検索、お気に入り、ダウンロードから始めましょう。",
+    "usagePurposeSlice": "自分のモデルをスライスする",
+    "usagePurposeSliceDescription": "ワークスペースで作業を開始し、配置し、ローカルモデルをスライスします。",
+    "usagePurposePrinter": "ネットワークプリンタの制御",
+    "usagePurposePrinterDescription": "保存されたプリンター、生きている状態、カメラおよび印刷物制御によって始めて下さい。",
+    "usagePurposeShop": "製品を販売する準備",
+    "usagePurposeShopDescription": "ショップのドラフト、価格設定、マーケットプレースリストツールから始めましょう。",
+    "usagePurposeFavorites": "お気に入りを見る",
+    "usagePurposeFavoritesDescription": "保存されたモデルを再訪し、コレクションに素早く戻すためにお気に入りから始めましょう。",
+    "usagePurposeSelectedTitle": "あなたの優先順位",
+    "usagePurposeAvailableTitle": "その他の目標",
+    "usagePurposeMakeHome": "この家を作る",
+    "usagePurposeHome": "ホーム",
+    "usagePurposeInfoTooltip": "この目標について",
+    "usagePurposeSelectRecommended": "おすすめ商品",
+    "usagePurposeNavigationPreviewTitle": "ナビゲーションのプレビュー",
+    "usagePurposeNavigationPreviewDescription": "選択内容、順序、ホーム画面の設定が下部ナビゲーションバーにすぐ反映されます。",
+    "notificationCenterTitle": "お知らせ",
+    "notificationCenterEmpty": "いいえ MakerSpell 通知はまだ",
+    "notificationCenterEmptyDescription": "Androidパネルに表示されているダウンロード、スライシング、プリンター、およびドライブ通知が表示されます。",
+    "notificationCenterActive": "Androidの通知パネルでアクティブ",
+    "notificationCenterMarkRead": "マークを読んでいる",
+    "notificationCenterClear": "明確な通知履歴",
+    "notificationOnboardingTitle": "画面を見ずに情報を受け取る",
+    "notificationOnboardingDescription": "印刷が終了したり、注意が必要なときに通知します。 スライスが完了すると、ダウンロードまたはドライブバックアップが準備完了します。 不要なプロモーションアラートには、この許可を使用しないでください。",
+    "notificationOnboardingEnable": "通知を有効にする",
+    "notificationOnboardingLater": "今は今",
+    "notificationOnboardingEnabled": "通知の有効化",
+    "notificationOnboardingDenied": "通知が有効になっていなかった。システム設定から後で許可することができます。",
+    "weeklyDiscoveryDigestTitle": "週刊発見消化器",
+    "weeklyDiscoveryDigestDescription": "オプション、静的なモデルの発見要約。デフォルトではオフであり、週に一度に最も表示されます。",
+    "weeklyDiscoveryDigestNotificationTitle": "あなたの次のプリントのための新鮮なアイデア",
+    "weeklyDiscoveryDigestNotificationBody": "MakerSpell で今週のモデル発見をご覧ください。",
+    "weeklyDiscoveryDigestPermissionDenied": "通知許可が付与されていないため、毎週の消化が有効化できませんでした。",
+    "weeklyDiscoveryDigestViewedCount": "今週は{count}件のモデルを閲覧しました。",
+    "@weeklyDiscoveryDigestViewedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestSavedCount": "{count}件のモデルを保存しました。",
+    "@weeklyDiscoveryDigestSavedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestFollowedCount": "フォロー中のデザイナーから新着モデル{count}件。",
+    "@weeklyDiscoveryDigestFollowedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestEndingContests": "まもなく終了するコンテストが{count}件あります。",
+    "@weeklyDiscoveryDigestEndingContests": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "settingsUsagePurposeTitle": "使い方 MakerSpell",
+    "settingsUsagePurposeDescription": "目標を優先注文にドラッグし、明示的にあなたの家を選ぶ。",
+    "settingsUsagePurposeSelectedCount": "{count} 選択された目標",
+    "@settingsUsagePurposeSelectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "settingsUsagePurposeHomeSummary": "ホーム: {purpose}",
+    "@settingsUsagePurposeHomeSummary": {
+        "placeholders": {
+            "purpose": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsUsagePurposeUpdated": "スタート体験が更新されました。",
+    "slicerTourMenu": "ショースライサーツアー",
+    "slicerTourSkip": "スキップツアー",
+    "slicerTourNext": "次へ",
+    "slicerTourBack": "背面",
+    "slicerTourDone": "お問い合わせ",
+    "slicerTourStepCount": "%1の%2",
+    "slicerTourPrinterTitle": "プリンターを選ぶ",
+    "slicerTourPrinterDescription": "プリンタープロファイルを選択し、ここからプリント設定を開きます。",
+    "slicerTourMenuTitle": "より多くのスライサツール",
+    "slicerTourMenuDescription": "アクセスオブジェクト階層、エクスポート、マシン設定、ネットワークプリンタ、および設定。",
+    "slicerTourAddTitle": "モデルファイルを追加する",
+    "slicerTourAddDescription": "STL または 3MF 部品を現在のプレートに追加し、マルチパート プロジェクトを作成します。",
+    "slicerTourEditTitle": "モデルの編集",
+    "slicerTourEditDescription": "移動、回転、スケール、配列、クローン、または選択したオブジェクトを最適化します。",
+    "slicerTourSliceTitle": "Gコードの生成",
+    "slicerTourSliceDescription": "プレートの準備ができたら、ここにスライシングを開始します。印刷前にツールパスを確認することができます。",
+    "homeTourMenu": "観光ツアー",
+    "homeTourSearchTitle": "すべてのプラットフォームを検索",
+    "homeTourSearchDescription": "サポートされているすべてのモデルプラットフォームを一緒に検索します。 詳細な結果を得るために、ダウンロードとプリンタ、またはフィルタボタンのメニューを使用します。",
+    "homeTourPlatformsTitle": "ソースとソートを選択",
+    "homeTourPlatformsDescription": "エクスプローラー画面を離れることなく、モデルプラットフォーム、カテゴリ、ソートを選択します。",
+    "homeTourModelsTitle": "モデルを見つけて保存する",
+    "homeTourModelsDescription": "詳細はカードを開くか、ブックマークボタンを使用して、モデルをライブラリに追加します。",
+    "homeTourNavigationTitle": "MakerSpell ワークスペース",
+    "homeTourNavigationDescription": "ショップ、お気に入り、探索、ローカルスライサワークスペース、および設定の間で移動します。",
+    "networkPrinterTourMenu": "ネットワークプリンターツアーを表示",
+    "networkPrinterTourAddTitle": "手動でプリンターを追加",
+    "networkPrinterTourAddDescription": "プリンターが自動的に発見できない場合は、IPアドレスと接続の詳細を入力します。",
+    "networkPrinterTourScanTitle": "ローカルネットワークをスキャン",
+    "networkPrinterTourScanDescription": "同じローカルネットワークに接続された互換プリンターで再び検索します。",
+    "networkPrinterTourListTitle": "プリンターの接続と管理",
+    "networkPrinterTourListDescription": "発見されたプリンターを追加し、接続状況と機能を確認し、保存されたプリンターをタップして、一般的なコントロールを開きます。",
+    "printerControlTourMenu": "プリンター制御ツアーを表示",
+    "printerControlTourStatusTitle": "プリンターの状態",
+    "printerControlTourStatusDescription": "接続、現在のプリンタの状態、プロトコル、および必須デバイス情報を参照してください。",
+    "printerControlTourJobTitle": "アクティブなジョブを監視する",
+    "printerControlTourJobDescription": "ファイルの進捗状況、レイヤー、経過時間、およびサポート時に一時停止、再開、またはキャンセルを使用してください。",
+    "printerControlTourSettingsTitle": "温度および速度制御",
+    "printerControlTourSettingsDescription": "ノズルおよびベッドのターゲット、照明、ファン力およびプリンター機能に従う印刷物の速度を調節して下さい。",
+    "printerControlTourFilamentTitle": "ロードされたフィラメントを管理する",
+    "printerControlTourFilamentDescription": "サポートされているプリンタで材料スロットと更新のブランド、素材、名前、色を確認します。",
+    "printerControlTourMotionTitle": "プリンターの移動および家",
+    "printerControlTourMotionDescription": "X、Y、Z軸をジョグし、または自分の家の位置にそれらを送信します。",
+    "printerControlTourDeviceTitle": "デバイスインターフェイスを開きます",
+    "printerControlTourDeviceDescription": "プリンターメーカー独自のローカルインターフェイスを使用して、高度な機能またはモデル固有の機能を使用します。",
+    "networkPrinterShowCapabilities": "機能を表示する",
+    "networkPrinterHideCapabilities": "能力を隠す",
+    "shopTourMenu": "ショップツアー",
+    "shopTourOverviewTitle": "マーケットプレイスのワークスペース",
+    "shopTourOverviewDescription": "接続された店舗とサポートされたマーケットプレイスを一目で見れば、製品に直接ジャンプします。",
+    "shopTourTeamTitle": "安全に作業",
+    "shopTourTeamDescription": "チームメイトを招待し、暗号化されたショップデータを共有し、リストのドラフトを継続します。",
+    "shopTourConnectTitle": "マーケットプレイスを接続する",
+    "shopTourConnectDescription": "サポートされている各マーケットプレースに提供される接続ルールを使用して、売り手アカウントを追加します。",
+    "shopTourQuickAccessTitle": "ショップツール",
+    "shopTourQuickAccessDescription": "アップロードされた製品を開いたり、独自のGoogle Driveに接続したり、AIプロバイダを設定したりできます。",
+    "shopTourPricingTitle": "市場価格の方式",
+    "shopTourPricingDescription": "コスト、手数料、利益、最終販売価格のプラットフォーム固有の式を作成します。",
+    "about": "お問い合わせ",
+    "aboutSubtitle": "製品情報・スライサ加工境界",
+    "licenses": "ライセンス",
+    "licensesSubtitle": "AGPLのスライサ CLI ソースとオープンソースの通知",
+    "thirdPartyLicenses": "サードパーティのパッケージライセンス",
+    "thirdPartyLicensesSubtitle": "Flutter およびインストールされたパッケージで登録されたライセンス通知を表示",
+    "clearImageCache": "明確なイメージのキャッシュ",
+    "clearImageCacheSubtitle": "キャッシュされた画像({size})をクリアすることでストレージを解放",
+    "clearImageCacheQuestion": "すべてのキャッシュされた画像をクリアしたいですか? このアクションは元に戻すことはできません。",
+    "imageCacheCleared": "画像キャッシュは正常にクリア",
+    "automaticImageCacheCleanup": "自動画像キャッシュクリーンアップ",
+    "automaticImageCacheCleanupSubtitle": "デフォルトで。 キャッシュされた画像が2 GBを超えた場合、キャッシュが1 GB程度になるまで最も古いものは削除されます。",
+    "errorClearingCache": "キャッシュをクリアするエラー: {error}",
+    "contactSupport": "コンタクトサポート",
+    "contactSupportSubtitle": "スクリーンショットと診断の詳細を送信",
+    "notSignedInMessage": "サインインされていません。",
+    "signOutQuestion": "サインアップ",
+    "signOutDescription": "ゲストとしてアプリに滞在します。このデバイスとドライブの秘密を保存します。",
+    "signingOut": "サインアップ",
+    "signedOut": "サインアップ",
+    "signOutFailed": "サインアウト失敗: {error}",
+    "signInFirstDelete": "まずはアカウントを削除してください。",
+    "deleteAccountQuestion": "アカウントを永久に削除しますか?",
+    "deleteAccountDescription": "これはあなたの削除しますMakerSpellプロフィール、ステータス、購入、auth user.\\n\\nYourGoogle Driveファイルは削除されません(BYOC)。ローカルデバイス暗号化キーが消去されます。\\n\\nこれは元に戻すことはできません。",
+    "deleteAccount": "アカウントの削除",
+    "typeDeleteToConfirm": "タイプ 確認するDELETE",
+    "confirm": "確認",
+    "accountDeleted": "削除されたアカウント。",
+    "deleteFailed": "失敗した削除: {error}",
+    "dangerZone": "危険ゾーン",
+    "dangerZoneSignedIn": "MakerSpell から出て、またはアカウントを永久に削除します。 自分でファイルをドライブすることは削除されません。",
+    "dangerZoneSignedOut": "セッションとアカウント削除を管理するためにサインインします。",
+    "@driveConnected": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorClearingCache": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@signOutFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@deleteFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@clearImageCacheSubtitle": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "@connectedCount": {
+        "placeholders": {
+            "connected": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "authenticated": "認証",
+    "notConnected": "接続しない",
+    "disconnect": "接続解除",
+    "connect": "ログイン",
+    "noPlatformsRequireAuthentication": "プラットフォームは認証を必要としません。",
+    "copySource": "コピーソース",
+    "copiedMarkdownSource": "コピッドマークダウンソース",
+    "failedToLoad": "読み込みに失敗: {error}",
+    "supportIntro": "MakerSpell チームにメッセージを送信します。サインインしたユーザーは、マイリクエストで返信を追跡できます。",
+    "yourName": "あなたの名前",
+    "requiredField": "お問い合わせ",
+    "email": "電子メール",
+    "enterValidEmail": "有効な電子メールを入力してください",
+    "category": "カテゴリー",
+    "subject": "コンテンツ",
+    "howCanWeHelp": "お問い合わせ",
+    "writeMoreDetail": "もう少し詳しく書いてください。",
+    "sending": "送信...",
+    "sendMessage": "送信メッセージ",
+    "messageSent": "送信されたメッセージ。 リクエストの下に追跡できます。",
+    "couldNotSendMessage": "メッセージを送信できません。{error}",
+    "supportCategoryGeneral": "一般的な質問",
+    "supportCategoryBug": "バグ報告",
+    "supportCategoryBilling": "請求/サブスクリプション",
+    "supportCategoryFeature": "特徴の要求",
+    "supportCategoryAccount": "アカウント/ログイン",
+    "supportCategoryOther": "その他",
+    "supportAttachments": "添付ファイル",
+    "supportAttachmentsDescription": "選択すれば1つのスクリーンショットを加えて下さい、プライバシーろ過された技術的な診断。",
+    "supportAddScreenshot": "スクリーンショットの追加",
+    "supportScreenshot": "スクリーンショット",
+    "supportScreenshotTooLarge": "スクリーンショットは1.5MB未満でなければなりません。",
+    "supportScreenshotPickFailed": "スクリーンショットは追加できません: {error}",
+    "supportAttachmentSignIn": "スクリーンショットを添付するためにサインインします。",
+    "supportIncludeDiagnostics": "技術的な診断を含んで下さい",
+    "supportDiagnosticsDescription": "最近のプライバシーフィルタ付きエラーイベントを10件まで共有します。パスワード、トークン、URL、レスポンスボディ、ファイル名、および未加工エラーメッセージは含まれていません。",
+    "@supportScreenshotPickFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedToLoad": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotSendMessage": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "newCollection": "新コレクション",
+    "collectionName": "コレクション名",
+    "descriptionOptional": "記述(任意)",
+    "visibleToTeam": "チームへの可視性",
+    "shopMembersCanSeeCollection": "ショップメンバーは、このコレクションを見ることができます",
+    "onlyYouDriveBackup": "あなただけ(ドライブにバックアップされる)",
+    "enterCollectionName": "コレクション名を入力してください",
+    "collectionCreatedTeam": "コレクション作成(チーム可)",
+    "collectionCreated": "正常に作成されたコレクション",
+    "errorMessage": "エラー: {error}",
+    "create": "作成する",
+    "syncing": "同期...",
+    "allCollectionsBackedUp": "すべてのコレクションがドライブにバックアップ",
+    "syncCollectionsWithDrive": "ドライブによるコレクションの同期",
+    "driveNotConnectedLocalOnly": "接続されていないドライブ — ローカルのみ",
+    "syncIssue": "同期の問題: {error}",
+    "collectionsBackedUp": "{count} ドライブにバックアップされたコレクション",
+    "driveNotAvailableKeptLocal": "ドライブは利用できません。",
+    "models": "モデル",
+    "collections": "コレクション",
+    "noCollectionsYet": "コレクションはまだありません",
+    "createCollectionDescription": "モデルを整理するためのコレクションを作成します。\\nWith Google Drive 接続されているすべてのコレクション(プライベートなものを含む)がバックアップおよび復元されます。",
+    "myCollections": "私のコレクション",
+    "teamCollections": "チームコレクション",
+    "itemCount": "{count} アイテム",
+    "yourLibraryIsEmpty": "あなたのライブラリは空です",
+    "saveModelsFromExplore": "ここからモデルを保存して、ここでそれらを見る",
+    "exploreModels": "モデルを見る",
+    "@errorMessage": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@syncIssue": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@collectionsBackedUp": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@itemCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "addedToCollection": "{name} に追加",
+    "change": "アクセス",
+    "addedToCollections": "{count}コレクションに追加",
+    "removedFromCollection": "{name} から削除",
+    "removedFromCollections": "{count}コレクションから削除",
+    "updatedCollections": "コレクションの更新",
+    "addToCollections": "コレクションに追加",
+    "createCollection": "コレクションの作成",
+    "@addedToCollection": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@removedFromCollection": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@addedToCollections": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@removedFromCollections": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "makerSyncPlans": "MakerSpell プラン",
+    "restore": "復元",
+    "makerSyncPro": "MakerSpell プロ",
+    "makerSyncShop": "MakerSpell ショップ",
+    "proPlanSubtitle": "カタログおよびローカルプロジェクトのための無制限のスライス",
+    "unlimitedProjectSlicing": "無制限のプロジェクトスライシング",
+    "noNativeAds": "ネイティブ広告なし",
+    "cloudProfileSyncReports": "クラウドプロファイルの同期と高度なレポート",
+    "shopPlanSubtitle": "Pro のすべて、プラスの市場オートメーション",
+    "allProFeatures": "すべての MakerSpell プロの機能",
+    "marketplaceListingTools": "マーケットプレースリストツール",
+    "shopAutomationFeatures": "ショップチーム、価格設定、製品の自動化",
+    "shopShowcaseEyebrow": "MAKERSYNCでSモールスマター",
+    "shopShowcaseTitle": "3Dモデルを販売可能な製品にします。",
+    "shopShowcaseDescription": "マーケットプレースリストの準備、正しい価格を計算し、ストアのワークフローを1つのモデルからすべてのセールスチャネルにまとめて保存します。",
+    "shopWorkflowModel": "モデル",
+    "shopWorkflowPrepare": "準備",
+    "shopWorkflowPublish": "公開する",
+    "shopFeatureStoresTitle": "マーケットプレイスを接続",
+    "shopFeatureStoresDescription": "サポートされている販売チャネルを管理し、単一のワークスペースから設定を保存します。",
+    "shopFeatureListingTitle": "リストの作成を高速化",
+    "shopFeatureListingDescription": "モデルの詳細、画像、および生産データを構造化された製品リストに変換します。",
+    "shopFeaturePricingTitle": "収益性の高い価格設定を自動化",
+    "shopFeaturePricingDescription": "コスト、市場価格、税金、およびターゲットマージンの計算を作成します。",
+    "shopFeatureTeamTitle": "1つの店のチームとして働く",
+    "shopFeatureTeamDescription": "ドラフトやコレクションを共有することで、チームメイトがワークフローを見直し、継続することができます。",
+    "shopIncludesProTitle": "MakerSpell Pro が含まれています",
+    "shopIncludesProDescription": "無制限のプロジェクトスライシング、広告なしの経験、およびすべてのMakerSpell Pro機能を入手してください。",
+    "shopRequiredTitle": "MakerSpell 店舗要",
+    "shopRequiredDescription": "この機能を使用するには、MakerSpell ショップサブスクリプションが必要です。",
+    "shopExplorePlan": "MakerSpell 店舗を探す",
+    "shopExplorePlanHint": "サブスクライブの前にパッケージの詳細を確認します。",
+    "shopMarketplacePriceFormulas": "市場価格の方式",
+    "pricingSavedFormula": "%1の保存式",
+    "pricingAddMarketplaceFormula": "マーケットプレース式を追加",
+    "pricingCustomPlatformId": "カスタムプラットフォームID ...",
+    "pricingPlatformId": "プラットフォームID",
+    "pricingPlatformIdHint": "例:ヘプシバリダ",
+    "pricingFormulaFallbackName": "フォーム",
+    "pricingAddFormula": "フォームを追加",
+    "pricingIntro": "各電子商取引プラットフォームは、独自の価格式を使用することができます。 デフォルトは、フィラメント、パッケージ、出荷、プラットフォーム手数料、および利益を使用して古典的なTrendyol計算です。",
+    "pricingTrendyolTemplate": "Trendyol テンプレート",
+    "pricingCustomFormula": "カスタム式",
+    "pricingCardSummary": "%1・%2・料金%3・手数料%4%",
+    "pricingNoFormulas": "まだ式なし — 1 つを追加します。 Trendyol は、次の保存時にデフォルトで作成されます。",
+    "pricingAddParameter": "パラメータの追加",
+    "pricingParameterName": "お名前(識別子)",
+    "pricingParameterNameHint": "例:労働コストCost、desiFee",
+    "pricingParameterNameHelper": "文字、数字、アンダースコアを使用する。 手紙から始める",
+    "pricingDefaultValue": "デフォルト値",
+    "pricingAdd": "追加",
+    "pricingInvalidParameterName": "無効な名前。 有効な識別子を使用して、例えば laborCost。",
+    "pricingParameterExists": "パラメータ「%1」は既に存在しているか、予約済みです。",
+    "pricingFormulaMustSetGrandTotal": "式は grandTotal を設定しなければなりません。",
+    "pricingFormulaError": "方式の間違い: %1",
+    "pricingSave": "保存",
+    "pricingDisplayName": "表示名",
+    "pricingParameters": "パラメーター",
+    "pricingParametersDescription": "組み込みパラメータとエキストラは、式変数として使用できます。 Runtime の入力は、フィラメントGR、 extraPartCost が常に利用できます。",
+    "pricingCustomTag": "カスタム",
+    "pricingRemoveParameter": "パラメータを削除",
+    "pricingFormulaSection": "式(課題)。 関数: max、min、if、abs。",
+    "pricingFormulaHint": "グランプリ",
+    "pricingTestWeight": "試験 g",
+    "pricingPreview": "プレビュー",
+    "pricingPreviewResult": "サンプル%1 g → 販売価格%2",
+    "pricingTip": "ヒント: デフォルトのボディは古典的な Trendyol 式です。 必須の出力: grandTotal。 カスタムパラメータの例: grandTotal = 合計 * (1 + 利益率) + 労働コスト",
+    "viewerSectionQuality": "よくある質問",
+    "viewerLayerHeight": "積層ピッチ",
+    "viewerSectionInfill": "ログイン",
+    "viewerPattern": "パターン",
+    "viewerDensity": "密度",
+    "viewerSectionSupport": "サポート",
+    "viewerEnableSupport": "有効化",
+    "viewerType": "タイプ",
+    "viewerSectionAdhesion": "ソリューション",
+    "viewerBrimType": "ブリムタイプ",
+    "viewerApplySettings": "設定を適用する",
+    "viewerPatternGyroid": "ジャイロイド",
+    "viewerPatternGrid": "グリッド",
+    "viewerPatternTriangles": "三角形",
+    "viewerPatternCubic": "キュービック",
+    "viewerSupportTreeAuto": "ツリー (自動)",
+    "viewerSupportNormalAuto": "通常 (自動)",
+    "viewerBrimOuterOnly": "外面のみ",
+    "viewerBrimInnerOnly": "インナーのみ",
+    "viewerNoBrim": "ブリムなし",
+    "viewerStartingSlicer": "スライサーを始める...",
+    "slicingProgressPreparing": "OrcaSlicerの準備...",
+    "slicingProgressStarting": "スライスを始める...",
+    "slicingProgressMesh": "スライスメッシュ...",
+    "slicingProgressWalls": "壁を発生させる...",
+    "slicingProgressInfillRegions": "インフィル地域を発生させる...",
+    "slicingProgressInfillToolpath": "インフィルツールパスを生成する...",
+    "slicingProgressCheckingSupport": "サポートが必要なかどうかチェック",
+    "slicingProgressSupport": "サポートの生成...",
+    "slicingProgressSupportContacts": "サポート接点を生成...",
+    "slicingProgressSkirtBrim": "スカートとブリムを生成...",
+    "slicingProgressDetectingOverhangs": "自動リフトのためのオーバーハングの検出...",
+    "slicingProgressOptimizingToolpath": "ツールパスの最適化...",
+    "slicingProgressGeneratingGcode": "Gコードの生成...",
+    "slicingProgressGeneratingGcodeLayer": "Gコード生成・レイヤー%1...",
+    "slicingProgressExportingGcode": "Gコードのエクスポート...",
+    "slicingProgressFinalizingGcode": "Gコードのファイナライズ...",
+    "slicingProgressComplete": "スライス完了",
+    "viewerCouldNotOpenSliceResult": "スライス結果を開くことができません",
+    "viewerSlicingFailed": "スライス失敗",
+    "viewerNativeSlicerStopped": "ネイティブスライサー停止。",
+    "viewerCouldNotCloseSafely": "3Dビューアを安全に閉じない",
+    "viewerSlicingFile": "スライス %1",
+    "viewerSlicingStopped": "スライス停止",
+    "viewerCancelledOrFailed": "キャンセルまたは失敗",
+    "viewerEmptyGcode": "空のGコード",
+    "viewerSliceComplete": "スライス完了",
+    "viewerLowMemorySlicing": "低記憶スライス",
+    "viewerSlicing": "スライス中",
+    "viewerKeepOpenDuringSlicing": "MakerSpell を開き、スライスが完了するまで、この画面に残ります。 アプリを閉じたり、バックグラウンドに移動したりすると、プロセスを中断することがあります。",
+    "viewerClosedForSlicing": "3Dビューアは完全閉鎖\nこの画面でWebViewが実行されていない",
+    "viewerSlicerThreads": "%1スライサスレッド",
+    "viewerCancelling": "キャンセル...",
+    "viewerBackToModel": "モデルに戻る",
+    "viewerCancel": "取消し",
+    "viewerSimplifyAndHollowTitle": "シンプルで中空モデル?",
+    "viewerSimplifyAndHollowDescription": "このモデルは、信頼性の高いオンデバイス中空のためにあまりにも複雑です。 最初に簡素化され、空中が自動的に適用されます。 あなたは完全な操作を行うことはできません。",
+    "viewerSimplifyAndHollowAction": "シンプルで中空",
+    "viewerSelectModelBeforeClone": "最初にプレートのモデルを選択し、それをクローンします。",
+    "viewerModelCloned": "モデル cloned",
+    "viewerCopiesCloned": "Cloned %1のコピー",
+    "viewerAutoRotateApplied": "自動回転: 加えられる低い印刷物の高さ",
+    "viewerAutoRotateSelectModel": "自動回転失敗 — 最初にモデルを選択",
+    "viewerAutoRotateError": "自動回転エラー: %1",
+    "viewerArrangingObjects": "オブジェクトの配置",
+    "viewerAddingModel": "モデルを追加...",
+    "viewerNotReady": "ビューアはまだ準備されていません。",
+    "viewerGcodeCannotBeAdded": "ソリッドオブジェクトとしてG-codeを追加することはできません。代わりに新しいファイルとして開きます。",
+    "viewerCannotAddExtension": "シーンに「.%1」を追加することはできません。 3MFまたはSTLを使用してください。",
+    "viewerFilePickFailed": "ファイル選択失敗: %1",
+    "viewerAddPrimitive": "プリミティブを追加",
+    "viewerPrimitiveCube": "キューブ",
+    "viewerPrimitiveCylinder": "シリンダー",
+    "viewerPrimitiveSphere": "球体",
+    "viewerPrimitiveCone": "コーン",
+    "viewerPrimitiveDisc": "Disc",
+    "viewerPrimitiveTorus": "Torus",
+    "viewerPrimitiveDescription": "立方体、シリンダー、球、円錐形、ディスク、またはトーラス",
+    "viewerFromLibrary": "ライブラリから",
+    "viewerFromLibraryDescription": "口径測定および有用なテスト モデル",
+    "viewerFromDownloads": "ダウンロードから",
+    "viewerFromDownloadsDescription": "ダウンロード完了",
+    "viewerFromDevice": "デバイスから",
+    "viewerFromDeviceDescription": "3MFまたはSTLファイルを選択します",
+    "viewerHandyModels": "便利なモデル",
+    "viewerFormat": "フォーマット: %1",
+    "viewerArrangeSettings": "配置設定",
+    "viewerSpacing": "間隔",
+    "viewerAuto": "自動",
+    "viewerAutoSpacingDescription": "0 は自動間隔を意味します。",
+    "viewerAutoRotateArrangement": "自動的に配置のために回して下さい",
+    "viewerAllowMultipleMaterials": "同じプレートに複数の材料を許可する",
+    "viewerMultiplePlatesUnsupported": "複数のプレートはサポートされていません。全てのオブジェクトは現在のプレート上に配置されます。",
+    "viewerAlignYAxis": "Y軸に合わせる",
+    "viewerArrange": "レイアウト",
+    "viewerApplied": "応用分野",
+    "viewerAutoRotateComplete": "自動回転完了",
+    "viewerMinSupportComplete": "最低サポート完了",
+    "viewerAutoOrientationFailed": "自動向きが失敗しました。モデル面が見つかりませんでした。",
+    "viewerAddModelToScene": "シーンにモデルを追加",
+    "viewerExistingObjectsStay": "既存のオブジェクトはプレートにとどまります",
+    "viewerModelDimensions": "モデル次元",
+    "viewerLayOnFace": "顔の上に置く(ベータ)",
+    "viewerLayOnFaceDescription": "ベータ — 表面をタップして、ベッドに直面する場所を選択します。 複雑なメッシュは2番目の試みを必要とする場合があります。",
+    "viewerCut": "カット",
+    "viewerPlanar": "プラン",
+    "viewerDovetail": "ドヴェテール",
+    "viewerCutHeight": "切断高さ(Z):",
+    "viewerWidth": "幅",
+    "viewerDepth": "深さ:",
+    "viewerFlapAngle": "折り返しの角度:",
+    "viewerGrooveAngle": "溝の角度:",
+    "viewerAfterCut": "切断の後で:",
+    "viewerUpperPart": "上部パーツ",
+    "viewerLowerPart": "下部パーツ",
+    "viewerKeep": "残す",
+    "viewerLayFlat": "レイアウトフラット",
+    "viewerRotate": "回転",
+    "viewerPositionControl": "位置制御(mm)",
+    "viewerRotationControl": "回転制御(°)",
+    "viewerScaleControl": "スケール制御",
+    "viewerDimensionsMm": "寸法(mm)",
+    "viewerUniform": "ユニフォーム",
+    "viewerFree": "無料",
+    "viewerMove": "移動",
+    "viewerScale": "スケール",
+    "viewerMirror": "反転",
+    "viewerMirrorModel": "ミラーモデル",
+    "viewerMirrorDescription": "選択したモデルを全体的に反映するために軸を選択します。同じ軸をミラーリングすると、以前の方向が再び復元されます。",
+    "viewerMirrorLeftRight": "左 ↔ 右",
+    "viewerMirrorFrontBack": "フロント ↔ バック",
+    "viewerMirrorTopBottom": "トップ ↔ ボトム",
+    "viewerMirrorApplied": "{axis} 軸にミラーリングされたモデル。",
+    "@viewerMirrorApplied": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerMirrorSelectModel": "ミラーリング前のモデルを選択します。",
+    "viewerColorPainting": "色塗り",
+    "viewerPaintCircle": "円形",
+    "viewerPaintSphere": "球体",
+    "viewerPaintTriangle": "三角形",
+    "viewerPaintSmartFill": "自動充填",
+    "viewerPaintHeightRange": "高さ範囲",
+    "viewerPaintFilament": "フィラメント %1",
+    "viewerPaintBrushSize": "ペンサイズ",
+    "viewerPaintAngle": "満ちる角度",
+    "viewerPaintHeight": "高度",
+    "viewerPaintEraser": "消去の絵画",
+    "viewerPaintNavigate": "回転とズームビュー",
+    "viewerPaintClear": "全てを消去",
+    "viewerPaintSelectModel": "カラー塗装を開封する前にモデルを選択します。",
+    "viewerPaintStartFailed": "カラー塗装が開けない:%1",
+    "viewerViewCube": "キューブを見る",
+    "viewerChooseView": "カメラビューを選ぶ",
+    "viewerViewFront": "正面",
+    "viewerViewBack": "背面",
+    "viewerViewLeft": "左面",
+    "viewerViewRight": "右面",
+    "viewerViewTop": "トップ",
+    "viewerViewBottom": "底面",
+    "viewerViewIsometric": "イソメトリック",
+    "viewerAutoRotate": "自動回転",
+    "viewerMinSupport": "最小限のサポート",
+    "viewerLayFaceShort": "レイフェイスβ",
+    "viewerAnalyzingSurfaces": "参照表面を分析する...",
+    "viewerClone": "複製",
+    "viewerCloneModel": "クローンモデル",
+    "viewerCloneCount": "コピー数",
+    "viewerCloneCountDescription": "選択したモデルの新規コピーの数を選択します。",
+    "viewerCloneCountRange": "1から20までの値を入力してください",
+    "viewerCloneCountInvalid": "1～20の数字を入力してください。",
+    "viewerAdd": "追加",
+    "viewerClose": "閉じる",
+    "viewerEditModel": "編集モデル",
+    "viewerMeasure": "Measure",
+    "viewerMeasureResult": "Measurement",
+    "viewerMeasureTapFirstPoint": "Tap the first point on the model.",
+    "viewerMeasureSecondPoint": "Now tap the second point on the model.",
+    "viewerMeasureTapToReplace": "Tap again to replace it, or tap Clear.",
+    "viewerMeasureClear": "Clear",
+    "viewerMeasureAngle": "アングル",
+    "viewerMeasureInfinite": "無限の間隔",
+    "viewerMeasureCircle": "円形",
+    "viewerMeasureCenter": "センター",
+    "viewerMeshDiagnostics": "メッシュ診断",
+    "meshDiagnosticsStatsTitle": "メッシュ統計",
+    "meshDiagnosticsTriangleLabel": "三角形",
+    "meshDiagnosticsVertexLabel": "プロフィール",
+    "meshDiagnosticsShellLabel": "シェルズ",
+    "meshDiagnosticsIdleHint": "スライスに影響を与えるメッシュの問題の現在のシーンを分析します。.",
+    "meshDiagnosticsAnalyzingTitle": "メッシュの分析",
+    "meshDiagnosticsCancellingTitle": "キャンセル...",
+    "meshDiagnosticsFailedTitle": "解析失敗",
+    "meshDiagnosticsFailedHint": "メッシュは解析できません。プロジェクトは変更できませんでした。",
+    "meshDiagnosticsCleanTitle": "網は健康です",
+    "meshDiagnosticsCleanMessage": "メッシュの問題が見つかりませんでした。 スライスする準備が整いました。",
+    "meshDiagnosticsResultsTitle": "メッシュ検索",
+    "meshDiagnosticsResultsBlockingIntro": "スライスをブロックする可能性のある問題が見つかりました。",
+    "meshDiagnosticsResultsWarningIntro": "警告が見つかりました。 それらは現在スライシングをブロックしていません。",
+    "meshDiagnosticsBlockingLabel": "ブロック",
+    "meshDiagnosticsWarningLabel": "警告",
+    "meshDiagnosticsRepairableLabel": "修理可能",
+    "meshDiagnosticsNotRepairableLabel": "修理不可",
+    "meshDiagnosticsAnalyzeAction": "アナレイズ",
+    "meshDiagnosticsUnexpected": "メッシュ解析は予期しない結果を返します。",
+    "meshDiagnosticsMemoryLimit": "このモデルは、現在持っているデバイスよりも多くの無料メモリを必要とします。",
+    "meshDiagnosticsMemoryWarningTitle": "高い記憶使用",
+    "meshDiagnosticsMemoryWarningBody": "この分析は、大量のメモリを使用する可能性があります。 続行する前に、他のアプリを閉じます。",
+    "meshDiagnosticsContinueAction": "お問い合わせ",
+    "meshDiagnosticsExportFailed": "現在のシーンは分析のために準備できませんでした。",
+    "meshDiagnosticsOpenEdges": "オープンエッジ",
+    "meshDiagnosticsNonManifoldEdges": "非マニホールドの端",
+    "meshDiagnosticsInvertedFaces": "逆にされた表面",
+    "meshDiagnosticsDegenerateTriangles": "三角形の生成",
+    "meshDiagnosticsDisconnectedShells": "切断されたシェル",
+    "meshDiagnosticsSelfIntersections": "セルフ・インターセクション",
+    "meshDiagnosticsOccurrences": "{count, plural, =1{1 発生} other{{count} リリース}}",
+    "@meshDiagnosticsOccurrences": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerSelectedPlatesFirst": "選択したプレートを最初にスライス: %1",
+    "viewerNoSizeWeight": "サイズや重量情報はまだありません。 最初に読み込むか、スライスするモデルを待ってください。",
+    "viewerLoadingModel": "ロードモデル...",
+    "viewerPreparingModel": "ディスプレイ用のモデルの準備...",
+    "viewerLoadingGcode": "Gコードを読み込む...",
+    "viewerLoadingGcodePreview": "Gコードのプレビューを読み込む...",
+    "viewerReloadingModel": "モデルのリロード...",
+    "viewerLoadingToolpath": "ロードツールパスプレビュー...",
+    "viewerFailedToLoadGcode": "Gコードを読み込む失敗: %1",
+    "viewerSwitchSolidTitle": "ソリッドモードへの切り替え?",
+    "viewerSwitchSolidDescription": "G-code のプレビューを残すと、ロードされた G-code を破棄し、空のソリッド シーンに戻ります。 続きを読みます?",
+    "viewerSolidMode": "固体モード",
+    "viewerGcodePreview": "Gコードプレビュー",
+    "viewerPreparationTab": "準備",
+    "viewerPreviewTab": "プレビュー",
+    "viewerReslice": "リスライス",
+    "viewerPrintSettingsChangedTitle": "印刷設定が変更されました",
+    "viewerPrintSettingsChangedReslicePrompt": "既存のG-codeは以前の設定で生成されています。今すぐ再スライスしますか？",
+    "viewerSliceForListing": "リストのためのスライス",
+    "viewerSliceGcode": "スライス(Gコード)",
+    "viewerProjectFileUnverified": "プロジェクトファイルが確認できません。",
+    "viewerWeeklyProjectLimit": "週単位のプロジェクト上限に達しました",
+    "viewerCatalogProjectLimitDescription": "最後の7日間に%1の無料カタログプロジェクトを使用しました。このモデルとすべてのファイルが1つのプロジェクトとしてカウントされます。",
+    "viewerLocalProjectLimitDescription": "最後の7日間に%1の無料ローカルファイルプロジェクトを使用しました。",
+    "viewerLater": "後で",
+    "viewerViewPro": "Proを見る",
+    "viewerWatchAdProject": "広告を見る・+1プロジェクト",
+    "viewerRewardedAdUnavailable": "報酬広告は今では利用できません。",
+    "viewerSelectedPathUnreadable": "選択したファイルパスは読みません。",
+    "viewerUnsupportedFileType": "サポートされていないファイルタイプ「.%1」。 3MF、STL、OBJ、またはGコードを使用してください。",
+    "viewerOpen": "開く",
+    "viewerOpenFile": "ファイルを開く",
+    "viewerOpenFileDescription": "現在のワークスペースモデルを置き換える",
+    "viewerDownloadsDescription": "MakerSpell で既にダウンロードしたモデルを選択します。",
+    "viewerDeviceDescription": "ストレージを参照するか、システムファイルピッカーを使用する",
+    "viewerAddCurrentScene": "現在のシーンに追加",
+    "viewerAddCurrentSceneDescription": "ライブラリ、ダウンロード、またはデバイス — 既存のオブジェクトの滞在",
+    "viewerProjectSettingsAdapted": "適応したプロジェクト設定",
+    "viewerProjectSettingsAdaptedDescription": "このファイルに含まれる値が古いり、有効でなくなったりします。 それらは現在の Orca のデフォルトに更新されたため、正しくライセンスが機能します。",
+    "viewerSettingsUpdatedCount": "%1設定を更新",
+    "viewerClosing3d": "3Dビューアを完全に閉じる...",
+    "viewerViewerClosedStartingSlice": "ビューアクローズ — 分離スライスを開始...",
+    "viewerLoadedFromCache": "キャッシュからロード",
+    "viewerCachedSliceTitle": "前のスライスを使用してください。?",
+    "viewerCachedSliceDescription": "以前は同じプリンタと設定でこのモデルをスライスしました。 キャッシュされたGコードを使用するのが好きですか?",
+    "viewerUseCachedSlice": "キャッシュされたGコードを使用する",
+    "viewerSliceCompleteCache": "スライス完了(キャッシュ)",
+    "viewerFileReady": "%1 準備完了",
+    "viewerSliceDoneListing": "スライス完了(~%1g)。 タップ “リストに使用する” 重量とサイズを適用します。",
+    "viewerSliceDoneExport": "スライスが完了します。エクスポートGコードを使用して保存します。",
+    "viewerSliceSettingsAdapted": "スライスの設定 適応",
+    "viewerSliceSettingsAdaptedDescription": "スライス中に追加のプロファイル値を調整しました。",
+    "viewerSliceSettingsAdaptedFailure": "スライスが失敗する前にプロファイル値が調整されました。",
+    "viewerSlicingFailedDetail": "スライス失敗: %1",
+    "viewerSelectPrinter": "プリンターを選択",
+    "viewerBack": "背面",
+    "viewerUndo": "元に戻す",
+    "viewerRedo": "やり直す",
+    "viewerMenu": "メニュー",
+    "viewerObjectsHierarchy": "オブジェクト階層",
+    "viewerExportGcode": "Gコードのエクスポート",
+    "viewerExport3mf": "3mf をエクスポート",
+    "viewerMachineSettings": "マシンの設定",
+    "viewerPrinterAndSettings": "プリンターと設定",
+    "viewerNetworkPrinters": "ネットワークプリンター",
+    "viewerPreferences": "設定",
+    "viewerAutoOrienting": "自動的にオリエンテーション...",
+    "viewerSlicingCancelled": "スライスキャンセル",
+    "viewerStoppedByUser": "ユーザーによる停止",
+    "viewerListingPrepareDescription": "リストの準備 — プリンターを選択し、モデルをスケールアップし、プリント設定を調整し、それをスライスしてリストのために使用します。変更をスキップすると、最後のアクティブプリンタとオーバーライドが使用されます。",
+    "viewerSimplify": "簡略化",
+    "viewerWeight": "重量: %1",
+    "viewerSliceSummary": "スライスまとめ",
+    "viewerPlate": "プレート %1",
+    "viewerAllPlates": "すべてのプレート",
+    "viewerSinglePlate": "焦点によって選ばれた版",
+    "viewerUseSlicedListing": "リストに使用する(スライス)",
+    "viewerUseMeshListing": "リストのための網のサイズを使用して下さい",
+    "viewerPrint": "造形する",
+    "viewerAddFile": "ファイルを追加",
+    "viewerEditModelTooltip": "編集モデル(スケール/移動/回転)",
+    "viewerLineType": "ラインタイプ",
+    "viewerFilament": "フィラメント",
+    "viewerTime": "時間",
+    "viewerUsage": "使用方法",
+    "viewerModel": "モデル",
+    "viewerSupport": "サポート",
+    "viewerTower": "タワー",
+    "viewerTotal": "合計",
+    "viewerTotalFilament": "総フィラメント",
+    "viewerModelFilament": "モデル フィラメント",
+    "viewerCost": "コスト",
+    "viewerSlicingTime": "スライス時間",
+    "viewerPrepareTime": "準備時間",
+    "viewerModelPrintTime": "モデル造形時間",
+    "viewerTotalTime": "総時間",
+    "viewerFilamentChanges": "フィラメント交換",
+    "viewerUnknownError": "未知のエラー",
+    "viewerOffFullDetail": "3Dビューアオフ\n(フルディテールスライシング)",
+    "viewerOffFreeMemory": "3Dビューアオフ\nメモリを解放する",
+    "viewerRestoring3d": "3Dビューアを修復...",
+    "viewerNoSimplifyDescription": "単純にしないようにしました。ビューアーは、スライシングが完了するまで無効になっています。",
+    "viewerNeedsRamDescription": "スライサーは、ツールパスの最適化のために利用可能なすべてのRAMを必要とします。",
+    "viewerModelAdded": "シーンにモデルを追加",
+    "viewerModelAddFailed": "シーンにモデルを追加できない",
+    "viewerExporting": "輸出...",
+    "viewerPreparingPlateProgress": "現在のプレートの準備... %1% — %2",
+    "viewerExporting3mfProgress": "3MFエクスポート... %1% — %2",
+    "viewerLargeGcodeTitle": "大型Gコード",
+    "viewerLargeGcodeDescription": "このGコードは、非常に大きい(%1動き)です。モデルを移動して滑らかさを維持しながら、一時停止プレビューが示されます。 リリース時に詳細が返ります。",
+    "viewerCutSuccess": "モデルは首尾よく切れます。",
+    "viewerCutFailed": "切断失敗: %1",
+    "viewerUnknownFailure": "未知のエラー",
+    "viewerGcodePreviewLoadFailed": "Gコードプレビューはロードできません",
+    "viewerLoadingPercent": "ローディング... %1%",
+    "viewerLoading": "ローディング...",
+    "viewerModelLoadWarning": "モデル負荷警告",
+    "viewerModelTooLarge": "デバイスメモリには、このモデルが大きすぎます。3Dプレビューは無効でしたが、直接スライスしてGコードを生成することもできます。",
+    "viewerModelLoadWarningDescription": "モデルをロードする時にエラーが発生しました。3Dプレビューは現れませんが、そのままスライシングしてみてください。",
+    "viewerSliceBeforePrint": "印刷前のモデルをスライスします。",
+    "viewerSliceOrOpenGcode": "最初にモデルをスライスするか、G-codeファイルを開きます。",
+    "viewerSaveDownloads": "ダウンロードに保存",
+    "viewerSaveDownloadsDescription": "内部ストレージ・フォルダのダウンロード",
+    "viewerShare": "シェア...",
+    "viewerShareDescription": "ファイル、ドライブ、その他のアプリ",
+    "viewerExportUsb": "USBへのエクスポート・%1",
+    "viewerNoUsb": "検出されるUSB/OTGドライブ無し",
+    "viewerNoUsbDescription": "ドライブを接続し、このメニューを再度開く",
+    "viewerGcodeSaved": "Gコード保存:\n%1",
+    "viewerShareFailed": "共有失敗: %1",
+    "viewerUsbSaved": "USB(%1)に保存:\n%2",
+    "viewerUsbWriteFailed": "USB(%1)に書き込むことができません。 ストレージの許可を確認してください。\n%2",
+    "viewerUsbExportFailed": "USB の輸出失敗: %1",
+    "viewerSliceCompleteElapsed": "スライス完了%1%2.",
+    "viewerElapsedIn": "で %1",
+    "viewerWeightSuffix": "(～)%1グラム",
+    "viewerSimplifyQuestion": "このモデルを簡素化しますか?",
+    "viewerHighPolyDescription": "このモデルは、高ポリ(〜%1の三角形)です。モバイルでは、このモデルは、スライスを遅くし、多くのメモリを使用することができます。",
+    "viewerSimplifyRecommendation": "スライスする前に簡素化することをお勧めします。 羽の三角形は通常、より速いスライスを意味します。 細かいディテールが減り、多色塗料が影響を受ける可能性があります。",
+    "viewerKeepOriginal": "オリジナル",
+    "viewerSimplifyRecommended": "シンプル化(推奨)",
+    "viewerSimplifying": "モデルの簡素化",
+    "viewerSimplifiedCount": "モデルの簡素化: %1 → %2 三角形",
+    "viewerSimplified": "単純化されたモデル — スライスは高速でなければなりません。",
+    "viewerSimplifyUnavailable": "単純化できません。元のメッシュが使用されます。",
+    "viewerSimplifyFailed": "シンプル化失敗;元のメッシュが使用されます: %1",
+    "viewerLowMemoryMode": "低記憶スライスモード",
+    "viewerLowMemoryDescription": "このモデルは、スライスする追加のメモリが必要です。 MakerSpellは、一時的に低記憶モードに切り替え、スライス中に3Dビューアを閉じます。",
+    "viewerFullDetailPreserved": "モデルは完全に幾何学的詳細を保持します。 スライスが完了すると、Gコードプレビューは自動的に開きます。",
+    "viewerKeepForeground": "MakerSpell を開き、スライスが完了するまでフォアグラウンドで保存します。アプリをバックグラウンドに移動すると、Androidがプロセスを停止する可能性があります。",
+    "viewerModelTriangleInfo": "モデル:~%1つの三角形%2",
+    "viewerStartSlicing": "スライスを開始する",
+    "viewer3mfSaved": "3MFモデル保存: %1",
+    "viewer3mfShareOpened": "3MF共有ダイアログが開きます。ダウンロードに保存することもできます。",
+    "viewer3mfExportFailed": "3MFをエクスポートできなかった: %1",
+    "viewerRenamePlate": "プレートの名前",
+    "viewerPlateNameHint": "新しいプレート名を入力してください",
+    "viewerSave": "保存",
+    "viewerSelectedPlatesSliced": "選択したプレートのスライス・総%1g. 「リストに使用する」をタップして適用します。",
+    "viewerPreparingPlate": "プレートを準備 %1 の %2 ...",
+    "viewerSimplifyingPolygons": "モデルのポリゴンを簡素化...\n(ライセンスエンジンアクティブ)",
+    "viewerCpuSlicingActive": "CPU のスライス エンジンの能動態!\nスライス: %1%",
+    "viewerRoleInnerWall": "内壁",
+    "viewerRoleOuterWall": "外壁",
+    "viewerRoleOverhangWall": "オーバーハング",
+    "viewerRoleSparseInfill": "スパース インフィル",
+    "viewerRoleInternalSolidInfill": "内部ソリッド インフィル",
+    "viewerRoleTopSurface": "トップ面",
+    "viewerRoleBottomSurface": "底面",
+    "viewerRoleBridge": "ブリッジ",
+    "viewerRoleInternalBridge": "内部橋",
+    "viewerRoleGapInfill": "隙間インフィル",
+    "viewerRoleIroning": "アイロン",
+    "viewerRoleSkirt": "スカート",
+    "viewerRoleBrim": "ブリム",
+    "viewerRoleSupportInterface": "サポート接触面",
+    "viewerRoleSupportTransition": "サポート変換層",
+    "viewerRolePrimeTower": "プライムタワー",
+    "viewerRoleCustom": "カスタム",
+    "viewerRoleMixed": "ミックス",
+    "viewerRoleTravel": "移動",
+    "viewerRoleRetract": "リトラクション",
+    "viewerRoleUnretract": "リトラクション回復",
+    "viewerRoleWipe": "拭き上げ",
+    "viewerRoleSeams": "継ぎ目",
+    "viewerRoleToolChange": "ツール変更",
+    "viewerRoleColorChange": "色変更",
+    "viewerRolePause": "一時停止",
+    "viewerRoleCustomGcode": "カスタム G-code",
+    "shopConnectStore": "コネクトストア",
+    "shopDrafts": "ドラフツ",
+    "shopDraftsDescription": "未完成のマーケットプレースリストは、ショップチームにご利用いただけます。チームメイトは、保存されたフィールドを見直し、最後のステップから続行できます。",
+    "shopNoDrafts": "未完成のマーケットプレースのリストはありません。",
+    "shopYourStores": "店舗一覧",
+    "shopQuickAccess": "クイックアクセス",
+    "shopListOwnModel": "自分のモデルをリスト",
+    "shopListOwnModelDescription": "ローカル3MF、STL、OBJファイルからマーケットプレイス製品を作成します。",
+    "shopPreparingLocalModel": "ローカルモデルの準備",
+    "shopLocalModel": "ローカルモデル",
+    "shopLocalModelFileUnavailable": "選択したモデルファイルは使用できません。",
+    "shopLocalListingPrepareFailed": "ローカルモデルは用意できません: %1",
+    "shopEmbeddedImagesTitle": "3MFから画像を使用する",
+    "shopEmbeddedImagesDescription": "マーケットプレース製品イメージとして使用する埋め込みモデルプレビューを選択します。",
+    "shopUseSelectedImages": "選択した使用 (%1)",
+    "shopUploadingEmbeddedImages": "選択した3MF画像を安全にアップロードする...",
+    "shopUploadedProducts": "アップロードされたプロダクト",
+    "shopUploadedProductsDescription": "マーケットプレイスに送られた製品をリスト、フィルタ、管理",
+    "shopConnectGoogleDrive": "接続 Google Drive",
+    "shopDriveLinked": "リンク: %1",
+    "shopDriveByocDescription": "BYOC:ストアデータをドライブに暗号化する",
+    "shopAiProvider": "AIプロバイダー",
+    "shopAiProviderDescription": "Gemini または無料の AI モデルを選択し、コンテンツ言語の設定",
+    "aiProviderIntro": "無料のモデルを選択するか、Gemini、ChatGPT、Claude、または独自のAPIキーでOpenAI互換プロバイダを接続してください。 BYOKシークレットは、安全なデバイスストレージにとどまります。",
+    "aiProviderLabel": "AIプロバイダー",
+    "aiProviderSelectionSection": "提供者および出力",
+    "aiProviderConnectionSection": "接続の詳細",
+    "aiProviderDataSection": "貯蔵および共有",
+    "aiProviderFreeModel": "無料モデル(APIキーなし)",
+    "aiProviderGeminiByok": "ジェミニ・バイOK",
+    "aiProviderOpenAiByok": "チャットGPT / OpenAI・BOK",
+    "aiProviderClaudeByok": "クラウデ/アンソロピー・バイOK",
+    "aiProviderCompatibleByok": "OpenAI対応・BOK",
+    "aiProviderApiKey": "APIキー",
+    "aiProviderOpenAiApiKey": "OpenAI API キー",
+    "aiProviderAnthropicApiKey": "Anthropic API キー",
+    "aiProviderBaseUrl": "ベースURL",
+    "aiProviderModelId": "モデルID",
+    "aiProviderImageModelId": "画像モデルID(オプション)",
+    "aiProviderImageModelHelper": "製品イメージに使用されます。モデルIDを使用するために空のままにしてください。",
+    "aiProviderContentLanguage": "コンテンツ言語",
+    "aiProviderSystemLanguage": "システム言語",
+    "aiProviderBackupDrive": "Google Driveに戻る",
+    "aiProviderBackupDriveDescription": "{appName} のプライベートドライブアプリのデータで接続を保存します。",
+    "@aiProviderBackupDriveDescription": {
+        "placeholders": {
+            "appName": {
+                "type": "String"
+            }
+        }
+    },
+    "aiProviderShareTeam": "ショップチームと共有",
+    "aiProviderShareTeamDescription": "同期時にエンドツーエンドの暗号化されたショップボルトにのみこのキーを含める。",
+    "aiProviderSaveSettings": "AI設定を保存",
+    "aiProviderTestAndSave": "テストおよび保存",
+    "aiProviderRestoreDrive": "Google Driveから復元",
+    "aiProviderEnterBaseUrl": "プロバイダーベースURLを入力します。",
+    "aiProviderEnterApiKey": "選択したプロバイダに API キーを入力します。",
+    "aiProviderTesting": "AIプロバイダのテスト...",
+    "aiProviderSaving": "保存...",
+    "aiProviderConnected": "AIプロバイダが正常に接続しました。",
+    "aiProviderSaved": "AIプロバイダの設定を保存しました。",
+    "aiProviderConnectionFailed": "接続できません: {error}",
+    "@aiProviderConnectionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "aiProviderRestoringDrive": "Google Driveから復元",
+    "aiProviderNoDriveBackup": "ドライブにAIプロバイダのバックアップが見つかりませんでした。",
+    "aiProviderRestoredDrive": "ドライブから復元されたAIプロバイダの設定",
+    "aiProviderRestoreFailed": "ドライブ復元失敗: {error}",
+    "@aiProviderRestoreFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "shopComingSoon": "近日公開",
+    "shopComingSoonDescription": "これらのマーケットプレイスは、まだ接続できません。",
+    "shopLegacyMigrationTitle": "従来のサーバー設定の移行",
+    "shopLegacyMigrationDescription": "古い価格設定と設定をドライブに一度移動",
+    "shopLegacyMigrationComplete": "移行が完了しました。 インポート: %1·エクスポート: %2%3%4·古いファイルがゴミ箱: %5.%6",
+    "shopLegacyMigrationFullDump": "・フルダンプ",
+    "shopLegacyMigrationWarning": "警告: 輸出が不完全である可能性があります。 バックエンドを再雇用し、再び移行します。",
+    "shopLegacyMigrationFailed": "移行失敗: %1",
+    "shopDraftMissingSource": "このドラフトは、ソースモデル情報を含んでいません。",
+    "shopDeleteDraftQuestion": "ドラフトを削除する?",
+    "shopDeleteDraftDescription": "「%1」は、ドラフトから削除されます。",
+    "shopDelete": "削除",
+    "shopDraftDeleted": "削除されたドラフト。",
+    "shopDraftDeleteFailed": "ドラフトを削除できません: %1",
+    "shopStoreConnected": "%1店舗接続",
+    "shopStoreUpdated": "店舗更新",
+    "shopDisconnectStoreQuestion": "ストアを切断する?",
+    "shopDisconnectStoreDescription": "このデバイスから「%1」(%2)を削除しますか?サーバー上の製品履歴は削除されません。",
+    "shopDisconnect": "接続解除",
+    "shopProductListingUnavailable": "%1製品リストはまだ利用できません。",
+    "shopSignInFirst": "MakerSpell に最初にサインインします。",
+    "shopDriveConnectedAs": "%1 として接続されるドライブ。",
+    "shopDriveConnectFailed": "ドライブ接続が失敗しました: %1",
+    "shopTeamScope": "スタッフ",
+    "shopLocalScope": "ローカル",
+    "shopDraftStep": "ステップ%1/%2・%3・%4",
+    "shopStepSelectModels": "モデルを選択",
+    "shopStepSelectStores": "店舗を選択",
+    "shopStepProductDetails": "プロダクト細部",
+    "shopStepStoreDetails": "店舗情報",
+    "shopStepReviewPublish": "レビューと公開",
+    "shopContinue": "お問い合わせ",
+    "shopDeleteDraftTooltip": "ドラフトを削除",
+    "shopMarketplaceHub": "マーケットプレイスハブ",
+    "shopSupportedMarketplacesTitle": "サポートされている市場",
+    "shopSupportedMarketplacesDescription": "ここでは市場に直接接続して公開します。サポートはルール主導で、アプリの更新なしで拡張できます。",
+    "shopFreePublishingTitle": "無料週刊出版",
+    "shopFreePublishingRemaining": "%1 の %2 の最後の 7 日間残りスロット",
+    "shopFreePublishingExplanation": "1つの成功した製品×ストアの出版物は1つのスロットを使用します。失敗した出版物はあなたの手当を使用しません。",
+    "shopPublishingUnlimited": "MakerSpell ショップで無制限のマーケットプレイス公開",
+    "shopPublishingQuotaUnavailable": "出版の手当は荷を積むことができませんでした。 リフレッシュする引き。",
+    "shopPublishingSignIn": "週1回のフリー出版許可を使用するためにサインインします。",
+    "shopUpgradeForUnlimited": "無制限の公開を入手",
+    "shopConnectSellerDescription": "マーケットプレイス固有の統合フィールドを使用して、売り手アカウントを接続します。",
+    "shopHubLinkedSummary": "%1リンク・%2 マーケットプレイス",
+    "shopViewProducts": "製品を見る",
+    "shopNoStoresConnected": "接続されていない店舗",
+    "shopNoStoresDescription": "製品を管理するために、カタログからサポートされたマーケットプレイスを追加します。",
+    "shopConnectFirstStore": "最初の店舗を接続",
+    "shopSeller": "売主 %1",
+    "shopConnectedStatus": "コネクテッド",
+    "shopIncompleteStatus": "不完全な",
+    "shopLinkedDate": "リンク %1",
+    "shopProducts": "製品情報",
+    "shopEdit": "編集",
+    "shopDefaultFormula": "%1 デフォルトの式",
+    "shopUnavailableYet": "%1はまだ利用できません。",
+    "shopFieldRequired": "%1が必要です。",
+    "shopHttpsUrlRequired": "%1 は有効な HTTPS の URL でなければなりません。",
+    "shopConnectionVerificationFailed": "ストア接続を検証できません。%1",
+    "shopCredentialsRequired": "売り手ID、APIキー、APIシークレットが必要です。",
+    "shopStoreDisplayName": "店の表示名",
+    "shopSellerIdLabel": "売り手ID",
+    "shopApiKeyLabel": "APIキー",
+    "shopApiSecretLabel": "APIシークレット",
+    "shopOriginCountryInvalid": "起源の国は、TR などの 2 文字コードでなければなりません。",
+    "shopDefaultBrandRequired": "デフォルトブランドが必要です。",
+    "shopDefaultCargoRequired": "既定の貨物会社が必要です。",
+    "shopDefaultStoreName": "%1店舗",
+    "shopEditStore": "編集ストア",
+    "shopCredentialsSecure": "マーケットプレイスの認証情報は、安全なストレージで暗号化されます。",
+    "shopPriceFormula": "価格の方式",
+    "shopPriceFormulaDescription": "この店の販売価格を計算するとき使用される",
+    "shopManageFormulas": "式を管理する",
+    "shopSelectFormula": "選択式",
+    "shopListingDefaults": "デフォルトリスト",
+    "shopDefaultCountryOrigin": "原点のデフォルト国",
+    "shopCountryCodeHelper": "2文字ISOの国コードを使用する",
+    "shopDefaultBrand": "デフォルトブランド",
+    "shopBrandCatalogHelper": "市場ブランドのカタログと一致しました",
+    "shopDefaultCargoCompany": "デフォルトの貨物会社",
+    "shopDescriptionExtraText": "製品の説明 余分なテキスト",
+    "shopDescriptionExtraHint": "このページの全ての商品について",
+    "shopSaveChanges": "変更を保存",
+    "shopTeamTitle": "ショップチーム",
+    "shopTeamDescription": "チームメイトを招待し、共有された暗号化されたショップのワークスペースを管理します。",
+    "shopTeamPremiumTitle": "チームワークスペース",
+    "shopTeamPremiumDescription": "店舗、暗号化された資格情報、価格設定、およびショップチームとドラフトを共有します。 無料の公開トライアルは利用できます。",
+    "shopAutomationPremiumTitle": "高度な価格設定の自動化",
+    "shopAutomationPremiumDescription": "コスト、手数料、利益率を自動化する市場固有の式を作成します。 基本的な製品公開は利用できます。",
+    "shopPricingWeeklyLimitReachedDescription": "無料のユーザーは、毎週の上場スロットを使用して、価格設定の自動化を使用できます。現在の許容範囲が枯れています。スロットが戻り、またはMakerSpellにアクセスできる限りお待ちください。",
+    "shopPricingTrialTitle": "一度に価格設定の自動化を試してみる",
+    "shopPricingTrialDescription": "すべての式ツールを探索します。 一度の試用は、式が正常に保存されたときにのみ使用されます。",
+    "shopPricingTrialSignInDescription": "サインインして、デバイス間でワンタイムのプライシングオートメーショントライアルを安全に保ちます。",
+    "shopPricingTrialUnavailable": "あなたの価格設定の試験は検証できませんでした。 接続をチェックし、もう一度お試しください。",
+    "shopPricingTrialSaveFailed": "式は保存できません。トライアルは使用できませんでした。",
+    "shopPricingSaveFailed": "設定式は保存できません。もう一度お試しください。",
+    "shopPricingTrialUsedTitle": "トライアル完了",
+    "shopPricingTrialUsedDescription": "処方は保存されます。 MakerSpell 価格設定の自動化を使用して保管してください。",
+    "shopViewPlan": "ショッププランを見る",
+    "shopTeamSummary": "%1 会員・%2 入店",
+    "shopInviteTeammate": "招待状",
+    "shopLinkAndQr": "リンク・QR",
+    "shopJoinTeam": "ショップに参加する",
+    "shopScanOrPaste": "スキャンまたはペースト",
+    "shopJoinTeamDescription": "MakerSpell ショップの招待状リンクまたはQRコードをスキャンする。",
+    "shopInviteLink": "招待状リンク",
+    "shopJoinWithLink": "サイトマップ",
+    "shopInvalidInviteLink": "これは有効ではありません MakerSpell ショップの招待状リンク.",
+    "shopCopyInviteLink": "コピーリンク",
+    "shopShareInviteLink": "シェアリンク",
+    "shopPasteClipboard": "貼り付け",
+    "shopTeamSignInHint": "チームメイトを招待したり、ショップQRをスキャンしたりするためにサインインします。",
+    "shopShowInviteQr": "招待QRを表示",
+    "shopScanToJoin": "参加するスキャン",
+    "shopSyncVaultToDrive": "ドライブへのボルトを同期",
+    "shopRestoreBackup": "ショップバックアップの復元",
+    "shopRestoreBackupDescription": "Google Driveアプリのデータに個人的に保存された暗号化された回復ポイントを選択します。",
+    "shopLatestBackup": "最新のバックアップ",
+    "shopDatedBackup": "毎日のバックアップ",
+    "shopNoBackupFound": "Google Driveにショップバックアップが見つかりませんでした。",
+    "shopRestoreBackupConfirmTitle": "バックアップを復元しますか?",
+    "shopRestoreBackupConfirmDescription": "このリカバリポイントから削除されたストアや製品が、ショップに戻ってチームと同期されます。",
+    "shopBackupRestored": "ストアのバックアップ復元と同期。",
+    "shopRestoreBackupFailed": "ショップのバックアップを復元できません: %1",
+    "shopProtectRecoveryKey": "回復キーを保護して下さい",
+    "shopRecoveryProtectionHint": "アプリを再インストールするか、このデバイスを失った後に永続的なデータの損失を防ぎます。",
+    "shopRecoveryProtected": "保護された回復キー",
+    "shopRecoveryPasswordTitle": "回復パスワードを設定する",
+    "shopRecoveryPasswordDescription": "少なくとも12文字を使用してください。アプリを再インストールした後、またはこのデバイスを失うと、このパスワードが必要になります。 MakerSpell 忘れたパスワードを回復することはできません。",
+    "shopRecoveryPassword": "回復パスワード",
+    "shopRecoveryPasswordConfirm": "パスワードの確認",
+    "shopRecoveryPasswordTooShort": "12文字以上使用",
+    "shopRecoveryPasswordsDoNotMatch": "パスワードは一致しません。",
+    "shopRecoveryKeySaved": "Google Drive で暗号化されたリカバリキーが個人的に保存されました。",
+    "shopRecoveryKeySaveFailed": "回復キーを保護することができません: %1",
+    "shopRecoveryPasswordRequiredTitle": "必要な回復パスワード",
+    "shopRecoveryPasswordRequiredDescription": "このバックアップは、以前のデバイスキーで暗号化されました。 アプリを再インストールする前に作成したリカバリパスワードを入力します。",
+    "shopRecoveryPasswordIncorrect": "パスワードが間違っているか、回復キーが破損しています。",
+    "shopRecoveryKeyMissing": "Google Driveに保護された回復キーが見つかりませんでした。このバックアップは、このデバイスで開くことができません。",
+    "shopRecoverDeviceKey": "以前のデバイスキーを回復する",
+    "shopRecoveryMustRestoreBeforeSync": "Google Drive バックアップは異なるデバイスキーを使用します。 回復可能なデータを上書きを避けるために同期する前に復元します。",
+    "shopRecoveryKeyRecovered": "以前のデバイスキーが安全に回復しました。",
+    "shopMembersCount": "メンバー(%1)",
+    "shopKeyReady": "キーの準備",
+    "shopNoPublicKey": "パブリックキーなし",
+    "shopMemberRemoved": "削除されたメンバー。",
+    "shopMemberRemoveFailed": "メンバーを削除できません: %1",
+    "shopJoinedShops": "参加ショップ",
+    "shopOwnerLabel": "オーナー %1...",
+    "shopRoleOwner": "オーナー",
+    "shopRoleAdmin": "アドミン",
+    "shopRoleMember": "メンバー",
+    "shopSignInToShare": "MakerSpell にサインインしてショップを共有します。",
+    "shopSignInToJoin": "MakerSpell にショップに参加する",
+    "shopJoinedOwner": "%1のショップに参加しました。",
+    "shopVaultSaved": "%1 の会員に vault が同期されます。 ファイル: %2...",
+    "shopVaultSyncFailed": "Vault sync が失敗しました: %1",
+    "shopShareTitle": "シェアショップ",
+    "shopShareDescription": "署名されたままこのQRをスキャンする人は、ショップに参加できます。暗号化された保管庫を介して認証と価格の同期。モデルファイルは、ドライブ上のMakerSpell-Libraryに残ります。",
+    "shopRetry": "再試行",
+    "shopVaultScope": "Vault:ストア・資格情報・価格設定\nモデル: 可視 MakerSpell-Library フォルダー",
+    "shopInviteCopied": "招待リンクをコピーしました。",
+    "shopCopyInviteData": "招待データをコピーする",
+    "shopInvalidInviteQr": "これはMakerSpellショップがQRを招待しません。",
+    "shopJoining": "ショップに参加する",
+    "shopSignInThenScan": "最初にMakerSpellにサインインし、再度スキャンします。",
+    "shopScanInviteTitle": "スキャンショップの招待",
+    "shopScanInviteDescription": "所有者のショップQRをスキャンして、店舗、資格情報、および価格設定のワークスペースに参加してください。 モデルは、ドライブ上のMakerSpell-Libraryに残ります。",
+    "storeProductsUnavailable": "ストア製品は、このビルドで利用できません。 Google Play および App Store Connect で製品 ID を設定してください。",
+    "currentPlan": "現在の計画",
+    "betaProBadge": "ベータプロ",
+    "betaProActive": "ベータプロは活動的です",
+    "betaProDaysRemaining": "ベータテストアクセス・{days} 残り日",
+    "@betaProDaysRemaining": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "betaProNoRenewal": "決済方法や自動更新はありません。",
+    "unavailable": "ご利用案内",
+    "subscribePrice": "会員登録・{price}",
+    "freeTrialAvailable": "無料トライアルあり",
+    "freeTrialDays": "{days}-日無料トライアル",
+    "startFreeTrial": "無料トライアルを開始",
+    "startFreeTrialDays": "{days} 日間無料でお試しください",
+    "freeTrialThenPrice": "{price}/月. いつでもキャンセル.",
+    "@freeTrialDays": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@startFreeTrialDays": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@freeTrialThenPrice": {
+        "placeholders": {
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "subscriptionProductUnavailable": "サブスクリプション製品は、このストアビルドでは利用できません。",
+    "purchaseFailed": "購入が失敗しました。",
+    "signInBeforePurchase": "サブスクリプションを購入する前にサインインします。",
+    "purchaseBelongsToAnotherAccount": "この購入は、別のMakerSpellアカウントに属しています。",
+    "purchaseVerificationFailed": "Google Playは、この購入を検証できませんでした。再度お試しください。",
+    "includedInShop": "ショップに含まれている",
+    "purchaseAccountConfirmation": "このサブスクリプションは、{email} にリンクされます。続行しますか?",
+    "@purchaseAccountConfirmation": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "@subscribePrice": {
+        "placeholders": {
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "noDataFound": "データが見つかりません。",
+    "errorSharingModel": "エラー共有モデル: {error}",
+    "translationError": "翻訳エラー: {error}",
+    "translationModelsReady": "翻訳言語ファイルをダウンロードしました。英語-トルコ語の翻訳は、今より早くなります。",
+    "noPlatesAvailable": "このプロフィールで利用できる版無し",
+    "fileAlreadyDownloaded": "ファイル すでにダウンロード済み",
+    "profileDownloadedBefore": "このプロファイルは、前にダウンロードされています. あなたは再びそれをダウンロードしたいですか?",
+    "yes": "はい",
+    "downloadRequiresLoginNoAuth": "このダウンロードはログインが必要ですが、認証設定は使用できません。",
+    "downloadLoginNoticeTitle": "ダウンロードに必要なサインイン",
+    "downloadLoginNoticeMessage": "一部のプラットフォームでは、ダウンロードする前にサインインする必要があります。 プラットフォームのサインインページにリダイレクトされます。 正常にサインインした後、ペンディングダウンロードは自動的に始まります。",
+    "operationCancelled": "キャンセル。",
+    "failedDownloadProfile": "プロファイルをダウンロードできなかった: {error}",
+    "modelDownloadedBefore": "このモデルは前にダウンロードされています。 もう一度ダウンロードしますか?",
+    "downloadAgain": "ダウンロード",
+    "downloadStarted": "ダウンロードを開始: {name}",
+    "downloadCaptchaCancelled": "キャンセル: カプチャは解決しません。",
+    "failedStartDownload": "ダウンロードを開始できなかった: {error}",
+    "profiles": "プロフィール",
+    "detail": "ニュース",
+    "comments": "コメント",
+    "related": "関連記事",
+    "showOriginal": "オリジナルショー",
+    "translateToTurkish": "トルコ語への翻訳",
+    "translateToLanguage": "{language}に翻訳",
+    "shareModel": "シェアモデル",
+    "removeFromWishlist": "ウィッシュリストから削除",
+    "addToWishlist": "ウィッシュリストに追加",
+    "downloads": "ダウンロード",
+    "tags": "ニュース",
+    "relatedModels": "関連モデル",
+    "downloadedFileNotFound": "ダウンロードしたファイルはディスクに見つかりませんでした。 もう一度ダウンロードしてください。",
+    "openIn3dViewer": "3Dビューアで開く",
+    "downloadAgainTooltip": "ダウンロード",
+    "download": "ダウンロード",
+    "printerControlDownloadUnavailable": "プリンターはファイルのダウンロードアドレスを提供していませんでした。",
+    "printProfiles": "プリントプロファイル",
+    "showLess": "少ないショー",
+    "showMore": "もっと表示",
+    "logInToViewFiles": "ファイルの表示とダウンロード",
+    "logIn": "ログイン",
+    "licenseAgreement": "ライセンス契約",
+    "noLicenseText": "ライセンステキストは使用できません。",
+    "source": "ソース",
+    "listOnMarketplace": "マーケットプレース",
+    "prepareAndPrint": "準備と印刷",
+    "prepareAndPrintDescription": "ワークスペースでモデルを開き、プリント設定を見直し、それをスライスし、プリンターを選択し、ジョブを送信します。",
+    "preparingModel": "モデルの準備...",
+    "openAndPrepare": "開いて準備",
+    "downloadAndPrepare": "ダウンロードと準備",
+    "allDiscussions": "すべての議論({count})",
+    "ascending": "フォロー",
+    "descending": "デザート",
+    "loadingComments": "コメントをロードする...",
+    "noCommentsYet": "コメントはまだありません",
+    "loadMoreComments": "より多くのコメントをロード",
+    "showReplies": "返信を表示する",
+    "showRepliesCount": "返信を表示 ({count})",
+    "failedLoadReplies": "返信をロードできなかった: {error}",
+    "@errorSharingModel": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@translationError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedDownloadProfile": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedStartDownload": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedLoadReplies": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@downloadStarted": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@allDiscussions": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@showRepliesCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "price": "価格",
+    "likes": "ログイン",
+    "license": "ライセンス",
+    "licenseAndCommercialUse": "ライセンス・商用利用",
+    "viewOnNamedPlatform": "{platformName}で見る",
+    "@viewOnNamedPlatform": {
+        "placeholders": {
+            "platformName": {
+                "type": "String"
+            }
+        }
+    },
+    "licenseStoreAllowed": "このライセンスは、一般的に店内で物理的に印刷された製品を販売することができます。",
+    "licenseStoreNotAllowed": "この商品を店舗に追加する前に、作成者の許可を得てください。",
+    "licenseStoreReview": "このモデルをストアに追加する前に、完全なライセンスを確認します。",
+    "licensePhysicalProductDisclaimer": "この評価は、デジタルモデルファイルの再販売または再配布ではなく、物理的に印刷された製品に適用されます。 プラットフォームの用語と完全なライセンスは、権威を維持します。",
+    "viewFullLicense": "完全なライセンスを見る",
+    "licenseMoreInfo": "このライセンスに関する詳細情報",
+    "licenseSummaryPublicDomain": "パブリックドメインに専念し、一般的にアトリビューションなしで商用で使用できます。",
+    "licenseSummaryAttribution": "商用利用は一般的に許可されますが、元の作成者とライセンスはクレジットされなければなりません。",
+    "licenseSummaryShareAlike": "商用利用は一般的にアトリビューションで許可されています。アダプテーションは同じライセンスを使用する必要があります。",
+    "licenseSummaryNonCommercial": "制作者の許可なく、印刷物の商用利用・販売はできません。",
+    "licenseSummaryCommercial": "ライセンスラベルは、正確な条件とプラットフォーム条件に基づいて、商用利用を示しています。",
+    "licenseSummaryOpenSource": "商用利用は一般的に可能ですが、アトリビューション、ソース、通知、または共有類似の義務が適用される場合があります。",
+    "licenseSummaryUnknown": "このプラットフォーム固有の、または未知のライセンスは、安全に分類することはできません。",
+    "licenseStandardPersonalUse": "標準/個人使用だけ",
+    "licensePlatformPersonalUseDisclaimer": "このプラットフォーム上のモデルは、デフォルトで個人的な使用ライセンスの下で提供されます。 商用利用条件と現在の詳細については、ソースページを参照してください。",
+    "timeWeight": "時間: {time} | 重量: {weight}g",
+    "platesNozzle": "プレート:{plates} | ノズル:{nozzle}",
+    "notAvailable": "N/A",
+    "downloadProfile": "ダウンロード",
+    "discussions": "ディスカッション",
+    "noDescriptionProvided": "説明はありません。",
+    "storeListingsTitle": "このモデルを格納する",
+    "refresh": "再読込",
+    "storeListingsDescription": "すでにこのモデルの製品を持っているマーケットプレイスを参照してください。",
+    "couldNotLoadStoreListings": "店のリストをロードできませんでした。",
+    "listingCount": "{count} リスト",
+    "product": "プロダクト",
+    "storeMarketplace": "ストア: {store} ・ マーケットプレイス: {marketplace}",
+    "barcode": "バーコード",
+    "sku": "ツイート",
+    "listedAt": "リスト {date}",
+    "listingDetails": "リスト詳細",
+    "store": "ショップ",
+    "marketplace": "マーケットプレイス",
+    "title": "タイトル",
+    "status": "デバイス状態",
+    "salePrice": "販売価格",
+    "manageListingsHint": "ショップ → アップロードされた製品ですべてのリストを管理します。",
+    "notListedYet": "店舗にはまだ掲載されていません",
+    "notListedDescription": "このモデルをマーケットプレースにアップロードすると、ストアやステータスが表示されるようになります。",
+    "retry": "再試行",
+    "@listedAt": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@platesNozzle": {
+        "placeholders": {
+            "nozzle": {
+                "type": "String"
+            },
+            "plates": {
+                "type": "int"
+            }
+        }
+    },
+    "@storeMarketplace": {
+        "placeholders": {
+            "marketplace": {
+                "type": "String"
+            },
+            "store": {
+                "type": "String"
+            }
+        }
+    },
+    "@timeWeight": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            },
+            "weight": {
+                "type": "String"
+            }
+        }
+    },
+    "fetchingModelInfo": "モデル情報の取得...",
+    "loadingModelDetails": "ロードモデルの詳細...",
+    "preparingDownloadLink": "ダウンロードリンクの準備...",
+    "openingDownloadPage": "ダウンロードページを開く...",
+    "downloadUrlCaptureFailed": "URL をダウンロードできません。",
+    "unsupportedPlatform": "サポートされていないプラットフォーム: {platform}",
+    "downloading3mfFile": "3MFファイルをダウンロード...",
+    "printTime": "プリントタイム",
+    "filamentWeight": "フィラメントの重量",
+    "plateCount": "プレートカウント",
+    "nozzle": "ノズル",
+    "multiColor": "マルチカラー",
+    "no": "いいえ",
+    "processing": "加工...",
+    "dimensionInfo": "寸法情報",
+    "loaded": "ロード",
+    "couldNotGetDimensionInfo": "次元情報を得ない",
+    "fileTooLargeTryAgain": "あまりにも大きすぎるファイル。もう一度お試しください。",
+    "serverAccessErrorTryAgain": "サーバアクセスエラー。もう一度お試しください。",
+    "errorWithMessage": "エラー: {message}",
+    "materials": "材料材料",
+    "compatiblePrinters": "対応プリンター",
+    "plates": "プレート",
+    "weight": "カートン",
+    "threeMfDimensionInfo": "3MF 次元情報",
+    "fileLabel": "ファイル: {fileName}",
+    "plateNumber": "プレート {number}",
+    "modelCountLabel": "{count} モデル(s)",
+    "sizeLabel": "サイズ: {size}",
+    "partCountLabel": "部品番号: {count}",
+    "@unsupportedPlatform": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorWithMessage": {
+        "placeholders": {
+            "message": {
+                "type": "String"
+            }
+        }
+    },
+    "@fileLabel": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "@plateNumber": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "@modelCountLabel": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@sizeLabel": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "@partCountLabel": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "replyCount": "{count, plural, =1{1件の返信} other{{count} 採用情報}}",
+    "repliesTitle": "返信({count})",
+    "moreReplies": "+{count}以上",
+    "@replyCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@repliesTitle": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@moreReplies": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "filterAndSort": "フィルターとソート",
+    "downloading": "ダウンロード中",
+    "downloadNotificationRunningTitle": "ダウンロード {fileName}",
+    "@downloadNotificationRunningTitle": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationRunningBody": "{progress} • {speed} • {remaining} 残り",
+    "@downloadNotificationRunningBody": {
+        "placeholders": {
+            "progress": {
+                "type": "String"
+            },
+            "speed": {
+                "type": "String"
+            },
+            "remaining": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationRunningProgress": "{progress} ダウンロード",
+    "@downloadNotificationRunningProgress": {
+        "placeholders": {
+            "progress": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationCompleteTitle": "ダウンロード完了",
+    "downloadNotificationCompleteBody": "{fileName} をオープンする準備が整います",
+    "@downloadNotificationCompleteBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationErrorTitle": "ダウンロード失敗",
+    "downloadNotificationErrorBody": "{fileName} ダウンロードできません",
+    "@downloadNotificationErrorBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadPause": "一時停止",
+    "downloadResume": "再開",
+    "downloadNotificationPausedTitle": "パユースのダウンロード",
+    "downloadNotificationPausedBody": "{fileName} はパユース",
+    "@downloadNotificationPausedBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationCanceledTitle": "ダウンロード解除",
+    "downloadNotificationCanceledBody": "{fileName} のキャンセル",
+    "@downloadNotificationCanceledBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "completed": "完了",
+    "failed": "失敗",
+    "paused": "パユース",
+    "fileType": "ファイルの種類",
+    "models3d": "3Dモデル",
+    "gcode": "Gコード",
+    "archives": "アーカイブ",
+    "archiveViewerTitle": "オープンアーカイブモデル",
+    "archiveViewerQuestion": "このアーカイブには、{count}モデルファイルが含まれています。 それらを開きたいですか?",
+    "@archiveViewerQuestion": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "archiveViewerSamePlate": "最も少ないプレートを使用する",
+    "archiveViewerSamePlateDescription": "クリアランスのモデルを整理し、必要に応じて新しいプレートを続行します。",
+    "archiveViewerSeparatePlates": "別のプレートで開く",
+    "archiveViewerSeparatePlatesDescription": "各モデルごとに別々のビルドプレートを作成します。",
+    "images": "イメージ",
+    "other": "その他",
+    "allTypes": "すべての種類",
+    "sortDownloadingFirst": "ステータス(最初にダウンロード)",
+    "nameAscending": "名称 A → Z",
+    "nameDescending": "名称 Z → A",
+    "sizeLargestFirst": "サイズ(最も大きい最初に)",
+    "sizeSmallestFirst": "サイズ(最少)",
+    "filePathNotFound": "ファイルパスが見つかりません",
+    "fileNotFound": "ファイルが見つかりません",
+    "sharingFailed": "共有失敗: {error}",
+    "imageFileNotFound": "画像ファイルが見つかりません",
+    "deleteDownload": "ダウンロードの削除",
+    "deleteDownloadQuestion": "デバイスから「{fileName}」を削除したいですか?",
+    "delete": "削除",
+    "downloadSearchHint": "検索名、タイプ、プラットフォーム...",
+    "downloadResults": "{count} 結果",
+    "downloadFilteredResults": "{shown}インフォメーション{total}結果発表",
+    "noMatchingDownloads": "マッチングダウンロードなし",
+    "noDownloadsYet": "ダウンロードはまだありません",
+    "downloadFilterHint": "別の検索、プラットフォーム、ステータス、ファイルタイプをお試しください。",
+    "clearFilters": "フィルターをクリア",
+    "queued": "キューイング",
+    "retrying": "リトリート",
+    "canceled": "取消し済",
+    "notFound": "お知らせ",
+    "starting": "スタート...",
+    "no3dFilesInFolder": "このフォルダにある3Dファイルはありません",
+    "view3d": "3Dを見る",
+    "share": "シェア",
+    "failedLoadImage": "画像をロードできなかった",
+    "@sharingFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@deleteDownloadQuestion": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "@downloadResults": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@downloadFilteredResults": {
+        "placeholders": {
+            "shown": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "platform": "プラットフォーム",
+    "back": "背面",
+    "contestsLoadFailed": "コンテストはロードできません",
+    "noContestsFound": "コンテストが見つかりません",
+    "checkBackForContests": "新しいコンテストの後に戻って確認",
+    "views": "ニュース",
+    "entries": "エントリー",
+    "participants": "参加人数",
+    "contestEnded": "お問い合わせ",
+    "timeLeftDaysHours": "{days}d {hours}h 左",
+    "timeLeftHours": "{hours}h 左",
+    "timeLeftMinutes": "{minutes}m 左",
+    "daysLeft": "{days} 残り日",
+    "hoursLeft": "{hours} 残り時間",
+    "minutesLeft": "{minutes} 分左",
+    "visitContestSite": "コンテストサイトにアクセス",
+    "contestDetail": "コンテストの詳細",
+    "contestRules": "コンテストルール",
+    "allEntries": "すべてのエントリ",
+    "errorLoadingData": "エラー読み込みデータ",
+    "noDetailAvailable": "詳しくはこちら",
+    "noRulesAvailable": "ルールなし",
+    "errorLoadingEntries": "エラー読み込みエントリ",
+    "noEntriesYet": "エントリーはまだありません",
+    "firstToSubmitEntry": "エントリーを最初に提出してください!",
+    "prizes": "受賞作品",
+    "winnerCount": "{count} 受賞者",
+    "popularModels": "人気モデル",
+    "rulesNotFound": "ルールが見つかりません",
+    "totalEntries": "合計 {count} エントリ",
+    "description": "コンテンツ",
+    "contestStart": "開始: {date}",
+    "submissionEnd": "提出終了: {date}",
+    "reviewEnd": "レビュー終了: {date}",
+    "winnerAnnouncement": "受賞者発表:{date}",
+    "upcoming": "アップカム",
+    "active": "アクティブ",
+    "reviewing": "レビュー",
+    "ended": "終了",
+    "resultsPublished": "結果発表",
+    "@timeLeftDaysHours": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            },
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@timeLeftHours": {
+        "placeholders": {
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@timeLeftMinutes": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@daysLeft": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@hoursLeft": {
+        "placeholders": {
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@minutesLeft": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@winnerCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@totalEntries": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@contestStart": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@submissionEnd": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@reviewEnd": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@winnerAnnouncement": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "platformMissing": "プラットフォームが不足している",
+    "uploadedProducts": "アップロード製品",
+    "catalogSourceDrive": "ソース: Google Drive",
+    "catalogSourceDevice": "ソース: このデバイス",
+    "checkMarketplaceStatuses": "マーケットプレースステータスの確認(ペンディング/失敗)",
+    "openDriveSpreadsheet": "ドライブスプレッドシートを開く",
+    "syncCatalogDrive": "Excel/Sheetsを運転するカタログを同期",
+    "uploadedProductSearchHint": "タイトル、バーコード、またはSKUで検索",
+    "pending": "ペンディング",
+    "success": "成功事例",
+    "noProductsUploaded": "未登録商品",
+    "pageOf": "ページ {page} / {total}",
+    "noTitle": "タイトルなし",
+    "barcodeValue": "バーコード: {barcode}",
+    "stockValue": "在庫: {stock}",
+    "errorLoadingProducts": "間違いのローディング プロダクト: {error}",
+    "refreshMarketplaceStatuses": "市場状況をリフレッシュ",
+    "refreshMarketplaceStatusesDescription": "あなたのコネクティッドストアに対する保留/失敗した製品をチェックしてください。 既に市場で承認された製品は成功を収めます。 大型カタログはしばらくかかることがあります。",
+    "checkNow": "今すぐご予約",
+    "startingMarketplaceCheck": "市場チェックを開始...",
+    "checkingProducts": "{done}/{total}{barcode}のチェック",
+    "statusCheckFailed": "ステータスチェック失敗: {error}",
+    "couldNotOpenSpreadsheet": "スプレッドシートを開くことができません: {url}",
+    "driveSpreadsheetError": "スプレッドシートのエラーをドライブ: {error}",
+    "syncToDrive": "ドライブへの同期",
+    "syncToDriveDescription": "接続されているGoogle Driveで「MakerSpell アップロード製品」を作成または更新します。 Googleスプレッドシートで開くか、Excelとしてダウンロードできます。 続きを読みます?",
+    "sync": "同期",
+    "productsSynced": "{count} 製品をドライブスプレッドシートに同期",
+    "open": "開く",
+    "syncError": "同期エラー: {error}",
+    "couldNotOpenUrlValue": "URLを開くことができません。{url}",
+    "spreadsheetUpdated": "スプレッドシートの更新({count})。",
+    "sourcePlatformNotFound": "ソースプラットフォーム情報が見つかりません",
+    "modelIdNotFound": "モデルIDが見つかりません",
+    "productIdNotFound": "商品IDが見つかりません",
+    "deleteProduct": "製品削除",
+    "deleteProductQuestion": "この商品を削除したいですか?\n\nタイトル: {title}\nバーコード: {barcode}\nID: {id}\n\nこのアクションは元に戻すことができません。",
+    "productDeleted": "正常に削除された製品(ID: {id})",
+    "errorDeletingProduct": "製品の削除エラー: {error}",
+    "changeStatus": "ステータス変更",
+    "currentStatus": "現在の状態: {status}",
+    "selectNewStatus": "新しいステータスを選択:",
+    "statusUpdated": "ステータス更新: {status}",
+    "errorUpdatingStatus": "エラー更新状況: {error}",
+    "sourceModelIdNotFound": "ソースモデルIDが見つかりません",
+    "errorLoadingModelDetails": "エラーロードモデルの詳細: {error}",
+    "warning": "警告",
+    "duplicateUploadWarning": "この製品は既にアップロードされています。再度アップロードしたいですか?\n\n複数の製品は、いくつかの市場で同じバーコードで作成することができます。",
+    "continueAction": "お問い合わせ",
+    "batchStatus": "バッチステータス",
+    "batchIdValue": "バッチID: {id}",
+    "closeAndRefresh": "閉じてリフレッシュ",
+    "batchStatusCheckFailed": "バッチの状態は確認できません",
+    "productDetails": "プロダクト細部",
+    "productImages": "製品イメージ",
+    "storeAndMarketplace": "ストア&マーケットプレイス",
+    "stockCode": "株式コード",
+    "brand": "ブランド",
+    "listPrice": "リスト価格",
+    "calculatedPrice": "計算された価格",
+    "stock": "株式について",
+    "vat": "サインイン",
+    "printProfile": "プリントプロファイル",
+    "sourcePlatform": "ソースプラットフォーム",
+    "modelId": "モデルID",
+    "sourceUrl": "ソース URL:",
+    "batchId": "バッチID",
+    "checkBatchStatus": "バッチステータスの確認",
+    "marketplaceResponse": "マーケットプレース応答",
+    "editAndReupload": "編集と再アップロード",
+    "openSourceModel": "オープンソースモデル",
+    "syncDriveSpreadsheet": "スプレッドシートをドライブする同期",
+    "deleteProductAction": "製品削除",
+    "listingFallback": "リスト",
+    "productStatus": "商品の状態",
+    "failureReasons": "失敗の理由:",
+    "lastUpdate": "最終更新日: {date}",
+    "detailedResponseJson": "詳細な応答(JSON)",
+    "@pageOf": {
+        "placeholders": {
+            "page": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "@barcodeValue": {
+        "placeholders": {
+            "barcode": {
+                "type": "String"
+            }
+        }
+    },
+    "@stockValue": {
+        "placeholders": {
+            "stock": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorLoadingProducts": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@checkingProducts": {
+        "placeholders": {
+            "done": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "barcode": {
+                "type": "String"
+            }
+        }
+    },
+    "@statusCheckFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotOpenSpreadsheet": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "@driveSpreadsheetError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@productsSynced": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@syncError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotOpenUrlValue": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "@spreadsheetUpdated": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@deleteProductQuestion": {
+        "placeholders": {
+            "title": {
+                "type": "String"
+            },
+            "barcode": {
+                "type": "String"
+            },
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@productDeleted": {
+        "placeholders": {
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorDeletingProduct": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@currentStatus": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "@statusUpdated": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorUpdatingStatus": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorLoadingModelDetails": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@batchIdValue": {
+        "placeholders": {
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@lastUpdate": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileUserFallback": "ユーザ",
+    "followDesigner": "デザイナーをフォローする",
+    "unfollowDesigner": "フォロー",
+    "designerFollowed": "続いて {name}",
+    "@designerFollowed": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "designerUnfollowed": "{name} フォローを中止",
+    "newModelsCount": "{count} 最終訪問以来の新しいモデル",
+    "@newModelsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@designerUnfollowed": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileUserInfoUnavailable": "ユーザ情報は取得できません",
+    "ownerProfileUserInfoLoadError": "エラー読み込みユーザー情報: {error}",
+    "@ownerProfileUserInfoLoadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileModelsCount": "モデル ({count})",
+    "@ownerProfileModelsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "ownerProfileTryAgain": "お問い合わせ",
+    "ownerProfileNoModels": "まだモデルが見つかりません",
+    "ownerProfileStatModels": "モデル",
+    "ownerProfileStatLikes": "ログイン",
+    "ownerProfileStatFollowers": "フォロワー",
+    "ownerProfileStatDownloads": "ダウンロード",
+    "ownerProfileAbout": "お問い合わせ",
+    "ownerProfileAscending": "フォロー",
+    "ownerProfileDescending": "デザート",
+    "prepareSelectModel": "モデルファイルを選択し、続行する前にパッケージの寸法を計算します。",
+    "prepareLoadedPrevious": "過去のアップロードから読み込まれた. 再び公開する前にフィールドを確認.",
+    "statusCheckSummary": "{checked}: {success} 成功, {failed} 失敗しました, {pending} はまだ終了, {notFound} 市場ではなく, {errors} エラー. カタログ更新: {updated}.",
+    "@statusCheckSummary": {
+        "placeholders": {
+            "checked": {
+                "type": "int"
+            },
+            "success": {
+                "type": "int"
+            },
+            "failed": {
+                "type": "int"
+            },
+            "pending": {
+                "type": "int"
+            },
+            "notFound": {
+                "type": "int"
+            },
+            "errors": {
+                "type": "int"
+            },
+            "updated": {
+                "type": "int"
+            }
+        }
+    },
+    "marketplaceRuleNotFound": "市場ルールが見つかりません: {platform}",
+    "batchOrMarketplaceMissing": "バッチIDまたは市場が欠落している",
+    "@marketplaceRuleNotFound": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "add": "追加",
+    "edit": "編集",
+    "remove": "削除",
+    "save": "保存",
+    "objectHierarchyTitle": "オブジェクト階層",
+    "objectHierarchyNoPlates": "検出される版無し",
+    "objectHierarchySearchHint": "プレート、オブジェクト、部品検索",
+    "objectHierarchyShowInScene": "シーンで見る",
+    "objectHierarchyRenamePlate": "プレートの名前",
+    "objectHierarchyObjectActions": "オブジェクトアクション",
+    "objectHierarchySplitToObjects": "オブジェクトに分割",
+    "objectHierarchySplitToParts": "パーツに分割",
+    "objectHierarchyCannotSplit": "このモデルは、複数の分離可能な体を含んでいません。",
+    "objectHierarchyObject": "OBJ",
+    "objectHierarchyObjectNumbered": "オブジェクト {number}",
+    "@objectHierarchyObjectNumbered": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "objectHierarchyPart": "パート {number}",
+    "@objectHierarchyPart": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "objectHierarchyPlate": "プレート {number}",
+    "@objectHierarchyPlate": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "printerSelectionTitle": "プリンターの選択",
+    "printerSelectionMultipleTitle": "プリンタープロファイルの選択",
+    "printerSelectionUseSelected": "選択したプリンタを使用する",
+    "printerSelectionSearchHint": "プリンターを探す...",
+    "printerSelectionNotFound": "プリンターが見つかりません",
+    "workspacePrinterSetupTitle": "ワークスペースのセットアップ",
+    "workspacePrinterSetupHeading": "どのプリンターを使用すればよいですか。",
+    "workspacePrinterSetupDescription": "使用するプリンタープロファイルをすべて選択して、ワークスペースは、互換性のあるベッド、プリセット、およびスライシング設定を準備できます。",
+    "workspacePrinterSetupLater": "後で",
+    "workspacePrinterSetupPreparing": "プリンターカタログの準備...",
+    "workspacePrinterSetupDownloading": "プリンタープロファイルをダウンロード...",
+    "workspacePrinterSetupDownloadHint": "ダウンロードがバックグラウンドで実行されている間、他の画面を探索し続けることができます。終了すると、ワークスペースに戻ります。",
+    "workspacePrinterSetupBrowse": "他の画面を見る",
+    "workspacePrinterSetupError": "プリンターのカタログは準備できませんでした。接続を確認してもう一度お試しください。",
+    "workspacePrinterSetupEmpty": "1 つ以上のプリンタプロファイルを選択します。最初のプリンタはデフォルトとして使用されます。",
+    "workspacePrinterSetupCatalogTitle": "プリンタープロファイルから選ぶ",
+    "workspacePrinterSetupOfflineHint": "プリンターは、ネットワークに電源をオンまたは接続する必要はありません。 後で接続できます。",
+    "workspacePrinterSetupAdd": "プリンタープロファイルの選択",
+    "workspacePrinterSetupAddAnother": "別のプリンターを追加",
+    "workspacePrinterSetupEditSelection": "選択したプリンタの編集",
+    "workspacePrinterSetupContinue": "ワークスペースの継続",
+    "workspacePrinterSetupDefault": "デフォルトプリンタ",
+    "networkPrintersTitle": "ネットワークプリンター",
+    "networkPrinterAddManual": "プリンターを手動で加えて下さい",
+    "networkPrinterNameHint": "プリンター名(例)SnapmakerU1の",
+    "networkPrinterIpHint": "IPアドレス(例:192.168.1.50)",
+    "networkPrinterApiKeyOptional": "APIキー(オプション)",
+    "networkPrinterApiKeyIfNeeded": "APIキー(必要に応じて)",
+    "networkPrinterCameraUrlOptional": "カメラURL(オプション)",
+    "networkPrinterManualName": "手動プリンター",
+    "networkPrinterDisplayName": "表示名",
+    "networkPrinterEdit": "プリンターの編集",
+    "networkPrinterSaved": "保存されたプリンター",
+    "networkPrinterDiscovered": "プリンターを発見",
+    "networkPrinterNoneFound": "ローカルネットワークにプリンターが見つかりません。",
+    "networkPrinterType": "タイプ: {type}",
+    "@networkPrinterType": {
+        "placeholders": {
+            "type": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterHostname": "ホスト名: {hostname}",
+    "@networkPrinterHostname": {
+        "placeholders": {
+            "hostname": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterStatusDiscovering": "発見する",
+    "networkPrinterStatusIdentifying": "アイデンティティ",
+    "networkPrinterStatusConnected": "コネクテッド",
+    "networkPrinterStatusAvailable": "利用できる",
+    "networkPrinterStatusAuthenticationRequired": "認証が必要",
+    "networkPrinterStatusOffline": "オフライン",
+    "noInternetConnectionTitle": "インターネット接続なし",
+    "noInternetConnectionMessage": "現在オフラインです。後でお試しください。",
+    "networkPrinterStatusUnsupported": "サポートされていない",
+    "networkPrinterStatusConnectionFailed": "接続失敗",
+    "networkPrinterStatusNotChecked": "チェックしない",
+    "networkPrinterRemoteId": "サーバープリンター ID",
+    "networkPrinterRemoteIdHelp": "プリンタサーバで管理し、ここで変更することはできません。",
+    "printSettingsNozzle": "{size} ノズル",
+    "@printSettingsNozzle": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "printSettingsSearchHint": "設定を検索...",
+    "selectModelFile": "モデルファイルの選択",
+    "couldNotOpenSettings": "設定を開くことができません。",
+    "modelFileStorageAccessDenied": "ストレージアクセスは付与されません。ストレージを閲覧できます。",
+    "modelFileCouldNotOpen": "選択したファイルを開くことができません。",
+    "modelFileUnsupportedType": "このワークフローでは使用できません。",
+    "modelFileAllTypes": "すべての種類",
+    "modelFileSearchHint": "ファイル名で検索...",
+    "modelFileScanning": "スキャン装置...",
+    "modelFileScanningDescription": "大型の収納に時間がかかることがあります。",
+    "modelFileGrantStorageAccess": "助成金保管アクセス",
+    "modelFileBrowseStorage": "ストレージをブラウズする...",
+    "modelFilePermissionRequired": "モデルファイルを自動的にリストするには、ストレージ権限が必要です。",
+    "modelFilePermissionInstructions": "MakerSpell の [すべてのファイルアクセス] を付与し、ここで返します。",
+    "modelFileNoFilterMatches": "このフィルタや検索に一致するファイルはありません。",
+    "modelFileNoneFound": "3MF、STL、OBJ、Gコードファイルが見つかりません。",
+    "modelFileTryAnotherSearch": "別の名前やファイルの種類を試してください。",
+    "modelFileTryRefreshOrBrowse": "リストを更新するか、または保存を参照して下さい。",
+    "modelFileFilterSummary": "フィルター: {filter} ・ {query} ・ {count} ファイル",
+    "@modelFileFilterSummary": {
+        "placeholders": {
+            "filter": {
+                "type": "String"
+            },
+            "query": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerSettingsTitle": "プリンター設定",
+    "printerSettingsRefreshProfiles": "プロファイルをリフレッシュ(デバッグ)",
+    "printerSettingsSavePreset": "保存機械プリセット",
+    "printerSettingsPresetName": "プリセット名",
+    "printSettingsGlobal": "全般",
+    "printSettingsObjects": "OBJ",
+    "printSettingsSelectHierarchyObject": "階層内のプレートまたはオブジェクトを選択し、設定を編集します。",
+    "printSettingsSimple": "シンプル",
+    "printSettingsAdvanced": "高度な設定",
+    "printSettingsNoSettings": "このタブの設定はありません",
+    "printSettingsNoSearchResults": "設定は「{query}」と一致しません。",
+    "@printSettingsNoSearchResults": {
+        "placeholders": {
+            "query": {
+                "type": "String"
+            }
+        }
+    },
+    "printSettingsSelectPreset": "プリセットを選択",
+    "defaultLabel": "デフォルト",
+    "printSettingsPlateSettings": "プレート設定",
+    "printSettingsFrequent": "よく使う",
+    "printSettingsColorMixingExperimental": "色混合(実験)",
+    "bedTypeSmoothCoolPlate": "滑らかな涼しい版",
+    "bedTypeEngineeringPlate": "エンジニアリングプレート",
+    "bedTypeSmoothHighTempPlate": "滑らかな高温版",
+    "bedTypeTexturedPeiPlate": "PEIプレート",
+    "bedTypeTexturedCoolPlate": "テクスチャークールプレート",
+    "bedTypeSuperTackPlate": "クールプレート(スーパータック)",
+    "filamentColors": "フィラメントカラー",
+    "filamentSlotName": "フィラメント {number}",
+    "@filamentSlotName": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "filamentMoreActions": "より多くのフィラメントアクション",
+    "filamentCurrent": "現在のフィラメント: {name}",
+    "@filamentCurrent": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentCurrentUnknown": "現在のフィラメント: 不明",
+    "filamentEdit": "編集",
+    "filamentMerge": "マージ",
+    "filamentDelete": "削除",
+    "filamentMergeTarget": "マージターゲット",
+    "filamentSelectColor": "色の選択",
+    "filamentCustomColor": "注文色",
+    "filamentHue": "ログイン",
+    "filamentSaturation": "飽和",
+    "filamentBrightness": "明るさ",
+    "printerProfilesTitle": "プリンタープロファイル",
+    "printerProfilesRememberSelection": "選択を記憶して下さい",
+    "rememberLastModelWorkspace": "最後のモデルのワークスペースを覚えて下さい",
+    "rememberLastModelWorkspaceSubtitle": "ワークスペースに戻ると、最後のモデル、選択したプレート、および適用されるプリント設定を復元します。デフォルトでは無効になっています。",
+    "printerProfilesProjectPresets": "プロジェクトプリセット",
+    "printerProfilesSystemPresets": "システムプリセット",
+    "printerProfilesUserPresets": "ユーザープリセット",
+    "printerProfilesNoneRegistered": "未登録のプリンターはまだありません",
+    "printerProfilesAddPrinter": "新しいプリンターを追加",
+    "printerProfilesUnknownBrand": "不明",
+    "printerProfilesActive": "アクション",
+    "printerProfilesRename": "名前を変更",
+    "printerProfilesDelete": "削除",
+    "printerProfilesDeleteTitle": "プロファイルの削除",
+    "printerProfilesDeleteConfirmation": "プロフィール「{name}」を削除したいですか?",
+    "@printerProfilesDeleteConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesRenameTitle": "プロフィールの名前",
+    "printerProfilesNameHint": "プロフィール名",
+    "driveModelsReconnect": "Google Drive 再接続",
+    "printerProfilesImport": "インポートプリンタプロファイル",
+    "printerProfilesExport": "輸出プロフィール",
+    "printerProfilesImportSuccess": "「{name}」をインポートし、活性化しました。",
+    "@printerProfilesImportSuccess": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesImportInvalid": "このプロファイルファイルは読み込めません。 有効な OrcaSlicer JSON プロファイルを選択します。",
+    "printerProfilesImportNotMachine": "選択したJSONはプリンタープロファイル(タイプ:マシン)ではありません。",
+    "printerProfilesExportSubject": "MakerSpell プリンタープロファイル: {name}",
+    "@printerProfilesExportSubject": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesExportFailed": "プリンタープロファイルはエクスポートできませんでした。",
+    "productInformation": "製品情報",
+    "productActions": "アクション",
+    "listingStepSelectModels": "モデルを選択",
+    "listingStepSelectStores": "店舗を選択",
+    "listingStepProductDetails": "プロダクト細部",
+    "listingStepStoreDetails": "店舗情報",
+    "listingStepReviewPublish": "レビュー & 出版",
+    "listingStepProgress": "ステップ{current}/{total}:{title}",
+    "@listingStepProgress": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "title": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPublished": "公表: {count} 成功した",
+    "@listingPublished": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "listingPublishedWithFailures": "公表: {success} 成功, {failed} 失敗",
+    "@listingPublishedWithFailures": {
+        "placeholders": {
+            "success": {
+                "type": "int"
+            },
+            "failed": {
+                "type": "int"
+            }
+        }
+    },
+    "listingPublishError": "公開エラー: {error}",
+    "listingDraftSaveError": "ドラフトを保存できません: {error}",
+    "listingAiGenerationFailed": "AIリスト生成失敗: {error}",
+    "@listingPublishError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingDraftSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingAiGenerationFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingAiProviderFallback": "選択したAIプロバイダは利用できません。無料のAIモデルを試してみると...",
+    "listingSaveDraft": "ドラフトを保存",
+    "listingPublish": "公開する",
+    "listingPublishing": "出版...",
+    "listingQuotaExceededTitle": "週刊出版手当使用",
+    "listingQuotaExceededDescription": "この出版物は%1スロットを必要としますが、%2は残ります。 MakerSpellショップには無制限のマーケットプレース出版が含まれています。",
+    "listingQuotaSignInRequired": "無料の週刊マーケットプレース公開手当を使用する前にサインインします。",
+    "listingQuotaServiceUnavailable": "出版許可が確認できない可能性があります。 接続を確認してもう一度お試しください。",
+    "listingUpgradeToShop": "MakerSpell 店舗を見る",
+    "listingQuotaCountNotice": "このアクションは、%1製品リストを公開します。 成功したリストだけが許容値を使用します。",
+    "listingModelSelectionDescription": "1つの3MFパッケージを選択するか、複数のSTL部品を1つのモデルセットとして選択します。 選択したSTLファイルは1つのプレビューベッドを共有し、スライサで一緒に開く。 すでにダウンロードしたファイルは、ダウンロードマネージャから再利用されます。",
+    "listingModelFiles": "モデルファイル",
+    "listingNoModelFiles": "このリストで見つかったモデルファイルはありません。",
+    "listingDownloaded": "ダウンロード",
+    "listingActiveInViewer": "視聴者のアクティブ",
+    "listingDownloadPreview": "ダウンロード&3Dプレビュー",
+    "listingOpeningLogin": "ログインを開く...",
+    "listingDownloading": "ダウンロード中",
+    "listingDownloadSelectedStl": "選択したSTLファイルのダウンロード",
+    "listingDownloadSelectedModel": "選択したモデルをダウンロード",
+    "listingResliceCached": "Re-slice キャッシュ結果",
+    "listingOpenFullSlicer": "フルスライサを開く(プリンター・スケール・スライス)",
+    "listingFullSlicerDescription": "リストモードでローカルモデルビューアを開きます。 プリンタを選択し、モデルのサイズを変更し、プリント設定を編集し、スライスを編集し、リストのために使用をタップします。 互換性のあるキャッシュされたスライス値は自動的に再利用できます。 設定が変更されていない場合は、最後のアクティブプリンタプロファイルとプロセスオーバーライドが使用されます。",
+    "listingSelectModelToPreview": "モデルファイルを選択して3Dプレビューを開く",
+    "listingIncludedObjects": "どのオブジェクトが含まれている必要がありますか?",
+    "listingApplyViewerSelection": "視聴者の選択を適用する",
+    "listingCalculationMethod": "体重とサイズを計算するにはどうすればよいですか?",
+    "listingQuickMath": "クイック数学(推奨)",
+    "listingQuickMathDescription": "メッシュボリュームとシェル/インフィル推定。スライシングなし、すべてのプラットフォームで動作します。",
+    "listingSliceBased": "スライスベース(より正確な重量)",
+    "listingSliceBasedDescription": "フルモデルビューアを開き、プリンター、スケール、印刷の設定、スライスを選択します。",
+    "listingCalculating": "計算...",
+    "listingRunQuickCalculation": "迅速な計算を実行",
+    "listingOpenSlicerCalculate": "オープンスライサー&計算",
+    "listingNoConnectedStores": "リストアップ対応のコネクティッドストアはありません。\nショップでマーケットプレイスを最初に接続します。",
+    "listingOpenShopHub": "オープンショップハブ",
+    "listingStoreSelectionDescription": "複数の店舗を選択。一度に共有された商品データが入力されます。",
+    "listingReviewGeneratedContent": "生成されたコンテンツのレビュー",
+    "listingProductTitle": "商品名",
+    "listingProductDescription": "プロダクト記述",
+    "listingUseThisContent": "このコンテンツを使用する",
+    "listingGeneratedContentApplied": "生成されたコンテンツが適用されます。",
+    "listingGeneratingContent": "製品コンテンツの生成",
+    "listingGenerateWithAi": "AIでタイトルと説明を生成",
+    "listingLanguageSuggestionTitle": "リスト言語",
+    "listingLanguageRecommended": "{store} の推奨リスト言語は {language} です。アプリの言語は変更されません。このオプションは、このストアやマーケットプレイスで記憶されます。",
+    "@listingLanguageRecommended": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingLanguageRequired": "{store} は {language} でリストを要求します。アプリの言語は変更されません。",
+    "@listingLanguageRequired": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingContinueInLanguage": "続きを読む {language}",
+    "@listingContinueInLanguage": {
+        "placeholders": {
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingContentLanguage": "コンテンツ言語の生成",
+    "listingContentLanguageDescription": "このリストでAI生成されたタイトルと説明にのみ使用されます。",
+    "listingUseApplicationLanguage": "アプリケーション言語を使用する",
+    "listingNoStoresSelected": "店舗選択なし",
+    "listingStoreFieldsLoadFailed": "リストフィールドの保存は読み込めません。",
+    "listingReloadStoreFields": "リロードストアフィールド",
+    "listingAnalyzingCategory": "分析カテゴリ...",
+    "listingSelectCategoryWithAi": "AIでカテゴリと必要な属性を選択",
+    "listingMarketplacePreview": "マーケットプレース製品プレビュー",
+    "listingMarketplacePreviewDescription": "出版後の近似商品詳細外観",
+    "listingAvailableStock": "在庫あり: {quantity}",
+    "@listingAvailableStock": {
+        "placeholders": {
+            "quantity": {
+                "type": "String"
+            }
+        }
+    },
+    "listingProductDetails": "プロダクト細部",
+    "listingModels": "モデル",
+    "listingStores": "ショップ",
+    "listingResults": "結果発表",
+    "listingFailed": "失敗",
+    "listingLoadOptionsFailed": "オプションをロードできません: {error}",
+    "@listingLoadOptionsFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingEbaySandboxInventoryUnavailable": "eBay Sandboxの在庫サービスは一時的に利用できなくなります(エラー25001)。後でお試しください。",
+    "listingFilterCategories": "フィルターカテゴリ",
+    "listingClosePreview": "プレビューを閉じる",
+    "listingConnectGoogleDrive": "接続 Google Drive",
+    "listingDriveImageStorageDescription": "製品イメージは、ドライブ上の既存のMakerSpell-Libraryフォルダに保存されます。 アップロードされた製品イメージのみが、リンク付きの誰もが読みやすくなります。",
+    "listingConnectDrive": "接続ドライブ",
+    "listingGenerateProductImage": "製品イメージを生成",
+    "listingCreateProductImageVariation": "製品イメージのバリエーションを作成する",
+    "listingInstructions": "インフォメーション",
+    "listingGenerate": "生成する",
+    "listingRemoveImage": "画像の削除",
+    "listingCreateAiVariation": "AIのバリエーションを作成する",
+    "listingUploadImages": "アップロード画像",
+    "listingGenerateWithAiShort": "AIで生成する",
+    "listingDraftRestored": "復元された草案を保存します。",
+    "listingSelectModelFirst": "最初にモデルファイルを選択します。",
+    "listingSignInToDownload": "ダウンロードするには、{platform}にサインインしてください。",
+    "@listingSignInToDownload": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "listingCaptchaCancelled": "カプチャキャンセル。",
+    "listingDownloadFailed": "ダウンロードが失敗しました。",
+    "listingDownloadError": "ダウンロード失敗: {error}",
+    "@listingDownloadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingStlFilesReady": "選択したSTLファイルは、共有プレビューで準備ができています。",
+    "listingDownloadModelFirst": "このモデルを最初にダウンロードします。",
+    "listingSelectAtLeastOneModel": "リストに複数のモデルファイルを選択します。",
+    "listingDownloadMeasureBeforeContinue": "続行する前に「{model}」をダウンロードして測定します。",
+    "@listingDownloadMeasureBeforeContinue": {
+        "placeholders": {
+            "model": {
+                "type": "String"
+            }
+        }
+    },
+    "listingSelectAtLeastOneStore": "最低1店舗を選択",
+    "listingFieldRequired": "{field} が必要です。",
+    "@listingFieldRequired": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingStoreFieldRequired": "{store}: {field} が必要です。",
+    "@listingStoreFieldRequired": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPriceFormulaError": "価格の方式の間違い: {error}",
+    "listingAiCategoryFailed": "AIカテゴリ選択失敗: {error}",
+    "@listingPriceFormulaError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingAiCategoryFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingNoAiCategoryRules": "このストアでは、AIが入力できるカテゴリルールは提供していません。",
+    "listingLoadField": "負荷{field}",
+    "@listingLoadField": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingViewerStarting": "スタートビューア...",
+    "listingViewerFileNotFound": "ファイルが見つかりません",
+    "listingViewerReady": "ビューア対応",
+    "listingViewerLoadingModel": "ロードモデル...",
+    "listingViewerModelLoaded": "荷を積まれるモデル",
+    "filamentSelect": "フィラメントを選択",
+    "filamentUserPresets": "ユーザープリセット",
+    "filamentAvailablePresets": "フィラメント",
+    "filamentSaveTitle": "フィラメントを保存",
+    "filamentPresetName": "名称",
+    "filamentSaveCopySuffix": "コピー",
+    "filamentPresetSaved": "「{name}」保存",
+    "@filamentPresetSaved": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSavingFailed": "保存失敗: {error}",
+    "@filamentSavingFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentPresetLoaded": "\"{name}\" 読み込み",
+    "@filamentPresetLoaded": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentDeleteTitle": "フィラメントを削除する",
+    "filamentDeleteConfirmation": "ユーザプリセット「{name}」を永久に削除したいですか?",
+    "@filamentDeleteConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSettingsNotFound": "フィラメントの設定が見つかりません",
+    "filamentSearchSettings": "設定を検索...",
+    "filamentNoSearchResults": "設定は「{query}」と一致しません。",
+    "@filamentNoSearchResults": {
+        "placeholders": {
+            "query": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSetValue": "セット...",
+    "filamentRammingWarningTitle": "警告",
+    "filamentRammingWarningDescription": "ラミングは、単一の押出機のマルチマテリアルプリンタでツールが変更される直前に迅速な押出です。 これは、アンロードされたフィラメントチップを形状し、次のフィラメントが確実に差し込むことができます。 異なる材料は、異なる押出速度を必要とする場合があります。 これは、専門家の設定です。 誤った値は、ジャムやフィラメント研削を引き起こす可能性があります。",
+    "filamentProfilesDirectoryMissing": "プロファイルディレクトリが見つかりません。",
+    "filamentPrinterBrandsMissing": "プリンターブランドが見つかりません。",
+    "filamentNoPrinterProfiles": "プリンタープロファイルが見つかりませんでした。",
+    "filamentNoProcessProfiles": "利用可能なプロセスプロファイルが見つかりませんでした。",
+    "filamentSelectCompatiblePrinters": "対応プリンタを選択",
+    "filamentSelectCompatibleProcesses": "対応するプロセスプロファイルを選択",
+    "networkPrinterNoControlPanel": "このプリンタプロトコルはウェブコントロールパネルを提供していません。",
+    "networkPrinterControlPanelUnavailable": "プリンターのウェブコントロールパネルは使用できません。",
+    "networkPrinterConnectTitle": "プリンターに接続する",
+    "networkPrinterAuthenticationDescription": "{printerName} は認証が必要です。API キー、パスワード、デバイス認証コードを入力し、継続します。",
+    "@networkPrinterAuthenticationDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterCredentialLabel": "API キー、パスワード、認証コード",
+    "networkPrinterSupportVerified": "プロフィール",
+    "networkPrinterSupportCommunityVerified": "コミュニティ検証",
+    "networkPrinterSupportProtocolCompatible": "プロトコル対応",
+    "networkPrinterSupportExperimental": "実験実験",
+    "networkPrinterSupportUnsupported": "サポートされていない",
+    "networkPrinterCapabilityControlPanel": "コントロールパネル",
+    "networkPrinterCapabilityUpload": "アップロード",
+    "networkPrinterCapabilityStartPrint": "プリントの開始",
+    "networkPrinterCapabilityStatus": "デバイス状態",
+    "networkPrinterCapabilityCamera": "カメラ",
+    "networkPrinterCapabilityMaterials": "材料材料",
+    "networkPrinterCapabilityMultiMaterial": "多材料",
+    "networkPrinterCapabilityExcludeObjects": "オブジェクトを除外する",
+    "networkPrinterConnect": "ログイン",
+    "networkPrinterDiagnosticsExport": "輸出赤字診断",
+    "networkPrinterDiagnosticsShareSubject": "MakerSpell ネットワーク プリンター診断",
+    "networkPrinterDiagnosticsExportFailed": "診断パッケージは作成できません。",
+    "printerDiagnosticsTelemetry": "匿名診断を共有",
+    "printerDiagnosticsTelemetrySubtitle": "検索、IPアドレス、認証情報、ファイル名、レスポンスボディ、Gコードなしでアプリケーションやプリンターの故障を自動的に報告します。",
+    "networkPrinterBambuAccessCodeDescription": "{printerName} は Bambu LAN アクセス コードを必要とします。 プリンターのネットワークまたは LAN モード設定を開き、表示されたアクセス コードを入力します。",
+    "@networkPrinterBambuAccessCodeDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterBambuAccessCodeLabel": "LANアクセスコード",
+    "networkPrinterBambuModeTitle": "バンブー接続モードを選択してください",
+    "networkPrinterBambuModeDescription": "この選択は、MakerSpell がプリンターに送信できるコマンドを決定します。",
+    "networkPrinterBambuStandardTitle": "スタンダード LAN",
+    "networkPrinterBambuStandardSubtitle": "安全な監視モード。 MakerSpell は、プリンタと AMS のステータスを読み込みますが、ファイルをアップロードしたり、プリントを開始したり、カメラを使用してプリンターを制御したりすることができます。",
+    "networkPrinterBambuDeveloperTitle": "開発者モード",
+    "networkPrinterBambuDeveloperSubtitle": "ローカルコントロール。プリンターで、ネットワークまたはLANモードの設定を開き、開発者モードを有効にし、表示されたLANアクセスコードを使用します。このモードでは、Bambuクラウドは利用できません。",
+    "networkPrinterBambuLocalServerTitle": "Bambuローカルサーバー",
+    "networkPrinterBambuLocalServerSubtitle": "近日公開。公式アクセスとモバイル対応のサーバーサポートが準備されています。",
+    "networkPrinterBambuComingSoon": "近日公開",
+    "networkPrinterBambuModeSettingsHint": "プリンターの設定から後でこのモードを変更できます。",
+    "networkPrinterElegooAccessCodeDescription": "{printerName} には、Elegoo LAN アクセスコードが必要です。プリンタのネットワークまたはLAN設定を開き、表示されたアクセスコードを入力します。",
+    "@networkPrinterElegooAccessCodeDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterElegooAccessCodeLabel": "LANアクセスコード",
+    "networkPrinterConnectAndAdd": "接続と追加",
+    "printerControlTitle": "プリンター制御",
+    "printerControlDeviceInterface": "プリンター インターフェイス",
+    "printerControlDeviceInterfaceDescription": "このプリンターによって提供される制御インターフェイスを開けて下さい。",
+    "printerControlExpandSection": "セクションを拡大",
+    "printerControlCollapseSection": "崩壊セクション",
+    "printerControlFilesAndHistory": "ファイル、履歴、ビデオ",
+    "printerControlLocalFiles": "ローカルファイル",
+    "printerControlPrintHistory": "プリント履歴",
+    "printerControlNoPrintHistory": "このプリンターでは印刷履歴が報告されていません。",
+    "printerControlHistoryCompleted": "完了",
+    "printerControlHistoryInProgress": "進行状況",
+    "printerControlHistoryCancelled": "キャンセル",
+    "printerControlHistoryFailed": "失敗",
+    "printerControlHistoryUnknown": "不明",
+    "printerControlTimelapse": "Timelapse ビデオ",
+    "printerControlNoTimelapses": "このプリンターにタイムラプス動画は保存されません。",
+    "printerControlPlayTimelapse": "ビデオを再生する",
+    "printerControlTimelapseUnavailable": "このタイムラプス動画は再生できませんでした。",
+    "printerControlNoLocalFiles": "印刷可能なファイルは、このプリンタに保存されません。",
+    "printerControlSortFiles": "ファイルのソート",
+    "printerControlFileSize": "ファイル サイズ",
+    "printerControlFileCreatedAt": "制作時間",
+    "printerControlFilesSelected": "{count} 選択",
+    "@printerControlFilesSelected": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlDeleteFilesTitle": "{count}ファイルを削除しますか?",
+    "@printerControlDeleteFilesTitle": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlDeleteFilesWarning": "削除されたプリンターファイルは復元できません。",
+    "printerControlCannotDeleteActiveFile": "現在印刷しているファイルは削除できません。",
+    "printerControlFilesDeleted": "選択したファイルが削除されました。",
+    "printerControlStartPrint": "プリントの開始",
+    "printerControlPrintOptions": "プリントオプション",
+    "printerControlEmbeddedSettingsHint": "プリンターは、このファイルに埋め込まれたスライシングとマテリアル設定を使用します。",
+    "printerControlRunCalibration": "口径測定/自己テストを実行して下さい",
+    "printerControlRunCalibrationDescription": "プリンターのサポートされているプリプリント校正を開始する前に実行します。",
+    "printerControlPrintStarted": "プリントが始まりました。",
+    "printerControlJob": "現在の仕事",
+    "printerControlNoActiveJob": "アクティブなプリントジョブなし",
+    "printerControlPause": "一時停止",
+    "printerControlResume": "再開",
+    "printerControlCancelPrint": "造形を取消し",
+    "printerControlCancelConfirmation": "アクティブなプリントジョブをキャンセルしますか?",
+    "printerControlCommandFailed": "プリンタはこのコマンドを完了できませんでした。",
+    "printerControlExcludeObjects": "オブジェクトを除外する",
+    "printerControlExcludeObjectsDescription": "残りのオブジェクトが続行しながら、失敗したオブジェクトを印刷を停止します。",
+    "printerControlExcludeObjectsIdle": "アクティブマルチオブジェクトプリント中にオブジェクトの除外が使用可能になります。",
+    "printerControlExcludeObjectsUnavailable": "この印刷には、それぞれに名前付けされたオブジェクトが含まれていません。次のファイルをスライスする前に、Print Settingsの「オブジェクトの除外」を有効にします。",
+    "printerControlExcludeObjectAction": "除外する",
+    "printerControlExcludeObjectCurrent": "今すぐ印刷",
+    "printerControlExcludeObjectExcluded": "除外される",
+    "printerControlExcludeObjectLastRemaining": "最後の残りのオブジェクトは除外できません。代わりにプリントをキャンセルします。",
+    "printerControlExcludeObjectConfirmationTitle": "このオブジェクトを除外しますか?",
+    "doNotAskAgain": "お問い合わせ",
+    "printerControlExcludeObjectConfirmation": "プリンターは、現在のジョブの「{name}」の印刷を永久に停止します。他のオブジェクトは続行します。",
+    "@printerControlExcludeObjectConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlExcludeObjectSuccess": "オブジェクトは除外されました。残りのオブジェクトは引き続き印刷されます。",
+    "printerControlCamera": "カメラ",
+    "printerCameraWallTitle": "カメラの壁",
+    "printerCameraWallLayout": "カメラレイアウト",
+    "printerCameraWallLarge": "大型カメラ",
+    "printerCameraWallBalanced": "バランスグリッド",
+    "printerCameraWallCompact": "コンパクトグリッド",
+    "printerCameraWallPause": "すべてのカメラをパユース",
+    "printerCameraWallResume": "履歴カメラ",
+    "printerCameraWallResumeCount": "履歴書 {count} カメラ",
+    "@printerCameraWallResumeCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerCameraWallOpenPrinter": "プリンター制御を開く",
+    "printerCameraWallEmpty": "サポートされているカメラで保存されたプリンターが見つかりませんでした。",
+    "printerCameraWallScan": "プリンター用スキャン",
+    "printerControlCameraConnecting": "カメラに接続する",
+    "printerControlCameraUnavailable": "カメラをロードできませんでした。",
+    "printerControlCameraDiscovering": "プリンターカメラに接続しようとしています。{total}のテスト方法{current}。",
+    "@printerControlCameraDiscovering": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlCameraManualHint": "既知のカメラメソッドのどれも機能しました。手動でカメラアドレスを入力します。",
+    "printerControlCameraEnterAddress": "カメラアドレスを入力してください",
+    "printerControlCameraStopAndEnterManually": "手動で停止し、入って下さい",
+    "printerControlCameraAddress": "カメラアドレス",
+    "printerControlCameraAddressExample": "例えば: http://192.168.1.50:8080/?action=stream",
+    "printerControlCameraInvalidAddress": "有効なHTTPまたはHTTPSアドレスを入力してください。",
+    "printerControlCameraTestAddress": "テストアドレス",
+    "printerControlSettings": "プリンター設定",
+    "printerControlExtruders": "押出機",
+    "printerControlPickExtruder": "ピック押出機",
+    "printerControlExtruderSelected": "ツール {tool} を選択します。",
+    "@printerControlExtruderSelected": {
+        "placeholders": {
+            "tool": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlNozzle": "ノズル",
+    "printerControlBed": "ベッド",
+    "printerControlNozzleTemperature": "ノズルターゲット温度",
+    "printerControlBedTemperature": "ベッドターゲット温度",
+    "printerControlLight": "チャンバーライト",
+    "printerControlPartFan": "パーツ冷却ファン",
+    "printerControlRearFan": "背面ファン",
+    "printerControlAuxiliaryFan": "補助ファン",
+    "printerControlPrintSpeed": "プリント速度",
+    "printerControlMotion": "XYZ制御",
+    "printerControlMotionPositionUnavailable": "位置や動きの限界は利用できません。移動前にプリンターを置き、リフレッシュして下さい。",
+    "printerControlMotionHomeRequired": "動かす前にこの軸を置きます。",
+    "printerControlMotionLimitReached": "要求された動きはプリンター限界を超過します。",
+    "printerControlMotionSafetyHint": "移動ボタンは、プリンターが報告する限界で無効になっています。",
+    "printerControlMoveAxisTitle": "{axis} 軸の移動",
+    "@printerControlMoveAxisTitle": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlTargetCoordinate": "ターゲット座標",
+    "printerControlCoordinateRange": "許容範囲:{minimum}–{maximum} mm",
+    "@printerControlCoordinateRange": {
+        "placeholders": {
+            "minimum": {
+                "type": "String"
+            },
+            "maximum": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlMoveTo": "移動",
+    "printerControlHomeAxis": "ホーム {axis} 軸",
+    "@printerControlHomeAxis": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlHomeXY": "XとY軸",
+    "printerControlTemperatureRange": "0と{maximum} °Cの間の温度を入力します。",
+    "@printerControlTemperatureRange": {
+        "placeholders": {
+            "maximum": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlHomeAll": "ホーム すべての斧",
+    "printerControlFilaments": "フィラメント",
+    "printerControlEmpty": "空",
+    "printerControlSlot": "スロット {number}",
+    "@printerControlSlot": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlEditFilament": "{slot} 編集",
+    "@printerControlEditFilament": {
+        "placeholders": {
+            "slot": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlMaterialType": "物質的なタイプ",
+    "printerControlMaterialName": "物質的な変形",
+    "printerControlFilamentBrand": "ブランド",
+    "printerControlFilamentColor": "フィラメントカラー",
+    "printerControlColorHex": "カラーコード",
+    "printerControlInvalidColor": "有効な6桁のカラーコードを入力してください。",
+    "printerControlRequiredValue": "必須項目(最大64文字)です。",
+    "printerControlInvalidValue": "この値はサポートされていない文字を含みます。",
+    "printerControlFilamentUpdated": "フィラメントスロットを更新しました。",
+    "printerControlProtocol": "接続: {protocol}",
+    "@printerControlProtocol": {
+        "placeholders": {
+            "protocol": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateTitle": "プリンタープロファイル更新",
+    "profilesUpdateMessage": "新規プリンタプロファイルパッケージ(バージョン{version}、{size})が利用可能です。今すぐ更新しますか?",
+    "@profilesUpdateMessage": {
+        "placeholders": {
+            "version": {
+                "type": "String"
+            },
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateLater": "後で",
+    "profilesUpdateNow": "今すぐ更新",
+    "profilesUpdateDownloading": "プリンタープロファイルをダウンロード... バックグラウンドでMakerSpellを維持し、通知から進捗状況に従うことができます。",
+    "profilesUpdateDone": "プロフィール更新",
+    "profilesUpdateDoneMessage": "プリンタープロファイルバージョン{version}が使用可能です。",
+    "@profilesUpdateDoneMessage": {
+        "placeholders": {
+            "version": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateError": "プリンタープロファイルは更新できません。既存のプロファイルが保存されました。",
+    "scrollToTop": "スクロールトップへ",
+    "experimentalPrinterBeta": "実験用プリンターの特徴",
+    "experimentalPrinterBetaSubtitle": "統合されたプリンタープロトコルのための制御されたベータ機能",
+    "anycubicBetaTitle": "Anycubic LAN制御ベータ",
+    "anycubicBetaIntro": "一般的に利用可能になる前に、ローカルAnycubicサポートを検証するのに役立ちます。 ファームウェアの互換性が発見された場合、機能がオプトインされ、リモートで無効にすることができます。",
+    "anycubicBetaJoin": "制御されたベータに参加する",
+    "anycubicBetaLeave": "ベータを離れ、すべてを無効にする",
+    "anycubicBetaConsentTitle": "Anycubic LAN ベータに参加しますか?",
+    "anycubicBetaConsentBody": "これらの操作は、自動プロトコルテストを通過しましたが、すべての物理的なプリンターやファームウェアで検証されていません。プリンタに出席しながらテストを行い、小さな無害なファイルで始まり、プリンタ画面から停止する準備が整いました。",
+    "anycubicBetaConsentCheck": "これらの機能が実験的であることを理解し、すべてのテストを監督します。",
+    "anycubicBetaEnableTitle": "{feature}を有効にする?",
+    "@anycubicBetaEnableTitle": {
+        "placeholders": {
+            "feature": {
+                "type": "String"
+            }
+        }
+    },
+    "anycubicBetaFeatureWarning": "テスト中にプリンターが出席していることを確認してください。 MakerSpell 互換性の問題が報告されている場合、この機能をリモートで無効化することができます。",
+    "anycubicBetaCamera": "実験用FLVカメラ",
+    "anycubicBetaCameraSubtitle": "プリンターのローカルカメラストリームを起動し、表示します。",
+    "anycubicBetaUpload": "実験用Gコードアップロード",
+    "anycubicBetaUploadSubtitle": "印刷を開始することなく、プリンターによって報告された署名されたURLをアップロードします。",
+    "anycubicBetaStart": "実験プリント開始",
+    "anycubicBetaStartSubtitle": "アップロードしたファイルを起動できます。アップロードを有効化します。",
+    "anycubicBetaRemotelyDisabled": "互換性がリモートで無効になっているため、一時的に利用できなくなった。",
+    "anycubicBetaEnrolled": "制御されたベータはこの装置で活動的です。",
+    "anycubicBetaNotGeneralSupport": "現在、ストックランコブラ3とコブラS1ファミリーを対象としています。コブラ2やフォトン/レジンモデルを主張しません。",
+    "bambuBetaTitle": "バンブーラボLAN制御β",
+    "bambuBetaIntro": "Bambu LAN上のリモートスタートとネイティブプリプリントキャリブレーションを検証するのに役立ちます。これらの機能はオプトイン、リモートで無効化され、プリンタに出席する際にテストする必要があります。",
+    "bambuBetaJoin": "Bambuの制御ベータに参加",
+    "bambuBetaLeave": "Bambu ベータを離れ、すべてを無効にします",
+    "bambuBetaConsentTitle": "Bambu Lab LANベータに参加しますか?",
+    "bambuBetaConsentBody": "リモートスタートとキャリブレーションは、BambuのローカルFTPSとMQTTコマンドを使用し、すべてのモデルやファームウェアで物理的に検証されていない。 予期しない動き、加熱、キャリブレーション障害、印刷障害、または機器の損傷が発生する可能性があります。 ビルドプレートをクリアに保つ、小さな無害なGコードファイルから始まり、プリンタ画面から停止する準備が整いました。 これらのベータは、自発的に機能し、あなた自身のリスクで使用できます。 法律で許可される程度に、MakerSpell開発者は、これらの実験機能を利用することによって生じる損害や損失について責任を負いません。",
+    "bambuBetaConsentCheck": "これらのBambuの機能が実験的であることを理解し、上記のリスクを受け入れ、すべてのテストを監督します。",
+    "bambuBetaEnrolled": "Bambu制御ベータはこの装置で活動的です。",
+    "bambuBetaStart": "実験的バンブーリモートスタート",
+    "bambuBetaStartSubtitle": "Bambu LAN MQTTプロトコルを介してプリンタのキャッシュにアップロードされたGコードを開始します。",
+    "bambuBetaCalibration": "実験的バンブープリプリント校正",
+    "bambuBetaCalibrationSubtitle": "ネイティブベッドのレベリングと振動キャリブレーションを実行し、完了を待ち、アップロードされたGコードを開始します。リモートスタートを有効にする必要があります。",
+    "bambuBetaPrintWarning": "このバンブー操作は実験的であり、あなた自身のリスクで使用されます。 予測されていない動き、加熱、印刷の失敗、または機器の損傷が発生する可能性があります。 校正中にビルドプレートをクリアし、プリンタの横にあるままにして、プリンタ画面から停止する準備が整います。 適用される法律で許可される範囲に、 MakerSpell およびその開発者は、結果の損傷や損失については責任を負いません。",
+    "bambuBetaRiskNotice": "実験的な機能 — 自分のリスクで使用できます。 物理的な動作は、プリンタモデルとファームウェアによって異なる場合があります。 決して無人テストしません。",
+    "recentlyViewedModels": "最近見られたモデル",
+    "recentlyViewedModelsSubtitle": "このデバイスで最近開いたモデルを見る",
+    "recentlyViewedEmpty": "開いたモデルはここに現れます。",
+    "clearViewingHistory": "閲覧履歴をクリア",
+    "clearViewingHistoryConfirm": "このデバイスから最近見られたモデルをすべて削除しますか?",
+    "removeFromViewingHistory": "閲覧履歴から削除",
+    "viewedAt": "{date} で {time}",
+    "@viewedAt": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            },
+            "time": {
+                "type": "String"
+            }
+        }
+    },
+    "mySupportRequests": "私のリクエスト",
+    "mySupportRequestsSubtitle": "診断およびサポート要求を追跡して下さい",
+    "supportRequest": "サポートリクエスト",
+    "supportRequestsSignIn": "サポートリクエストを表示および追跡するためにサインインします。",
+    "supportRequestsLoadFailed": "サポートリクエストはロードできません。",
+    "supportRequestsEmpty": "サポートリクエストはまだありません。",
+    "supportStatusNew": "受付開始",
+    "supportStatusOpen": "見直し",
+    "supportStatusPending": "待ち合わせ",
+    "supportStatusResolved": "解決する",
+    "supportStatusClosed": "休館日",
+    "supportRequestAwaitingResponse": "デバイス状態",
+    "supportRequestAwaitingResponseBody": "ご要望をいただいた上で、診断情報を確認させていただきます。",
+    "supportRequestResponse": "MakerSpell 応答",
+    "sendFailureDiagnosticsTitle": "この機能を修正するのに役立ちます",
+    "sendFailureDiagnosticsBody": "この機能は期待どおりに機能しませんでした。プライバシーフィルタ付きのエラー診断を送信したいですか? それらを送信すると、できるだけ早く問題を調査します。 応答したときに、設定のマイリクエストの下にあるリクエストを追跡し、アプリ内通知が表示されます。",
+    "sendFailureDiagnosticsPrivacy": "IPアドレス、アクセスコード、認証情報、ファイル名、Gコード、および未加工プリンター応答は含まれません。",
+    "sendFailureDiagnostics": "診断を送信する",
+    "failureDiagnosticsSent": "送信される診断。要求 ID: {requestId}",
+    "@failureDiagnosticsSent": {
+        "placeholders": {
+            "requestId": {
+                "type": "String"
+            }
+        }
+    },
+    "failureDiagnosticsFailed": "診断は送信できませんでした。 サインインしてもう一度お試しください。",
+    "reportProblem": "レポートの問題",
+    "blockUser": "このユーザを隠す",
+    "blockedUserHidden": "このプラットフォームでは、このユーザーのコメントが隠されています。",
+    "undo": "元に戻す",
+    "printSendTitle": "G-codeを送信",
+    "printSendUploading": "アップロード...",
+    "printSendDoNotLeaveDuringUpload": "アップロードが完了するまで、この画面が開きます。",
+    "printSendStartPrint": "プリントの開始",
+    "printSendUploadOnly": "アップロードのみ",
+    "printSendUploadAndPrint": "アップロードと印刷",
+    "printSendManagePrinters": "マネージング",
+    "printSendOnDevice": "プリンター",
+    "printSendAddPrinter": "プリンターの追加または発見",
+    "printSendTime": "時間: {value}",
+    "@printSendTime": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "printSendMaterial": "素材: {value}",
+    "@printSendMaterial": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "printSendToolChanges": "ツールの変更: {count}",
+    "@printSendToolChanges": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printSendCapabilityUpload": "アップロード",
+    "printSendCapabilityStart": "リモートスタート",
+    "printSendCapabilityMultiMaterial": "多材料",
+    "printSendFilamentAssignment": "フィラメントの割り当て",
+    "printSendRefreshFilaments": "プリンター フィラメントのスロットを新たにして下さい",
+    "printSendFilamentMappingHelp": "各Gコードツールを物理プリンタースロットにマップします。",
+    "printSendFilamentManagedHelp": "プリンターによって報告されたとき、ロードされたフィラメント情報は示されます。 アダプターが安全にそれを適用することができれば、スロット再マッピングは隠されます。",
+    "printSendPreferences": "プリンター対応オプション",
+    "printSendFlowCalibration": "放出の流れの口径測定",
+    "printSendFlowCalibrationHelp": "この印刷物の開始でプリンター プロフィールの流れの口径測定のルーチンを使用して下さい。",
+    "printSendTimelapseCapture": "タイムラプスカメラ",
+    "printSendTimelapseCaptureHelp": "このプリント中にタイムラプスフレームをキャプチャします。",
+    "printSendAutoLeveling": "自動レベリング",
+    "printSendAutoLevelingHelp": "プリンターのネイティブベッドレベルのルーチンをプリント開始シーケンスの一部として実行します。",
+    "printSendRunCalibration": "プリンターキャリブレーションを実行",
+    "printSendRunCalibrationHelp": "プリンター独自のプロトコルは、印刷前の校正ルーチンを実行します。",
+    "printSendAuthenticationRequired": "このプリンターは認証が必要です。プリンターの管理を開き、要求された認証情報を入力します。",
+    "printSendPrinterOffline": "このプリンターはオフラインです。電源とネットワーク接続を確認してください。",
+    "printSendConnectionFailed": "MakerSpellはこのプリンターに接続できませんでした。",
+    "printSendUnsupported": "Gコード転送では対応しておりません。",
+    "printSendConnectionNotReady": "プリンター接続はまだ準備されていません。",
+    "printSendUploadUnsupported": "このプリンタアダプタは、G-codeをアップロードできません。 ファイルをエクスポートし、プリンターのインターフェイスを使用して転送することができます。",
+    "printSendBedMeshCalibration": "ホーム 軸と口径ベッド メッシュ",
+    "printSendBedMeshCalibrationHelp": "印刷する前に、MakerSpell は、Klipper が ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````",
+    "printSendCalibrating": "プリンタのキャリブレーション...",
+    "printSendStartingPrint": "プリントの開始...",
+    "printSendBambuCalibration": "Bambuのベッドの水平になることおよび振動口径測定を実行して下さい",
+    "printSendBambuCalibrationHelp": "制御されたベータ: MakerSpell は Bambu のネイティブ・キャリブレーションを開始します。 終了するのを待ち、アップロードされた G コードを始めて下さい。",
+    "networkPrinterBambuDeveloperPrintTitle": "Bambu Developer Modeから始める",
+    "networkPrinterBambuDeveloperPrintWarning": "MakerSpell は、ローカルの校正と印刷コマンドをこの Bambu プリンターに直接送信します。 ビルドプレートがクリアで、作業が始まる間、プリンターの近くに滞在していることを確認してください。",
+    "modelFileBrowseDrive": "ブラウズ Google Drive",
+    "driveModelsTitle": "Google Driveモデル",
+    "driveModelsSubtitle": "MakerSpell-Libraryのモデル",
+    "driveModelsEmpty": "MakerSpell-Library でサポートされているモデルファイルが見つかりませんでした。 ドライブの他の場所でファイルを選択するには、システムファイルピッカーを使用できます。",
+    "driveModelsError": "Google Drive ファイルが読み込まれることができません。 接続を確認してもう一度お試しください。",
+    "driveModelDownloading": "Google Driveからダウンロード",
+    "preparingSignIn": "サインインの準備...",
+    "driveModelDownloadingProgress": "{percent}% ・ {received} / {total}",
+    "@driveModelDownloadingProgress": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            },
+            "received": {
+                "type": "String"
+            },
+            "total": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerVariableLayers": "変数層",
+    "viewerVariableLayerHeight": "可変積層ピッチ",
+    "viewerVariableLayerHeightDescription": "薄層層を細く使用し、時間を節約します。",
+    "viewerQualitySpeed": "品質/速度",
+    "viewerQuality": "品質",
+    "viewerSpeed": "速度",
+    "viewerSmoothing": "滑らかさ",
+    "viewerKeepMinimumLayerHeight": "最低の層の高さの固定を保って下さい",
+    "viewerVariableLayerHeightApplied": "次のスライスに可変層の高さが使用されます",
+    "viewerDeleteModel": "モデルの削除",
+    "viewerSelectModelToDelete": "削除するモデルを選択",
+    "viewerAddPlate": "プレートを追加",
+    "viewerNewProject": "新規プロジェクト",
+    "viewerNewProjectConfirmation": "空のプロジェクトを作成しますか? 未保存のシーンの変更は消去されます。",
+    "viewerCreate": "作成する",
+    "viewerRecentProjects": "最近のプロジェクト",
+    "viewerRecentProjectsEmpty": "最近のプロジェクトファイルはありません",
+    "viewerMoveToPlate": "プレートに移動",
+    "viewerSelectModelToMove": "動くモデルを選択",
+    "viewerCurrentPlate": "現在の版",
+    "viewerMoveToNewPlate": "新しいプレートに移動",
+    "viewerAddConnector": "コネクターを追加",
+    "viewerEditConnector": "コネクターの編集",
+    "viewerCutConnectors": "コネクタ",
+    "viewerConnectorPlug": "プラグ",
+    "viewerConnectorDowel": "ドウェル",
+    "viewerConnectorSnap": "スナップ",
+    "viewerConnectorTolerance": "公差",
+    "viewerConnectorSize": "ファイルサイズ",
+    "viewerConnectorRotation": "回転",
+    "viewerConnectorStyle": "スタイル",
+    "viewerConnectorShape": "形状",
+    "viewerConnectorPlacementHint": "コネクタを配置するモデルをタップします。 回転してシーンをズームすることができます。",
+    "viewerConnectorSelectionHint": "コネクタをタップして有効または無効にします。",
+    "viewerConnectorPlaceMode": "コネクターを追加",
+    "viewerConnectorSelectMode": "コネクターの選択",
+    "viewerConnectorControlsTitle": "コネクター制御",
+    "viewerConnectorControlsBody": "切断面をタップしてコネクタを追加します。 選択モードでコネクタをタップして、有効または無効にします。 アクティブなコネクタは緑色で無効なコネクタはグレーです。 コネクタをダブルタップして削除します。 コネクタを押したまま、ドラッグして移動します。",
+    "viewerConnectorOptions": "コネクタオプション",
+    "viewerConnectorMove": "移動",
+    "viewerConnectorMoveHint": "モデルをタップすると、コネクタを新しい位置に移動します。",
+    "viewerConnectorDuplicate": "重複する",
+    "viewerConnectorMoved": "コネクターの移動",
+    "viewerConnectorPrism": "プリズム",
+    "viewerConnectorFrustum": "フラストム",
+    "viewerConnectorCircle": "円形",
+    "viewerConnectorTriangle": "三角形",
+    "viewerConnectorSquare": "スクエア",
+    "viewerConnectorHexagon": "六角形",
+    "appUpdateTitle": "新しいバージョンが準備完了",
+    "appUpdateAvailable": "新しいバージョン{appName}Google Playでご利用いただけます。ダウンロード中にアプリをご使用ください。",
+    "@appUpdateAvailable": {
+        "placeholders": {
+            "appName": {
+                "type": "String"
+            }
+        }
+    },
+    "appUpdateLater": "後で",
+    "appUpdateNow": "更新",
+    "appUpdateDownloading": "更新はバックグラウンドでダウンロードされます。アプリを使用することができます。",
+    "appUpdateReadyTitle": "ダウンロード",
+    "appUpdateReadyMessage": "アプリを再起動して更新を完了します。",
+    "appUpdateRestart": "再起動と更新",
+    "appUpdateFailed": "更新は完了できません。あとでお試しください。",
+    "serverUpdateRequiredTitle": "Update required",
+    "serverUpdateRequiredContent": "This version is no longer supported. Please update the app to continue.",
+    "serverUpdateRecommendedContent": "A newer version is available. We recommend updating for the best experience.",
+    "serverUpdateActionUpdate": "Update",
+    "betaProRewardReady": "クローズドアルファ報酬が準備完了",
+    "betaProSignInDescription": "MakerSpell Pro の 21 日間有効化するためにサインインします。支払い方法は必要ありません。",
+    "betaProActivating": "ベータプロを活動化させる",
+    "betaProActivatingDescription": "あなたのアカウントの資格情報は検証されています。",
+    "betaProActivationFailed": "Beta Proはあなたの注意を必要とします",
+    "betaProActivationRetryDescription": "報酬を検証できません。接続をチェックしてもう一度お試しください。",
+    "downloadDestination": "ダウンロード先",
+    "downloadDestinationDescription": "ダウンロードしたファイルを保存する場所を選択します。",
+    "imagesDestination": "イメージ",
+    "modelsProfilesDestination": "モデルとプロファイル",
+    "picturesMakerSpell": "写真/MakerSpell",
+    "downloadsMakerSpell": "ダウンロード/MakerSpell",
+    "customFolder": "カスタムフォルダ...",
+    "destinationCustomNote": "カスタムフォルダは、このプラットフォームではサポートされていません。アプリのストレージを使用します。",
+    "destinationRevoked": "保存されたフォルダのアクセスが失われました。目的地を再選択してください。",
+    "printFarmTab": "ファーム",
+    "printFarmTitle": "生産の農場",
+    "printFarmDescription": "プリンターのフリートと数量ベースの生産作業を1か所で管理できます。",
+    "printFarmNewOrder": "生産注文",
+    "printFarmFleetPrinting": "造形中",
+    "printFarmFleetReady": "レディー",
+    "printFarmFleetAttention": "こだわり",
+    "printFarmFleetOffline": "オフライン",
+    "printFarmFleetChecking": "チェックイン",
+    "printFarmSafetyNotice": "ジョブは自動的に起動しません。新しいプリントの前にビルドプレートがクリアであることを確認します。",
+    "printFarmOrders": "生産注文",
+    "printFarmNoOrders": "生産注文はまだありません。最初の数量ベースのジョブを作成します。",
+    "printFarmRemainingSummary": "{orders} オープン・{units} 残りユニット",
+    "@printFarmRemainingSummary": {
+        "placeholders": {
+            "orders": {
+                "type": "int"
+            },
+            "units": {
+                "type": "int"
+            }
+        }
+    },
+    "printFarmOrderName": "商品名・商品名",
+    "printFarmTargetQuantity": "ターゲット量",
+    "printFarmInvalidQuantity": "少なくとも1を入力してください",
+    "printFarmMaterialOptional": "材料(任意)",
+    "printFarmMaterialUnspecified": "未指定の材料",
+    "printFarmOrderProgress": "{completed}/{target} 完了・{remaining} 残り",
+    "@printFarmOrderProgress": {
+        "placeholders": {
+            "completed": {
+                "type": "int"
+            },
+            "target": {
+                "type": "int"
+            },
+            "remaining": {
+                "type": "int"
+            }
+        }
+    },
+    "printFarmCompleted": "完了",
+    "printFarmFailed": "失敗",
+    "printFarmStateActive": "アクティブ",
+    "printFarmStatePaused": "パユース",
+    "printFarmStateCompleted": "完了",
+    "printFarmStateCancelled": "キャンセル",
+    "printFarmPause": "一時停止",
+    "printFarmResume": "再開",
+    "printFarmSuggestPrinter": "プリンターを提案する",
+    "printFarmSuggestionExplanation": "プリンターは、ライブ状態、ファイルサポート、マテリアルスロット、既知のハードウェア要件によってランク付けされます。 割り当ては印刷を開始しません。",
+    "printFarmNoPrinters": "保存されたプリンターは使用できません。",
+    "printFarmPrinterCompatible": "既知の仕事の条件と互換性がある",
+    "printFarmAssignedPrinter": "委託されたプリンター",
+    "printFarmChangePrinter": "アクセス",
+    "printFarmOperatorConfirmed": "オペレーターがプリンターとジョブを見直しました",
+    "printFarmBedClearConfirmed": "造りの版は明確で、準備が整います",
+    "printFarmReadyForManualStart": "手動開始のための準備",
+    "printFarmFitCannotStart": "このジョブを受信して起動できません",
+    "printFarmFitFileUnsupported": "ファイルの種類はサポートされていません",
+    "printFarmFitOffline": "プリンターはオフラインです",
+    "printFarmFitAttention": "プリンターは注意を要求します",
+    "printFarmFitBusy": "busy; 現在のプリントの後にキューに入れることができます",
+    "printFarmFitSlotsUnknown": "物質的なスロットは確認できません",
+    "printFarmFitNotEnoughSlots": "十分に荷を積まれた物質的なスロット無し",
+    "printFarmFitMaterialUnknown": "積荷された材料は確認できません",
+    "printFarmFitMaterialChange": "必要な材料変更",
+    "printFarmFitNozzleUnknown": "ノズルの直径は確認されなければなりません",
+    "printFarmFitNozzleMismatch": "ノズル径は一致しません",
+    "printFarmFitBedTooSmall": "ビルドボリュームが小さい",
+    "printFarmFitBedUnknown": "ビルドボリュームは検証する必要があります",
+    "printFarmNoVerifiedGCode": "検証済みのGコードが添付されていない",
+    "printFarmAttachGCode": "アタッチ検証済みGコード",
+    "printFarmChangeGCode": "Gコードの変更",
+    "printFarmAttachGCodeDescription": "アーカイブされたプリントセンタージョブを選択します。 MakerSpell はハッシュを検証し、独立したファームコピーを保持します。",
+    "printFarmNoArchivedGCode": "未定のG-codeが利用可能です。 最初にモデルをスライスまたは送信してください。",
+    "printFarmGCodeVerificationFailed": "Gコードのアーカイブは検証できませんでした。",
+    "printFarmGCodeRequirements": "{tools} 工具・{nozzle} mm ノズル",
+    "@printFarmGCodeRequirements": {
+        "placeholders": {
+            "tools": {
+                "type": "int"
+            },
+            "nozzle": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterTitle": "プリントセンター",
+    "printCenterSubtitle": "プリンター、アクティブなジョブ、既定のファイル",
+    "printCenterActive": "アクティブ",
+    "printCenterReady": "レディー",
+    "printCenterHistory": "プロフィール",
+    "printCenterOnlinePrinters": "オンラインプリンター",
+    "printCenterViewAll": "すべて表示",
+    "printCenterNoActiveJobs": "アクティブプリントなし",
+    "printCenterNoReadyJobs": "印刷を待っているファイルはありません",
+    "printCenterNoHistory": "印刷履歴はこちら",
+    "printCenterNotifications": "プリンター通知",
+    "printCenterNotifyCompleted": "プリント完了",
+    "printCenterNotifyInterrupted": "中断または失敗を印刷して下さい",
+    "printCenterNotifyOffline": "プリンターはオフラインで行きます",
+    "printCenterStart": "プリントの開始",
+    "printCenterRefresh": "リフレッシュステータス",
+    "printCenterClearHistory": "明確な歴史",
+    "printCenterQueueSafety": "Ready ジョブは自動的に起動しません。ビルドプレートが次のプリントを開始する前にクリアに確認します。",
+    "printCenterStartFailed": "印刷は開始できませんでした",
+    "printCenterRepeatExact": "同じ設定で再び印刷する",
+    "printCenterRepeatChecking": "アーカイブされたファイル、プロファイル、プリンターをチェックする...",
+    "printCenterRepeatReady": "アーカイブされたGコードはそのままです。ビルドプレートが再び印刷する前にクリアであることを確認します。",
+    "printCenterRepeatChanged": "ソースプロジェクトやプリンタープロファイルは、このプリント以来変更されました。 検証済みのアーカイブされたGコードは変換されず、印刷される前に正確に送信することができます。",
+    "printCenterRepeatPrinterChanged": "保存されたプリンタは、異なるハードウェアや接続の詳細を報告しています。 続行する前にの違いを確認してください。",
+    "printCenterRepeatUnavailable": "正確なアーカイブされたコピーが利用できず、その完全性チェックが失敗しました。 ソースを再開し、安全に印刷を準備します。",
+    "printCenterRepeatOldPrinter": "印刷: {printer}",
+    "@printCenterRepeatOldPrinter": {
+        "placeholders": {
+            "printer": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterRepeatCurrentPrinter": "現在のプリンター: {printer}",
+    "@printCenterRepeatCurrentPrinter": {
+        "placeholders": {
+            "printer": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterOpenSource": "オープンソース",
+    "printCenterStateReady": "印刷する準備",
+    "printCenterStatePrinting": "造形中",
+    "printCenterStatePaused": "パユース",
+    "printCenterStateCompleted": "完了",
+    "printCenterStateFailed": "注意が必要",
+    "printCenterStateCancelled": "キャンセル",
+    "printCenterQuietHours": "静かな時間",
+    "printCenterQuietHoursStart": "静かな時間スタート",
+    "printCenterQuietHoursEnd": "静かな時間終了",
+    "printJournalEntryTitle": "印刷ジャーナルエントリ",
+    "printJournalEdit": "雑誌を印刷する結果を追加",
+    "printJournalRating": "この印刷はどのように消えましたか?",
+    "printJournalNote": "パーソナルノート",
+    "printJournalNoteHint": "記録の表面の質、適合、物質的な変更または試みの次の時間。",
+    "printJournalAddPhoto": "結果写真を追加",
+    "printJournalRemovePhoto": "写真の削除",
+    "printJournalOpenProject": "プロジェクトとして開く",
+    "printJournalSave": "保存",
+    "printJournalDelete": "エントリの削除",
+    "printerMaintenanceTab": "採用情報",
+    "printerMaintenanceDescription": "メンテナンスは、プリンタ機能文書の実際のプリント使用量と閾値から計算されます。",
+    "printerMaintenanceEmpty": "これらのプリンタのメンテナンスや未解決の問題はありません。",
+    "printerMaintenanceRecommendations": "メンテナンスの推奨事項",
+    "printerIssuesTitle": "注意が必要な問題",
+    "printerIssueResolve": "解決する",
+    "printerIssueResolved": "解決する",
+    "printerIssueRetry": "もう一度お試しください",
+    "printerIssueResolveAll": "すべてを解決する",
+    "printCenterProgressTab": "ニュース",
+    "progressCenterTitle": "私の MakerSpell 進行状況",
+    "progressCenterDescription": "ここまで完成した作品だけ。ストリーク、ポイント、リーダーボードはありません。",
+    "progressFirstPrintTitle": "最初の成功したプリント",
+    "progressFirstPrintDescription": "ネットワークプリンターでプリントを成功させる",
+    "progressFirstSendTitle": "最初のネットワーク送信",
+    "progressFirstSendDescription": "準備されたGコードをプリンターに送ります。",
+    "progressMultiPlateTitle": "マルチプレートプロジェクト",
+    "progressMultiPlateDescription": "複数のプレートを含むプロジェクトを巧みにスライスします。",
+    "progressFirstListingTitle": "ファーストプロダクト公開",
+    "progressFirstListingDescription": "ショップを通じての最初の成功したマーケットプレースを公開します。",
+    "progressUnlocked": "完了",
+    "progressLocked": "未完成",
+    "progressInviteTitle": "共有 MakerSpell",
+    "progressInviteDescription": "招待されたコードを友人と共有してください。 承認後、最初の実際のプリント、ネットワーク送信、または製品公開タスクを完了し、招待状が確認され、コミュニティビルダーバッジがロック解除されます。 コードを入力するだけで報酬はありません。",
+    "progressInviteCodeHelp": "誰かがMakerSpellの招待コードを送ったら、ここに受け入れてください。 あなたの最初の成功の後にのみ送信者のために検証されます。",
+    "progressInviteShare": "招待コードを共有する",
+    "progressInviteShareText": "MakerSpell で 3D モデルを見つけてプリンターに送信します。 私の招待コード: {code}\n{url}",
+    "@progressInviteShareText": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            },
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "progressInviteActivated": "{count} 検証された招待状",
+    "@progressInviteActivated": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "progressInvitePending": "{count} 活発化を待っています",
+    "@progressInvitePending": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "progressCommunityBadge": "コミュニティビルダーバッジロック解除",
+    "progressHaveInviteCode": "私は招待コードを持っています",
+    "progressEnterInviteCode": "招待コードを入力してください",
+    "progressAcceptInvite": "コードを受け取る",
+    "progressInviteAccepted": "招待状を保存します。最初の成功の後に自動的に起動します。",
+    "progressInviteInvalid": "コードは受け付けられません。コードと接続を確認してください。",
+    "progressInviteUnavailable": "招待状情報は現在利用できません。",
+    "progressInviteSignIn": "招待状コードを作成して共有するためにサインインします。",
+    "progressInviteLoadFailed": "サインインされますが、招待状情報はサーバーから読み込まれることができません。接続を確認してもう一度お試しください。",
+    "printerMaintenanceDone": "ログイン",
+    "printerMaintenanceBuildPlate": "ビルドプレートの清掃と検査",
+    "printerMaintenanceBeltSurface": "ベルトの表面をきれいにし、点検して下さい",
+    "printerMaintenanceBelts": "インスペクトベルトテンション",
+    "printerMaintenanceNozzle": "ノズルの点検か取り替えて下さい",
+    "printerMaintenanceCfsPath": "CFSフィラメントパスをきれいにする",
+    "printerMaintenanceLinearMotion": "リニアモーションシステム",
+    "printerMaintenanceToolheads": "ツールヘッドを調べる",
+    "printerMaintenanceHoursProgress": "{used} / {limit} 印刷時間",
+    "@printerMaintenanceHoursProgress": {
+        "placeholders": {
+            "used": {
+                "type": "String"
+            },
+            "limit": {
+                "type": "String"
+            }
+        }
+    },
+    "printerMaintenanceFilamentProgress": "{used} / {limit} g フィラメント",
+    "@printerMaintenanceFilamentProgress": {
+        "placeholders": {
+            "used": {
+                "type": "String"
+            },
+            "limit": {
+                "type": "String"
+            }
+        }
+    },
+    "printJournalExport": "輸出ジャーナル",
+    "printJournalExportDescription": "MakerSpell 印刷ジャーナル輸出",
+    "printJournalExportFailed": "印刷ジャーナルはエクスポートできません: {error}",
+    "@printJournalExportFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "continueHubTitle": "お問い合わせ",
+    "continueActivePrint": "アクティブプリント",
+    "continueRecentProject": "最近のプロジェクト",
+    "continueLastSuccessfulSetup": "最後の成功したセットアップ",
+    "continueSetupApplied": "成功したプリントセットアップは準備が整います",
+    "printResultShareTitle": "プリント結果を共有する",
+    "printResultShareSubtitle": "このプレビューカードのみが共有されます。 ファイルパスとプリンターアドレスはプライベートに滞在します。",
+    "printResultShareAction": "シェア",
+    "printResultShareCaption": "MakerSpell で印刷",
+    "printResultCompleted": "プリント完了",
+    "printerNeedsAttention": "プリンターは注意を要求します",
+    "crealityErrorFr2849": "フィラメントは、CFSハブ(FR2849)に引き込められません。フィラメントパスをクリアし、プリンターから再試行します。",
+    "plateSettingsTitle": "プレート設定",
+    "plateSettingsName": "プレート名",
+    "plateSettingsBedType": "プレート",
+    "plateSettingsGlobalBedType": "グローバルプレートタイプと同じ",
+    "plateSettingsSmoothHighTempPlate": "滑らかなPEI/高温版",
+    "plateSettingsTexturedPeiPlate": "PEIプレート",
+    "plateSettingsCustomizedPlate": "カスタマイズされた版",
+    "plateSettingsEpoxyResinPlate": "エポキシ樹脂プレート",
+    "plateSettingsCoolPlate": "常温プレート",
+    "plateSettingsTexturedCoolPlate": "テクスチャークールプレート",
+    "plateSettingsSuperTackPlate": "スーパータックプレート",
+    "plateSettingsPrintSequence": "造形シーケンス",
+    "plateSettingsGlobalPrintSequence": "グローバルプリントシーケンスと同じ",
+    "plateSettingsByLayer": "積層順",
+    "plateSettingsByObject": "オブジェクト順",
+    "plateSettingsSpiralVase": "スパイラル",
+    "plateSettingsSameAsGlobal": "グローバルに",
+    "plateSettingsOn": "お問い合わせ",
+    "plateSettingsOff": "オフ",
+    "plateSettingsFirstLayerFilamentSequence": "第一層フィラメントシーケンス",
+    "plateSettingsOtherLayerFilamentSequence": "その他のレイヤーフィラメントシーケンス",
+    "plateSettingsAutomatic": "オートマチック",
+    "plateSettingsCustomize": "カスタマイズ",
+    "plateSettingsAddLayerRange": "レイヤー範囲の追加",
+    "plateSettingsRemoveLastLayerRange": "最後のレイヤー範囲を削除します",
+    "plateSettingsLayer": "積層",
+    "plateSettingsTo": "→",
+    "plateSettingsEnd": "リリース",
+    "viewer3mfSettingsTitle": "3MFプロジェクト設定",
+    "viewer3mfSettingsSummary": "フィラメントパレットは、モデルの色の割り当てを変更することなくマージされています。 プリンタとプロセス設定がこのプロジェクトを制御する必要がある3MFを選択します。",
+    "viewer3mfPaletteMerged": "%1プロジェクトフィラメントは、絵画やスライシングのために利用可能です。",
+    "viewer3mfPrimaryFile": "プライマリファイル・現在推奨",
+    "viewer3mfUseSettings": "これらの設定を使用する",
+    "viewer3mfSettingsSourceTooltip": "3MF設定ソースを選択",
+    "platformAuthCreateAccount": "アカウントを作成する",
+    "printerErrorOfficialSolution": "公式ソリューションを見る",
+    "printerErrorCodeLabel": "エラーコード: {code}",
+    "@printerErrorCodeLabel": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            }
+        }
+    },
+    "printerCommunityBannerTitle": "このプリンタを改善するのに役立ちます",
+    "printerCommunityBannerDescription": "開発者は、このプリンタにアクセスできないため、すべての実デバイステストの問題です。 接続とインターフェイスのルールを確認し、どのような作業や改善が必要なのかをマークします。",
+    "printerCommunityBannerWorkingDescription": "プリンターの横に安全にテストした後、あなたの発見を共有し、作業機能の承認を記憶してください。あなたの確認はMakerSpellと世界中のメーカーコミュニティをサポートし、このデバイスがコミュニティに有能なステータスを獲得するのに役立ちます。",
+    "printerCommunityEditRules": "レビューと改善",
+    "printerCommunityApprove": "すべての作品",
+    "printerCommunityApproved": "確認済み",
+    "printerCommunityApprovalCount": "{count} 人が確認",
+    "@printerCommunityApprovalCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerCommunityApprovalError": "確認は保存できません。サインインしてもう一度お試しください。",
+    "communityPrinterProfilesTitle": "プリンター接続とインターフェイスルール",
+    "communityPrinterTargetAdapter": "このプリンタで使用されるルール",
+    "communityPrinterRefresh": "コミュニティルールをリフレッシュ",
+    "communityPrinterCreateProfile": "プロフィールを作成する",
+    "communityPrinterSystemAdapters": "システムアダプタ",
+    "communityPrinterSystemAdaptersDescription": "MakerSpell で現在出荷されている接続およびインターフェースルール。",
+    "communityPrinterRegistryUnavailable": "システムアダプタレジストリは利用できません。",
+    "communityPrinterOverrides": "コミュニティオーバーライド",
+    "communityPrinterOverridesDescription": "コンパイルされたアダプターを拡張するプロファイルと草案をインストールしました。",
+    "communityPrinterNoOverrides": "コミュニティがインストールされていない",
+    "communityPrinterSystemBadge": "システム",
+    "communityPrinterSectionsCount": "{count}セクション",
+    "@communityPrinterSectionsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterControlsCount": "{count} 制御",
+    "@communityPrinterControlsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterServicesCount": "{count} サービス",
+    "@communityPrinterServicesCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterCreateOverride": "オーバーライドの作成",
+    "communityPrinterConnection": "接続",
+    "communityPrinterCapabilities": "能力",
+    "communityPrinterInterfaceSections": "インターフェイスセクション",
+    "communityPrinterJobControls": "ジョブコントロール",
+    "communityPrinterDeviceControls": "デバイス制御",
+    "communityPrinterPrintOptions": "プリントオプション",
+    "communityPrinterRuntimeContracts": "ランタイム契約",
+    "communityPrinterCreateEditableOverride": "編集可能なコミュニティオーバーライドを作成する",
+    "communityPrinterNone": "無し",
+    "communityPrinterSettingsDescription": "コミュニティ維持されたプリンターのサポートを編集、プレビュー、検証、レビューします。",
+    "communityPrinterDocumentation": "プリンタープロファイルガイド",
+    "communityPrinterDocumentationOpenError": "プリンタのプロファイルガイドは開くことができませんでした。",
+    "communityPrinterCommunicationTitle": "このプロファイルが通信する方法",
+    "communityPrinterCommunicationDescription": "ベーストランスポートは、レビューされたプリンタ固有のHTTP、WebSocket、またはネイティブプロトコルコードを選択します。 インターフェイスコントロールは、以下の論理的な操作マッピングを呼び出します。 それらはすべて同じベンダーリクエストを使用していません。",
+    "communityPrinterUnknownBaseTransport": "インストールされたランタイムレジストリでは、このベーストランスポートは使用できません。",
+    "communityPrinterOperationMappings": "オペレーションマッピング",
+    "communityPrinterOpenOperationJson": "営業開始 JSON",
+    "communityPrinterDelegateMapping": "{action}を{adapter}に委任",
+    "@communityPrinterDelegateMapping": {
+        "placeholders": {
+            "action": {
+                "type": "String"
+            },
+            "adapter": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRuntimeReviewRequired": "サンドボックスの宣言的なランタイム({kind})を介して実行します。",
+    "@communityPrinterRuntimeReviewRequired": {
+        "placeholders": {
+            "kind": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterDeclarativeConnection": "決定的な接続",
+    "communityPrinterDeclarativeConnectionDescription": "アプリケーションコードを追加せずに新しいプリンタプロトコルを記述します。",
+    "communityPrinterDeclarativeEnable": "有効化",
+    "communityPrinterUseAsPrimaryTransport": "主要な交通機関として使用して下さい",
+    "communityPrinterDeclarativeSafety": "選択したプリンタのアドレスにリクエストが制限されます。リダイレクトと安全なヘッダーはブロックされます。",
+    "communityPrinterConnectionScheme": "スキーム",
+    "communityPrinterConnectionPort": "港(空=発見された港)",
+    "communityPrinterConnectionBasePath": "ベースパス",
+    "communityPrinterConnectionTimeout": "タイムアウト(ms)",
+    "communityPrinterConnectionAuthentication": "認証",
+    "communityPrinterConnectionAuthHeader": "認証ヘッダー",
+    "communityPrinterHttpWebSocketChannel": "HTTP/WebSocket チャネル",
+    "communityPrinterHttpWebSocketChannelDescription": "HTTP 操作は、このエンドポイントを使用します。WebSocket 操作は、WS または WSS を同じプリンタエンドポイントで自動的に使用します。",
+    "communityPrinterMqttChannel": "MQTT / MQTTSチャンネル",
+    "communityPrinterMqttChannelDescription": "コマンドを発行し、プリンターのトピックに関する返信をお待ちください。",
+    "communityPrinterFtpChannel": "FTP/FTPS チャネル",
+    "communityPrinterFtpChannelDescription": "プリンターファイルサービスのファイルリスト、アップロード、削除",
+    "communityPrinterEnableChannel": "チャネルを有効にする",
+    "communityPrinterDisableChannel": "無効なチャネル",
+    "communityPrinterClientId": "クライアントID",
+    "communityPrinterKeepAliveSeconds": "生き続ける(秒)",
+    "communityPrinterUsername": "ユーザ名",
+    "communityPrinterTlsMode": "TLSモード",
+    "communityPrinterRootPath": "ルートパス",
+    "communityPrinterMqttTopic": "MQTT トピック",
+    "communityPrinterMqttResponseTopic": "応答トピック(オプション)",
+    "communityPrinterMqttQos": "MQTTのQoS",
+    "communityPrinterFtpAction": "FTP アクション",
+    "communityPrinterFtpPath": "リモートファイルパス",
+    "communityPrinterTcpChannel": "TCP/TCPSコンソール",
+    "communityPrinterTcpChannelDescription": "ライン指向のコマンドをプリンターソケットに直接送信し、必要に応じて応答を読み取ります。",
+    "communityPrinterLineEnding": "ラインエンディング",
+    "communityPrinterResponseMode": "応答モード",
+    "communityPrinterMaxResponseBytes": "最大応答サイズ(バイト)",
+    "communityPrinterTcpCommand": "TCPコマンドテンプレート",
+    "communityPrinterProtocolOperations": "プロトコル操作",
+    "communityPrinterSecureDeclarativeRuntime": "安全な宣言的なランタイム",
+    "communityPrinterAddOperation": "操作を追加",
+    "communityPrinterEditOperation": "編集操作",
+    "communityPrinterOperationId": "オペレーションID",
+    "communityPrinterOperationExecutionType": "実行タイプ",
+    "communityPrinterCompiledAdapterAction": "コンパイルされたアダプターの行為",
+    "communityPrinterHttpMethod": "HTTP メソッド",
+    "communityPrinterRelativeUrlPath": "プリンター相対URLパス",
+    "communityPrinterRelativeWebSocketPath": "プリンター相対的なWebSocketパス",
+    "communityPrinterCommandTemplate": "コマンドテンプレート",
+    "communityPrinterRequestJson": "リクエスト JSON",
+    "communityPrinterResponseMappingJson": "レスポンスマッピング JSON",
+    "communityPrinterResponseMappingHelp": "地図正規化フィールド、例えば: {example}",
+    "@communityPrinterResponseMappingHelp": {
+        "placeholders": {
+            "example": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRunningPrintOption": "ランニング {option}...",
+    "@communityPrinterRunningPrintOption": {
+        "placeholders": {
+            "option": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterPermissions": "パーミッション",
+    "communityPrinterInterfaceControls": "インターフェイス制御",
+    "communityPrinterAddInterfaceControl": "インターフェイス制御を追加",
+    "communityPrinterEditInterfaceControl": "インターフェイス制御の編集",
+    "communityPrinterAddOperationFirst": "インターフェイス制御を作成する前に操作を追加します。",
+    "communityPrinterNewControl": "新しい制御",
+    "communityPrinterControlId": "制御ID",
+    "communityPrinterControlLabel": "ラベル",
+    "communityPrinterControlType": "制御タイプ",
+    "communityPrinterControlOperation": "オペレーション",
+    "communityPrinterControlValuePath": "値パス(オプション)",
+    "communityPrinterControlVisibleWhen": "可視性時(任意)",
+    "communityPrinterControlMinimum": "最小",
+    "communityPrinterControlMaximum": "最大",
+    "communityPrinterControlStep": "手順",
+    "communityPrinterControlUnit": "単位(任意)",
+    "communityPrinterControlConfirmation": "確認が必要",
+    "communityPrinterControlRequired": "IDとラベルが必要です。",
+    "communityPrinterControlUnique": "制御IDは一意である必要があります。",
+    "communityPrinterControlMustBeNumber": "{field} は番号でなければなりません。",
+    "@communityPrinterControlMustBeNumber": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRestoreProfile": "以前のバージョンの復元",
+    "communityPrinterRestoreProfileTitle": "プリンタープロファイルを復元する?",
+    "communityPrinterRestoreUnsavedMessage": "修正されていない変更は破棄され、編集が開始されたときに開いたバージョンに戻ります。",
+    "communityPrinterRestoreInstalledMessage": "現在のローカルプロファイルは、以前の検証済みバージョンに置き換えられます。",
+    "communityPrinterRestoreAction": "復元",
+    "communityPrinterRestoreSuccess": "以前のプリンタープロファイルが復元されました。",
+    "communityPrinterRestoreUnavailable": "以前のプロファイルバージョンはありません。",
+    "communityPrinterRestoreFailure": "プロファイルは復元できません: {error}",
+    "@communityPrinterRestoreFailure": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingCurrencyMismatch": "選択した {store} 市場は {currency} を必要とします。製品の詳細に戻り、通貨を {currency} に設定し、その通貨で販売価格を入力します。通貨を変更すると、金額を変換しません。",
+    "@listingCurrencyMismatch": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "currency": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPreparationFailed": "現在のストアのルールや為替レートが読み込まれることができません。インターネット接続とルールのアドレスをステージングし、再試行してください。何も公開されていません。",
+    "listingCurrencyConversion": "{source} を {target} に変換しますか? フランクフルトの参照レートは {date} です。 確認後、更新された価格を確認し、再度公開を押します。 これは保証された銀行変換率ではありません。",
+    "@listingCurrencyConversion": {
+        "placeholders": {
+            "source": {
+                "type": "String"
+            },
+            "target": {
+                "type": "String"
+            },
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerMeshBoolean": "メッシュブール",
+    "viewerBooleanDescription": "2つの無塗装のソリッドメッシュを選択します。 Aは結果とBによって交換されます。 穴をカットするには、A、切断形状をB、その後の差(A - B)としてメインモデルを選択します。 最大5万入力三角形。",
+    "viewerBooleanUnion": "ユニオン(A + B)",
+    "viewerBooleanDifference": "違い(A − B)",
+    "viewerBooleanIntersection": "断面(A ☞ B)",
+    "viewerBooleanUnionShort": "ユニオン",
+    "viewerBooleanDifferenceShort": "よくある質問",
+    "viewerBooleanIntersectionShort": "インターセクト",
+    "viewerBooleanMainModel": "A・メインモデル",
+    "viewerBooleanToolModel": "B・工具形状",
+    "viewerBooleanChooseObject": "オブジェクトの選択",
+    "viewerBooleanSwap": "スワップAとB",
+    "viewerBooleanUnionHint": "AとBを1つのソリッドモデルに結合します。",
+    "viewerBooleanDifferenceHint": "AからBのボリュームを削除します。",
+    "viewerBooleanIntersectionHint": "A と B で共有されるボリュームのみを保持します。",
+    "viewerBooleanSelectOnModel": "ビューで選ぶ",
+    "viewerBooleanSelectModels": "Boolean モデルを選択",
+    "viewerBooleanTapSelect": "タップ",
+    "viewerBooleanBoxSelect": "ボックス",
+    "viewerBooleanClearSelection": "明確な選択",
+    "viewerBooleanSelectedCount": "{count} 選択・正確に選択 2",
+    "@viewerBooleanSelectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerBooleanCalculate": "計算する",
+    "viewerBooleanNeedTwoMeshes": "少なくとも2つのサポートされているソリッドメッシュを含むモデルを追加または選択します。",
+    "viewerBooleanMemoryWarning": "この操作は大量のメモリを使用し、アプリを一時的に非応答にすることができます。 続きを読みます?",
+    "viewerBooleanApplyTitle": "Boolean結果を適用しますか?",
+    "viewerBooleanResultSummary": "結果は{count}の三角形を含んでいます。 Aは置換され、Bは消費され、Undoは両方を元通りにすることができます。",
+    "@viewerBooleanResultSummary": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerBooleanRunning": "ボオラン幾何学を計算する...",
+    "viewerBooleanApply": "適用",
+    "viewerBooleanFailed": "メッシュブール失敗: {error}",
+    "@viewerBooleanFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerBooleanInvalidMesh": "両方のオペランドは、自己交差する固体メッシュを閉じなければなりません。",
+    "viewerBooleanEmptyResult": "この操作は空の結果を生成しました。",
+    "viewerBooleanSourceChanged": "計算中に選択した幾何学が変更されました。もう一度お試しください。",
+    "viewerBooleanUnsupported": "選択したメッシュの1つは、サポートされていない塗料、材料、またはプロジェクトメタデータが含まれています。",
+    "viewerBooleanMemoryLimit": "このブール操作は、利用可能なデバイスメモリに大きすぎます。",
+    "remindersTitle": "リマインダー",
+    "remindersDescription": "保存したものに関する静かなリマインダー: フォロー中のデザイナーの新着モデル、お気に入りの値下げ、保存した検索の新着結果、コンテストの締め切り、スライス枠。すべて端末内で計算されます。",
+    "remindersPermissionDenied": "通知の許可が得られていないため、リマインダーはアプリ内の通知センターにのみ表示されます。",
+    "retentionDesignerNewModelsTitle": "{designer} の新着",
+    "retentionDesignerNewModelsBody": "前回の訪問以降に {count} 件の新しいモデルがあります。",
+    "retentionFavoritePriceDropTitle": "お気に入りが値下げされました",
+    "retentionFavoritePriceDropBody": "{model} は現在 {price} です。",
+    "retentionFavoriteNowFreeTitle": "お気に入りが無料になりました",
+    "retentionFavoriteNowFreeBody": "{model} を無料でダウンロードできます。",
+    "retentionSavedSearchTitle": "保存した検索に新着結果",
+    "retentionSavedSearchBody": "{query} の新しい結果が {count} 件あります。",
+    "retentionContestEndingTitle": "まもなく終了するコンテスト",
+    "retentionContestEndingBody": "{contest} は 2 日以内に締め切られます。",
+    "retentionContestStartingTitle": "コンテストが始まりました",
+    "retentionContestStartingBody": "{contest} が作品を受付中です。",
+    "retentionContestEndingDaysBody": "{contest} は {days} 日以内に締め切られます。",
+    "retentionContestEndingHoursBody": "{contest} は {hours} 時間以内に締め切られます。",
+    "retentionContestEndingImminentBody": "{contest} は 1 時間以内に締め切られます。",
+    "retentionContestStartingSoonBody": "{contest} は 24 時間以内に始まります。",
+    "retentionContestNameOnPlatform": "{platform} のコンテスト",
+    "retentionContestNameGeneric": "コンテスト",
+    "remindersContestRuleNote": "コンテストのリマインダーは最も近い締め切りを選び、同じコンテストは一度だけ通知されます。",
+    "retentionQuotaExhaustedTitle": "今週のスライス枠を使い切りました",
+    "retentionQuotaExhaustedBody": "報酬付き広告を見ると、もう 1 回スライスできます。",
+    "retentionQuotaRenewedTitle": "スライス枠が復活しました",
+    "retentionQuotaRenewedBody": "今週もモデルをスライスできます。",
+    "retentionShopTrialTitle": "Shop の体験をまだ使っていません",
+    "retentionShopTrialBody": "Shop の価格設定ワークフローを一度お試しください。",
+    "activationChecklistTitle": "はじめの一歩",
+    "activationChecklistSubtitle": "任意です。好きな順番で進めても、このリストを閉じてもかまいません。",
+    "activationChecklistProgress": "{completed}/{total} 完了",
+    "activationChecklistHide": "このリストを閉じる",
+    "activationStepSearch": "モデルを検索する",
+    "activationStepSave": "お気に入りに保存する",
+    "activationStepSlice": "モデルをスライスする",
+    "activationStepPrinter": "プリンターを接続する",
+    "activationStepPrint": "印刷を開始する",
+    "remindersPermissionInAppFallback": "システム通知がオフのため、リマインダーはアプリ内の通知センターにのみ表示されます。",
+    "notificationCenterPermissionInAppFallback": "システム通知がオフのため、リマインダーはここにまとめられます。",
+    "settingsSlicingQuotaTitle": "スライスの残り回数",
+    "settingsSlicingQuotaSubtitle": "今週のスライス残り回数を確認できます。",
+    "settingsSlicingQuotaCatalogTitle": "カタログのプロジェクト",
+    "settingsSlicingQuotaLocalTitle": "ローカルファイル",
+    "settingsSlicingQuotaWelcomeTitle": "ウェルカムプロジェクト",
+    "settingsSlicingQuotaRewardedTitle": "広告視聴で追加",
+    "settingsSlicingQuotaRewardedDescription": "任意の報酬付き動画を見ると、24時間のロック解除を追加で1回獲得できます。",
+    "settingsSlicingQuotaRewardedWeekUsedUp": "今週の追加回数は使い切りました。",
+    "settingsSlicingQuotaUnlockActive": "{time} までロック解除中です。",
+    "settingsSlicingQuotaUnlimitedPro": "無制限 (Pro)",
+    "settingsSlicingQuotaUnlimitedShop": "無制限 (Shop)",
+    "settingsSlicingQuotaUnlimitedSubtitle": "このプランにスライス回数の制限はありません。",
+    "settingsSlicingQuotaChecking": "残り回数を確認しています…",
+    "settingsSlicingQuotaRemaining": "残り {remaining} / {limit}",
+    "settingsSlicingQuotaRewardedToday": "本日: 残り {remaining} / {limit}"
+}

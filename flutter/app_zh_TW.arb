@@ -1,0 +1,4271 @@
+{
+    "@@locale": "zh_TW",
+    "listingOptionsTimedOut": "載入選項逾時 。 請檢查您的連線再試一次 。",
+    "settingsTitle": "設定",
+    "appPreferences": "App 首选项",
+    "privacyAndData": "隱私資料( D)",
+    "privacyAndDataSubtitle": "管理您的隱私、 廣告和帳號資料",
+    "privacyPolicy": "隱私協議",
+    "privacyPolicySubtitle": "看什么資料MakerSpell程序及原因",
+    "accountDeletionPage": "帳號刪除頁面",
+    "accountDeletionPageSubtitle": "即使無法存取應用程式, 也要求刪除",
+    "deleteSelectedData": "刪除選取的資料",
+    "dataDeletionSubtitle": "保留您的帳號時移除選取的資料",
+    "dataDeletionIntro": "選擇MakerSpell您要永久移除的資料 。",
+    "dataDeletionKeepAccount": "您的登入帳號、 電子郵件、 訂閱權限、 儲存記錄及個人 Drive 檔案將保留 。",
+    "dataCategoryProfile": "設定檔詳情",
+    "dataCategoryProfileDescription": "顯示名稱、 profile 影像參考、 公用加密金鑰及語言偏好 。",
+    "dataCategoryActivity": "活动和统计",
+    "dataCategoryActivityDescription": "用戶數據、應用程式數據、移民史",
+    "dataCategoryDiagnostics": "技術分析",
+    "dataCategoryDiagnosticsDescription": "隱私过滤的應用程式與印表機介面事件與您的帳號相關 。",
+    "dataCategorySupport": "支援歷史",
+    "dataCategorySupportDescription": "支援信件及與您的帳號相關的圖片 。",
+    "dataCategoryDriveConnection": "Google Drive連接",
+    "dataCategoryDriveConnectionDescription": "連接中繼資料與授權。 您的 Drive 中的檔案不被刪除 。",
+    "selectAllOptionalData": "選擇所有可選取的資料",
+    "selectAtLeastOneDataCategory": "選擇至少一個資料類別 。",
+    "deleteSelectedDataQuestion": "要永久刪除選取的資料嗎 ?",
+    "deleteSelectedDataWarning": "這無法恢復。 您的 MakerSpell 帳號將繼續使用 。",
+    "selectedDataDeleted": "選取的資料已刪除。 您的帳號仍在使用 。",
+    "dataDeletionFailed": "無法刪除選取的資料 :{error}",
+    "@dataDeletionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "dataDeletionWebRequest": "在網路上提交刪除要求",
+    "adPrivacyOptions": "廣告隱私選擇",
+    "adPrivacyOptionsSubtitle": "審查或改變廣告的同意選擇",
+    "adPrivacyOptionsUnavailable": "您的區域不需要廣告隱私選擇, 或尚未提供 。",
+    "couldNotOpenLink": "無法開啟連結 。",
+    "modelCustomizerTitle": "自訂模式",
+    "modelCustomizerDescription": "按您的需要調整此參數模型並下載產生的可打印檔案 。",
+    "modelCustomizerOpen": "自訂",
+    "modelCustomizerDownloadHint": "變更後使用自訂器的下載按鈕 。MakerSpell會自動捕捉產生的檔案。",
+    "modelCustomizerDownloadFailed": "無法新增產生的檔案到下載 。",
+    "theme": "主題",
+    "themeSubtitle": "選擇您的首選主題",
+    "dark": "黑暗",
+    "light": "光",
+    "system": "系統",
+    "language": "語言",
+    "languageSubtitle": "選擇應用程式語言",
+    "translationContributionTitle": "提供翻譯",
+    "translationContributionTileSubtitle": "翻譯您的語言并建議更正",
+    "translationContributionDescription": "與英文來源一起檢視目前的翻譯。 只有您更改的行會被送去批准; 您的應用程式語言沒有變更 。",
+    "translationContributionLanguage": "要审查的語言",
+    "translationContributionSearch": "搜尋翻譯",
+    "translationContributionEditTitle": "提出更正",
+    "translationContributionEdit": "編輯翻譯",
+    "translationContributionProposedText": "拟议翻譯",
+    "translationContributionTokenError": "占位符、連結和格式化符號必須不變 。",
+    "translationContributionContactTitle": "撰稿人詳情",
+    "translationContributionContinue": "繼續",
+    "translationContributionPending": "{count}更正已就绪",
+    "@translationContributionPending": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "translationContributionSubmit": "傳送{count}更正",
+    "@translationContributionSubmit": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "translationContributionSent": "謝謝你,你的翻譯更正被送去審查了",
+    "translationContributionFailed": "無法傳送更正 :{error}",
+    "@translationContributionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "translationContributionLoadFailed": "無法載入翻譯目錄 。",
+    "english": "注",
+    "turkish": "土耳其語Name",
+    "unitSystem": "單位系統",
+    "unitSystemSubtitle": "首选量度标准",
+    "metric": "公制",
+    "imperial": "英製",
+    "cancel": "取消",
+    "printSettings": "列印設定",
+    "sliceCompatibilityTitle": "切片前檢查",
+    "sliceCompatibilityDescription": "這些檢查不能讓模型不相容 。 請檢查差异, 需要時更改列印設定值, 或是繼續您目前的選擇 。",
+    "sliceCompatibilityContinue": "繼續吧",
+    "sliceCompatibilityVolumeTitle": "型號可能超過編譯音量",
+    "sliceCompatibilityVolumeDescription": "目前的部分場景在選取的印表機的盤子或可打印高度之外。 在列印前檢查位置與比例 。",
+    "sliceCompatibilityPrinterTitle": "3MF 是為另一個印表機準備的",
+    "sliceCompatibilityPrinterDescription": "專案描述檔 :{project}。選取的印表機 :{selected}.",
+    "@sliceCompatibilityPrinterDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "sliceCompatibilityMaterialsTitle": "使用的材料槽比打印机支持的要多",
+    "sliceCompatibilityMaterialsDescription": "此專案使用 {required} 資訊槽; 此印表機設定檔支援 {supported} 。",
+    "@sliceCompatibilityMaterialsDescription": {
+        "placeholders": {
+            "required": {
+                "type": "int"
+            },
+            "supported": {
+                "type": "int"
+            }
+        }
+    },
+    "sliceCompatibilityNozzleTitle": "鼻孔直径與專案不同",
+    "sliceCompatibilityNozzleDescription": "專案 :{project}已選擇 :{selected}嗯",
+    "@sliceCompatibilityNozzleDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "sliceCompatibilityFilamentTitle": "檔案型態與專案不同",
+    "sliceCompatibilityFilamentDescription": "專案 :{project}。已選取 :{selected}.",
+    "@sliceCompatibilityFilamentDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "slicerPreferencesTitle": "剪刀偏好",
+    "sliceCompatibilityWarningsPreferenceTitle": "片段前警告",
+    "showPrinterProfileMismatchWarningsTitle": "印表機描述檔差異警告",
+    "showPrinterProfileMismatchWarningsDescription": "當為不同的印表機設定檔準備了 3MF 專案時警告。 您可以在此再次開啟相容性對話框中已關閉的警告 。",
+    "showNozzleMismatchWarningsTitle": "通知差異警告",
+    "showNozzleMismatchWarningsDescription": "在 MakerSpell 中選取的喷嘴直径與專案內嵌值不同時警告 。",
+    "showFilamentMismatchWarningsTitle": "通知差異警告",
+    "showFilamentMismatchWarningsDescription": "當選取的絲狀型態與專案內嵌的材料不同時警告 。",
+    "searchSettings": "搜尋設定值",
+    "discoveringModels": "發現惊人的3D模型...",
+    "searchByTagHint": "按標籤搜尋( 參考: 關鍵字)...",
+    "searchAllPlatformsHint": "搜索所有平台...",
+    "recentSearches": "最近搜尋",
+    "searchSuggestions": "建议",
+    "clearAll": "清除全部",
+    "removeSearchHistory": "從搜尋歷史中移除",
+    "savedSearches": "已儲存的搜尋",
+    "followingAndSearches": "搜尋( S)",
+    "followedDesigners": "跟隨的設計者",
+    "noFollowedUpdates": "沒有人跟蹤",
+    "noFollowedUpdatesDescription": "追蹤其設定檔中的設計者, 或在 Explore 中儲存搜尋以建立您的個人更新清單 。",
+    "saveSearch": "儲存搜尋",
+    "removeSavedSearch": "移除已儲存的搜尋",
+    "noSavedSearches": "尚未儲存搜尋",
+    "noSavedSearchesDescription": "從 Explore 中儲存搜尋以回到最新的匹配模型 。",
+    "runSavedSearch": "顯示最新的匹配模型",
+    "noFiltersAvailable": "沒有可用的过滤器",
+    "globalFilters": "全局滤镜",
+    "platformFilters": "{platform} 滤波器",
+    "explore": "探索",
+    "favorites": "喜好",
+    "shop": "商店",
+    "workspace": "工作區域",
+    "close": "關閉",
+    "contests": "競賽",
+    "contestsDescription": "加入社區競賽, 發現特別挑戰,",
+    "downloadedModels": "已下載模型",
+    "downloadedModelsDescription": "檢視已下載的檔案, 在模擬檢視器中開啟, 分享, 或是管理活動下載 。",
+    "networkPrinters": "網路打印机",
+    "myPrinters": "我的打印机",
+    "networkPrintersDescription": "在您的本地網路上發現和管理打印机。 開啟裝置面板, 手動新增打印机, 並傳送工作 。",
+    "loadingMore": "正在載入...",
+    "somethingWentWrong": "出事了",
+    "tryAgain": "再試一次",
+    "nothingHereYet": "還沒有",
+    "emptyModelsDescription": "下拉以刷新或變更搜尋以發現更多模型",
+    "free": "自由",
+    "@platformFilters": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "platforms": "平台",
+    "all": "所有",
+    "platformCount": "{count}平台",
+    "noCategoriesAvailable": "沒有可用的類別",
+    "allPlatforms": "所有平台",
+    "selectAll": "選取所有",
+    "sortBy": "排序",
+    "tapOnePlatform": "跳過一個平台",
+    "selectedCount": "{count}已選擇",
+    "resetToDefaults": "重置為預設值",
+    "multi": "多數",
+    "onlyOne": "只有一個",
+    "done": "完成",
+    "clear": "清除",
+    "couldNotLoadCategories": "無法載入類別 :\\ n{error}",
+    "apply": "套用",
+    "sortTrending": "趋势",
+    "sortBestMatch": "最佳匹配",
+    "sortNewest": "最新",
+    "sortDownloads": "大部分下載",
+    "sortLikes": "最喜歡的",
+    "@platformCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@selectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@couldNotLoadCategories": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "filters": "过滤器",
+    "reset": "重設",
+    "none": "無",
+    "ascendingOrder": "升序",
+    "ok": "確認",
+    "calculating": "正在計算...",
+    "unknown": "未定義",
+    "loading": "正在載入...",
+    "makerSyncUser": "MakerSpell使用者",
+    "guest": "客人",
+    "driveConnected": "驱动器 :{email}",
+    "driveNotConnected": "驱动器未連接",
+    "driveModelBackup": "備份模型檔案以驅動",
+    "driveModelBackupDescription": "自動備份下載的模型和市場上市使用的來源檔案 。",
+    "driveModelBackupPremiumDescription": "AMakerSpellPro 或 Shop 訂閱需要使用此功能 。",
+    "driveModelBackupViewPlans": "查看 Pro 和 Shop 計劃",
+    "driveModelSyncNow": "同步",
+    "driveModelWifiOnly": "只同步到無線網絡",
+    "driveModelWifiOnlyDescription": "使用 Mobile 資料時保持模式備份排隊, 并在可用 Wi- Fi 時自動繼續 。",
+    "driveModelWifiRequired": "需要Wi-Fi, 因為启用了 Wi- Fi 唯一的同步 。",
+    "driveModelSyncCompleted": "驱动同步完成{count}模型文件。",
+    "@driveModelSyncCompleted": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveModelSyncFailed": "模型文件同步失敗 :{error}",
+    "@driveModelSyncFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "driveBackupNotificationTitle": "備份模式以驅動",
+    "driveBackupNotificationPreparing": "準備{count}模型文件...",
+    "@driveBackupNotificationPreparing": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveBackupNotificationProgress": "{percent}%·{current}/{total}·{fileName}",
+    "@driveBackupNotificationProgress": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            },
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "driveBackupNotificationCompleteTitle": "傳送備份完成",
+    "driveBackupNotificationCompleteBody": "{count}模擬檔案同步 。",
+    "@driveBackupNotificationCompleteBody": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveBackupNotificationPendingTitle": "已暫停",
+    "driveBackupNotificationPendingBody": "{count}文件正在等待同步。",
+    "@driveBackupNotificationPendingBody": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "notSignedIn": "未簽署",
+    "connected": "連接",
+    "signOut": "簽字",
+    "signInWithGoogle": "與 Google 簽署",
+    "premium": "ium",
+    "unlockPremium": "解鎖精金",
+    "removeAds": "移除廣告",
+    "upgrade": "升級",
+    "makerSyncFree": "MakerSpell自由",
+    "chooseMakerSpellPlan": "選擇您的 MakerSpell 計劃",
+    "freePlanBenefits": "取得無限制的專案切片和 Pro 的廣告免費經驗, 或是用 MakerSpell 商店解開每個 Pro and Shop 功能 。",
+    "freeCoreTitle": "免費的",
+    "freeCoreDescription": "找到、准备和打印工作流程不需要訂閱 。",
+    "freeCoreFeatureDiscovery": "找出模型并审查其來源和駕照",
+    "freeCoreFeatureSlicing": "本地剪切和在免費區內匯出 G 碼",
+    "freeCoreFeaturePrinters": "發現和管理相容的本地打印机",
+    "freeCoreFeatureWeeklyAllowance": "{catalog}目錄+ {local} 本地專案每周切片, 加上{welcome} 歡迎新帳號的專案",
+    "@freeCoreFeatureWeeklyAllowance": {
+        "placeholders": {
+            "catalog": {
+                "type": "int"
+            },
+            "local": {
+                "type": "int"
+            },
+            "welcome": {
+                "type": "int"
+            }
+        }
+    },
+    "freeCoreFeatureRewardedUnlock": "免費?{daily}每日)",
+    "@freeCoreFeatureRewardedUnlock": {
+        "placeholders": {
+            "daily": {
+                "type": "int"
+            }
+        }
+    },
+    "continueWithFree": "繼續自由",
+    "continueFreeWithAd": "繼續自由 !",
+    "freeActionProLimitNote": "此工作流程在 Free 上仍然可用。 Pro 只會移除使用限制和廣告 。",
+    "makerToolsSection": "可選擇的制造器升級",
+    "sellerToolsSection": "賣家的獨立工具",
+    "proOptionalUpgradeNote": "繼續免费使用核心工作流程, 或選擇 Pro 供無限制使用, 沒有廣告 。",
+    "betaAccessBannerTitle": "21天",
+    "betaAccessBannerDescription": "您的開啟測試獎勵已啟動。 它不會自動更新或收費 。",
+    "settingsCommerceFeaturesTitle": "顯示商店和电子商务工具",
+    "settingsCommerceFeaturesDescription": "繼續出售、上市、定价和儲存功能,",
+    "settingsCommerceFeaturesIncludedWithShop": "看得出來 因為MakerSpell商店已經啟動了",
+    "proPlanActive": "你的專案計劃已啟動",
+    "proPlanBenefits": "已啟用無限專案切片與無廣告實驗 。",
+    "shopPlanActive": "你的商店計劃已啟動",
+    "shopPlanBenefits": "全部MakerSpellPro and Shop 功能已啟用 。",
+    "viewPlans": "檢視計劃",
+    "upgradeToShop": "升級到商店",
+    "viewPlanDetails": "查看計劃的細節",
+    "checkingSubscription": "檢查訂閱中",
+    "pleaseWait": "等等...",
+    "activeNodes": "作用中節點",
+    "cloudPlatformSynchronizations": "云平台同步",
+    "manageActiveNodes": "管理作用中的節點",
+    "connectedCount": "{connected}/{total}連接",
+    "account": "帳號",
+    "signIn": "簽名",
+    "signedIn": "簽署于",
+    "continueWithGoogle": "繼續谷歌",
+    "onboardingSkip": "跳過",
+    "onboardingNext": "下一步",
+    "onboardingBack": "背面",
+    "onboardingGetStarted": "開始吧",
+    "onboardingWelcomeTitle": "所有制造者需要的\n在一個地方",
+    "onboardingWelcomeDescription": "從多個平台找到可打印模型而不跳過應用程式 。",
+    "onboardingDiscoverTitle": "找到您的下一個列印",
+    "onboardingDiscoverDescription": "搜索,比對,保存最愛, 并保持您的模型圖書館的排列。",
+    "onboardingSliceTitle": "手机上的切片和打印",
+    "onboardingSliceDescription": "在您的手機上準備並切片模型, 將 G 碼送到您的印表機, 從一個地方監控和管理您的本地網路上的印表機 。",
+    "onboardingShopTitle": "將指紋轉為商業",
+    "onboardingShopDescription": "用MakerSpell商店 連接市場 準備上市 計算價格 和你的團隊合作",
+    "onboardingCloudTitle": "留下你的專案",
+    "onboardingCloudDescription": "用 Google 簽署, 連接您自己的 Drive, 同步設定與購買, 並存取您的MakerSpell跨裝置的資料。",
+    "onboardingGoogleSignIn": "與 Google 簽署",
+    "onboardingGoogleSigningIn": "簽署於...",
+    "onboardingGoogleConnected": "Google 帳號已連接",
+    "onboardingGoogleOptional": "選擇性 —— 您也可以連接Google Drive後來從設定值。",
+    "onboardingGoogleSignInFailed": "Google 登入無法完成。 您可以重新試試, 或是繼續, 而不簽署 。",
+    "onboardingPurposeTitle": "您要用 MakerSpell 做什么 ?",
+    "onboardingCommerceTitle": "你對电子商务有興趣嗎?",
+    "onboardingCommerceDescription": "您的答案只塑造了我們建議的起始目標。 您可以在稍后手動調整建議 。",
+    "onboardingCommerceYes": "是的,我賣或打算賣",
+    "onboardingCommerceYesDescription": "商店工具、產品製造和銷售工作流程都加入到您的建議中。",
+    "onboardingCommerceNo": "不,我是來做客的",
+    "onboardingCommerceNoDescription": "模式發現、切片和打印机控制的核心流被建議。",
+    "onboardingPurposeDescription": "選擇一個或多個目標, 然後將它們拖入优先排序。 您可以在設定中明确選擇您的家並稍後更改它 。",
+    "usagePurposeDiscover": "尋找要打印的模型",
+    "usagePurposeDiscoverDescription": "從模型發現、搜索、最愛和下載開始",
+    "usagePurposeSlice": "切除我自己的模特",
+    "usagePurposeSliceDescription": "開始在工作區開啟、安排和切片本地模型。",
+    "usagePurposePrinter": "控制網路打印机",
+    "usagePurposePrinterDescription": "以已儲存的印表機、 實際狀態、 相機、 以及列印控制器開始 。",
+    "usagePurposeShop": "準備賣產品",
+    "usagePurposeShopDescription": "由商店的草稿、定价和市場上市工具開始。",
+    "usagePurposeFavorites": "看我的最愛",
+    "usagePurposeFavoritesDescription": "在 Favorites 中開始重溫已儲存的模型, 並快速返回您的收藏 。",
+    "usagePurposeSelectedTitle": "你的重點",
+    "usagePurposeAvailableTitle": "其他目的",
+    "usagePurposeMakeHome": "做這個家",
+    "usagePurposeHome": "首頁",
+    "usagePurposeInfoTooltip": "這個目標",
+    "usagePurposeSelectRecommended": "選擇建議",
+    "usagePurposeNavigationPreviewTitle": "導覽預覽",
+    "usagePurposeNavigationPreviewDescription": "您的選擇、順序和首頁設定會立即反映在底部導覽列中。",
+    "notificationCenterTitle": "通知",
+    "notificationCenterEmpty": "不MakerSpell通知尚未",
+    "notificationCenterEmptyDescription": "Android 面板上顯示的下載、切片、印表機和 Drive 通知會在此出現 。",
+    "notificationCenterActive": "啟動於 Android 通知面板",
+    "notificationCenterMarkRead": "將全部標示為已讀",
+    "notificationCenterClear": "清除通知歷史",
+    "notificationOnboardingTitle": "不看屏幕就保持通知",
+    "notificationOnboardingDescription": "通知顯示打印完成或需要注意時, 切片完成時, 以及下載或 Drive 備份準備好時。 我們不使用此權限做不想要的宣傳通知 。",
+    "notificationOnboardingEnable": "開啟通知",
+    "notificationOnboardingLater": "不是現在",
+    "notificationOnboardingEnabled": "已啟用通知",
+    "notificationOnboardingDenied": "通知未啟用。 您可以在系統設定後再允許 。",
+    "weeklyDiscoveryDigestTitle": "每周發現文摘",
+    "weeklyDiscoveryDigestDescription": "一個可選擇的、安靜的模型發現摘要。 它默认失效, 最多每周出現一次 。",
+    "weeklyDiscoveryDigestNotificationTitle": "您下次打印的新想法",
+    "weeklyDiscoveryDigestNotificationBody": "看這周的模型發現MakerSpell.",
+    "weeklyDiscoveryDigestPermissionDenied": "無法啟動每周文摘, 因為未取得通知許可 。",
+    "weeklyDiscoveryDigestViewedCount": "本週瀏覽了 {count} 個模型。",
+    "@weeklyDiscoveryDigestViewedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestSavedCount": "已儲存 {count} 個模型。",
+    "@weeklyDiscoveryDigestSavedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestFollowedCount": "來自你追蹤的設計師的 {count} 個新模型。",
+    "@weeklyDiscoveryDigestFollowedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestEndingContests": "有 {count} 個比賽即將結束。",
+    "@weeklyDiscoveryDigestEndingContests": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "settingsUsagePurposeTitle": "我怎么用MakerSpell",
+    "settingsUsagePurposeDescription": "把目標按优先顺序排列 并明确選擇你的家",
+    "settingsUsagePurposeSelectedCount": "{count}選擇目標",
+    "@settingsUsagePurposeSelectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "settingsUsagePurposeHomeSummary": "內容 :{purpose}",
+    "@settingsUsagePurposeHomeSummary": {
+        "placeholders": {
+            "purpose": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsUsagePurposeUpdated": "你的開始經驗已經更新了",
+    "slicerTourMenu": "顯示切片器巡迴",
+    "slicerTourSkip": "跳過巡迴",
+    "slicerTourNext": "下一步",
+    "slicerTourBack": "背面",
+    "slicerTourDone": "知道了",
+    "slicerTourStepCount": "%1 of %2",
+    "slicerTourPrinterTitle": "選擇您的打印机",
+    "slicerTourPrinterDescription": "選擇印表機設定檔, 從這裡開啟其列印設定值 。",
+    "slicerTourMenuTitle": "更多切片工具",
+    "slicerTourMenuDescription": "存取物件階級、 匯出、 機械設定、 網路印表機、 和偏好 。",
+    "slicerTourAddTitle": "新增模型文件",
+    "slicerTourAddDescription": "新增 STL 或 3MF 部件到目前的板塊中, 建立多元專案 。",
+    "slicerTourEditTitle": "編輯模型",
+    "slicerTourEditDescription": "移動、旋轉、調整、排列、克隆或优化選取的物件 。",
+    "slicerTourSliceTitle": "產生 G 碼",
+    "slicerTourSliceDescription": "盤子準備好後, 您可以在這裡切片。 您可以在打印前檢查工具路徑 。",
+    "homeTourMenu": "顯示探索巡迴",
+    "homeTourSearchTitle": "搜尋每個平台",
+    "homeTourSearchDescription": "一起搜尋所有支援的模擬平台。 使用選單來下載及印表機, 或是用過程按鍵來取得詳細的結果 。",
+    "homeTourPlatformsTitle": "選擇來源與排序",
+    "homeTourPlatformsDescription": "選擇模擬平台、 類別和排序而不離開 Explore 螢幕 。",
+    "homeTourModelsTitle": "找出并保存模型",
+    "homeTourModelsDescription": "開啟卡片以了解細節或使用其書签按鈕將模型加入您的文庫 。",
+    "homeTourNavigationTitle": "您的 MakerSpell 工作區",
+    "homeTourNavigationDescription": "在 Shop, Favorites, Explore, 本地切片工作區與設定之間移動 。",
+    "networkPrinterTourMenu": "顯示網路印表機巡迴",
+    "networkPrinterTourAddTitle": "手動新增印表機",
+    "networkPrinterTourAddDescription": "無法自動發現印表機時輸入 IP 位址與連接方式 。",
+    "networkPrinterTourScanTitle": "掃描您的本地端網路",
+    "networkPrinterTourScanDescription": "再次搜尋連接到同一局域網的相容打印机 。",
+    "networkPrinterTourListTitle": "連接及管理印表機",
+    "networkPrinterTourListDescription": "新增已發現的印表機, 檢查連接狀態與能力, 或使用已儲存的印表機開啟共同的控制 。",
+    "printerControlTourMenu": "顯示印表機控制行程",
+    "printerControlTourStatusTitle": "打印机狀態",
+    "printerControlTourStatusDescription": "參考連接、 目前的印表機狀態、 協議、 必要裝置資訊 。",
+    "printerControlTourJobTitle": "監控正在中的工作",
+    "printerControlTourJobDescription": "追蹤檔案進度、 層次、 經過時間, 並使用暫停、 恢復或取消支援 。",
+    "printerControlTourSettingsTitle": "溫度和速度控制",
+    "printerControlTourSettingsDescription": "調整噴嘴和床位目標, 照明, 風扇功率, 以及印表速度。",
+    "printerControlTourFilamentTitle": "管理已載入的絲",
+    "printerControlTourFilamentDescription": "翻譯相關資訊,",
+    "printerControlTourMotionTitle": "移動並管理印表機",
+    "printerControlTourMotionDescription": "把X、Y和Z的斧頭拖走 或者送他們回自己的家",
+    "printerControlTourDeviceTitle": "開啟裝置介面",
+    "printerControlTourDeviceDescription": "使用印表機製造商自己的本地界面來取得高级或模型特有功能 。",
+    "networkPrinterShowCapabilities": "顯示能力",
+    "networkPrinterHideCapabilities": "隱藏能力",
+    "shopTourMenu": "顯示商店巡迴",
+    "shopTourOverviewTitle": "您的市場工作區",
+    "shopTourOverviewDescription": "觀看連結的商店與支持的市場,",
+    "shopTourTeamTitle": "安全合作",
+    "shopTourTeamDescription": "邀請隊友 分享加密的商店資料 繼續一起列出草稿",
+    "shopTourConnectTitle": "連接市場",
+    "shopTourConnectDescription": "使用為每個受支持的市場提供的連接規則, 新增一個賣家帳戶 。",
+    "shopTourQuickAccessTitle": "您的商店工具",
+    "shopTourQuickAccessDescription": "開啟上傳的產品, 連接自己的產品Google Drive,或配置 AI 提供者。",
+    "shopTourPricingTitle": "市場价格公式",
+    "shopTourPricingDescription": "建立特定平台公式,",
+    "about": "關於",
+    "aboutSubtitle": "產品資訊與切片工序邊界",
+    "licenses": "執照",
+    "licensesSubtitle": "AGPL 切片器 CLI 源碼與開源通知",
+    "thirdPartyLicenses": "第三方包件许可证",
+    "thirdPartyLicensesSubtitle": "檢視 Flutter 註冊的授權通知及安裝的套件",
+    "clearImageCache": "清除影像快取",
+    "clearImageCacheSubtitle": "清除快取影像以解開儲存( E){size})",
+    "clearImageCacheQuestion": "您確定要清除所有已儲存的影像嗎 ? 此動作無法取消 。",
+    "imageCacheCleared": "影像快取已成功清除",
+    "automaticImageCacheCleanup": "自動清除影像快取",
+    "automaticImageCacheCleanupSubtitle": "預設。 当缓存影像超過 2 GB 時, 最古老的影像會被移除, 直到缓存约为 1 GB 。",
+    "errorClearingCache": "清理快取出錯誤 :{error}",
+    "contactSupport": "聯絡人支援",
+    "contactSupportSubtitle": "傳送截圖與診斷細節",
+    "notSignedInMessage": "你沒有簽字",
+    "signOutQuestion": "簽字?",
+    "signOutDescription": "你要留在應用程式裡當客人 隱藏此裝置和Drive上的秘密",
+    "signingOut": "簽署...",
+    "signedOut": "簽了字",
+    "signOutFailed": "簽署失敗 :{error}",
+    "signInFirstDelete": "簽名先刪除您的帳號 。",
+    "deleteAccountQuestion": "要永久刪除帳號嗎 ?",
+    "deleteAccountDescription": "這會移除您的 MakerSpell profile 、 stats、 购买和 authuser 。\\ n\\ n 您的 Google Drive 檔案不會被刪除( BYOC) 。 本地裝置加密金鑰將被擦除 。\\ n",
+    "deleteAccount": "刪除帳號",
+    "typeDeleteToConfirm": "要確定的型態 DELETE",
+    "confirm": "確定",
+    "accountDeleted": "帳號已刪除 。",
+    "deleteFailed": "刪除失敗 :{error}",
+    "dangerZone": "危險區域",
+    "dangerZoneSignedIn": "從 MakerSpell 簽署, 或是永久刪除您的帳號。 驱动您的檔案不被移除 。",
+    "dangerZoneSignedOut": "簽署以管理會話和帳號刪除 。",
+    "@driveConnected": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorClearingCache": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@signOutFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@deleteFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@clearImageCacheSubtitle": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "@connectedCount": {
+        "placeholders": {
+            "connected": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "authenticated": "已驗證",
+    "notConnected": "未連接",
+    "disconnect": "斷線",
+    "connect": "連線",
+    "noPlatformsRequireAuthentication": "沒有平台需要認證 。",
+    "copySource": "复制來源",
+    "copiedMarkdownSource": "复制的壓縮來源",
+    "failedToLoad": "載入失敗 :{error}",
+    "supportIntro": "向MakerSpell。已簽署的使用者可以在我的要求下追蹤回覆 。",
+    "yourName": "你的名字",
+    "requiredField": "需要",
+    "email": "電子郵件",
+    "enterValidEmail": "輸入有效的電子郵件",
+    "category": "分類",
+    "subject": "主題",
+    "howCanWeHelp": "我們能幫忙嗎?",
+    "writeMoreDetail": "請多寫點細節",
+    "sending": "傳送中...",
+    "sendMessage": "傳送信件",
+    "messageSent": "訊息已傳送, 您可以按照我的要求追蹤它 。",
+    "couldNotSendMessage": "無法傳送信件 :{error}",
+    "supportCategoryGeneral": "一般问题",
+    "supportCategoryBug": "臭蟲報告",
+    "supportCategoryBilling": "收費/訂閱",
+    "supportCategoryFeature": "特性要求",
+    "supportCategoryAccount": "帳號/ 登入",
+    "supportCategoryOther": "其他",
+    "supportAttachments": "附件",
+    "supportAttachmentsDescription": "增加一個截圖,如果您選擇, 隱私过滤的技術诊断。",
+    "supportAddScreenshot": "新增截圖",
+    "supportScreenshot": "截圖",
+    "supportScreenshotTooLarge": "截圖必須小於 1. 5 MB 。",
+    "supportScreenshotPickFailed": "無法新增截圖 :{error}",
+    "supportAttachmentSignIn": "簽署以附加截圖 。",
+    "supportIncludeDiagnostics": "包括技術诊断",
+    "supportDiagnosticsDescription": "分享最近十次私密过滤的錯誤事件。 密碼、 符號、 網址、 應用程式、 檔案名稱、 原始錯誤訊息均不包含 。",
+    "@supportScreenshotPickFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedToLoad": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotSendMessage": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "newCollection": "新收藏",
+    "collectionName": "收藏名稱",
+    "descriptionOptional": "描述( 可選擇的)",
+    "visibleToTeam": "團隊可以看到",
+    "shopMembersCanSeeCollection": "店員們可以看到這本收藏",
+    "onlyYouDriveBackup": "只有你(仍然支持Drive)",
+    "enterCollectionName": "請輸入收藏名稱",
+    "collectionCreatedTeam": "建立收藏( 單位可见 )",
+    "collectionCreated": "收藏已成功建立",
+    "errorMessage": "錯誤 :{error}",
+    "create": "建立",
+    "syncing": "同步中...",
+    "allCollectionsBackedUp": "所有收藏備份到 Drive",
+    "syncCollectionsWithDrive": "用 Drive 同步收藏",
+    "driveNotConnectedLocalOnly": "驱动器沒有連接, 只有本地端",
+    "syncIssue": "同步期 :{error}",
+    "collectionsBackedUp": "{count}收藏已備份到 Drive",
+    "driveNotAvailableKeptLocal": "驱动器不可用——保持本地端",
+    "models": "模型",
+    "collections": "收藏",
+    "noCollectionsYet": "尚未收藏",
+    "createCollectionDescription": "建立收藏來整理您的模型 。\\ nGoogle Drive已連接, 所有收藏( 包括私人收藏) 都被備份並恢復 。",
+    "myCollections": "我的收藏",
+    "teamCollections": "团队收藏",
+    "itemCount": "{count}項目",
+    "yourLibraryIsEmpty": "您的文庫是空的",
+    "saveModelsFromExplore": "從 Explore 中儲存模型來在這裡看到它們",
+    "exploreModels": "探索模型",
+    "@errorMessage": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@syncIssue": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@collectionsBackedUp": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@itemCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "addedToCollection": "添加到{name}",
+    "change": "更改",
+    "addedToCollections": "新增到 {count} 收藏",
+    "removedFromCollection": "從 {name} 移除",
+    "removedFromCollections": "已移除{count}收藏",
+    "updatedCollections": "更新收藏",
+    "addToCollections": "添加到收藏",
+    "createCollection": "建立收藏",
+    "@addedToCollection": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@removedFromCollection": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@addedToCollections": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@removedFromCollections": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "makerSyncPlans": "MakerSpell計劃",
+    "restore": "恢復",
+    "makerSyncPro": "MakerSpell正",
+    "makerSyncShop": "MakerSpell商店",
+    "proPlanSubtitle": "無限切斷目錄與本地專案",
+    "unlimitedProjectSlicing": "無限制專案切片",
+    "noNativeAds": "沒有本地廣告",
+    "cloudProfileSyncReports": "云剖面同步與提前報告",
+    "shopPlanSubtitle": "Pro所有東西,加上市場自动化",
+    "allProFeatures": "所有 MakerSpell Pro 特性",
+    "marketplaceListingTools": "市場上市工具",
+    "shopAutomationFeatures": "商店、定价和產品自动化",
+    "shopShowcaseEyebrow": "用麥芽糖賣掉",
+    "shopShowcaseTitle": "把3D模型變成可賣品",
+    "shopShowcaseDescription": "從一個模型到每個銷售通道。",
+    "shopWorkflowModel": "模型",
+    "shopWorkflowPrepare": "準備",
+    "shopWorkflowPublish": "發布",
+    "shopFeatureStoresTitle": "連接您的市場",
+    "shopFeatureStoresDescription": "管理支援的銷售通道, 從一個工作區儲存設定值 。",
+    "shopFeatureListingTitle": "建立更快的清單",
+    "shopFeatureListingDescription": "將模型細節、影像與製作資料轉換成有結構的產品上市。",
+    "shopFeaturePricingTitle": "自動盈利定价",
+    "shopFeaturePricingDescription": "建立成本、市場費、稅金和目標利差的公式。",
+    "shopFeatureTeamTitle": "做一個商店團隊",
+    "shopFeatureTeamDescription": "分享草稿與收藏,",
+    "shopIncludesProTitle": "MakerSpell包括Pro",
+    "shopIncludesProDescription": "取得無限的專案切片, 一個無廣告的經驗, 以及每個 MakerSpell Pro 功能 。",
+    "shopRequiredTitle": "MakerSpell所需商店",
+    "shopRequiredDescription": "你需要一個MakerSpell商店訂閱使用此功能 。",
+    "shopExplorePlan": "探索MakerSpell商店",
+    "shopExplorePlanHint": "在簽署前檢查套件的細節 。",
+    "shopMarketplacePriceFormulas": "市場价格公式",
+    "pricingSavedFormula": "保存的 %1 公式",
+    "pricingAddMarketplaceFormula": "新增市場公式",
+    "pricingCustomPlatformId": "自訂平台代碼...",
+    "pricingPlatformId": "平台代碼",
+    "pricingPlatformIdHint": "例如,hepsiburada",
+    "pricingFormulaFallbackName": "公式",
+    "pricingAddFormula": "添加公式",
+    "pricingIntro": "每個電子商業平台都可以使用自己的價格公式。Trendyol使用絲帶、包裝、運輸、平台費、佣金和利潤來計算。",
+    "pricingTrendyolTemplate": "Trendyol模板",
+    "pricingCustomFormula": "自訂公式",
+    "pricingCardSummary": "%1-%2- 費用%3 佣金%4%",
+    "pricingNoFormulas": "尚未有公式 – 新增 。Trendyol在下一個儲存時默认建立。",
+    "pricingAddParameter": "新增參數",
+    "pricingParameterName": "名稱( 识别符)",
+    "pricingParameterNameHint": "例如,劳动成本、脱脂",
+    "pricingParameterNameHelper": "使用字母、 數字和下划線; 從字母開始",
+    "pricingDefaultValue": "預設值",
+    "pricingAdd": "新增",
+    "pricingInvalidParameterName": "不合法的名稱。 使用有效的标识符, 例如 勞動Cost 。",
+    "pricingParameterExists": "参数“%1”已存在或保留。",
+    "pricingFormulaMustSetGrandTotal": "公式必須設定大總數 。",
+    "pricingFormulaError": "公式錯誤 :%1",
+    "pricingSave": "儲存",
+    "pricingDisplayName": "顯示名稱",
+    "pricingParameters": "參數",
+    "pricingParametersDescription": "內建參數與您的額外參數可用作公式變數。 runtime 輸入總是可用的: filamentGR, extraPartCost 。",
+    "pricingCustomTag": "自訂",
+    "pricingRemoveParameter": "刪除參數",
+    "pricingFormulaSection": "公式( 指派) 。 函數 : 最大、 最小、 最小、 如果、 ab 。",
+    "pricingFormulaHint": "Grand Total =...",
+    "pricingTestWeight": "測試 g",
+    "pricingPreview": "預覽",
+    "pricingPreviewResult": "樣本%1克/售价%2",
+    "pricingTip": "Tip: 預設的正體是經典 Trendyol 公式。 需要的輸出 : grandTotal。 有自訂參數的示例 : grandTotal = 總 * (1 + 利得) + 勞動成本",
+    "viewerSectionQuality": "质量",
+    "viewerLayerHeight": "層高",
+    "viewerSectionInfill": "信息",
+    "viewerPattern": "花紋",
+    "viewerDensity": "密度",
+    "viewerSectionSupport": "支助",
+    "viewerEnableSupport": "開啟支撐",
+    "viewerType": "類型",
+    "viewerSectionAdhesion": "取代",
+    "viewerBrimType": "Brim 類型",
+    "viewerApplySettings": "套用設定值",
+    "viewerPatternGyroid": "螺旋體",
+    "viewerPatternGrid": "網格",
+    "viewerPatternTriangles": "三角形",
+    "viewerPatternCubic": "立方體",
+    "viewerSupportTreeAuto": "樹狀 (自動)",
+    "viewerSupportNormalAuto": "普通 (自動)",
+    "viewerBrimOuterOnly": "只有外部",
+    "viewerBrimInnerOnly": "只有內部",
+    "viewerNoBrim": "沒有",
+    "viewerStartingSlicer": "啟動切片機...",
+    "slicingProgressPreparing": "準備OrcaSlicer...",
+    "slicingProgressStarting": "開始切片...",
+    "slicingProgressMesh": "切网...",
+    "slicingProgressWalls": "產生牆壁...",
+    "slicingProgressInfillRegions": "產生填充區域...",
+    "slicingProgressInfillToolpath": "正在產生填充工具路徑...",
+    "slicingProgressCheckingSupport": "檢查是否需要支援...",
+    "slicingProgressSupport": "產生支援中...",
+    "slicingProgressSupportContacts": "正在產生支援聯絡人...",
+    "slicingProgressSkirtBrim": "产生裙子和金...",
+    "slicingProgressDetectingOverhangs": "正在調查升降機",
+    "slicingProgressOptimizingToolpath": "优化工具路徑...",
+    "slicingProgressGeneratingGcode": "正在產生 G 碼...",
+    "slicingProgressGeneratingGcodeLayer": "正在產生 G-code · 第 %1 層…",
+    "slicingProgressExportingGcode": "匯出 G 碼...",
+    "slicingProgressFinalizingGcode": "敲定 G 碼...",
+    "slicingProgressComplete": "切片完成",
+    "viewerCouldNotOpenSliceResult": "無法開啟切片結果",
+    "viewerSlicingFailed": "切片失敗",
+    "viewerNativeSlicerStopped": "原生切片机停止了 。",
+    "viewerCouldNotCloseSafely": "無法安全關閉 3D 檢視器",
+    "viewerSlicingFile": "切片%1",
+    "viewerSlicingStopped": "切片停止",
+    "viewerCancelledOrFailed": "已取消或失敗",
+    "viewerEmptyGcode": "空 G 碼",
+    "viewerSliceComplete": "切片完成",
+    "viewerLowMemorySlicing": "低分切",
+    "viewerSlicing": "正在切片中",
+    "viewerKeepOpenDuringSlicing": "保持 MakerSpell 開啟並保留在屏幕上直到切片完成 。 關閉應用程式或移到背景會打斷行程 。",
+    "viewerClosedForSlicing": "3D 檢視器已完全關閉 。\n此螢幕上沒有 WebView 執行 。",
+    "viewerSlicerThreads": "%1 切片線",
+    "viewerCancelling": "正在取消...",
+    "viewerBackToModel": "回到模型",
+    "viewerCancel": "取消",
+    "viewerSimplifyAndHollowTitle": "简化和空心模型?",
+    "viewerSimplifyAndHollowDescription": "此模組太複雜, 無法可靠地進行伺服器空心操作 。 它會先被簡化, 然後空心操作會自動執行 。 您可以取消完整的操作 。",
+    "viewerSimplifyAndHollowAction": "简化和空心",
+    "viewerSelectModelBeforeClone": "先在盤子上選擇一個模型,然后克隆它.",
+    "viewerModelCloned": "型號克隆",
+    "viewerCopiesCloned": "克隆%1份",
+    "viewerAutoRotateApplied": "自動旋轉: 应用的列印高度最低",
+    "viewerAutoRotateSelectModel": "自動旋轉失敗——先選擇模型",
+    "viewerAutoRotateError": "自動旋轉錯誤 :%1",
+    "viewerArrangingObjects": "排列物件...",
+    "viewerAddingModel": "正在新增模型...",
+    "viewerNotReady": "檢視器尚未準備好 。",
+    "viewerGcodeCannotBeAdded": "G- code 無法新增為實體 。",
+    "viewerCannotAddExtension": "無法加入 。%1使用3MF或STL。",
+    "viewerFilePickFailed": "檔案選擇失敗 :%1",
+    "viewerAddPrimitive": "新增原始",
+    "viewerPrimitiveCube": "立方體",
+    "viewerPrimitiveCylinder": "圓柱體",
+    "viewerPrimitiveSphere": "球體",
+    "viewerPrimitiveCone": "錐體",
+    "viewerPrimitiveDisc": "圓盤",
+    "viewerPrimitiveTorus": "環面",
+    "viewerPrimitiveDescription": "立方体、圆柱、球體、圆锥、碟子或托魯斯",
+    "viewerFromLibrary": "從文庫",
+    "viewerFromLibraryDescription": "校准和有用的測試模型",
+    "viewerFromDownloads": "從下載",
+    "viewerFromDownloadsDescription": "選擇已完成的下載",
+    "viewerFromDevice": "從裝置",
+    "viewerFromDeviceDescription": "選擇 3MF 或 STL 檔案",
+    "viewerHandyModels": "有用的模型",
+    "viewerFormat": "格式 :%1",
+    "viewerArrangeSettings": "安排設定值",
+    "viewerSpacing": "間距",
+    "viewerAuto": "自動",
+    "viewerAutoSpacingDescription": "0表示自動距離.",
+    "viewerAutoRotateArrangement": "自動旋轉安排",
+    "viewerAllowMultipleMaterials": "允許多件材料在同一盤子上",
+    "viewerMultiplePlatesUnsupported": "不支援多塊板塊。 所有物件會排列在目前的板塊上 。",
+    "viewerAlignYAxis": "向 Y 轴對齊",
+    "viewerArrange": "自動擺放",
+    "viewerApplied": "应用",
+    "viewerAutoRotateComplete": "自動旋轉完成",
+    "viewerMinSupportComplete": "最小支援完成",
+    "viewerAutoOrientationFailed": "自動方向失敗—— 找不到模型面孔 。",
+    "viewerAddModelToScene": "新增模型到場景",
+    "viewerExistingObjectsStay": "既有物件留在碟上",
+    "viewerModelDimensions": "模型尺寸",
+    "viewerLayOnFace": "趴在地上 (Beta)",
+    "viewerLayOnFaceDescription": "Beta — 拍下表面把臉放在床上。 複雜的 meshes 可能需要第二次試驗 。",
+    "viewerCut": "切割",
+    "viewerPlanar": "平面",
+    "viewerDovetail": "鳩尾榫",
+    "viewerCutHeight": "剪切高度( Z ) :",
+    "viewerWidth": "線寬：",
+    "viewerDepth": "深度 :",
+    "viewerFlapAngle": "平面角度 :",
+    "viewerGrooveAngle": "角度 :",
+    "viewerAfterCut": "剪切後 :",
+    "viewerUpperPart": "上半部分",
+    "viewerLowerPart": "下半部分",
+    "viewerKeep": "保留",
+    "viewerLayFlat": "平躺",
+    "viewerRotate": "旋轉",
+    "viewerPositionControl": "位置控制 (mm)",
+    "viewerRotationControl": "旋轉控制 (°)",
+    "viewerScaleControl": "比例控制",
+    "viewerDimensionsMm": "尺寸(毫米)",
+    "viewerUniform": "制服",
+    "viewerFree": "自由",
+    "viewerMove": "移動",
+    "viewerScale": "縮放",
+    "viewerMirror": "鏡像",
+    "viewerMirrorModel": "鏡像模型",
+    "viewerMirrorDescription": "選擇要反射選取的型態的轴 。 映射同一個轴再次恢復其先前的方向 。",
+    "viewerMirrorLeftRight": "左 右",
+    "viewerMirrorFrontBack": "前方 QQ 返回",
+    "viewerMirrorTopBottom": "下方",
+    "viewerMirrorApplied": "模特兒{axis}轴 。",
+    "@viewerMirrorApplied": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerMirrorSelectModel": "在反射前選擇模型 。",
+    "viewerColorPainting": "上色",
+    "viewerPaintCircle": "圓形",
+    "viewerPaintSphere": "球體",
+    "viewerPaintTriangle": "三角形",
+    "viewerPaintSmartFill": "智慧填充",
+    "viewerPaintHeightRange": "高度範圍",
+    "viewerPaintFilament": "檔案%1",
+    "viewerPaintBrushSize": "筆刷尺寸",
+    "viewerPaintAngle": "填充角度",
+    "viewerPaintHeight": "高度",
+    "viewerPaintEraser": "擦除畫面",
+    "viewerPaintNavigate": "旋轉和縮放檢視",
+    "viewerPaintClear": "擦除所有自訂支撐",
+    "viewerPaintSelectModel": "在開啟彩色畫前選擇模型 。",
+    "viewerPaintStartFailed": "無法開啟彩色畫 :%1",
+    "viewerViewCube": "檢視立方體",
+    "viewerChooseView": "選擇相機檢視",
+    "viewerViewFront": "前面",
+    "viewerViewBack": "背面",
+    "viewerViewLeft": "左面",
+    "viewerViewRight": "右面",
+    "viewerViewTop": "頂部",
+    "viewerViewBottom": "底部",
+    "viewerViewIsometric": "同位素",
+    "viewerAutoRotate": "自動旋轉方向",
+    "viewerMinSupport": "最低支持",
+    "viewerLayFaceShort": "表面 β",
+    "viewerAnalyzingSurfaces": "分析參考表面...",
+    "viewerClone": "複製",
+    "viewerCloneModel": "克隆模型",
+    "viewerCloneCount": "副本數量",
+    "viewerCloneCountDescription": "選擇要建立多少新樣本 。",
+    "viewerCloneCountRange": "輸入值為 1 到 20",
+    "viewerCloneCountInvalid": "輸入 1 到 20 之間的數字 。",
+    "viewerAdd": "新增",
+    "viewerClose": "關閉",
+    "viewerEditModel": "編輯模型",
+    "viewerMeasure": "Measure",
+    "viewerMeasureResult": "Measurement",
+    "viewerMeasureTapFirstPoint": "Tap the first point on the model.",
+    "viewerMeasureSecondPoint": "Now tap the second point on the model.",
+    "viewerMeasureTapToReplace": "Tap again to replace it, or tap Clear.",
+    "viewerMeasureClear": "Clear",
+    "viewerMeasureAngle": "角度",
+    "viewerMeasureInfinite": "无限距离",
+    "viewerMeasureCircle": "圓形",
+    "viewerMeasureCenter": "居中",
+    "viewerMeshDiagnostics": "网格分析",
+    "meshDiagnosticsStatsTitle": "網格统计",
+    "meshDiagnosticsTriangleLabel": "三角形",
+    "meshDiagnosticsVertexLabel": "維度",
+    "meshDiagnosticsShellLabel": "貝殼",
+    "meshDiagnosticsIdleHint": "分析目前可能會影響切片的網格問題。",
+    "meshDiagnosticsAnalyzingTitle": "分析网格...",
+    "meshDiagnosticsCancellingTitle": "正在取消...",
+    "meshDiagnosticsFailedTitle": "分析失敗",
+    "meshDiagnosticsFailedHint": "無法分析網格。 您的專案沒有變更 。",
+    "meshDiagnosticsCleanTitle": "网格很健康",
+    "meshDiagnosticsCleanMessage": "找不到網格問題,模型可以切片了",
+    "meshDiagnosticsResultsTitle": "網格解析",
+    "meshDiagnosticsResultsBlockingIntro": "發現了可能阻擋切片的問題。",
+    "meshDiagnosticsResultsWarningIntro": "已找到警告。 目前沒有阻擋切片 。",
+    "meshDiagnosticsBlockingLabel": "屏蔽",
+    "meshDiagnosticsWarningLabel": "警告",
+    "meshDiagnosticsRepairableLabel": "可修复",
+    "meshDiagnosticsNotRepairableLabel": "不可修复",
+    "meshDiagnosticsAnalyzeAction": "分析",
+    "meshDiagnosticsUnexpected": "網格分析結果出乎意料",
+    "meshDiagnosticsMemoryLimit": "此模型需要比目前裝置更自由的內存 。",
+    "meshDiagnosticsMemoryWarningTitle": "內存使用率高",
+    "meshDiagnosticsMemoryWarningBody": "此分析可能會使用大量內存。 在繼續前關閉其他應用程式 。",
+    "meshDiagnosticsContinueAction": "繼續",
+    "meshDiagnosticsExportFailed": "目前場景無法為分析作好準備 。",
+    "meshDiagnosticsOpenEdges": "開啟邊緣",
+    "meshDiagnosticsNonManifoldEdges": "非磁形邊緣",
+    "meshDiagnosticsInvertedFaces": "反轉面孔",
+    "meshDiagnosticsDegenerateTriangles": "三角形",
+    "meshDiagnosticsDisconnectedShells": "已斷線的 shells",
+    "meshDiagnosticsSelfIntersections": "自交集",
+    "meshDiagnosticsOccurrences": "{count, plural, =1{1次} other{{count} 事件}}",
+    "@meshDiagnosticsOccurrences": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerSelectedPlatesFirst": "先剪切選取的碟片 :%1",
+    "viewerNoSizeWeight": "尚未有大小或重量信息。 等待模型先載入或切片 。",
+    "viewerLoadingModel": "正在載入模型...",
+    "viewerPreparingModel": "正在準備顯示模型...",
+    "viewerLoadingGcode": "正在載入 G 碼...",
+    "viewerLoadingGcodePreview": "正在載入 G 碼預覽...",
+    "viewerReloadingModel": "正在重新載入模型...",
+    "viewerLoadingToolpath": "正在載入工具路徑預覽...",
+    "viewerFailedToLoadGcode": "加載 G 碼失敗 :%1",
+    "viewerSwitchSolidTitle": "切換到 Solid Mode 嗎 ?",
+    "viewerSwitchSolidDescription": "離開 G- code 預覽會丟棄已載入的 G- code , 回到空的固態場景。 要繼續嗎 ?",
+    "viewerSolidMode": "固態模式",
+    "viewerGcodePreview": "G 碼預覽",
+    "viewerPreparationTab": "準備",
+    "viewerPreviewTab": "預覽",
+    "viewerReslice": "重剪",
+    "viewerPrintSettingsChangedTitle": "列印設定已變更",
+    "viewerPrintSettingsChangedReslicePrompt": "現有的 G-code 是使用先前的設定產生的。現在重新切片嗎？",
+    "viewerSliceForListing": "列名片段",
+    "viewerSliceGcode": "剪切( G 碼)",
+    "viewerProjectFileUnverified": "專案檔案無法驗證 。",
+    "viewerWeeklyProjectLimit": "已达到每周專案限制",
+    "viewerCatalogProjectLimitDescription": "您過去七天使用過您的 %1 自由目錄專案。 這個模型及其所有檔案都算為一個專案 。",
+    "viewerLocalProjectLimitDescription": "您過去七天使用過您的 %1 免費本地檔案專案 。",
+    "viewerLater": "以后",
+    "viewerViewPro": "檢視 Pro",
+    "viewerWatchAdProject": "觀察廣告 +1 專案",
+    "viewerRewardedAdUnavailable": "現在沒有獎勵廣告",
+    "viewerSelectedPathUnreadable": "無法讀取選取的檔案路徑 。",
+    "viewerUnsupportedFileType": "不支援的檔案類型 。%1使用3MF、STL、OBJ或G代碼。",
+    "viewerOpen": "打開",
+    "viewerOpenFile": "開啟檔案",
+    "viewerOpenFileDescription": "取代目前的工作區模型",
+    "viewerDownloadsDescription": "選擇已下載的模型MakerSpell",
+    "viewerDeviceDescription": "瀏覽儲存或使用系統檔案拾取器",
+    "viewerAddCurrentScene": "新增到目前的場景",
+    "viewerAddCurrentSceneDescription": "博物館、下載或裝置——保留已存在的物件",
+    "viewerProjectSettingsAdapted": "專案設定",
+    "viewerProjectSettingsAdaptedDescription": "此檔案中的一些數值已过时或不再有效。 它們被更新到目前的 Orca 預設值, 所以切換工作正確 。",
+    "viewerSettingsUpdatedCount": "%1 個設定值已更新",
+    "viewerClosing3d": "完全關閉 3D 檢視器...",
+    "viewerViewerClosedStartingSlice": "檢視器已關閉,",
+    "viewerLoadedFromCache": "從快取載入",
+    "viewerCachedSliceTitle": "使用前一個切片?",
+    "viewerCachedSliceDescription": "您以前用相同的印表機與設定來切片此模型。 您要使用已缓存的 G 碼嗎 ?",
+    "viewerUseCachedSlice": "使用快取的 G 碼",
+    "viewerSliceCompleteCache": "切片完成( cache)",
+    "viewerFileReady": "%1就位",
+    "viewerSliceDoneListing": "切片完成(~)%1 g) 使用“ 用于上市” 以应用重量和大小 。",
+    "viewerSliceDoneExport": "切片完成。 用匯出 G 碼來保存 。",
+    "viewerSliceSettingsAdapted": "修改剪切設定值",
+    "viewerSliceSettingsAdaptedDescription": "切片時已調整其他描述檔值 。",
+    "viewerSliceSettingsAdaptedFailure": "一些剖析檔值在切斷前已調整 。",
+    "viewerSlicingFailedDetail": "切片失敗 :%1",
+    "viewerSelectPrinter": "選擇印表機",
+    "viewerBack": "背面",
+    "viewerUndo": "復原",
+    "viewerRedo": "重做",
+    "viewerMenu": "選單",
+    "viewerObjectsHierarchy": "物件階級",
+    "viewerExportGcode": "匯出 G 碼",
+    "viewerExport3mf": "匯出為 3MF 檔案",
+    "viewerMachineSettings": "機器設定值",
+    "viewerPrinterAndSettings": "打印机和設定值",
+    "viewerNetworkPrinters": "網路打印机",
+    "viewerPreferences": "偏好設定",
+    "viewerAutoOrienting": "自動定向...",
+    "viewerSlicingCancelled": "切片已取消",
+    "viewerStoppedByUser": "被使用者停止",
+    "viewerListingPrepareDescription": "列出準備 —— 選擇印表機, 縮放模型, 調整列印設定值, 切片, 然后用它來列出。 如果您跳過變更, 使用最後一個正在使用的印表機和覆寫 。",
+    "viewerSimplify": "簡化",
+    "viewerWeight": "重量 :%1",
+    "viewerSliceSummary": "片段摘要",
+    "viewerPlate": "板%1",
+    "viewerAllPlates": "所有碟片",
+    "viewerSinglePlate": "焦點選取的碟片",
+    "viewerUseSlicedListing": "用于上市( 切片)",
+    "viewerUseMeshListing": "上市使用網格大小",
+    "viewerPrint": "列印",
+    "viewerAddFile": "新增文件",
+    "viewerEditModelTooltip": "編輯模型( 尺度 / 移動 / 旋轉 )",
+    "viewerLineType": "行型態",
+    "viewerFilament": "線材",
+    "viewerTime": "時間",
+    "viewerUsage": "用法",
+    "viewerModel": "模型",
+    "viewerSupport": "支撐",
+    "viewerTower": "塔",
+    "viewerTotal": "總計",
+    "viewerTotalFilament": "全絲",
+    "viewerModelFilament": "型號絲",
+    "viewerCost": "成本",
+    "viewerSlicingTime": "切片時間",
+    "viewerPrepareTime": "準備時間",
+    "viewerModelPrintTime": "模型列印時間",
+    "viewerTotalTime": "總時間",
+    "viewerFilamentChanges": "線材切換",
+    "viewerUnknownError": "未知錯誤",
+    "viewerOffFullDetail": "3D 檢視器關閉\n(全細切片)",
+    "viewerOffFreeMemory": "3D 檢視器關閉\n要釋放內存",
+    "viewerRestoring3d": "正在恢复 3D 檢視器...",
+    "viewerNoSimplifyDescription": "您選擇不简化 。 檢視者會禁用, 直到切片完成 。",
+    "viewerNeedsRamDescription": "切片機需要所有可用的 RAM 來优化工具路徑 。",
+    "viewerModelAdded": "模型新增到現場",
+    "viewerModelAddFailed": "無法新增模型到現場",
+    "viewerExporting": "匯出中...",
+    "viewerPreparingPlateProgress": "正在準備目前的碟片...%1%–%2",
+    "viewerExporting3mfProgress": "匯出 3MF...%1%–%2",
+    "viewerLargeGcodeTitle": "G大碼",
+    "viewerLargeGcodeDescription": "這個 G 碼非常大( G)%1 移動。 在移動模型以保持平滑時會顯示一個暫時的低細預覽。 發行時會傳回完整細節 。",
+    "viewerCutSuccess": "模式切斷成功 。",
+    "viewerCutFailed": "剪切失敗 :%1",
+    "viewerUnknownFailure": "未知錯誤",
+    "viewerGcodePreviewLoadFailed": "G 碼預覽無法載入",
+    "viewerLoadingPercent": "正在載入...%1%",
+    "viewerLoading": "正在載入...",
+    "viewerModelLoadWarning": "模型載入警告",
+    "viewerModelTooLarge": "此模型對裝置內存來說太大。 3D 預覽已禁用, 但您仍可直接切片並產生 G 碼 。",
+    "viewerModelLoadWarningDescription": "載入模型時發生錯誤。 3D 預覽可能不會出現, 但您仍可直接試著切片 。",
+    "viewerSliceBeforePrint": "在打印前切掉一個模型.",
+    "viewerSliceOrOpenGcode": "先切除模型或開啟 G 碼檔 。",
+    "viewerSaveDownloads": "儲存到下載",
+    "viewerSaveDownloadsDescription": "內部儲存 ^ 下載資料夾",
+    "viewerShare": "分享...",
+    "viewerShareDescription": "文件、 Drive 和其他應用程式",
+    "viewerExportUsb": "匯出到 USB ...%1",
+    "viewerNoUsb": "未檢測到 USB / OTG 驱动器",
+    "viewerNoUsbDescription": "連接磁碟再開啟此選單",
+    "viewerGcodeSaved": "G 碼已儲存 :\n%1",
+    "viewerShareFailed": "分享失敗 :%1",
+    "viewerUsbSaved": "保存到 USB (S)%1:\n%2",
+    "viewerUsbWriteFailed": "無法寫入 USB ()%1. 檢查儲存權限 。\n%2",
+    "viewerUsbExportFailed": "USB 匯出失敗 :%1",
+    "viewerSliceCompleteElapsed": "切片完成%1%2.",
+    "viewerElapsedIn": "in%1",
+    "viewerWeightSuffix": "(~%1 g)",
+    "viewerSimplifyQuestion": "简化這個模型?",
+    "viewerHighPolyDescription": "這個模型是高波力(~%1 三角形。 在手機上, 這可以減慢切片速度, 并且使用很多記憶體 。",
+    "viewerSimplifyRecommendation": "我們建議在切片前简化。 三角形越少, 切片速度就越快。 細節可能會減少, 多顏色的油漆會受影响 。",
+    "viewerKeepOriginal": "保持原始",
+    "viewerSimplifyRecommended": "简化( 建议)",
+    "viewerSimplifying": "简化模型...",
+    "viewerSimplifiedCount": "型號簡化 :%1 +%2 三角形",
+    "viewerSimplified": "模式簡化,切片速度應該更快。",
+    "viewerSimplifyUnavailable": "無法简化; 會使用原始網格 。",
+    "viewerSimplifyFailed": "簡化失敗; 使用原始網格 :%1",
+    "viewerLowMemoryMode": "低分切模式",
+    "viewerLowMemoryDescription": "這個模型需要更多的記憶體切片 。MakerSpell將暫時切換到低模模式, 在切片時關閉 3D 檢視器 。",
+    "viewerFullDetailPreserved": "您的模型保留了完整的几何細節。 切片完成後, G 碼預覽會自動開啟 。",
+    "viewerKeepForeground": "保持 MakerSpell 開啟並在前景中, 直到切片完成 。 將應用程式移到背景會使 Android 停止此行程 。",
+    "viewerModelTriangleInfo": "型號:~%1 三角形%2",
+    "viewerStartSlicing": "開始切片",
+    "viewer3mfSaved": "保存的 3MF 模型 :%1",
+    "viewer3mfShareOpened": "3MF 共享對話框開啟。 您也可以儲存到下載 。",
+    "viewer3mfExportFailed": "匯出 3MF 失敗 :%1",
+    "viewerRenamePlate": "重命名牌",
+    "viewerPlateNameHint": "輸入新碟片名稱",
+    "viewerSave": "儲存",
+    "viewerSelectedPlatesSliced": "已切片的牌照%1 g. 按“ 用于上市” 。",
+    "viewerPreparingPlate": "正在准备 %1 %2...",
+    "viewerSimplifyingPolygons": "简化模式多边形...\n(切片引擎啟動)",
+    "viewerCpuSlicingActive": "CPU 切換引擎啟動 !\n切片 :%1%",
+    "viewerRoleInnerWall": "內牆",
+    "viewerRoleOuterWall": "外牆",
+    "viewerRoleOverhangWall": "懸空牆",
+    "viewerRoleSparseInfill": "稀疏填充",
+    "viewerRoleInternalSolidInfill": "內部實心填充",
+    "viewerRoleTopSurface": "頂面",
+    "viewerRoleBottomSurface": "底面",
+    "viewerRoleBridge": "橋接",
+    "viewerRoleInternalBridge": "內部橋架",
+    "viewerRoleGapInfill": "填縫",
+    "viewerRoleIroning": "熨燙",
+    "viewerRoleSkirt": "Skirt",
+    "viewerRoleBrim": "Brim",
+    "viewerRoleSupportInterface": "支撐面",
+    "viewerRoleSupportTransition": "支撐轉換層",
+    "viewerRolePrimeTower": "換料塔",
+    "viewerRoleCustom": "自訂",
+    "viewerRoleMixed": "混合",
+    "viewerRoleTravel": "空駛",
+    "viewerRoleRetract": "回抽",
+    "viewerRoleUnretract": "裝填回抽",
+    "viewerRoleWipe": "擦拭",
+    "viewerRoleSeams": "縫",
+    "viewerRoleToolChange": "工具變更",
+    "viewerRoleColorChange": "顏色更換",
+    "viewerRolePause": "暫停",
+    "viewerRoleCustomGcode": "自訂 G-code",
+    "shopConnectStore": "連接商店",
+    "shopDrafts": "草稿",
+    "shopDraftsDescription": "尚未完成的市場清單可供您的商店隊使用。 隊友可以檢視已儲存的欄位, 從最後一步繼續 。",
+    "shopNoDrafts": "沒有未完成的市場清單 。",
+    "shopYourStores": "你的店",
+    "shopQuickAccess": "快速存取",
+    "shopListOwnModel": "列出自己的型號",
+    "shopListOwnModelDescription": "從本地 3MF、 STL 或 OBJ 檔案建立市場產品 。",
+    "shopPreparingLocalModel": "準備您的本地模型...",
+    "shopLocalModel": "本地模式",
+    "shopLocalModelFileUnavailable": "已選擇的模型檔已不可用 。",
+    "shopLocalListingPrepareFailed": "無法建立本地模式 :%1",
+    "shopEmbeddedImagesTitle": "使用 3MF 的影像",
+    "shopEmbeddedImagesDescription": "選擇您要用作市場產品影像的嵌入式模型預覽 。",
+    "shopUseSelectedImages": "使用選取的( E)%1)",
+    "shopUploadingEmbeddedImages": "安全上傳 3MF 影像...",
+    "shopUploadedProducts": "上傳產品",
+    "shopUploadedProductsDescription": "列出、过滤和管理送至市場的產品",
+    "shopConnectGoogleDrive": "連接Google Drive",
+    "shopDriveLinked": "已連結 :%1",
+    "shopDriveByocDescription": "將儲存資料加密到您的 Drive",
+    "shopAiProvider": "AI 提供者",
+    "shopAiProviderDescription": "選擇雙子座或自由的 AI 模型並設定內容語言",
+    "aiProviderIntro": "選擇自由型號或將雙子座、 ChatGPT、 Claude 或任何與 OpenAI 相容的提供者與您的 API 密钥連接。 BYOK 秘密留在安全裝置儲存中 。",
+    "aiProviderLabel": "AI 提供者",
+    "aiProviderSelectionSection": "提供者和輸出",
+    "aiProviderConnectionSection": "連接細節",
+    "aiProviderDataSection": "儲存和分享",
+    "aiProviderFreeModel": "自由模型( 沒有 API 金鑰)",
+    "aiProviderGeminiByok": "雙子座 ^ BYOK",
+    "aiProviderOpenAiByok": "ChatGPT / OpenAI ─ BYOK",
+    "aiProviderClaudeByok": "Claude/ Anthropic —— BYOK",
+    "aiProviderCompatibleByok": "OpenAI 相容性 ^ BYOK",
+    "aiProviderApiKey": "API 金鑰",
+    "aiProviderOpenAiApiKey": "OpenAI API 金鑰",
+    "aiProviderAnthropicApiKey": "Anthropic API 金鑰",
+    "aiProviderBaseUrl": "基址",
+    "aiProviderModelId": "型號代碼",
+    "aiProviderImageModelId": "影像模型 ID (選擇性)",
+    "aiProviderImageModelHelper": "用于產品影像。 留空以使用型號代碼 。",
+    "aiProviderContentLanguage": "內容語言",
+    "aiProviderSystemLanguage": "系統語言",
+    "aiProviderBackupDrive": "返回到 Google Drive",
+    "aiProviderBackupDriveDescription": "儲存連接到{appName}私人Drive應用程式資料",
+    "@aiProviderBackupDriveDescription": {
+        "placeholders": {
+            "appName": {
+                "type": "String"
+            }
+        }
+    },
+    "aiProviderShareTeam": "跟我的店員分享",
+    "aiProviderShareTeamDescription": "此金鑰只在您同步時包含在端到端加密的商店",
+    "aiProviderSaveSettings": "儲存 AI 設定值",
+    "aiProviderTestAndSave": "測試與儲存",
+    "aiProviderRestoreDrive": "從 Google Drive 回復",
+    "aiProviderEnterBaseUrl": "輸入提供者基址 。",
+    "aiProviderEnterApiKey": "輸入選取的提供者的 API 金鑰 。",
+    "aiProviderTesting": "測試 AI 提供者...",
+    "aiProviderSaving": "正在保存...",
+    "aiProviderConnected": "AI 提供者成功連接 。",
+    "aiProviderSaved": "已儲存 AI 提供者設定值 。",
+    "aiProviderConnectionFailed": "無法連接 :{error}",
+    "@aiProviderConnectionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "aiProviderRestoringDrive": "恢复自Google Drive…",
+    "aiProviderNoDriveBackup": "Drive 找不到 AI 提供者備份 。",
+    "aiProviderRestoredDrive": "從 Drive 恢复 AI 提供者設定 。",
+    "aiProviderRestoreFailed": "磁碟恢復失敗 :{error}",
+    "@aiProviderRestoreFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "shopComingSoon": "馬上來",
+    "shopComingSoonDescription": "這些集市尚未可以連接。",
+    "shopLegacyMigrationTitle": "移動傳統伺服器設定",
+    "shopLegacyMigrationDescription": "將舊的定价和設定移到您的 Drive 中",
+    "shopLegacyMigrationComplete": "移入完成 。%1 出口:%2%3%4 已廢棄的舊檔案 :%5.%6",
+    "shopLegacyMigrationFullDump": "· 垃圾堆",
+    "shopLegacyMigrationWarning": "警告: 匯出可能不完全; 重新調動後端並移動 。",
+    "shopLegacyMigrationFailed": "移動失敗 :%1",
+    "shopDraftMissingSource": "此草案不包含源模型信息 。",
+    "shopDeleteDraftQuestion": "刪除草稿?",
+    "shopDeleteDraftDescription": "“%1”將從您的草稿中移除。",
+    "shopDelete": "刪除",
+    "shopDraftDeleted": "草案已刪除。",
+    "shopDraftDeleteFailed": "無法刪除草稿 :%1",
+    "shopStoreConnected": "%1家商店已連通.",
+    "shopStoreUpdated": "儲存更新 。",
+    "shopDisconnectStoreQuestion": "斷線店?",
+    "shopDisconnectStoreDescription": "從此裝置移除 %1 (%2 ) ? 伺服器上的產品歷史不會被刪除 。",
+    "shopDisconnect": "斷線",
+    "shopProductListingUnavailable": "%1 產品上市尚不可用.",
+    "shopSignInFirst": "簽到MakerSpell先",
+    "shopDriveConnectedAs": "磁碟已連接%1.",
+    "shopDriveConnectFailed": "磁碟連接失敗 :%1",
+    "shopTeamScope": "團隊",
+    "shopLocalScope": "本地",
+    "shopDraftStep": "步 %1/ %2 → %3 → %4",
+    "shopStepSelectModels": "選擇模型",
+    "shopStepSelectStores": "選擇商店",
+    "shopStepProductDetails": "產品細節",
+    "shopStepStoreDetails": "儲存細節",
+    "shopStepReviewPublish": "审查和出版",
+    "shopContinue": "繼續",
+    "shopDeleteDraftTooltip": "刪除草稿",
+    "shopMarketplaceHub": "集市中心",
+    "shopSupportedMarketplacesTitle": "支持的集市",
+    "shopSupportedMarketplacesDescription": "連接並直接發佈到在此顯示的市場。 支援由規則導引, 並且可以不更新應用程式而擴展 。",
+    "shopFreePublishingTitle": "每周出版自由",
+    "shopFreePublishingRemaining": "%1 %2 上市空格",
+    "shopFreePublishingExplanation": "一個成功的產品 × 商店的出版使用一個插槽。 失敗的出版不使用您的零用量 。",
+    "shopPublishingUnlimited": "沒有限制的市場出版方式MakerSpell商店",
+    "shopPublishingQuotaUnavailable": "無法載入出版備忘錄 。",
+    "shopPublishingSignIn": "簽署使用每周免費出版費。",
+    "shopUpgradeForUnlimited": "取得無限制的出版",
+    "shopConnectSellerDescription": "使用特定集成區域連接售戶。",
+    "shopHubLinkedSummary": "%1 連結 ^ %2 目錄中的市場",
+    "shopViewProducts": "查看產品",
+    "shopNoStoresConnected": "沒有連接的商店",
+    "shopNoStoresDescription": "從目錄中新增支援的市場開始管理產品。",
+    "shopConnectFirstStore": "連接您的第一家店",
+    "shopSeller": "賣家%1",
+    "shopConnectedStatus": "已連接",
+    "shopIncompleteStatus": "不完整",
+    "shopLinkedDate": "已連結%1",
+    "shopProducts": "产品",
+    "shopEdit": "編輯",
+    "shopDefaultFormula": "%1 預設公式",
+    "shopUnavailableYet": "%1尚未提供。",
+    "shopFieldRequired": "%1需要。",
+    "shopHttpsUrlRequired": "%1 必須是有效的 HTTPS URL 。",
+    "shopConnectionVerificationFailed": "無法驗證儲存連線 :%1",
+    "shopCredentialsRequired": "需要銷售者身份證 API 金鑰和API Secret 。",
+    "shopStoreDisplayName": "儲存顯示名稱",
+    "shopSellerIdLabel": "賣家代碼",
+    "shopApiKeyLabel": "API 金鑰",
+    "shopApiSecretLabel": "API 秘密",
+    "shopOriginCountryInvalid": "原籍国必須是兩個字母的代碼, 例如TR 。",
+    "shopDefaultBrandRequired": "需要預設品牌 。",
+    "shopDefaultCargoRequired": "需要預設的货运公司",
+    "shopDefaultStoreName": "%1 堆",
+    "shopEditStore": "編輯儲存",
+    "shopCredentialsSecure": "你們的市場證件都加密在安全儲藏室",
+    "shopPriceFormula": "价格公式",
+    "shopPriceFormulaDescription": "計算此店的售價時使用",
+    "shopManageFormulas": "管理公式",
+    "shopSelectFormula": "選擇公式",
+    "shopListingDefaults": "列出缺省",
+    "shopDefaultCountryOrigin": "默认原籍国",
+    "shopCountryCodeHelper": "使用二字母 ISO 國家代碼",
+    "shopDefaultBrand": "默认品牌",
+    "shopBrandCatalogHelper": "符合市場品牌目錄",
+    "shopDefaultCargoCompany": "預設貨品公司",
+    "shopDescriptionExtraText": "產品描述附加文字",
+    "shopDescriptionExtraHint": "這家店的每個產品描述都附加了",
+    "shopSaveChanges": "儲存變更",
+    "shopTeamTitle": "商店小組",
+    "shopTeamDescription": "邀請隊友 管理你加密的商店工作區",
+    "shopTeamPremiumTitle": "工作區域",
+    "shopTeamPremiumDescription": "分享商店 加密證件 定价 和草稿",
+    "shopAutomationPremiumTitle": "高级定价自动化",
+    "shopAutomationPremiumDescription": "建立特定市場的公式,使成本、佣金和利差自动化。",
+    "shopPricingWeeklyLimitReachedDescription": "自由用戶可以在每週的上市槽使用定价自动化。 您目前的備份已耗盡; 等待槽返回或取得MakerSpell商店可以不受限制的存取。",
+    "shopPricingTrialTitle": "試試定价自動一次",
+    "shopPricingTrialDescription": "探索每個公式工具。 您的一次性試驗只在公式成功儲存時使用 。",
+    "shopPricingTrialSignInDescription": "簽字以確保你的一次性價格自動試驗",
+    "shopPricingTrialUnavailable": "您的定价試驗無法驗證。 請檢查您的連線再試一次 。",
+    "shopPricingTrialSaveFailed": "公式無法儲存。 您的試驗沒有被使用 。",
+    "shopPricingSaveFailed": "無法儲存定价公式。 再試一次 。",
+    "shopPricingTrialUsedTitle": "完成",
+    "shopPricingTrialUsedDescription": "您的公式已儲存。 GetMakerSpell商店繼續使用價值自動操作",
+    "shopViewPlan": "檢視商店計劃",
+    "shopTeamSummary": "%1名理事%2 個加入商店",
+    "shopInviteTeammate": "邀請",
+    "shopLinkAndQr": "連結或 QR",
+    "shopJoinTeam": "加入商店",
+    "shopScanOrPaste": "掃描或貼上",
+    "shopJoinTeamDescription": "貼上 aMakerSpell商店邀請連結或掃描它的 QR 碼 。",
+    "shopInviteLink": "邀請連結",
+    "shopJoinWithLink": "加入連結",
+    "shopInvalidInviteLink": "這不是有效的 MakerSpell 商店邀請連結 。",
+    "shopCopyInviteLink": "复制連結",
+    "shopShareInviteLink": "分享連結",
+    "shopPasteClipboard": "貼上",
+    "shopTeamSignInHint": "簽名邀請隊友或掃瞄商店QR",
+    "shopShowInviteQr": "顯示邀請QR",
+    "shopScanToJoin": "要加入的掃描",
+    "shopSyncVaultToDrive": "同步金庫以驅動",
+    "shopRestoreBackup": "回復商店備份",
+    "shopRestoreBackupDescription": "選擇私下儲存的加密回收點Google Drive應用程式資料 。",
+    "shopLatestBackup": "最近備份",
+    "shopDatedBackup": "每日備份",
+    "shopNoBackupFound": "在 Google Drive 中找不到商店備份 。",
+    "shopRestoreBackupConfirmTitle": "恢復此備份 ?",
+    "shopRestoreBackupConfirmDescription": "從此回收點刪除的商店與產品將重新整合到您的商店, 與團隊同步 。",
+    "shopBackupRestored": "商店備份恢复並同步 。",
+    "shopRestoreBackupFailed": "無法恢復商店備份 :%1",
+    "shopProtectRecoveryKey": "保護復原金鑰",
+    "shopRecoveryProtectionHint": "重啟應用程式或失去此裝置後, 防止永久數據損失 。",
+    "shopRecoveryProtected": "儲存回收金鑰",
+    "shopRecoveryPasswordTitle": "設定回收密碼",
+    "shopRecoveryPasswordDescription": "使用至少 12 個字元。 在重新啟動應用程式或失去此裝置後, 您需要此密碼 。 MakerSpell 無法回收被遺忘的密碼 。",
+    "shopRecoveryPassword": "恢复密碼",
+    "shopRecoveryPasswordConfirm": "确认密碼",
+    "shopRecoveryPasswordTooShort": "使用至少12個字元 。",
+    "shopRecoveryPasswordsDoNotMatch": "密碼不符 。",
+    "shopRecoveryKeySaved": "您的加密回收金鑰被私自儲存在Google Drive.",
+    "shopRecoveryKeySaveFailed": "無法保護回收金鑰 :%1",
+    "shopRecoveryPasswordRequiredTitle": "需要恢复密碼",
+    "shopRecoveryPasswordRequiredDescription": "此備份已用您的前一個裝置金鑰加密 。 請輸入您在重排應用程式前建立的復原密碼 。",
+    "shopRecoveryPasswordIncorrect": "密碼不正確或回收金鑰被損毀 。",
+    "shopRecoveryKeyMissing": "在 Google Drive 中找不到保護的復原金鑰。 此備份無法在此裝置上開啟 。",
+    "shopRecoverDeviceKey": "收回上一個裝置金鑰",
+    "shopRecoveryMustRestoreBeforeSync": "您的 Google Drive 備份使用不同的裝置金鑰。 在同步前收回它以避免覆寫可回收的資料 。",
+    "shopRecoveryKeyRecovered": "前一個裝置金鑰被安全回收 。",
+    "shopMembersCount": "理事%1)",
+    "shopKeyReady": "金鑰已準備好",
+    "shopNoPublicKey": "沒有公開金鑰",
+    "shopMemberRemoved": "解散了",
+    "shopMemberRemoveFailed": "無法移除成員 :%1",
+    "shopJoinedShops": "你加入的商店",
+    "shopOwnerLabel": "所有者%1...",
+    "shopRoleOwner": "所有者",
+    "shopRoleAdmin": "行政",
+    "shopRoleMember": "成員",
+    "shopSignInToShare": "簽到 MakerSpell 分享您的商店 。",
+    "shopSignInToJoin": "簽入 MakerSpell 加入商店 。",
+    "shopJoinedOwner": "加入%1的商店.",
+    "shopVaultSaved": "商店金庫同步%1成員。 文件 :%2...",
+    "shopVaultSyncFailed": "錯誤同步失敗 :%1",
+    "shopShareTitle": "共享商店",
+    "shopShareDescription": "凡在簽署時掃瞄此 QR 的, 可以加入您的商店。 憑證與定价同步通過加密金庫; 模擬檔案仍留在 MakerSpell- Library 在 Drive 上 。",
+    "shopRetry": "重試",
+    "shopVaultScope": "\n模型:可见 MakerSpell-Library 資料夾",
+    "shopInviteCopied": "邀請連結已复制 。",
+    "shopCopyInviteData": "复制邀請資料",
+    "shopInvalidInviteQr": "這不是MakerSpell商店邀請QR。",
+    "shopJoining": "加入商店...",
+    "shopSignInThenScan": "簽到MakerSpell先再掃瞄一遍",
+    "shopScanInviteTitle": "掃描商店邀請",
+    "shopScanInviteDescription": "掃描所有者的商店 QR 來加入他們的商店、 憑證和定价工作區。 模擬檔案仍留在 MakerSpell- Library 在 Drive 上 。",
+    "storeProductsUnavailable": "在此建築中無法儲存產品。 配置 Google Play 和 App Store 連接器中的產品代碼 。",
+    "currentPlan": "目前計劃",
+    "betaProBadge": "北京",
+    "betaProActive": "Beta Pro 已啟動",
+    "betaProDaysRemaining": "Beta 測試存取...{days}剩餘天",
+    "@betaProDaysRemaining": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "betaProNoRenewal": "沒有支付方法或自動更新。",
+    "unavailable": "不可用",
+    "subscribePrice": "訂閱...{price}",
+    "freeTrialAvailable": "可自由審判",
+    "freeTrialDays": "{days}- 每日自由審判",
+    "startFreeTrial": "開始自由試驗",
+    "startFreeTrialDays": "使用 {days} 天",
+    "freeTrialThenPrice": "那{price}月,隨時取消",
+    "@freeTrialDays": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@startFreeTrialDays": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@freeTrialThenPrice": {
+        "placeholders": {
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "subscriptionProductUnavailable": "此商店建築中沒有訂閱產品 。",
+    "purchaseFailed": "购买失敗 。",
+    "signInBeforePurchase": "在買訂單前簽署 。",
+    "purchaseBelongsToAnotherAccount": "此購物屬於另一家 MakerSpell 帳戶 。",
+    "purchaseVerificationFailed": "Google Play 無法驗證此购买。 請再試一次 。",
+    "includedInShop": "包含在商店",
+    "purchaseAccountConfirmation": "此訂閱將連結到{email}繼續?",
+    "@purchaseAccountConfirmation": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "@subscribePrice": {
+        "placeholders": {
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "noDataFound": "未找到資料 。",
+    "errorSharingModel": "分享模式出錯 :{error}",
+    "translationError": "翻譯錯誤 :{error}",
+    "translationModelsReady": "翻譯語言檔案已下載。 英文 - Turkish 翻譯速度將更快 。",
+    "noPlatesAvailable": "此設定檔中沒有可用的碟片",
+    "fileAlreadyDownloaded": "已下載檔案",
+    "profileDownloadedBefore": "此設定檔已經下載過。 您確定要再下載嗎 ?",
+    "yes": "是",
+    "downloadRequiresLoginNoAuth": "此下載需要登入, 但無法提供認證設定 。",
+    "downloadLoginNoticeTitle": "下載需要簽署",
+    "downloadLoginNoticeMessage": "有些平台要求您在下載前先簽署。 您將被重定向到平台的簽署頁面。 在您成功簽署後, 您將自動開始下載 。",
+    "operationCancelled": "操作已取消 。",
+    "failedDownloadProfile": "下載設定檔失敗 :{error}",
+    "modelDownloadedBefore": "此模型之前已經下載過。 您確定要再次下載嗎 ?",
+    "downloadAgain": "再次下載",
+    "downloadStarted": "下載開始 :{name}",
+    "downloadCaptchaCancelled": "下載已取消: captcha 未解析 。",
+    "failedStartDownload": "下載失敗 :{error}",
+    "profiles": "配置",
+    "detail": "详细",
+    "comments": "註解",
+    "related": "相關",
+    "showOriginal": "顯示原始",
+    "translateToTurkish": "翻譯為土耳其文",
+    "translateToLanguage": "翻譯為{language}",
+    "shareModel": "共享模式",
+    "removeFromWishlist": "從願望清單移除",
+    "addToWishlist": "添加到願清單",
+    "downloads": "下載",
+    "tags": "標籤",
+    "relatedModels": "相關模型",
+    "downloadedFileNotFound": "已下載的檔案在磁碟上找不到。 試著再下載一次 。",
+    "openIn3dViewer": "以3D 檢視器開啟",
+    "downloadAgainTooltip": "再次下載",
+    "download": "下載",
+    "printerControlDownloadUnavailable": "印表機沒有提供檔案下載地址 。",
+    "printProfiles": "列印設定檔",
+    "showLess": "顯示小點",
+    "showMore": "顯示更多",
+    "logInToViewFiles": "登入查看和下載檔案",
+    "logIn": "登入",
+    "licenseAgreement": "授權協議",
+    "noLicenseText": "沒有可用的駕照文字 。",
+    "source": "來源",
+    "listOnMarketplace": "市場清單",
+    "prepareAndPrint": "準備列印( P)",
+    "prepareAndPrintDescription": "在工作區開啟模型、 檢視列印設定、 切片、 選擇印表機並傳送工作 。",
+    "preparingModel": "正在準備模型...",
+    "openAndPrepare": "開啟並準備",
+    "downloadAndPrepare": "下載並準備",
+    "allDiscussions": "所有討論( A){count})",
+    "ascending": "升",
+    "descending": "降序",
+    "loadingComments": "正在載入註解...",
+    "noCommentsYet": "尚未評論",
+    "loadMoreComments": "載入更多註解",
+    "showReplies": "顯示回覆",
+    "showRepliesCount": "顯示回覆( R){count})",
+    "failedLoadReplies": "載入回覆失敗 :{error}",
+    "@errorSharingModel": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@translationError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedDownloadProfile": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedStartDownload": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedLoadReplies": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@downloadStarted": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@allDiscussions": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@showRepliesCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "price": "價格",
+    "likes": "喜歡",
+    "license": "憑證",
+    "licenseAndCommercialUse": "许可证和商业用途",
+    "viewOnNamedPlatform": "檢視於 {platformName}",
+    "@viewOnNamedPlatform": {
+        "placeholders": {
+            "platformName": {
+                "type": "String"
+            }
+        }
+    },
+    "licenseStoreAllowed": "這張執照一般允許在商店中出售实物印刷品。",
+    "licenseStoreNotAllowed": "在將此產品添加到您的商店前, 取得創作者的許可 。",
+    "licenseStoreReview": "在將此型號加入商店前, 檢查完整的駕照 。",
+    "licensePhysicalProductDisclaimer": "這項評估适用于物理印刷品, 而不是數位模型檔案的轉售或再分配。",
+    "viewFullLicense": "檢視完整授權",
+    "licenseMoreInfo": "更多關於此執照的資訊",
+    "licenseSummaryPublicDomain": "這項作品是公有的,",
+    "licenseSummaryAttribution": "商業使用一般是允許的,",
+    "licenseSummaryShareAlike": "改裝可能需要使用相同的執照。",
+    "licenseSummaryNonCommercial": "未经創作人另行許可,",
+    "licenseSummaryCommercial": "執照標籤表示商業用途,",
+    "licenseSummaryOpenSource": "商业用途一般是可能的,但可适用归属、來源、通知或類似分享的义务。",
+    "licenseSummaryUnknown": "此平台特有或未知的駕照無法安全分類 。",
+    "licenseStandardPersonalUse": "只有標準/ 個人使用",
+    "licensePlatformPersonalUseDisclaimer": "此平台上的型號默认由個人使用授權提供。 請檢查商業用戶的來源頁面及目前的細節 。",
+    "timeWeight": "時間 :{time}重量:{weight}g",
+    "platesNozzle": "排版 :{plates}- 喷嘴:{nozzle}",
+    "notAvailable": "N/A",
+    "downloadProfile": "下載設定檔",
+    "discussions": "討論",
+    "noDescriptionProvided": "未提供描述。",
+    "storeListingsTitle": "儲存此模型于",
+    "refresh": "刷新",
+    "storeListingsDescription": "看看哪家市場已經有這個模型的產品了",
+    "couldNotLoadStoreListings": "無法載入商店清單 。",
+    "listingCount": "{count}列表",
+    "product": "產品",
+    "storeMarketplace": "儲存 :{store}集市:{marketplace}",
+    "barcode": "條碼",
+    "sku": "斯庫",
+    "listedAt": "已列出{date}",
+    "listingDetails": "列出細節",
+    "store": "儲存",
+    "marketplace": "市場",
+    "title": "標題",
+    "status": "設備狀態",
+    "salePrice": "售价",
+    "manageListingsHint": "在 Shop 下管理所有上傳產品 。",
+    "notListedYet": "尚未在任何商店上市",
+    "notListedDescription": "當你把這個模型上傳到市場, 它會出現在這裡,有商店和狀態。",
+    "retry": "重試",
+    "@listedAt": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@platesNozzle": {
+        "placeholders": {
+            "nozzle": {
+                "type": "String"
+            },
+            "plates": {
+                "type": "int"
+            }
+        }
+    },
+    "@storeMarketplace": {
+        "placeholders": {
+            "marketplace": {
+                "type": "String"
+            },
+            "store": {
+                "type": "String"
+            }
+        }
+    },
+    "@timeWeight": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            },
+            "weight": {
+                "type": "String"
+            }
+        }
+    },
+    "fetchingModelInfo": "正在取得模型信息...",
+    "loadingModelDetails": "正在載入模型的細節...",
+    "preparingDownloadLink": "正在準備下載連結...",
+    "openingDownloadPage": "開啟下載頁面...",
+    "downloadUrlCaptureFailed": "無法下載網址",
+    "unsupportedPlatform": "不支援的平台 :{platform}",
+    "downloading3mfFile": "正在下載 3MF 檔案...",
+    "printTime": "列印時間",
+    "filamentWeight": "檔案重量",
+    "plateCount": "平板計數",
+    "nozzle": "噴嘴",
+    "multiColor": "多彩色",
+    "no": "否",
+    "processing": "處理中...",
+    "dimensionInfo": "尺寸信息",
+    "loaded": "已載入",
+    "couldNotGetDimensionInfo": "無法取得尺寸信息",
+    "fileTooLargeTryAgain": "檔案太大了 請再試一次",
+    "serverAccessErrorTryAgain": "伺服器存取錯誤。 請再試一次 。",
+    "errorWithMessage": "錯誤 :{message}",
+    "materials": "材料",
+    "compatiblePrinters": "兼容打印机",
+    "plates": "版式",
+    "weight": "重量",
+    "threeMfDimensionInfo": "3MF 尺寸信息",
+    "fileLabel": "文件 :{fileName}",
+    "plateNumber": "板{number}",
+    "modelCountLabel": "{count}模型",
+    "sizeLabel": "大小 :{size}",
+    "partCountLabel": "部分數量 :{count}",
+    "@unsupportedPlatform": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorWithMessage": {
+        "placeholders": {
+            "message": {
+                "type": "String"
+            }
+        }
+    },
+    "@fileLabel": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "@plateNumber": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "@modelCountLabel": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@sizeLabel": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "@partCountLabel": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "replyCount": "{count, plural, =1{1份答复} other{{count} 答复}}",
+    "repliesTitle": "答复({count})",
+    "moreReplies": "+{count}更多",
+    "@replyCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@repliesTitle": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@moreReplies": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "filterAndSort": "筛选排序( S)",
+    "downloading": "下載中",
+    "downloadNotificationRunningTitle": "下載中{fileName}",
+    "@downloadNotificationRunningTitle": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationRunningBody": "{progress}·{speed}·{remaining}剩余",
+    "@downloadNotificationRunningBody": {
+        "placeholders": {
+            "progress": {
+                "type": "String"
+            },
+            "speed": {
+                "type": "String"
+            },
+            "remaining": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationRunningProgress": "{progress}下載",
+    "@downloadNotificationRunningProgress": {
+        "placeholders": {
+            "progress": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationCompleteTitle": "下載完成",
+    "downloadNotificationCompleteBody": "{fileName} 已準備好開啟",
+    "@downloadNotificationCompleteBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationErrorTitle": "下載失敗",
+    "downloadNotificationErrorBody": "{fileName}無法下載",
+    "@downloadNotificationErrorBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadPause": "暫停",
+    "downloadResume": "繼續",
+    "downloadNotificationPausedTitle": "下載已暫停",
+    "downloadNotificationPausedBody": "{fileName}已暫停",
+    "@downloadNotificationPausedBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationCanceledTitle": "下載已取消",
+    "downloadNotificationCanceledBody": "{fileName}已取消",
+    "@downloadNotificationCanceledBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "completed": "已完成",
+    "failed": "失敗",
+    "paused": "暫停",
+    "fileType": "文件型態",
+    "models3d": "三维模型",
+    "gcode": "G 碼",
+    "archives": "檔案",
+    "archiveViewerTitle": "開啟歸檔模型",
+    "archiveViewerQuestion": "此歸檔包含{count}模擬檔案。 您要怎麼開啟它們 ?",
+    "@archiveViewerQuestion": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "archiveViewerSamePlate": "使用最少的碟片",
+    "archiveViewerSamePlateDescription": "安排模式 清除 并保持在新的板子上 只有在需要。",
+    "archiveViewerSeparatePlates": "在不同的板塊上開啟",
+    "archiveViewerSeparatePlatesDescription": "為每個模型建立单独的建築板 。",
+    "images": "影像",
+    "other": "其他",
+    "allTypes": "所有類型",
+    "sortDownloadingFirst": "狀態( 先下載)",
+    "nameAscending": "名稱 A ─ Z",
+    "nameDescending": "姓名 Z = A",
+    "sizeLargestFirst": "大小( 最大第一)",
+    "sizeSmallestFirst": "大小( 先小)",
+    "filePathNotFound": "找不到檔案路徑",
+    "fileNotFound": "找不到檔案",
+    "sharingFailed": "分享失敗 :{error}",
+    "imageFileNotFound": "找不到影像檔",
+    "deleteDownload": "刪除下載",
+    "deleteDownloadQuestion": "您確定要刪除“{fileName}從你的裝置?",
+    "delete": "刪除",
+    "downloadSearchHint": "搜尋名稱, 類型, 平台...",
+    "downloadResults": "{count}結果",
+    "downloadFilteredResults": "{shown}四,{total}成果",
+    "noMatchingDownloads": "沒有匹配的下載",
+    "noDownloadsYet": "尚未下載",
+    "downloadFilterHint": "嘗試其他搜尋、 平台、 狀態或檔案類型 。",
+    "clearFilters": "清除滤波器",
+    "queued": "已加入佇列",
+    "retrying": "重試中",
+    "canceled": "已取消",
+    "notFound": "找不到",
+    "starting": "開始...",
+    "no3dFilesInFolder": "在此資料夾中找不到 3D 檔案",
+    "view3d": "檢視 3D",
+    "share": "分享",
+    "failedLoadImage": "載入影像失敗",
+    "@sharingFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@deleteDownloadQuestion": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "@downloadResults": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@downloadFilteredResults": {
+        "placeholders": {
+            "shown": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "platform": "平台",
+    "back": "背面",
+    "contestsLoadFailed": "比賽無法載入",
+    "noContestsFound": "未找到參賽者",
+    "checkBackForContests": "稍后檢查新比賽",
+    "views": "檢視",
+    "entries": "項目",
+    "participants": "参加者",
+    "contestEnded": "已結束",
+    "timeLeftDaysHours": "{days}d{hours}左",
+    "timeLeftHours": "{hours}左",
+    "timeLeftMinutes": "{minutes}左 m",
+    "daysLeft": "{days}天",
+    "hoursLeft": "{hours} 左時",
+    "minutesLeft": "{minutes} 分",
+    "visitContestSite": "參賽網站",
+    "contestDetail": "參賽細節",
+    "contestRules": "比賽規則",
+    "allEntries": "所有項目",
+    "errorLoadingData": "載入資料出錯",
+    "noDetailAvailable": "沒有可用的細節",
+    "noRulesAvailable": "沒有可用的規則",
+    "errorLoadingEntries": "載入項目出錯",
+    "noEntriesYet": "尚未有項目",
+    "firstToSubmitEntry": "成為第一個提交項目的人!",
+    "prizes": "獎",
+    "winnerCount": "{count} 贏家",
+    "popularModels": "流行模式",
+    "rulesNotFound": "找不到規則",
+    "totalEntries": "總計{count}項目",
+    "description": "描述",
+    "contestStart": "開始 :{date}",
+    "submissionEnd": "提交結束 :{date}",
+    "reviewEnd": "檢視結束 :{date}",
+    "winnerAnnouncement": "贏家宣告 :{date}",
+    "upcoming": "來了",
+    "active": "作用中",
+    "reviewing": "审查",
+    "ended": "結束",
+    "resultsPublished": "公布成果",
+    "@timeLeftDaysHours": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            },
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@timeLeftHours": {
+        "placeholders": {
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@timeLeftMinutes": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@daysLeft": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@hoursLeft": {
+        "placeholders": {
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@minutesLeft": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@winnerCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@totalEntries": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@contestStart": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@submissionEnd": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@reviewEnd": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@winnerAnnouncement": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "platformMissing": "平台缺失",
+    "uploadedProducts": "上傳產品",
+    "catalogSourceDrive": "來源 :Google Drive",
+    "catalogSourceDevice": "來源: 此裝置",
+    "checkMarketplaceStatuses": "檢查市場狀態( 待定/ 失敗 )",
+    "openDriveSpreadsheet": "開啟 Drive 工作表",
+    "syncCatalogDrive": "同步驅動 Excel/ Sheets 的目錄",
+    "uploadedProductSearchHint": "按標題、條碼或 SKU 搜尋...",
+    "pending": "待處理",
+    "success": "成功",
+    "noProductsUploaded": "尚未上傳產品",
+    "pageOf": "页 次{page}/{total}",
+    "noTitle": "沒有標題",
+    "barcodeValue": "條碼 :{barcode}",
+    "stockValue": "股票 :{stock}",
+    "errorLoadingProducts": "裝入產品出錯 :{error}",
+    "refreshMarketplaceStatuses": "刷新市場狀態",
+    "refreshMarketplaceStatusesDescription": "檢查您的連線商店的待售/ 失效產品。 市場上已批的產品會成功。 大型目錄可能需要一陣子 。",
+    "checkNow": "檢查",
+    "startingMarketplaceCheck": "開始檢查市場...",
+    "checkingProducts": "檢查中{done}/{total}{barcode}",
+    "statusCheckFailed": "狀態檢查失敗 :{error}",
+    "couldNotOpenSpreadsheet": "無法開啟工作表 :{url}",
+    "driveSpreadsheetError": "驅動工作表錯誤 :{error}",
+    "syncToDrive": "同步以驅動",
+    "syncToDriveDescription": "建立或更新“MakerSpell已上傳的產品 ”Google Drive。可以在 Google 工作表中開啟,也可以以 Excel 下載。繼續嗎 ?",
+    "sync": "僅同步改變的",
+    "productsSynced": "{count}產品同步到 Drive 电子表格 。",
+    "open": "打開",
+    "syncError": "同步錯誤 :{error}",
+    "couldNotOpenUrlValue": "無法開啟 URL :{url}",
+    "spreadsheetUpdated": "更新电子表格( E){count}產品在Drive上。",
+    "sourcePlatformNotFound": "找不到原始平台信息",
+    "modelIdNotFound": "找不到型號代碼",
+    "productIdNotFound": "找不到產品代碼",
+    "deleteProduct": "刪除產品",
+    "deleteProductQuestion": "您確定要刪除此產品嗎 ?\n\n標題 :{title}\n條碼 :{barcode}\n身份:{id}\n\n此動作無法解除 。",
+    "productDeleted": "產品成功刪除( ID :{id})",
+    "errorDeletingProduct": "刪除產品出錯 :{error}",
+    "changeStatus": "變更狀態",
+    "currentStatus": "目前狀態 :{status}",
+    "selectNewStatus": "選擇新狀態 :",
+    "statusUpdated": "更新狀態 :{status}",
+    "errorUpdatingStatus": "更新狀態錯誤 :{error}",
+    "sourceModelIdNotFound": "找不到原始模式 ID",
+    "errorLoadingModelDetails": "載入模型詳情出錯 :{error}",
+    "warning": "警告",
+    "duplicateUploadWarning": "此產品已經成功上傳。 您確定要再次上傳嗎 ?\n\n許多產品可能會在某些市場上用相同的條碼產生。",
+    "continueAction": "繼續",
+    "batchStatus": "批次狀態",
+    "batchIdValue": "批次代碼 :{id}",
+    "closeAndRefresh": "關閉並刷新",
+    "batchStatusCheckFailed": "批次狀態無法檢查",
+    "productDetails": "產品細節",
+    "productImages": "產品影像",
+    "storeAndMarketplace": "儲存市場( M)",
+    "stockCode": "股票代碼",
+    "brand": "品牌",
+    "listPrice": "清單价格",
+    "calculatedPrice": "計算價格",
+    "stock": "股票",
+    "vat": "增值",
+    "printProfile": "打印配置文件",
+    "sourcePlatform": "來源平台",
+    "modelId": "型號代碼",
+    "sourceUrl": "來源 URL :",
+    "batchId": "批次代碼",
+    "checkBatchStatus": "檢查批次狀態",
+    "marketplaceResponse": "市場答复",
+    "editAndReupload": "編輯與重新載入",
+    "openSourceModel": "開源模式",
+    "syncDriveSpreadsheet": "同步以驅動電表",
+    "deleteProductAction": "刪除產品",
+    "listingFallback": "列出",
+    "productStatus": "產品狀態",
+    "failureReasons": "失敗原因 :",
+    "lastUpdate": "上次更新 :{date}",
+    "detailedResponseJson": "详细答复(JSON)",
+    "@pageOf": {
+        "placeholders": {
+            "page": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "@barcodeValue": {
+        "placeholders": {
+            "barcode": {
+                "type": "String"
+            }
+        }
+    },
+    "@stockValue": {
+        "placeholders": {
+            "stock": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorLoadingProducts": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@checkingProducts": {
+        "placeholders": {
+            "done": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "barcode": {
+                "type": "String"
+            }
+        }
+    },
+    "@statusCheckFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotOpenSpreadsheet": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "@driveSpreadsheetError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@productsSynced": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@syncError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotOpenUrlValue": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "@spreadsheetUpdated": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@deleteProductQuestion": {
+        "placeholders": {
+            "title": {
+                "type": "String"
+            },
+            "barcode": {
+                "type": "String"
+            },
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@productDeleted": {
+        "placeholders": {
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorDeletingProduct": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@currentStatus": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "@statusUpdated": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorUpdatingStatus": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorLoadingModelDetails": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@batchIdValue": {
+        "placeholders": {
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@lastUpdate": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileUserFallback": "使用者名稱",
+    "followDesigner": "跟隨設計者",
+    "unfollowDesigner": "不跟隨",
+    "designerFollowed": "以下{name}",
+    "@designerFollowed": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "designerUnfollowed": "已停止跟蹤{name}",
+    "newModelsCount": "{count}自你上次來的時候起的新模特",
+    "@newModelsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@designerUnfollowed": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileUserInfoUnavailable": "無法取得使用者資訊",
+    "ownerProfileUserInfoLoadError": "載入使用者資訊出錯 :{error}",
+    "@ownerProfileUserInfoLoadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileModelsCount": "模型{count})",
+    "@ownerProfileModelsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "ownerProfileTryAgain": "再試一次",
+    "ownerProfileNoModels": "尚未找到模型",
+    "ownerProfileStatModels": "模型",
+    "ownerProfileStatLikes": "喜歡",
+    "ownerProfileStatFollowers": "追隨者",
+    "ownerProfileStatDownloads": "下載",
+    "ownerProfileAbout": "關於",
+    "ownerProfileAscending": "升",
+    "ownerProfileDescending": "降序",
+    "prepareSelectModel": "在繼續前選擇模型檔并計算其套件尺寸 。",
+    "prepareLoadedPrevious": "已從上傳中載入 。 在再次發行前檢查字段 。",
+    "statusCheckSummary": "已檢查 {checked} : {success} 成功, {failed} 失敗, {pending} 尚未完成, {notFound} 不在市場上, {errors} 錯誤。 Catalog 更新 : {updated} 。",
+    "@statusCheckSummary": {
+        "placeholders": {
+            "checked": {
+                "type": "int"
+            },
+            "success": {
+                "type": "int"
+            },
+            "failed": {
+                "type": "int"
+            },
+            "pending": {
+                "type": "int"
+            },
+            "notFound": {
+                "type": "int"
+            },
+            "errors": {
+                "type": "int"
+            },
+            "updated": {
+                "type": "int"
+            }
+        }
+    },
+    "marketplaceRuleNotFound": "未找到市場規則 :{platform}",
+    "batchOrMarketplaceMissing": "缺少批次ID或市場",
+    "@marketplaceRuleNotFound": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "add": "新增",
+    "edit": "編輯",
+    "remove": "移除",
+    "save": "儲存",
+    "objectHierarchyTitle": "物件等级",
+    "objectHierarchyNoPlates": "沒有檢測到碟片",
+    "objectHierarchySearchHint": "搜索牌照、物件和部件...",
+    "objectHierarchyShowInScene": "在現場顯示",
+    "objectHierarchyRenamePlate": "重命名牌",
+    "objectHierarchyObjectActions": "物件動作",
+    "objectHierarchySplitToObjects": "拆分為物件",
+    "objectHierarchySplitToParts": "拆分為零件",
+    "objectHierarchyCannotSplit": "此模型不包含多個可分隔的身體 。",
+    "objectHierarchyObject": "物件",
+    "objectHierarchyObjectNumbered": "物件{number}",
+    "@objectHierarchyObjectNumbered": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "objectHierarchyPart": "部分{number}",
+    "@objectHierarchyPart": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "objectHierarchyPlate": "板{number}",
+    "@objectHierarchyPlate": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "printerSelectionTitle": "選擇印表機",
+    "printerSelectionMultipleTitle": "選擇印表機設定檔",
+    "printerSelectionUseSelected": "使用選取的打印机",
+    "printerSelectionSearchHint": "搜尋印表機...",
+    "printerSelectionNotFound": "找不到印表機",
+    "workspacePrinterSetupTitle": "工作區設定",
+    "workspacePrinterSetupHeading": "你用哪台打印机?",
+    "workspacePrinterSetupDescription": "選擇您使用的所有印表機設定檔, 因此工作區可以準備相容的床位、 預置和切換設定值 。",
+    "workspacePrinterSetupLater": "以后",
+    "workspacePrinterSetupPreparing": "正在準備印表機目錄...",
+    "workspacePrinterSetupDownloading": "下載印表機設定檔...",
+    "workspacePrinterSetupDownloadHint": "您可以在下載後繼續探索其它螢幕。 完成後返回工作區 。",
+    "workspacePrinterSetupBrowse": "探索其他螢幕",
+    "workspacePrinterSetupError": "印表機目錄無法預備。 請檢查您的連線再試一次 。",
+    "workspacePrinterSetupEmpty": "選擇一個或多個印表機設定檔。 第一個印表機會作為您的預設值 。",
+    "workspacePrinterSetupCatalogTitle": "從印表機設定檔中選擇",
+    "workspacePrinterSetupOfflineHint": "您的印表機不需要在網路上發電或連接。 您可以稍后連接 。",
+    "workspacePrinterSetupAdd": "選擇印表機設定檔",
+    "workspacePrinterSetupAddAnother": "新增另一個印表機",
+    "workspacePrinterSetupEditSelection": "編輯所選取的打印机",
+    "workspacePrinterSetupContinue": "繼續工作區域",
+    "workspacePrinterSetupDefault": "預設印表機",
+    "networkPrintersTitle": "網路打印机",
+    "networkPrinterAddManual": "手動新增印表機",
+    "networkPrinterNameHint": "印表機名稱( 例如 )SnapmakerU1",
+    "networkPrinterIpHint": "IP地址( 例如 192. 168.1. 50)",
+    "networkPrinterApiKeyOptional": "API 金鑰( 可選擇的)",
+    "networkPrinterApiKeyIfNeeded": "API 金鑰( 如果需要)",
+    "networkPrinterCameraUrlOptional": "相機網址( 可選擇的)",
+    "networkPrinterManualName": "手動打印机",
+    "networkPrinterDisplayName": "顯示名稱",
+    "networkPrinterEdit": "編輯印表機",
+    "networkPrinterSaved": "已儲存的打印机",
+    "networkPrinterDiscovered": "已發現的打印机",
+    "networkPrinterNoneFound": "在本地端網路上找不到印表機 。",
+    "networkPrinterType": "類型 :{type}",
+    "@networkPrinterType": {
+        "placeholders": {
+            "type": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterHostname": "主機名稱 :{hostname}",
+    "@networkPrinterHostname": {
+        "placeholders": {
+            "hostname": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterStatusDiscovering": "發現",
+    "networkPrinterStatusIdentifying": "确定",
+    "networkPrinterStatusConnected": "已連接",
+    "networkPrinterStatusAvailable": "可用",
+    "networkPrinterStatusAuthenticationRequired": "需要認證",
+    "networkPrinterStatusOffline": "離線",
+    "noInternetConnectionTitle": "沒有網路連接",
+    "noInternetConnectionMessage": "您目前已下線。 請稍後再試 。",
+    "networkPrinterStatusUnsupported": "不支援",
+    "networkPrinterStatusConnectionFailed": "連接失敗",
+    "networkPrinterStatusNotChecked": "未檢查",
+    "networkPrinterRemoteId": "伺服器打印机代碼",
+    "networkPrinterRemoteIdHelp": "由印表機伺服器管理, 在此無法變更 。",
+    "printSettingsNozzle": "{size} 喷嘴",
+    "@printSettingsNozzle": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "printSettingsSearchHint": "搜尋設定...",
+    "selectModelFile": "選擇模型檔",
+    "couldNotOpenSettings": "無法開啟設定值 。",
+    "modelFileStorageAccessDenied": "儲存權沒有被允許。 您仍然可以瀏覽儲存 。",
+    "modelFileCouldNotOpen": "無法開啟選取的檔案 。",
+    "modelFileUnsupportedType": "此檔案類型不能在此工作流程中使用 。",
+    "modelFileAllTypes": "所有類型",
+    "modelFileSearchHint": "按檔案名稱搜尋...",
+    "modelFileScanning": "掃描裝置...",
+    "modelFileScanningDescription": "這可能要花點時間去大儲藏室",
+    "modelFileGrantStorageAccess": "授權儲存存取",
+    "modelFileBrowseStorage": "瀏覽儲存...",
+    "modelFilePermissionRequired": "自動列出模型檔案需要儲存權限 。",
+    "modelFilePermissionInstructions": "授權「 所有檔案存取 」MakerSpell然后回到這裡。",
+    "modelFileNoFilterMatches": "沒有檔案符合此过滤器或搜尋 。",
+    "modelFileNoneFound": "找不到 3MF, STL, OBJ 或 G 碼檔 。",
+    "modelFileTryAnotherSearch": "試試其他名稱或檔案類型 。",
+    "modelFileTryRefreshOrBrowse": "刷新清單或瀏覽儲存 。",
+    "modelFileFilterSummary": "过滤器 :{filter}·{query}·{count}文件",
+    "@modelFileFilterSummary": {
+        "placeholders": {
+            "filter": {
+                "type": "String"
+            },
+            "query": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerSettingsTitle": "打印机設定",
+    "printerSettingsRefreshProfiles": "刷新設定檔 (debug)",
+    "printerSettingsSavePreset": "儲存機器預置",
+    "printerSettingsPresetName": "預置名稱",
+    "printSettingsGlobal": "全域",
+    "printSettingsObjects": "物件",
+    "printSettingsSelectHierarchyObject": "在階層中選擇要編輯其設定的盤子或物件 。",
+    "printSettingsSimple": "簡單",
+    "printSettingsAdvanced": "進階",
+    "printSettingsNoSettings": "此分頁中沒有設定值",
+    "printSettingsNoSearchResults": "沒有符合的設定值 。{query}”",
+    "@printSettingsNoSearchResults": {
+        "placeholders": {
+            "query": {
+                "type": "String"
+            }
+        }
+    },
+    "printSettingsSelectPreset": "選擇預置",
+    "defaultLabel": "預設",
+    "printSettingsPlateSettings": "列印板參數設定",
+    "printSettingsFrequent": "常用",
+    "printSettingsColorMixingExperimental": "顏色混合( 實驗性 )",
+    "bedTypeSmoothCoolPlate": "低溫平滑列印板",
+    "bedTypeEngineeringPlate": "工程列印板",
+    "bedTypeSmoothHighTempPlate": "高溫平滑列印板",
+    "bedTypeTexturedPeiPlate": "紋理 PEI 列印板",
+    "bedTypeTexturedCoolPlate": "低溫紋理列印板",
+    "bedTypeSuperTackPlate": "低溫增穩列印板",
+    "filamentColors": "色彩",
+    "filamentSlotName": "檔案{number}",
+    "@filamentSlotName": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "filamentMoreActions": "更多絲狀動作",
+    "filamentCurrent": "目前絲線 :{name}",
+    "@filamentCurrent": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentCurrentUnknown": "目前絲線: 未知",
+    "filamentEdit": "編輯",
+    "filamentMerge": "合併",
+    "filamentDelete": "刪除",
+    "filamentMergeTarget": "合併目標",
+    "filamentSelectColor": "選擇顏色",
+    "filamentCustomColor": "自訂顏色",
+    "filamentHue": "色調",
+    "filamentSaturation": "饱和度",
+    "filamentBrightness": "亮度",
+    "printerProfilesTitle": "打印机配置文件",
+    "printerProfilesRememberSelection": "記住選擇",
+    "rememberLastModelWorkspace": "記得最後一個模型工作區",
+    "rememberLastModelWorkspaceSubtitle": "返回工作區時還原最後一個型號、 選取的碟片與應用列印設定值。 預設已禁用 。",
+    "printerProfilesProjectPresets": "專案預置",
+    "printerProfilesSystemPresets": "系統預置",
+    "printerProfilesUserPresets": "使用者預置",
+    "printerProfilesNoneRegistered": "尚未登記印表機",
+    "printerProfilesAddPrinter": "新增印表機",
+    "printerProfilesUnknownBrand": "未定義",
+    "printerProfilesActive": "生效",
+    "printerProfilesRename": "重新命名",
+    "printerProfilesDelete": "刪除",
+    "printerProfilesDeleteTitle": "刪除設定檔",
+    "printerProfilesDeleteConfirmation": "您確定要刪除設定檔 。{name}\" ?",
+    "@printerProfilesDeleteConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesRenameTitle": "重命名設定檔",
+    "printerProfilesNameHint": "設定檔名稱",
+    "driveModelsReconnect": "重新連接Google Drive",
+    "printerProfilesImport": "匯入印表機設定檔",
+    "printerProfilesExport": "匯出設定檔",
+    "printerProfilesImportSuccess": "“{name}”已匯入并啟動。",
+    "@printerProfilesImportSuccess": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesImportInvalid": "此設定檔無法讀取。 選擇一個有效的檔案OrcaSlicerJSON简介.",
+    "printerProfilesImportNotMachine": "選取的 JSON 不是印表機描述檔( 類型: 機器) 。",
+    "printerProfilesExportSubject": "MakerSpell印表機設定檔 :{name}",
+    "@printerProfilesExportSubject": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesExportFailed": "印表機設定檔無法匯出 。",
+    "productInformation": "产品信息",
+    "productActions": "操作",
+    "listingStepSelectModels": "選擇模型",
+    "listingStepSelectStores": "選擇商店",
+    "listingStepProductDetails": "產品細節",
+    "listingStepStoreDetails": "儲存細節",
+    "listingStepReviewPublish": "評論出版( P)",
+    "listingStepProgress": "步{current}/{total}:{title}",
+    "@listingStepProgress": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "title": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPublished": "公布日期:{count}成功",
+    "@listingPublished": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "listingPublishedWithFailures": "公布日期:{success}成功{failed}失敗",
+    "@listingPublishedWithFailures": {
+        "placeholders": {
+            "success": {
+                "type": "int"
+            },
+            "failed": {
+                "type": "int"
+            }
+        }
+    },
+    "listingPublishError": "公布錯誤 :{error}",
+    "listingDraftSaveError": "無法儲存草稿 :{error}",
+    "listingAiGenerationFailed": "AI 列出產生失敗 :{error}",
+    "@listingPublishError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingDraftSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingAiGenerationFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingAiProviderFallback": "所選取的 AI 提供者無法使用。 嘗試自由的 AI 模型...",
+    "listingSaveDraft": "儲存草稿",
+    "listingPublish": "發布",
+    "listingPublishing": "出版...",
+    "listingQuotaExceededTitle": "使用的每周出版津贴",
+    "listingQuotaExceededDescription": "此出版物需要%1插槽,但是%2留下。MakerSpell商店包括無限制的市場出版。",
+    "listingQuotaSignInRequired": "在使用免费的每周市場出版費前簽名。",
+    "listingQuotaServiceUnavailable": "您的出版備份無法驗證。 請檢查您的連線再試一次 。",
+    "listingUpgradeToShop": "檢視 MakerSpell 商店",
+    "listingQuotaCountNotice": "此動作公布%1產品上市。只有成功的上市使用此免費。",
+    "listingModelSelectionDescription": "選擇一個 3MF 套件, 或是選擇多個 STL 部件為一個型號 。 選取的 STL 檔案共享一個預覽床, 在切片機中一起開啟 。 已經下載的檔案從下載管理器重用 。",
+    "listingModelFiles": "模型文件",
+    "listingNoModelFiles": "此清單上找不到模型檔 。",
+    "listingDownloaded": "已下載",
+    "listingActiveInViewer": "正在查看",
+    "listingDownloadPreview": "下載 & 3D 預覽",
+    "listingOpeningLogin": "開啟登入...",
+    "listingDownloading": "下載中...",
+    "listingDownloadSelectedStl": "下載選取的 STL 檔案",
+    "listingDownloadSelectedModel": "下載選取的模式",
+    "listingResliceCached": "重剪切快取結果",
+    "listingOpenFullSlicer": "開啟完整切片器 (打印機 · 縮放 · 切片)",
+    "listingFullSlicerDescription": "在上市模式中開啟本地型態檢視器。 選擇印表機, 改變模型大小, 編輯列印設定值, 切片, 再按下使用來上市。 相容的缓存切片數值會自動重用。 如果設定值未變更, 使用最後一個有效的印表機設定檔與行程覆蓋 。",
+    "listingSelectModelToPreview": "選擇並下載要開啟 3D 預覽的模型檔案",
+    "listingIncludedObjects": "要包含哪些物件?",
+    "listingApplyViewerSelection": "在檢視器中套用選擇區",
+    "listingCalculationMethod": "我們該怎麼計算重量大小?",
+    "listingQuickMath": "快速數學( 建議)",
+    "listingQuickMathDescription": "網格加 shell/ infill 估計。 不切片; 在所有平台工作 。",
+    "listingSliceBased": "基于切片( 更精确的重量)",
+    "listingSliceBasedDescription": "開啟完整的模型檢視器以選擇印表機, 比例, 設定列印設定以及切片 。",
+    "listingCalculating": "正在計算...",
+    "listingRunQuickCalculation": "執行快速計算",
+    "listingOpenSlicerCalculate": "開啟切片器計算( C)",
+    "listingNoConnectedStores": "沒有與上市支援相連的商店 。\n先連通商店的集市",
+    "listingOpenShopHub": "開啟商店中枢",
+    "listingStoreSelectionDescription": "選擇一個或多個商店。 共享的產品資料會輸入一次 。",
+    "listingReviewGeneratedContent": "檢視產生的內容",
+    "listingProductTitle": "產品標題",
+    "listingProductDescription": "產品描述",
+    "listingUseThisContent": "使用此內容",
+    "listingGeneratedContentApplied": "已啟用產生的內容 。",
+    "listingGeneratingContent": "產生產品內容...",
+    "listingGenerateWithAi": "用 AI 產生標題描述( D)",
+    "listingLanguageSuggestionTitle": "列出語言",
+    "listingLanguageRecommended": "建議的 {store} 上市語言是 {language}。 您的應用程式語言不會變更。 此選項會被記住 。",
+    "@listingLanguageRecommended": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingLanguageRequired": "{store} 需要列出 {language} 。 您的應用程式語言不會變更 。",
+    "@listingLanguageRequired": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingContinueInLanguage": "繼續{language}",
+    "@listingContinueInLanguage": {
+        "placeholders": {
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingContentLanguage": "產生的內容語言",
+    "listingContentLanguageDescription": "專用於此項目中,",
+    "listingUseApplicationLanguage": "使用應用程式語言",
+    "listingNoStoresSelected": "未選擇儲存",
+    "listingStoreFieldsLoadFailed": "儲存清單字段無法載入 。",
+    "listingReloadStoreFields": "重新載入儲存欄位",
+    "listingAnalyzingCategory": "分析類別...",
+    "listingSelectCategoryWithAi": "選擇使用 AI 的類別需要的屬性( C)",
+    "listingMarketplacePreview": "市場產品預覽",
+    "listingMarketplacePreviewDescription": "出版後大概產品細節出現",
+    "listingAvailableStock": "可用股票 :{quantity}",
+    "@listingAvailableStock": {
+        "placeholders": {
+            "quantity": {
+                "type": "String"
+            }
+        }
+    },
+    "listingProductDetails": "產品細節",
+    "listingModels": "模型",
+    "listingStores": "儲存",
+    "listingResults": "成果",
+    "listingFailed": "失敗",
+    "listingLoadOptionsFailed": "無法載入選項 :{error}",
+    "@listingLoadOptionsFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingEbaySandboxInventoryUnavailable": "eBay Sandbox 的目錄服務暫時不可用( error 25001) 。 請稍後再試 。",
+    "listingFilterCategories": "过滤器類別",
+    "listingClosePreview": "關閉預覽",
+    "listingConnectGoogleDrive": "連接Google Drive",
+    "listingDriveImageStorageDescription": "產品影像將儲存在您在 Drive 上的 MakerSpell- Library 資料夾中。 只有上傳的產品影像才能被任何有連結的人讀取, 所以市場才能下載 。",
+    "listingConnectDrive": "連接磁碟",
+    "listingGenerateProductImage": "產生產品影像",
+    "listingCreateProductImageVariation": "建立產品影像變化",
+    "listingInstructions": "指令",
+    "listingGenerate": "生成",
+    "listingRemoveImage": "移除影像",
+    "listingCreateAiVariation": "建立 AI 變更",
+    "listingUploadImages": "上傳影像",
+    "listingGenerateWithAiShort": "用 AI 產生",
+    "listingDraftRestored": "已儲存的草稿已還原 。",
+    "listingSelectModelFirst": "先選擇一個模型檔案 。",
+    "listingSignInToDownload": "請簽署到 {platform} 以下載 。",
+    "@listingSignInToDownload": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "listingCaptchaCancelled": "Captcha 取消 。",
+    "listingDownloadFailed": "下載失敗 。",
+    "listingDownloadError": "下載失敗 :{error}",
+    "@listingDownloadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingStlFilesReady": "所選取的 STL 檔案在共享預覽中已準備好 。",
+    "listingDownloadModelFirst": "先下載此型號 。",
+    "listingSelectAtLeastOneModel": "選擇至少要列出一個樣式檔案 。",
+    "listingDownloadMeasureBeforeContinue": "下載和量度{model}”之后。",
+    "@listingDownloadMeasureBeforeContinue": {
+        "placeholders": {
+            "model": {
+                "type": "String"
+            }
+        }
+    },
+    "listingSelectAtLeastOneStore": "選擇至少一個商店 。",
+    "listingFieldRequired": "{field}需要。",
+    "@listingFieldRequired": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingStoreFieldRequired": "{store}:{field}需要。",
+    "@listingStoreFieldRequired": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPriceFormulaError": "价格公式錯誤 :{error}",
+    "listingAiCategoryFailed": "AI 類別選擇失敗 :{error}",
+    "@listingPriceFormulaError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingAiCategoryFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingNoAiCategoryRules": "這家商店沒有提供AI可以填充的類別規則.",
+    "listingLoadField": "載入 {field}",
+    "@listingLoadField": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingViewerStarting": "啟動檢視器...",
+    "listingViewerFileNotFound": "找不到檔案",
+    "listingViewerReady": "檢視器已就緒",
+    "listingViewerLoadingModel": "正在載入模型...",
+    "listingViewerModelLoaded": "型號已載入",
+    "filamentSelect": "選擇檔案",
+    "filamentUserPresets": "使用者預置",
+    "filamentAvailablePresets": "線材",
+    "filamentSaveTitle": "儲存檔案",
+    "filamentPresetName": "名稱",
+    "filamentSaveCopySuffix": "複製",
+    "filamentPresetSaved": "\"{name}]\"保存",
+    "@filamentPresetSaved": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSavingFailed": "儲存失敗 :{error}",
+    "@filamentSavingFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentPresetLoaded": "\"{name}\" 已載入",
+    "@filamentPresetLoaded": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentDeleteTitle": "刪除檔案",
+    "filamentDeleteConfirmation": "您要永久刪除使用者預置的設定 。{name}\"?",
+    "@filamentDeleteConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSettingsNotFound": "找不到檔案設定值",
+    "filamentSearchSettings": "搜尋設定...",
+    "filamentNoSearchResults": "沒有符合的設定值 。{query}”",
+    "@filamentNoSearchResults": {
+        "placeholders": {
+            "query": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSetValue": "定...",
+    "filamentRammingWarningTitle": "警告",
+    "filamentRammingWarningDescription": "Ramming 是工具變更前的快速外推。 它會塑造已卸下絲線的尖端, 以便可靠地插入下絲線。 不同的材料可能需要不同的外推速度。 這是專家設定; 不正確的數值會導致堵塞或絲線磨碎 。",
+    "filamentProfilesDirectoryMissing": "無法找到設定檔目錄 。",
+    "filamentPrinterBrandsMissing": "找不到印表機品牌 。",
+    "filamentNoPrinterProfiles": "找不到可用的印表機設定檔 。",
+    "filamentNoProcessProfiles": "找不到可用的行程設定檔 。",
+    "filamentSelectCompatiblePrinters": "選擇相容的打印机",
+    "filamentSelectCompatibleProcesses": "選擇相容行程設定檔",
+    "networkPrinterNoControlPanel": "此印表機协议不提供網頁控制面板 。",
+    "networkPrinterControlPanelUnavailable": "打印机的網頁控制面板不可用 。",
+    "networkPrinterConnectTitle": "連接到印表機",
+    "networkPrinterAuthenticationDescription": "{printerName}需要認證。 請輸入它的 API 金鑰、 密碼或裝置驗證碼 。",
+    "@networkPrinterAuthenticationDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterCredentialLabel": "API 金鑰、密碼或檢查碼",
+    "networkPrinterSupportVerified": "已驗證",
+    "networkPrinterSupportCommunityVerified": "群組已驗證",
+    "networkPrinterSupportProtocolCompatible": "協議兼容",
+    "networkPrinterSupportExperimental": "實驗",
+    "networkPrinterSupportUnsupported": "不支援",
+    "networkPrinterCapabilityControlPanel": "控制面板",
+    "networkPrinterCapabilityUpload": "上傳",
+    "networkPrinterCapabilityStartPrint": "開始列印",
+    "networkPrinterCapabilityStatus": "設備狀態",
+    "networkPrinterCapabilityCamera": "攝影機",
+    "networkPrinterCapabilityMaterials": "材料",
+    "networkPrinterCapabilityMultiMaterial": "多材料",
+    "networkPrinterCapabilityExcludeObjects": "物件排除",
+    "networkPrinterConnect": "連線",
+    "networkPrinterDiagnosticsExport": "匯出已編輯的診斷",
+    "networkPrinterDiagnosticsShareSubject": "MakerSpell網路打印机诊断",
+    "networkPrinterDiagnosticsExportFailed": "無法建立诊断套件 。",
+    "printerDiagnosticsTelemetry": "分享匿名診斷",
+    "printerDiagnosticsTelemetrySubtitle": "自動報告應用程式和印表機失敗, 不需搜尋、 IP 位址、 憑證、 文件名、 應用程式或 G 碼 。",
+    "networkPrinterBambuAccessCodeDescription": "{printerName} 需要 Bambu LAN 存取代碼。 開啟印表機的網路或 LAN 模式設定, 並輸入顯示的存取代碼 。",
+    "@networkPrinterBambuAccessCodeDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterBambuAccessCodeLabel": "LAN 存取代碼",
+    "networkPrinterBambuModeTitle": "選擇 Bambu 連接模式",
+    "networkPrinterBambuModeDescription": "此選項決定了哪個命令MakerSpell可能傳送至印表機。",
+    "networkPrinterBambuStandardTitle": "標準局域網",
+    "networkPrinterBambuStandardSubtitle": "安全監控模式MakerSpell可以讀取印表機和 AMS 狀態, 但無法上傳檔案、 啟動列印、 使用相機或控制印表機 。",
+    "networkPrinterBambuDeveloperTitle": "發展者模式",
+    "networkPrinterBambuDeveloperSubtitle": "完全本地端控制 。 在印表機、 開啟網路或 LAN 模式設定上, 啟用開發者模式, 然后使用顯示的 LAN 存取碼 。 在這個模式啟動時, Bambu Cloud 不可用 。",
+    "networkPrinterBambuLocalServerTitle": "Bambu 本地伺服器",
+    "networkPrinterBambuLocalServerSubtitle": "即將到來。 正在準備正式存取和符合手機的伺服器支援 。",
+    "networkPrinterBambuComingSoon": "馬上來",
+    "networkPrinterBambuModeSettingsHint": "您可以稍后從印表機設定中改變此模式 。",
+    "networkPrinterElegooAccessCodeDescription": "{printerName}需要使用 Elegoo 局域網存取代碼。 開啟印表機的網路或局域網設定, 並輸入顯示的存取代碼 。",
+    "@networkPrinterElegooAccessCodeDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterElegooAccessCodeLabel": "LAN 存取代碼",
+    "networkPrinterConnectAndAdd": "連接與新增",
+    "printerControlTitle": "打印机控制",
+    "printerControlDeviceInterface": "打印机接口",
+    "printerControlDeviceInterfaceDescription": "開啟此印表機提供的控制介面 。",
+    "printerControlExpandSection": "展開區域",
+    "printerControlCollapseSection": "折叠區域",
+    "printerControlFilesAndHistory": "文件、歷史和影片",
+    "printerControlLocalFiles": "本地檔案",
+    "printerControlPrintHistory": "列印歷史",
+    "printerControlNoPrintHistory": "此印表機沒有報告打印歷史 。",
+    "printerControlHistoryCompleted": "已完成",
+    "printerControlHistoryInProgress": "進行中",
+    "printerControlHistoryCancelled": "已取消",
+    "printerControlHistoryFailed": "失敗",
+    "printerControlHistoryUnknown": "未定義",
+    "printerControlTimelapse": "延時影片",
+    "printerControlNoTimelapses": "此印表機上沒有過時影片 。",
+    "printerControlPlayTimelapse": "播放影片",
+    "printerControlTimelapseUnavailable": "無法播放此延時影片 。",
+    "printerControlNoLocalFiles": "此印表機上沒有可打印的檔案 。",
+    "printerControlSortFiles": "排序文件",
+    "printerControlFileSize": "文件大小",
+    "printerControlFileCreatedAt": "建立時間",
+    "printerControlFilesSelected": "{count}已選擇",
+    "@printerControlFilesSelected": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlDeleteFilesTitle": "刪除{count}文件?",
+    "@printerControlDeleteFilesTitle": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlDeleteFilesWarning": "已刪除的印表機檔案無法還原 。",
+    "printerControlCannotDeleteActiveFile": "目前列印的檔案無法刪除 。",
+    "printerControlFilesDeleted": "選取的檔案已刪除 。",
+    "printerControlStartPrint": "開始列印",
+    "printerControlPrintOptions": "列印選項",
+    "printerControlEmbeddedSettingsHint": "印表機會使用此檔案中嵌入的切片與材料設定 。",
+    "printerControlRunCalibration": "執行校正/ 自測",
+    "printerControlRunCalibrationDescription": "在啟動前執行印表機支援的預印校正 。",
+    "printerControlPrintStarted": "打印開始了 。",
+    "printerControlJob": "目前的工作",
+    "printerControlNoActiveJob": "沒有有效的列印工作",
+    "printerControlPause": "暫停",
+    "printerControlResume": "繼續",
+    "printerControlCancelPrint": "取消列印",
+    "printerControlCancelConfirmation": "取消正在使用的列印工作嗎 ?",
+    "printerControlCommandFailed": "印表機無法完成此命令 。",
+    "printerControlExcludeObjects": "物件排除",
+    "printerControlExcludeObjectsDescription": "在剩下的物件繼續時停止列印失敗的物件 。",
+    "printerControlExcludeObjectsIdle": "在作用中的多物件列印中可以使用物件排除 。",
+    "printerControlExcludeObjectsUnavailable": "此列印不包含單位命名的物件。 在剪切下一個檔案前, 在列印設定中開啟「 exclease 物件 」 。",
+    "printerControlExcludeObjectAction": "排除",
+    "printerControlExcludeObjectCurrent": "現在列印",
+    "printerControlExcludeObjectExcluded": "排除",
+    "printerControlExcludeObjectLastRemaining": "無法排除最後剩下的物件。 取消打印 。",
+    "printerControlExcludeObjectConfirmationTitle": "排除此物件 ?",
+    "doNotAskAgain": "不要再問了",
+    "printerControlExcludeObjectConfirmation": "印表機將永久停止打印 。{name}”用于目前的工作。其他物件會繼續。",
+    "@printerControlExcludeObjectConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlExcludeObjectSuccess": "此物件被排除。 剩下的物件會繼續打印 。",
+    "printerControlCamera": "攝影機",
+    "printerCameraWallTitle": "相機牆",
+    "printerCameraWallLayout": "相機布局",
+    "printerCameraWallLarge": "大相机",
+    "printerCameraWallBalanced": "平衡网格",
+    "printerCameraWallCompact": "压缩网格",
+    "printerCameraWallPause": "暫停所有相機",
+    "printerCameraWallResume": "恢復相機",
+    "printerCameraWallResumeCount": "繼續{count}相机",
+    "@printerCameraWallResumeCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerCameraWallOpenPrinter": "開啟打印机控制",
+    "printerCameraWallEmpty": "找不到使用支援的相機儲存的印表機 。",
+    "printerCameraWallScan": "掃描印表機",
+    "printerControlCameraConnecting": "正在連接相機...",
+    "printerControlCameraUnavailable": "無法載入相機 。",
+    "printerControlCameraDiscovering": "我們試圖連接印表機相機。{current}四,{total}.",
+    "@printerControlCameraDiscovering": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlCameraManualHint": "已知的相機方法都行不通。 手動輸入相機地址 。",
+    "printerControlCameraEnterAddress": "輸入相機地址",
+    "printerControlCameraStopAndEnterManually": "停止並手動輸入",
+    "printerControlCameraAddress": "相机地址",
+    "printerControlCameraAddressExample": "例如:http://192.168.1.50:8080/?action=stream",
+    "printerControlCameraInvalidAddress": "輸入有效的 HTTP 或 HTTP 位址 。",
+    "printerControlCameraTestAddress": "測試地址",
+    "printerControlSettings": "列印設備設定",
+    "printerControlExtruders": "擠出機",
+    "printerControlPickExtruder": "選擇突擊器",
+    "printerControlExtruderSelected": "工具{tool}已選擇 。",
+    "@printerControlExtruderSelected": {
+        "placeholders": {
+            "tool": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlNozzle": "噴嘴",
+    "printerControlBed": "列印板",
+    "printerControlNozzleTemperature": "噴嘴目標溫度",
+    "printerControlBedTemperature": "床位目標溫度",
+    "printerControlLight": "室光",
+    "printerControlPartFan": "物件冷卻風扇",
+    "printerControlRearFan": "後置風扇",
+    "printerControlAuxiliaryFan": "輔助風扇",
+    "printerControlPrintSpeed": "列印速度",
+    "printerControlMotion": "XYZ 控制",
+    "printerControlMotionPositionUnavailable": "位置或動作限制沒有。 在移動前, 傳回印表機并刷新 。",
+    "printerControlMotionHomeRequired": "移動它之前, 傳回此轴 。",
+    "printerControlMotionLimitReached": "要求的移動會超越印表機限制 。",
+    "printerControlMotionSafetyHint": "移動按鍵在印表機報告的限量下被關閉 。",
+    "printerControlMoveAxisTitle": "走{axis}轴",
+    "@printerControlMoveAxisTitle": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlTargetCoordinate": "目標座標",
+    "printerControlCoordinateRange": "允許的範圍 :{minimum}–{maximum}毫米",
+    "@printerControlCoordinateRange": {
+        "placeholders": {
+            "minimum": {
+                "type": "String"
+            },
+            "maximum": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlMoveTo": "移動",
+    "printerControlHomeAxis": "內容{axis}轴",
+    "@printerControlHomeAxis": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlHomeXY": "家 X 和 Y 轴",
+    "printerControlTemperatureRange": "輸入溫度介于 0 與{maximum}°C.",
+    "@printerControlTemperatureRange": {
+        "placeholders": {
+            "maximum": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlHomeAll": "內容",
+    "printerControlFilaments": "線材",
+    "printerControlEmpty": "空",
+    "printerControlSlot": "槽{number}",
+    "@printerControlSlot": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlEditFilament": "編輯{slot}",
+    "@printerControlEditFilament": {
+        "placeholders": {
+            "slot": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlMaterialType": "材料型態",
+    "printerControlMaterialName": "材料變型",
+    "printerControlFilamentBrand": "品牌",
+    "printerControlFilamentColor": "污點顏色",
+    "printerControlColorHex": "顏色代碼",
+    "printerControlInvalidColor": "輸入有效的六位數顏色代碼 。",
+    "printerControlRequiredValue": "需要此字段( 最大64 個字元 ) 。",
+    "printerControlInvalidValue": "此值包含不支援的字元 。",
+    "printerControlFilamentUpdated": "已更新 。",
+    "printerControlProtocol": "連接 :{protocol}",
+    "@printerControlProtocol": {
+        "placeholders": {
+            "protocol": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateTitle": "更新打印机配置文件",
+    "profilesUpdateMessage": "新的印表機設定檔套件可用( 版本){version},{size}。 您現在要更新它嗎 ?",
+    "@profilesUpdateMessage": {
+        "placeholders": {
+            "version": {
+                "type": "String"
+            },
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateLater": "以后",
+    "profilesUpdateNow": "更新",
+    "profilesUpdateDownloading": "下載印表機設定檔... 您可以將 MakerSpell 保留在背景中, 從通知中追蹤進度 。",
+    "profilesUpdateDone": "更新配置文件",
+    "profilesUpdateDoneMessage": "打印机配置文件版本{version}已準備好使用。",
+    "@profilesUpdateDoneMessage": {
+        "placeholders": {
+            "version": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateError": "印表機設定檔無法更新。 您的现有設定檔已保存 。",
+    "scrollToTop": "卷到上",
+    "experimentalPrinterBeta": "實驗印表機功能",
+    "experimentalPrinterBetaSubtitle": "未驗證的印表機程式的受控β特性",
+    "anycubicBetaTitle": "Anycubic 局域网控制β",
+    "anycubicBetaIntro": "幫助驗證本地 Anycubic 支援在普遍可用前。 特性是選入的, 如果發現固件不相容, 可以遠距禁用 。",
+    "anycubicBetaJoin": "加入受控β",
+    "anycubicBetaLeave": "離開 beta 全部關閉",
+    "anycubicBetaConsentTitle": "加入Anycubic LAN β?",
+    "anycubicBetaConsentBody": "這些操作通過了自動的協定測試, 但沒有在每個實體的印表機或固件上驗證。 在登入印表機時, 試驗先從一個小的无害檔案開始, 並準備從印表機屏幕上阻止它 。",
+    "anycubicBetaConsentCheck": "我知道這些是實驗性的 我會監督每個測試",
+    "anycubicBetaEnableTitle": "開啟 {feature} ?",
+    "@anycubicBetaEnableTitle": {
+        "placeholders": {
+            "feature": {
+                "type": "String"
+            }
+        }
+    },
+    "anycubicBetaFeatureWarning": "測試時保留印表機 。MakerSpell如果報告了相容性問題, 可能會远程禁用此特性 。",
+    "anycubicBetaCamera": "實驗 FLV 相機",
+    "anycubicBetaCameraSubtitle": "啟動並顯示印表機的本地相機流 。",
+    "anycubicBetaUpload": "實驗 G 碼上傳",
+    "anycubicBetaUploadSubtitle": "上傳到印表機未啟動印表的簽署網址 。",
+    "anycubicBetaStart": "實驗打印開始",
+    "anycubicBetaStartSubtitle": "允許啟動上傳檔案。 先開啟上傳 。",
+    "anycubicBetaRemotelyDisabled": "暫時不可用, 因為相容性已遠離 。",
+    "anycubicBetaEnrolled": "受控β在此裝置上作用 。",
+    "anycubicBetaNotGeneralSupport": "目前此β 以 Sock- LAN Kobra 3 和 Kobra S1 家族為目標。 它不要求 Kobra 2 或 Photon/resin 模型 。",
+    "bambuBetaTitle": "Bambu 實驗室控制β",
+    "bambuBetaIntro": "在 Bambu 局域網上幫助驗證遠端啟動和原生的預印校正。 這些功能是選入的, 遠端可禁用, 在列印時必須檢查 。",
+    "bambuBetaJoin": "加入 Bambu 控制β",
+    "bambuBetaLeave": "離開 Bambu beta 全部禁用",
+    "bambuBetaConsentTitle": "加入班布實驗室?",
+    "bambuBetaConsentBody": "遠端啟動與校准使用 Bambu 的本地 FTPS 和 MQTT 指令, 並且尚未實驗每個模型或固件。 可能會發生意外的移動、 加熱、 校准失敗、 打印故障或裝置損失 。 請保持建築板清澈, 從小型无害的 G 碼檔案開始, 留在印表機旁邊, 並準備從印表機屏幕上阻止它。 您自愿使用這些β 特性, 并冒著自己的風險。 在适用法律所允許的限度內,MakerSpell使用這些實驗功能造成的損失或損失,",
+    "bambuBetaConsentCheck": "我理解這些班布的特徵是實驗性的,",
+    "bambuBetaEnrolled": "Bambu控制下的β在此裝置上作用.",
+    "bambuBetaStart": "實驗班布遠距啟動",
+    "bambuBetaStartSubtitle": "通过 Bambu LAN MQTT 協定啟動上傳到印表機快取的 G 碼 。",
+    "bambuBetaCalibration": "實驗班布預印校正",
+    "bambuBetaCalibrationSubtitle": "執行原生床位平整與振動校正, 等待完成, 然後開始上傳的 G 碼。 必須啟動遠端啟動 。",
+    "bambuBetaPrintWarning": "Bambu 操作是實驗性的, 並且會冒著自己的風險使用。 可能會發生意外的動、 加熱、 打印故障或裝置損失 。 在校准時保持建築板清澈, 留在打印机旁邊, 并準備好從打印机屏幕上阻止它 。 在适用法律所允許的范围内,MakerSpell而它的開發者不為造成的損失負責。",
+    "bambuBetaRiskNotice": "實驗功能 —— 冒著自己的風險使用。 物理行為可能因印表機型態和固件而不同。 永遠不要測試沒有人注意 。",
+    "recentlyViewedModels": "最近查看的模型",
+    "recentlyViewedModelsSubtitle": "看您最近在此裝置上開啟的模型",
+    "recentlyViewedEmpty": "您開啟的模型會出現在這裡 。",
+    "clearViewingHistory": "清除檢視歷史",
+    "clearViewingHistoryConfirm": "從此裝置移除所有最近檢視的模型 ?",
+    "removeFromViewingHistory": "從檢視歷史中移除",
+    "viewedAt": "{date},在{time}",
+    "@viewedAt": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            },
+            "time": {
+                "type": "String"
+            }
+        }
+    },
+    "mySupportRequests": "我的要求",
+    "mySupportRequestsSubtitle": "追蹤診斷與支援要求",
+    "supportRequest": "支助要求",
+    "supportRequestsSignIn": "簽署以查看並追蹤您的支援要求 。",
+    "supportRequestsLoadFailed": "您的支援要求無法載入 。",
+    "supportRequestsEmpty": "您還沒有任何支援要求 。",
+    "supportStatusNew": "收到",
+    "supportStatusOpen": "接受审查",
+    "supportStatusPending": "等待",
+    "supportStatusResolved": "已确定",
+    "supportStatusClosed": "關閉",
+    "supportRequestAwaitingResponse": "設備狀態",
+    "supportRequestAwaitingResponseBody": "我們收到了你的請求 并會檢視診斷信息",
+    "supportRequestResponse": "MakerSpell答复",
+    "sendFailureDiagnosticsTitle": "幫我們修好這個功能",
+    "sendFailureDiagnosticsBody": "此功能沒有預期效果 。 您要傳送隱私过滤的錯誤診斷嗎 ? 如果您傳送, 我們會盡快調查問題。 您可以在設定中追蹤我的請求, 并在回應時看到應用通知 。",
+    "sendFailureDiagnosticsPrivacy": "IP 位址、 存取碼、 憑證、 文件名、 G 碼與原始印表機回應都未包含 。",
+    "sendFailureDiagnostics": "傳送診斷",
+    "failureDiagnosticsSent": "已傳送診斷 。{requestId}",
+    "@failureDiagnosticsSent": {
+        "placeholders": {
+            "requestId": {
+                "type": "String"
+            }
+        }
+    },
+    "failureDiagnosticsFailed": "無法傳送診斷 。 請確認您已簽署, 再試一次 。",
+    "reportProblem": "報告有問題",
+    "blockUser": "隱藏此使用者",
+    "blockedUserHidden": "此使用者的評論現在隱藏在此平台上 。",
+    "undo": "復原",
+    "printSendTitle": "傳送 G-code",
+    "printSendUploading": "正在上傳...",
+    "printSendDoNotLeaveDuringUpload": "保持此螢幕開啟, 直到上傳完成 。",
+    "printSendStartPrint": "開始列印",
+    "printSendUploadOnly": "只上傳",
+    "printSendUploadAndPrint": "上傳和列印",
+    "printSendManagePrinters": "管理",
+    "printSendOnDevice": "在打印机上",
+    "printSendAddPrinter": "新增或發現印表機",
+    "printSendTime": "時間 :{value}",
+    "@printSendTime": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "printSendMaterial": "材料 :{value}",
+    "@printSendMaterial": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "printSendToolChanges": "工具變更 :{count}",
+    "@printSendToolChanges": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printSendCapabilityUpload": "上傳",
+    "printSendCapabilityStart": "遠端啟動",
+    "printSendCapabilityMultiMaterial": "多材料",
+    "printSendFilamentAssignment": "檔案授權",
+    "printSendRefreshFilaments": "刷新印表機絲",
+    "printSendFilamentMappingHelp": "將每個 G 碼工具映射到實體的印表機位 。",
+    "printSendFilamentManagedHelp": "印表機報告時會顯示已載入的絲線資訊。 除非适配器能安全使用, 槽重映射會被隱藏 。",
+    "printSendPreferences": "印表機支援的選項",
+    "printSendFlowCalibration": "激流校正",
+    "printSendFlowCalibrationHelp": "使用此列印開始時的印表機描述檔流校正程式 。",
+    "printSendTimelapseCapture": "時光拍攝相機",
+    "printSendTimelapseCaptureHelp": "在此列印中抓取延時框 。",
+    "printSendAutoLeveling": "自動定級",
+    "printSendAutoLevelingHelp": "執行印表機的原始床位平整程式, 作为印表起始序列的一部分 。",
+    "printSendRunCalibration": "執行印表機校正",
+    "printSendRunCalibrationHelp": "印表機自己的协议會在打印前執行其支援的校准程式 。",
+    "printSendAuthenticationRequired": "此印表機需要認證。 開啟印表機管理並輸入所要求的憑證 。",
+    "printSendPrinterOffline": "此印表機已關閉。 請檢查其電源與網路連接 。",
+    "printSendConnectionFailed": "MakerSpell無法連接到此印表機 。",
+    "printSendUnsupported": "此印表機連接不支援 G 碼傳輸 。",
+    "printSendConnectionNotReady": "印表機連接尚未準備好 。",
+    "printSendUploadUnsupported": "此印表機适配器無法上傳 G 碼。 您可以用印表機的介面匯出檔案並傳輸 。",
+    "printSendBedMeshCalibration": "家斧和校正床網",
+    "printSendBedMeshCalibrationHelp": "印刷前MakerSpell確認 Klipper 報告 bed mesh 支援, 然后排隊 G28 和 BED MESH  CALIBRATE。 如果支援無法確認, 列隊不會開始 。",
+    "printSendCalibrating": "校正印表機...",
+    "printSendStartingPrint": "開始打印...",
+    "printSendBambuCalibration": "跑班布床平整和振動校正",
+    "printSendBambuCalibrationHelp": "受控β :MakerSpell開始Bambu的本地校準, 等待它完成, 然后開始上傳的 G 碼 。",
+    "networkPrinterBambuDeveloperPrintTitle": "要從 Bambu 開發模式開始嗎 ?",
+    "networkPrinterBambuDeveloperPrintWarning": "MakerSpell 會直接將本地校正與打印命令傳送到這個 Bambu 印表機。 請確認建築板是否清晰, 并在工作開始時留在印表機附近 。",
+    "modelFileBrowseDrive": "瀏覽Google Drive",
+    "driveModelsTitle": "Google Drive模型",
+    "driveModelsSubtitle": "MakerSpell- Library 中的模型",
+    "driveModelsEmpty": "MakerSpell-Library 找不到支援的模型檔。 您可以使用系統檔案拾取器在 Drive 的其他地方選擇檔案 。",
+    "driveModelsError": "Google Drive無法載入檔案。 請檢查您的連線再試一次 。",
+    "driveModelDownloading": "從 Google Drive 下載中...",
+    "preparingSignIn": "正在準備簽署...",
+    "driveModelDownloadingProgress": "{percent}%·{received}/{total}",
+    "@driveModelDownloadingProgress": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            },
+            "received": {
+                "type": "String"
+            },
+            "total": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerVariableLayers": "可變層",
+    "viewerVariableLayerHeight": "可變層高",
+    "viewerVariableLayerHeightDescription": "自動使用更薄的地表層,",
+    "viewerQualitySpeed": "細節/速度",
+    "viewerQuality": "品質",
+    "viewerSpeed": "速度",
+    "viewerSmoothing": "平滑",
+    "viewerKeepMinimumLayerHeight": "保持最小層高",
+    "viewerVariableLayerHeightApplied": "下一個切片會使用可變層高",
+    "viewerDeleteModel": "刪除模型",
+    "viewerSelectModelToDelete": "選擇要刪除的模型",
+    "viewerAddPlate": "新增列印板",
+    "viewerNewProject": "新專案",
+    "viewerNewProjectConfirmation": "建立空專案嗎? 未儲存的畫面變更將被清除 。",
+    "viewerCreate": "建立",
+    "viewerRecentProjects": "最近的项目",
+    "viewerRecentProjectsEmpty": "沒有可用的最近專案檔案",
+    "viewerMoveToPlate": "移到碟上",
+    "viewerSelectModelToMove": "選擇要移動的模型",
+    "viewerCurrentPlate": "目前碟片",
+    "viewerMoveToNewPlate": "移到新碟片",
+    "viewerAddConnector": "新增連接件",
+    "viewerEditConnector": "編輯連接器",
+    "viewerCutConnectors": "連接件",
+    "viewerConnectorPlug": "插銷",
+    "viewerConnectorDowel": "銷釘",
+    "viewerConnectorSnap": "卡扣",
+    "viewerConnectorTolerance": "公差",
+    "viewerConnectorSize": "尺寸",
+    "viewerConnectorRotation": "旋轉",
+    "viewerConnectorStyle": "樣式",
+    "viewerConnectorShape": "形狀",
+    "viewerConnectorPlacementHint": "按住模型來放置連接器。 您仍然可以旋轉並放大現場 。",
+    "viewerConnectorSelectionHint": "啟動或關閉連接器 。",
+    "viewerConnectorPlaceMode": "新增連接件",
+    "viewerConnectorSelectMode": "選擇連接器",
+    "viewerConnectorControlsTitle": "連接器控制",
+    "viewerConnectorControlsBody": "按下剪切的表面來新增連接器。 按下選擇模式的連接器以啟動或關閉連接器; 啟動連接器是綠色的, 關閉的連接器是灰色的。 按下並按住連接器, 然後拖動它 。",
+    "viewerConnectorOptions": "連接器選項",
+    "viewerConnectorMove": "移動",
+    "viewerConnectorMoveHint": "磁帶模型可以移動連接器到新的位置 。",
+    "viewerConnectorDuplicate": "复制",
+    "viewerConnectorMoved": "連接器已移動",
+    "viewerConnectorPrism": "錐體",
+    "viewerConnectorFrustum": "截頭圓錐",
+    "viewerConnectorCircle": "圓形",
+    "viewerConnectorTriangle": "三角形",
+    "viewerConnectorSquare": "正方形",
+    "viewerConnectorHexagon": "六邊形",
+    "appUpdateTitle": "新版本已準備好",
+    "appUpdateAvailable": "更新版本{appName}您可以在下載時繼續使用此應用程式。",
+    "@appUpdateAvailable": {
+        "placeholders": {
+            "appName": {
+                "type": "String"
+            }
+        }
+    },
+    "appUpdateLater": "以后",
+    "appUpdateNow": "韌體更新",
+    "appUpdateDownloading": "更新正在下載。 您可以繼續使用此應用程式 。",
+    "appUpdateReadyTitle": "更新已下載",
+    "appUpdateReadyMessage": "重新啟動應用程式以完成安裝更新 。",
+    "appUpdateRestart": "重新啟動和更新",
+    "appUpdateFailed": "更新無法完成。 請稍後再試 。",
+    "serverUpdateRequiredTitle": "Update required",
+    "serverUpdateRequiredContent": "This version is no longer supported. Please update the app to continue.",
+    "serverUpdateRecommendedContent": "A newer version is available. We recommend updating for the best experience.",
+    "serverUpdateActionUpdate": "Update",
+    "betaProRewardReady": "你的封閉獎金已經準備好了",
+    "betaProSignInDescription": "簽署以啟動21天MakerSpellPro. 不需要付款方法。",
+    "betaProActivating": "啟動 beta Pro",
+    "betaProActivatingDescription": "您的帳戶權利正在檢查中 。",
+    "betaProActivationFailed": "Beta Pro 需要你注意",
+    "betaProActivationRetryDescription": "我們無法證實獎賞 檢查你的連線再試一次",
+    "downloadDestination": "下載目的地",
+    "downloadDestinationDescription": "選擇下載的檔案儲存位置 。",
+    "imagesDestination": "影像",
+    "modelsProfilesDestination": "模型配置文件( P)",
+    "picturesMakerSpell": "圖片 /MakerSpell",
+    "downloadsMakerSpell": "下載 /MakerSpell",
+    "customFolder": "自訂目錄...",
+    "destinationCustomNote": "自訂目錄不支援於此平台; 使用應用程式儲存 。",
+    "destinationRevoked": "已儲存的資料夾存取器已輸失。 請重新選擇目的地 。",
+    "printFarmTab": "农场",
+    "printFarmTitle": "生产农场",
+    "printFarmDescription": "在一個地方管理您的印表機群和量產工作.",
+    "printFarmNewOrder": "生产命令",
+    "printFarmFleetPrinting": "列印中",
+    "printFarmFleetReady": "好了",
+    "printFarmFleetAttention": "注意",
+    "printFarmFleetOffline": "離線",
+    "printFarmFleetChecking": "檢查中",
+    "printFarmSafetyNotice": "工作從不自動開始。 在每個新列印之前確認建築板是清空的 。",
+    "printFarmOrders": "生产订单",
+    "printFarmNoOrders": "尚未有產品訂單 建立你的第一個量的工作",
+    "printFarmRemainingSummary": "{orders} 開啟... {units} 剩餘單位",
+    "@printFarmRemainingSummary": {
+        "placeholders": {
+            "orders": {
+                "type": "int"
+            },
+            "units": {
+                "type": "int"
+            }
+        }
+    },
+    "printFarmOrderName": "產品或工作名稱",
+    "printFarmTargetQuantity": "目標數量",
+    "printFarmInvalidQuantity": "至少輸入 1",
+    "printFarmMaterialOptional": "材料( 可選擇的)",
+    "printFarmMaterialUnspecified": "未指定材料",
+    "printFarmOrderProgress": "{completed}/{target}完成 ·{remaining}剩余",
+    "@printFarmOrderProgress": {
+        "placeholders": {
+            "completed": {
+                "type": "int"
+            },
+            "target": {
+                "type": "int"
+            },
+            "remaining": {
+                "type": "int"
+            }
+        }
+    },
+    "printFarmCompleted": "已完成",
+    "printFarmFailed": "失敗",
+    "printFarmStateActive": "作用中",
+    "printFarmStatePaused": "暫停",
+    "printFarmStateCompleted": "已完成",
+    "printFarmStateCancelled": "已取消",
+    "printFarmPause": "暫停",
+    "printFarmResume": "繼續",
+    "printFarmSuggestPrinter": "建議印表機",
+    "printFarmSuggestionExplanation": "印表機按活的狀態、 檔案支援、 素材槽和已知的硬件要求排行。 指派從不啟動印表 。",
+    "printFarmNoPrinters": "沒有儲存的印表機 。",
+    "printFarmPrinterCompatible": "符合已知的工作要求",
+    "printFarmAssignedPrinter": "指定打印机",
+    "printFarmChangePrinter": "更改",
+    "printFarmOperatorConfirmed": "操作員檢查了印表機與工作",
+    "printFarmBedClearConfirmed": "建築板清空了",
+    "printFarmReadyForManualStart": "手動啟動",
+    "printFarmFitCannotStart": "無法接收並開始此工作",
+    "printFarmFitFileUnsupported": "不支援檔案類型",
+    "printFarmFitOffline": "打印机已下線",
+    "printFarmFitAttention": "打印机需要注意",
+    "printFarmFitBusy": "忙碌; 可以在目前的列印後排队",
+    "printFarmFitSlotsUnknown": "無法驗證材料槽",
+    "printFarmFitNotEnoughSlots": "不足載入的材料槽",
+    "printFarmFitMaterialUnknown": "無法驗證已載入的材料",
+    "printFarmFitMaterialChange": "需要实质性修改",
+    "printFarmFitNozzleUnknown": "鼻孔直径必須檢查",
+    "printFarmFitNozzleMismatch": "鼻孔直径不符",
+    "printFarmFitBedTooSmall": "編譯音量太小",
+    "printFarmFitBedUnknown": "編譯音量必須被驗證",
+    "printFarmNoVerifiedGCode": "未附加已驗證的 G 碼",
+    "printFarmAttachGCode": "附加已檢查的 G 碼",
+    "printFarmChangeGCode": "變更 G 碼",
+    "printFarmAttachGCodeDescription": "選擇檔案列印中心的工作 。MakerSpell校對:Soup",
+    "printFarmNoArchivedGCode": "尚未提供已存档的 G 碼 。 剪切或先送一個模型 。",
+    "printFarmGCodeVerificationFailed": "G 碼檔無法驗證 。",
+    "printFarmGCodeRequirements": "{tools}使用的工具 ·{nozzle}毫米喷嘴",
+    "@printFarmGCodeRequirements": {
+        "placeholders": {
+            "tools": {
+                "type": "int"
+            },
+            "nozzle": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterTitle": "打印中心",
+    "printCenterSubtitle": "您的印表機、 作用中的工作與備用檔案",
+    "printCenterActive": "作用中",
+    "printCenterReady": "好了",
+    "printCenterHistory": "歷史",
+    "printCenterOnlinePrinters": "網路打印机",
+    "printCenterViewAll": "全部檢視",
+    "printCenterNoActiveJobs": "沒有作用中的指紋",
+    "printCenterNoReadyJobs": "沒有要打印的檔案",
+    "printCenterNoHistory": "列印歷史會在這裡出現",
+    "printCenterNotifications": "打印机通知",
+    "printCenterNotifyCompleted": "打印完成",
+    "printCenterNotifyInterrupted": "列印中斷或失敗",
+    "printCenterNotifyOffline": "打印机下線",
+    "printCenterStart": "開始列印",
+    "printCenterRefresh": "刷新狀態",
+    "printCenterClearHistory": "清除歷史",
+    "printCenterQueueSafety": "已準備好的工作從不自動啟動 。 在開始下一個列印前確認建築板已清除 。",
+    "printCenterStartFailed": "打印無法啟動",
+    "printCenterRepeatExact": "重印相同的設定值",
+    "printCenterRepeatChecking": "正在檢查檔案、 設定檔與印表機...",
+    "printCenterRepeatReady": "已存檔的 G 碼完整 。 在再次打印前確認建築牌照清楚 。",
+    "printCenterRepeatChanged": "自此列印後, 原始專案或印表機描述檔已變更。 已驗證的 G 碼將不會被轉換, 仍然可以傳送與之前的印表完全一樣 。",
+    "printCenterRepeatPrinterChanged": "已儲存的印表機現在報告不同的硬件或連接細節 。 在繼續前先檢查差異 。",
+    "printCenterRepeatUnavailable": "無法提供确切的存档副本, 或是其完整性檢查失敗。 重新開啟來源並安全地準備打印 。",
+    "printCenterRepeatOldPrinter": "打印方式:{printer}",
+    "@printCenterRepeatOldPrinter": {
+        "placeholders": {
+            "printer": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterRepeatCurrentPrinter": "目前打印机 :{printer}",
+    "@printCenterRepeatCurrentPrinter": {
+        "placeholders": {
+            "printer": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterOpenSource": "開源",
+    "printCenterStateReady": "可以打印",
+    "printCenterStatePrinting": "列印中",
+    "printCenterStatePaused": "暫停",
+    "printCenterStateCompleted": "已完成",
+    "printCenterStateFailed": "需要注意",
+    "printCenterStateCancelled": "已取消",
+    "printCenterQuietHours": "安靜",
+    "printCenterQuietHoursStart": "安靜的時間開始",
+    "printCenterQuietHoursEnd": "安靜的時間結束",
+    "printJournalEntryTitle": "列印日記項目",
+    "printJournalEdit": "在列印日記中加入結果",
+    "printJournalRating": "這個印子是怎麼出來的?",
+    "printJournalNote": "私人便條",
+    "printJournalNoteHint": "記錄表面質量、適合度、物質變化或下次試試什麼",
+    "printJournalAddPhoto": "新增結果照片",
+    "printJournalRemovePhoto": "移除照片",
+    "printJournalOpenProject": "作為專案項目打開",
+    "printJournalSave": "儲存",
+    "printJournalDelete": "刪除項目",
+    "printerMaintenanceTab": "照料",
+    "printerMaintenanceDescription": "維持用量由印表機功能文件中真正的打印用量和阈值來計算 。",
+    "printerMaintenanceEmpty": "這些印表機沒有待修或未解決的問題。",
+    "printerMaintenanceRecommendations": "提案",
+    "printerIssuesTitle": "需要注意的问题",
+    "printerIssueResolve": "已确定",
+    "printerIssueResolved": "已确定",
+    "printerIssueRetry": "再試一次",
+    "printerIssueResolveAll": "解析所有",
+    "printCenterProgressTab": "進度",
+    "progressCenterTitle": "我的MakerSpell進度",
+    "progressCenterDescription": "只有真正完成的作品出現在這裡。 沒有長度、分數或領板 。",
+    "progressFirstPrintTitle": "第一次成功列印",
+    "progressFirstPrintDescription": "成功完成網路印表機上的列印 。",
+    "progressFirstSendTitle": "第一次網路傳送",
+    "progressFirstSendDescription": "傳送已准备好的 G 碼到印表機 。",
+    "progressMultiPlateTitle": "多樣板專案",
+    "progressMultiPlateDescription": "成功切片包含多片的專案 。",
+    "progressFirstListingTitle": "第一品出版",
+    "progressFirstListingDescription": "完成你第一個成功的市場出版 通过商店。",
+    "progressUnlocked": "已完成",
+    "progressLocked": "尚未完成",
+    "progressInviteTitle": "分享MakerSpell",
+    "progressInviteDescription": "和朋友分享您邀請的代碼。 在他們接受代碼並完成第一個真正的列印、 網路傳送、 或產品發行工作後, 邀請會被驗證, 社區建築者徽章會解鎖。 單單輸入代碼就不會有報酬 。",
+    "progressInviteCodeHelp": "如果有人給您送了 MakerSpell 邀請碼, 請接受此程式。 它只在您第一次真正成功后才被驗證 。",
+    "progressInviteShare": "分享邀請碼",
+    "progressInviteShareText": "發現並切片 3D 型號, 用 MakerSpell 發送到您的印表機。 我的邀請碼 : {code}\n{url}",
+    "@progressInviteShareText": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            },
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "progressInviteActivated": "{count}已驗證邀請",
+    "@progressInviteActivated": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "progressInvitePending": "{count}等待激活",
+    "@progressInvitePending": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "progressCommunityBadge": "社区建築者徽章已解鎖",
+    "progressHaveInviteCode": "我有邀請密碼",
+    "progressEnterInviteCode": "輸入邀請碼",
+    "progressAcceptInvite": "接受密碼",
+    "progressInviteAccepted": "邀請已儲存。 它會在您第一次真正成功後自動啟動 。",
+    "progressInviteInvalid": "無法接受密碼。 請檢查密碼與您的連線 。",
+    "progressInviteUnavailable": "目前沒有邀請資訊 。",
+    "progressInviteSignIn": "簽署建立和分享您的邀請密碼 。",
+    "progressInviteLoadFailed": "您已簽署, 但邀請資訊無法從伺服器載入 。 請檢查您的連線再試一次 。",
+    "printerMaintenanceDone": "完成",
+    "printerMaintenanceBuildPlate": "清理和檢查建築板",
+    "printerMaintenanceBeltSurface": "清理和檢查皮帶表面",
+    "printerMaintenanceBelts": "檢查皮帶緊張",
+    "printerMaintenanceNozzle": "檢查或取代噴嘴",
+    "printerMaintenanceCfsPath": "清除 CFS 線路",
+    "printerMaintenanceLinearMotion": "檢查線性運動系統",
+    "printerMaintenanceToolheads": "檢查工具頭",
+    "printerMaintenanceHoursProgress": "{used} / {limit}打印時數",
+    "@printerMaintenanceHoursProgress": {
+        "placeholders": {
+            "used": {
+                "type": "String"
+            },
+            "limit": {
+                "type": "String"
+            }
+        }
+    },
+    "printerMaintenanceFilamentProgress": "{used} / {limit}g 絲",
+    "@printerMaintenanceFilamentProgress": {
+        "placeholders": {
+            "used": {
+                "type": "String"
+            },
+            "limit": {
+                "type": "String"
+            }
+        }
+    },
+    "printJournalExport": "匯出日記",
+    "printJournalExportDescription": "MakerSpell列印日記匯出",
+    "printJournalExportFailed": "打印日記無法匯出 :{error}",
+    "@printJournalExportFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "continueHubTitle": "繼續",
+    "continueActivePrint": "正在使用的列印",
+    "continueRecentProject": "最近的工作",
+    "continueLastSuccessfulSetup": "上次成功設定",
+    "continueSetupApplied": "成功的列印設定已準備好",
+    "printResultShareTitle": "分享打印結果",
+    "printResultShareSubtitle": "只共享此預覽卡。 檔案路徑與印表機位址保持私密 。",
+    "printResultShareAction": "分享",
+    "printResultShareCaption": "印有MakerSpell",
+    "printResultCompleted": "打印完成",
+    "printerNeedsAttention": "打印机需要注意",
+    "crealityErrorFr2849": "檔案無法撤回到 CFS 中枢( FR2849) 。 清除線路徑, 然后從印表機重試 。",
+    "plateSettingsTitle": "列印板參數設定",
+    "plateSettingsName": "列印板名稱",
+    "plateSettingsBedType": "列印板類型",
+    "plateSettingsGlobalBedType": "與全球板塊類型相同",
+    "plateSettingsSmoothHighTempPlate": "平滑 PEI / 高溫板",
+    "plateSettingsTexturedPeiPlate": "紋理 PEI 列印板",
+    "plateSettingsCustomizedPlate": "自訂板",
+    "plateSettingsEpoxyResinPlate": "套接字",
+    "plateSettingsCoolPlate": "低溫列印板",
+    "plateSettingsTexturedCoolPlate": "低溫紋理列印板",
+    "plateSettingsSuperTackPlate": "超級磁碟板",
+    "plateSettingsPrintSequence": "列印順序",
+    "plateSettingsGlobalPrintSequence": "和全局打印序列相同",
+    "plateSettingsByLayer": "逐層",
+    "plateSettingsByObject": "逐件",
+    "plateSettingsSpiralVase": "螺旋花瓶模式",
+    "plateSettingsSameAsGlobal": "同全球",
+    "plateSettingsOn": "開啟",
+    "plateSettingsOff": "關",
+    "plateSettingsFirstLayerFilamentSequence": "首層線材列印順序",
+    "plateSettingsOtherLayerFilamentSequence": "其他層的線材列印順序",
+    "plateSettingsAutomatic": "自動",
+    "plateSettingsCustomize": "自訂",
+    "plateSettingsAddLayerRange": "新增層次範圍",
+    "plateSettingsRemoveLastLayerRange": "移除上層範圍",
+    "plateSettingsLayer": "層",
+    "plateSettingsTo": "到",
+    "plateSettingsEnd": "結束",
+    "viewer3mfSettingsTitle": "3MF 專案設定",
+    "viewer3mfSettingsSummary": "所有絲狀調色板都已經合并了, 沒有改變模型的顏色分配。 請選擇 3MF 的印表機與處理設定來控制此專案 。",
+    "viewer3mfPaletteMerged": "%1專案絲線可以畫作和切片。",
+    "viewer3mfPrimaryFile": "主檔案 ^ 目前偏好",
+    "viewer3mfUseSettings": "使用這些設定值",
+    "viewer3mfSettingsSourceTooltip": "選擇 3MF 設定來源",
+    "platformAuthCreateAccount": "建立帳號",
+    "printerErrorOfficialSolution": "檢視正式解析",
+    "printerErrorCodeLabel": "錯誤代碼 :{code}",
+    "@printerErrorCodeLabel": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            }
+        }
+    },
+    "printerCommunityBannerTitle": "幫助改善此印表機",
+    "printerCommunityBannerDescription": "開發者可能無法存取此印表機, 所以每個實驗裝置都很重要。 檢查其連接與介面規則, 然后標記哪些可行, 哪些需要改进 。",
+    "printerCommunityBannerWorkingDescription": "在印表機旁安全測試後, 請記住要分享您的發現并批准工作功能。 您的確認支持MakerSpell幫助這個裝置獲得社區驗證地位。",
+    "printerCommunityEditRules": "审查和完善",
+    "printerCommunityApprove": "一切正常",
+    "printerCommunityApproved": "确认",
+    "printerCommunityApprovalCount": "已確認{count}人",
+    "@printerCommunityApprovalCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerCommunityApprovalError": "無法儲存確認 。 簽署再試一次 。",
+    "communityPrinterProfilesTitle": "打印机連接與接口規則",
+    "communityPrinterTargetAdapter": "此印表機使用的规则",
+    "communityPrinterRefresh": "刷新社區規則",
+    "communityPrinterCreateProfile": "建立設定檔",
+    "communityPrinterSystemAdapters": "系統适配器",
+    "communityPrinterSystemAdaptersDescription": "目前運送的連接與介面規則MakerSpell.",
+    "communityPrinterRegistryUnavailable": "系統适配器登記器不可用 。",
+    "communityPrinterOverrides": "群組覆蓋",
+    "communityPrinterOverridesDescription": "已安裝延伸編譯适配器的設定檔與草稿 。",
+    "communityPrinterNoOverrides": "沒有安裝群組覆蓋 。",
+    "communityPrinterSystemBadge": "系統",
+    "communityPrinterSectionsCount": "{count}款次",
+    "@communityPrinterSectionsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterControlsCount": "{count}控制",
+    "@communityPrinterControlsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterServicesCount": "{count}服務",
+    "@communityPrinterServicesCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterCreateOverride": "建立覆寫",
+    "communityPrinterConnection": "連接",
+    "communityPrinterCapabilities": "能力",
+    "communityPrinterInterfaceSections": "界面部分",
+    "communityPrinterJobControls": "工作控制",
+    "communityPrinterDeviceControls": "裝置控制",
+    "communityPrinterPrintOptions": "列印選項",
+    "communityPrinterRuntimeContracts": "定期合同",
+    "communityPrinterCreateEditableOverride": "建立可編輯群組覆蓋",
+    "communityPrinterNone": "無",
+    "communityPrinterSettingsDescription": "編輯、 預覽、 驗證及檢視群組维护的印表機支援 。",
+    "communityPrinterDocumentation": "打印机配置指南",
+    "communityPrinterDocumentationOpenError": "印表機設定檔指南無法開啟 。",
+    "communityPrinterCommunicationTitle": "此設定檔如何傳送",
+    "communityPrinterCommunicationDescription": "基底傳輸選取已檢視過的印表機特有 HTTP 、 WebSocket 或本地协议代碼。 介面控件稱為下面的邏輯操作映射; 它們不都使用相同的銷售商要求 。",
+    "communityPrinterUnknownBaseTransport": "此基礎傳輸在安裝的 runtime 登記器中沒有 。",
+    "communityPrinterOperationMappings": "操作映射",
+    "communityPrinterOpenOperationJson": "開啟操作 JSON",
+    "communityPrinterDelegateMapping": "代表{action}至{adapter}",
+    "@communityPrinterDelegateMapping": {
+        "placeholders": {
+            "action": {
+                "type": "String"
+            },
+            "adapter": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRuntimeReviewRequired": "穿過沙盒宣傳的跑步時間( R){kind}).",
+    "@communityPrinterRuntimeReviewRequired": {
+        "placeholders": {
+            "kind": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterDeclarativeConnection": "宣告連接",
+    "communityPrinterDeclarativeConnectionDescription": "描述新的印表機協議而不加入應用程式碼 。",
+    "communityPrinterDeclarativeEnable": "開啟",
+    "communityPrinterUseAsPrimaryTransport": "用作主要交通工具",
+    "communityPrinterDeclarativeSafety": "要求只限於選取的印表機位址。 重定向與不安全信頭被封鎖 。",
+    "communityPrinterConnectionScheme": "方案",
+    "communityPrinterConnectionPort": "端口( 空 = 已發現端口)",
+    "communityPrinterConnectionBasePath": "基本路徑",
+    "communityPrinterConnectionTimeout": "超時( 毫秒 )",
+    "communityPrinterConnectionAuthentication": "認證",
+    "communityPrinterConnectionAuthHeader": "認證信頭",
+    "communityPrinterHttpWebSocketChannel": "HTTP / WebSocket 頻道",
+    "communityPrinterHttpWebSocketChannelDescription": "HTTP 操作使用此端點。 WebSocket 操作自動使用 WS 或 WSS 在相同的印表機端點上 。",
+    "communityPrinterMqttChannel": "MQTT / MQTTS 頻道",
+    "communityPrinterMqttChannelDescription": "公布命令, 並選擇等待印表機主題的回覆 。",
+    "communityPrinterFtpChannel": "FTP / FTPS 通道",
+    "communityPrinterFtpChannelDescription": "列出、 上傳或刪除印表機檔案服務中的檔案 。",
+    "communityPrinterEnableChannel": "開啟頻道",
+    "communityPrinterDisableChannel": "關閉頻道",
+    "communityPrinterClientId": "客戶端代碼",
+    "communityPrinterKeepAliveSeconds": "保持生命( 秒)",
+    "communityPrinterUsername": "使用者名稱",
+    "communityPrinterTlsMode": "TLS 模式",
+    "communityPrinterRootPath": "根路徑",
+    "communityPrinterMqttTopic": "MQTT 主題",
+    "communityPrinterMqttResponseTopic": "反應題( 可選擇的)",
+    "communityPrinterMqttQos": "MQTT QoS",
+    "communityPrinterFtpAction": "FTP 動作",
+    "communityPrinterFtpPath": "遠端檔案路徑",
+    "communityPrinterTcpChannel": "TCP / TCPS 控制台",
+    "communityPrinterTcpChannelDescription": "將面向行的命令直接傳送到印表機套接字, 並可選擇讀取回覆 。",
+    "communityPrinterLineEnding": "行尾",
+    "communityPrinterResponseMode": "回复模式",
+    "communityPrinterMaxResponseBytes": "最大回應大小( 字節)",
+    "communityPrinterTcpCommand": "TCP 命令模板",
+    "communityPrinterProtocolOperations": "礼宾工作",
+    "communityPrinterSecureDeclarativeRuntime": "安全宣傳時間",
+    "communityPrinterAddOperation": "新增操作",
+    "communityPrinterEditOperation": "編輯操作",
+    "communityPrinterOperationId": "操作代碼",
+    "communityPrinterOperationExecutionType": "執行型態",
+    "communityPrinterCompiledAdapterAction": "編譯的适配器動作",
+    "communityPrinterHttpMethod": "HTTP 方法",
+    "communityPrinterRelativeUrlPath": "打印机相關 URL 路徑",
+    "communityPrinterRelativeWebSocketPath": "打印机相關 WebSocket 路徑",
+    "communityPrinterCommandTemplate": "命令模板",
+    "communityPrinterRequestJson": "要求 JSON",
+    "communityPrinterResponseMappingJson": "JSON 反應映射",
+    "communityPrinterResponseMappingHelp": "映射正常字段, 例如 :{example}",
+    "@communityPrinterResponseMappingHelp": {
+        "placeholders": {
+            "example": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRunningPrintOption": "執行{option}…",
+    "@communityPrinterRunningPrintOption": {
+        "placeholders": {
+            "option": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterPermissions": "權限",
+    "communityPrinterInterfaceControls": "界面控制",
+    "communityPrinterAddInterfaceControl": "新增介面控制",
+    "communityPrinterEditInterfaceControl": "編輯介面控制",
+    "communityPrinterAddOperationFirst": "在建立接口控制前添加操作 。",
+    "communityPrinterNewControl": "新控制",
+    "communityPrinterControlId": "控制ID",
+    "communityPrinterControlLabel": "標籤",
+    "communityPrinterControlType": "控制型態",
+    "communityPrinterControlOperation": "操作",
+    "communityPrinterControlValuePath": "值路徑( 可選擇的)",
+    "communityPrinterControlVisibleWhen": "視覺當( 可選擇的)",
+    "communityPrinterControlMinimum": "最小",
+    "communityPrinterControlMaximum": "最大",
+    "communityPrinterControlStep": "步驟",
+    "communityPrinterControlUnit": "單位( 可選擇的)",
+    "communityPrinterControlConfirmation": "需要確認",
+    "communityPrinterControlRequired": "需要身份證和標籤 。",
+    "communityPrinterControlUnique": "控制身份必須是獨一無二的",
+    "communityPrinterControlMustBeNumber": "{field}一定是數字",
+    "@communityPrinterControlMustBeNumber": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRestoreProfile": "恢复上一個版本",
+    "communityPrinterRestoreProfileTitle": "要還原印表機設定檔嗎 ?",
+    "communityPrinterRestoreUnsavedMessage": "未儲存的變更會被丟棄, 描述檔會回到編輯開始時開啟的版本 。",
+    "communityPrinterRestoreInstalledMessage": "目前的本地化描述檔將被之前的驗證版本取代 。",
+    "communityPrinterRestoreAction": "恢復",
+    "communityPrinterRestoreSuccess": "先前的印表機設定檔已恢復 。",
+    "communityPrinterRestoreUnavailable": "沒有先前的描述檔版本 。",
+    "communityPrinterRestoreFailure": "描述檔無法恢復 :{error}",
+    "@communityPrinterRestoreFailure": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingCurrencyMismatch": "選取的 {store} 市場需要 {currency} 。 回到產品細節中, 將貨幣設定為 {currency} , 並以該貨幣輸入銷售價值 。 改變貨幣不轉換貨幣 。",
+    "@listingCurrencyMismatch": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "currency": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPreparationFailed": "無法載入目前的儲存規則或汇率 。 請檢查您的網路連線與排程規則地址, 然後重試。 沒有公布 。",
+    "listingCurrencyConversion": "將 {source} 轉換為 {target} ? Frankfurter 參考率 日期為 {date}。 在確認後, 請重新檢視更新的價格並按下 Publishing 。 這不是保證的銀行轉換率 。",
+    "@listingCurrencyConversion": {
+        "placeholders": {
+            "source": {
+                "type": "String"
+            },
+            "target": {
+                "type": "String"
+            },
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerMeshBoolean": "布林運算",
+    "viewerBooleanDescription": "選擇兩個未涂色的固體 meshes 。 A 被結果取代, B 被耗盡 。 要切開一個洞, 請選擇主要型號為 A, 切口形為 B, 然後是 difference (A - B) 。 最大輸入三角形 。",
+    "viewerBooleanUnion": "(A+B)",
+    "viewerBooleanDifference": "差异(A-B)",
+    "viewerBooleanIntersection": "交集( A )",
+    "viewerBooleanUnionShort": "併集",
+    "viewerBooleanDifferenceShort": "差集",
+    "viewerBooleanIntersectionShort": "交叉",
+    "viewerBooleanMainModel": "A. 主要模式",
+    "viewerBooleanToolModel": "B 工具形",
+    "viewerBooleanChooseObject": "選擇物件",
+    "viewerBooleanSwap": "交换A和B",
+    "viewerBooleanUnionHint": "把A和B合并成一個坚实的模型.",
+    "viewerBooleanDifferenceHint": "從 A 移除 B 的音量。",
+    "viewerBooleanIntersectionHint": "只保留A和B共享的音量.",
+    "viewerBooleanSelectOnModel": "在檢視中選擇",
+    "viewerBooleanSelectModels": "選擇布林模型",
+    "viewerBooleanTapSelect": "磁帶",
+    "viewerBooleanBoxSelect": "方框",
+    "viewerBooleanClearSelection": "清除選擇區",
+    "viewerBooleanSelectedCount": "選取 {count} 。",
+    "@viewerBooleanSelectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerBooleanCalculate": "計算",
+    "viewerBooleanNeedTwoMeshes": "新增或選擇至少包含兩個支持的固體 meshes 的模型 。",
+    "viewerBooleanMemoryWarning": "此操作可能會使用大量內存, 並且會使應用程式暫時失去反應 。 要繼續嗎 ?",
+    "viewerBooleanApplyTitle": "套用布林結果 ?",
+    "viewerBooleanResultSummary": "結果包含{count}三角形。 A 將被取代, B 將被消耗, 復原可以恢復它們 。",
+    "@viewerBooleanResultSummary": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerBooleanRunning": "計算布林几何...",
+    "viewerBooleanApply": "套用",
+    "viewerBooleanFailed": "Mesh Boolean 失敗 :{error}",
+    "@viewerBooleanFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerBooleanInvalidMesh": "兩部歌詞必須是關閉的,非自我交接的固體曲目",
+    "viewerBooleanEmptyResult": "此操作產生了空的結果 。",
+    "viewerBooleanSourceChanged": "選取的几何在計算中變更。 請再試一次 。",
+    "viewerBooleanUnsupported": "其中一個選取的 meshes 包含不支援的油漆、 材料或專案中繼資料 。",
+    "viewerBooleanMemoryLimit": "此布林操作對可用的裝置內存來說太大 。",
+    "remindersTitle": "提醒",
+    "remindersDescription": "關於你儲存內容的安靜提醒：追蹤的創作者發布新模型、收藏降價、儲存的搜尋有新結果、比賽截止以及切片額度。全部在你的裝置上計算。",
+    "remindersPermissionDenied": "未取得通知權限，因此提醒只會顯示在應用程式內通知中心。",
+    "retentionDesignerNewModelsTitle": "{designer} 有新模型",
+    "retentionDesignerNewModelsBody": "自上次瀏覽後有 {count} 個新模型。",
+    "retentionFavoritePriceDropTitle": "收藏的模型降價了",
+    "retentionFavoritePriceDropBody": "{model} 現在 {price}。",
+    "retentionFavoriteNowFreeTitle": "收藏的模型現在免費",
+    "retentionFavoriteNowFreeBody": "{model} 現在可以免費下載。",
+    "retentionSavedSearchTitle": "儲存的搜尋有新結果",
+    "retentionSavedSearchBody": "{query} 有 {count} 筆新結果。",
+    "retentionContestEndingTitle": "有比賽即將結束",
+    "retentionContestEndingBody": "{contest} 將在兩天內截止。",
+    "retentionContestStartingTitle": "有比賽剛剛開始",
+    "retentionContestStartingBody": "{contest} 正在徵件。",
+    "retentionContestEndingDaysBody": "{contest} 將在 {days} 天內截止。",
+    "retentionContestEndingHoursBody": "{contest} 將在 {hours} 小時內截止。",
+    "retentionContestEndingImminentBody": "{contest} 將在一小時內截止。",
+    "retentionContestStartingSoonBody": "{contest} 將在 24 小時內開始。",
+    "retentionContestNameOnPlatform": "{platform} 比賽",
+    "retentionContestNameGeneric": "比賽",
+    "remindersContestRuleNote": "比賽提醒只選最近的截止時間，同一場比賽只通知一次。",
+    "retentionQuotaExhaustedTitle": "本週切片額度已用完",
+    "retentionQuotaExhaustedBody": "觀看獎勵廣告即可再解鎖一次切片。",
+    "retentionQuotaRenewedTitle": "切片額度已恢復",
+    "retentionQuotaRenewedBody": "本週又可以切片模型了。",
+    "retentionShopTrialTitle": "你的 Shop 試用仍未使用",
+    "retentionShopTrialBody": "試用一次 Shop 定價流程。",
+    "activationChecklistTitle": "先完成這幾步",
+    "activationChecklistSubtitle": "可選：依任何順序完成，或關閉這份清單。",
+    "activationChecklistProgress": "{completed}/{total} 項已完成",
+    "activationChecklistHide": "關閉這份清單",
+    "activationStepSearch": "搜尋模型",
+    "activationStepSave": "收藏模型",
+    "activationStepSlice": "切片模型",
+    "activationStepPrinter": "連接印表機",
+    "activationStepPrint": "開始列印",
+    "remindersPermissionInAppFallback": "系統通知已關閉，提醒只會顯示在應用程式內的通知中心。",
+    "notificationCenterPermissionInAppFallback": "系統通知已關閉，提醒會集中在這裡。",
+    "settingsSlicingQuotaTitle": "切片額度",
+    "settingsSlicingQuotaSubtitle": "一眼查看本週的切片額度。",
+    "settingsSlicingQuotaCatalogTitle": "目錄專案",
+    "settingsSlicingQuotaLocalTitle": "本機檔案",
+    "settingsSlicingQuotaWelcomeTitle": "新用戶專案",
+    "settingsSlicingQuotaRewardedTitle": "看廣告增加額度",
+    "settingsSlicingQuotaRewardedDescription": "觀看可選的獎勵影片，可額外獲得 24 小時解鎖。",
+    "settingsSlicingQuotaRewardedWeekUsedUp": "本週的額外額度已用完。",
+    "settingsSlicingQuotaUnlockActive": "已解鎖，有效期至 {time}。",
+    "settingsSlicingQuotaUnlimitedPro": "無限制 (Pro)",
+    "settingsSlicingQuotaUnlimitedShop": "無限制 (Shop)",
+    "settingsSlicingQuotaUnlimitedSubtitle": "目前方案沒有切片限制。",
+    "settingsSlicingQuotaChecking": "正在讀取額度…",
+    "settingsSlicingQuotaRemaining": "剩餘 {remaining} / {limit}",
+    "settingsSlicingQuotaRewardedToday": "今天剩餘 {remaining} / {limit}"
+}

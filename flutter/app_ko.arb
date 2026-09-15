@@ -1,0 +1,4271 @@
+{
+    "@@locale": "ko",
+    "listingOptionsTimedOut": "로딩 옵션. 연결 확인 및 다시 시도.",
+    "settingsTitle": "설정",
+    "appPreferences": "앱 설정",
+    "privacyAndData": "개인정보 및 자료",
+    "privacyAndDataSubtitle": "개인 정보 보호, 광고 및 계정 데이터 관리",
+    "privacyPolicy": "개인정보처리방침",
+    "privacyPolicySubtitle": "데이터 MakerSpell 프로세스와 왜",
+    "accountDeletionPage": "계정 삭제",
+    "accountDeletionPageSubtitle": "앱에 액세스 할 수없는 경우에도 삭제 요청",
+    "deleteSelectedData": "선택한 데이터 삭제",
+    "dataDeletionSubtitle": "계정을 유지하면서 선택한 데이터를 제거",
+    "dataDeletionIntro": "영구적으로 제거하려면 MakerSpell 데이터를 선택하십시오.",
+    "dataDeletionKeepAccount": "로그인 계정, 이메일, 구독 액세스, 저장 기록 및 개인 드라이브 파일은 남아 있습니다.",
+    "dataCategoryProfile": "회사연혁",
+    "dataCategoryProfileDescription": "이름, 프로필 이미지 참조, 공개 암호화 키 및 언어 선호.",
+    "dataCategoryActivity": "활동 및 통계",
+    "dataCategoryActivityDescription": "사용법 카운터, 앱 통계 및 완료 마이그레이션 기록.",
+    "dataCategoryDiagnostics": "기술 진단",
+    "dataCategoryDiagnosticsDescription": "개인정보 수집 및 이용목적 및 이용목적",
+    "dataCategorySupport": "지원 역사",
+    "dataCategorySupportDescription": "계정과 연결된 스크린 샷 지원.",
+    "dataCategoryDriveConnection": "Google Drive 연결",
+    "dataCategoryDriveConnectionDescription": "연결 메타데이터 및 권한화. 드라이브의 파일이 삭제되지 않습니다.",
+    "selectAllOptionalData": "모든 선택 데이터 선택",
+    "selectAtLeastOneDataCategory": "적어도 하나의 데이터 범주를 선택하십시오.",
+    "deleteSelectedDataQuestion": "영구적으로 선택한 데이터를 삭제?",
+    "deleteSelectedDataWarning": "이것은 undone이 될 수 없습니다. MakerSpell 계정이 활성화됩니다.",
+    "selectedDataDeleted": "선택한 데이터가 삭제되었습니다. 계정은 활성화되어 있습니다.",
+    "dataDeletionFailed": "선택한 데이터는 삭제 될 수 없습니다 : {error}",
+    "@dataDeletionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "dataDeletionWebRequest": "웹에 deletion 요청 제출",
+    "adPrivacyOptions": "광고 개인 선택",
+    "adPrivacyOptionsSubtitle": "광고에 사용되는 동의 선택 검토 또는 변경",
+    "adPrivacyOptionsUnavailable": "광고 개인 정보 보호 선택은 귀하의 지역 또는 아직 사용할 수 없습니다.",
+    "couldNotOpenLink": "링크를 열 수 없습니다.",
+    "modelCustomizerTitle": "사용자 정의 모델",
+    "modelCustomizerDescription": "이 기하학적 모델을 조정하고 생성 된 인쇄 가능한 파일을 다운로드합니다.",
+    "modelCustomizerOpen": "사용자 정의",
+    "modelCustomizerDownloadHint": "변경 사항을 확인한 후 사용자의 다운로드 버튼을 사용하십시오. MakerSpell는 생성된 파일을 자동으로 캡처합니다.",
+    "modelCustomizerDownloadFailed": "생성된 파일은 다운로드할 수 없습니다.",
+    "theme": "이름 *",
+    "themeSubtitle": "당신의 선호한 테마를 선택하십시오",
+    "dark": "한국어",
+    "light": "제품 정보",
+    "system": "시스템",
+    "language": "언어",
+    "languageSubtitle": "신청하기",
+    "translationContributionTitle": "번역에 기여",
+    "translationContributionTileSubtitle": "당신의 언어를 검토하고 보정을 제안",
+    "translationContributionDescription": "영어 소스와 함께 현재 번역을 검토합니다. 변경되는 줄 만 승인됩니다. 앱 언어는 수정되지 않습니다.",
+    "translationContributionLanguage": "한국어",
+    "translationContributionSearch": "번역을 검색",
+    "translationContributionEditTitle": "수정 사항",
+    "translationContributionEdit": "번역 편집",
+    "translationContributionProposedText": "Proposed 번역",
+    "translationContributionTokenError": "보유자, 링크 및 서식 토큰은 변경되지 않습니다.",
+    "translationContributionContactTitle": "Contributor 세부사항",
+    "translationContributionContinue": "계속하기",
+    "translationContributionPending": "{count} 보정 (s) 준비",
+    "@translationContributionPending": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "translationContributionSubmit": "{count} 보정(s)",
+    "@translationContributionSubmit": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "translationContributionSent": "감사합니다. 번역 수정은 검토를 위해 보내졌습니다.",
+    "translationContributionFailed": "보정은 전송되지 않을 수 있습니다 : {error}",
+    "@translationContributionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "translationContributionLoadFailed": "번역 카탈로그는로드 할 수 없습니다.",
+    "english": "한국어",
+    "turkish": "뚱 베어",
+    "unitSystem": "단위 시스템",
+    "unitSystemSubtitle": "Preferred 측정 기준",
+    "metric": "미터법",
+    "imperial": "야드파운드법",
+    "cancel": "취소",
+    "printSettings": "인쇄 설정",
+    "sliceCompatibilityTitle": "slicing 전에 체크",
+    "sliceCompatibilityDescription": "이 체크는 모델이 호환되지 않습니다. 차이를 검토, 필요한 경우 인쇄 설정을 변경, 또는 현재 선택 계속.",
+    "sliceCompatibilityContinue": "자주 묻는 질문",
+    "sliceCompatibilityVolumeTitle": "모델은 빌드 볼륨을 초과 할 수 있습니다.",
+    "sliceCompatibilityVolumeDescription": "현재 장면의 부분은 선택된 인쇄 기계의 판 또는 인쇄할 수 있는 고도 밖에 있습니다. 인쇄의 앞에 배치 그리고 가늠자를 검사하십시오.",
+    "sliceCompatibilityPrinterTitle": "3MF는 다른 프린터를 준비했습니다.",
+    "sliceCompatibilityPrinterDescription": "프로젝트 프로필: {project}. 선택된 프린터: {selected}.",
+    "@sliceCompatibilityPrinterDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "sliceCompatibilityMaterialsTitle": "더 많은 물자 구멍은 인쇄 기계 지원 보다는 사용됩니다",
+    "sliceCompatibilityMaterialsDescription": "프로젝트는 {required} 재료 슬롯을 사용합니다. 이 프린터 프로파일은 {supported}를 지원합니다.",
+    "@sliceCompatibilityMaterialsDescription": {
+        "placeholders": {
+            "required": {
+                "type": "int"
+            },
+            "supported": {
+                "type": "int"
+            }
+        }
+    },
+    "sliceCompatibilityNozzleTitle": "분사구 직경은 프로젝트에서 다릅니다",
+    "sliceCompatibilityNozzleDescription": "프로젝트: {project} mm. 선택: {selected} mm.",
+    "@sliceCompatibilityNozzleDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "sliceCompatibilityFilamentTitle": "필라멘트 유형은 프로젝트와 다릅니다.",
+    "sliceCompatibilityFilamentDescription": "프로젝트: {project}. 선택: {selected}.",
+    "@sliceCompatibilityFilamentDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "slicerPreferencesTitle": "Slicer 선호도",
+    "sliceCompatibilityWarningsPreferenceTitle": "Pre-slice 경고",
+    "showPrinterProfileMismatchWarningsTitle": "인쇄 기계 단면도 다름 경고",
+    "showPrinterProfileMismatchWarningsDescription": "3MF 프로젝트가 다른 프린터 프로파일을 준비했을 때 Warn. 호환성 대화 상자에서 경고가 다시 활성화 될 수 있습니다.",
+    "showNozzleMismatchWarningsTitle": "노즐 차이 경고",
+    "showNozzleMismatchWarningsDescription": "MakerSpell에서 선택된 노즐 직경이 프로젝트에 내장된 값과 다릅니다.",
+    "showFilamentMismatchWarningsTitle": "필라멘트 차이 경고",
+    "showFilamentMismatchWarningsDescription": "선택한 필라멘트 유형이 프로젝트에 내장 된 재료와 다릅니다.",
+    "searchSettings": "검색 설정",
+    "discoveringModels": "놀라운 3D 모델을 발견 ...",
+    "searchByTagHint": "태그로 검색 (tag: 키워드) ...",
+    "searchAllPlatformsHint": "모든 플랫폼에서 검색 ...",
+    "recentSearches": "최근 검색",
+    "searchSuggestions": "이름 *",
+    "clearAll": "모든 것",
+    "removeSearchHistory": "검색 기록에서 제거",
+    "savedSearches": "검색 결과",
+    "followingAndSearches": "다음 & 검색",
+    "followedDesigners": "디자이너",
+    "noFollowedUpdates": "아직 아무것도",
+    "noFollowedUpdatesDescription": "프로필에서 디자이너를 따르거나 개인 업데이트 목록을 만들기 위해 탐색에서 검색을 저장하십시오.",
+    "saveSearch": "자주 묻는 질문",
+    "removeSavedSearch": "자주 묻는 질문",
+    "noSavedSearches": "자주 묻는 질문",
+    "noSavedSearchesDescription": "최신 매칭 모델로 돌아 가기 위해 탐구에서 검색을 저장하십시오.",
+    "runSavedSearch": "최신 매칭 모델 보기",
+    "noFiltersAvailable": "필터 없음",
+    "globalFilters": "글로벌 필터",
+    "platformFilters": "{platform} 필터",
+    "explore": "기타 제품",
+    "favorites": "이름 *",
+    "shop": "제품정보",
+    "workspace": "작업 공간",
+    "close": "닫기",
+    "contests": "행사일정",
+    "contestsDescription": "커뮤니티 콘테스트에 참여하고, 도전을 발견하고, 디자인을 전시합니다.",
+    "downloadedModels": "다운로드 모델",
+    "downloadedModelsDescription": "다운로드된 파일 보기, 모델 뷰어에서 열리고, 공유하거나, 활성 다운로드를 관리합니다.",
+    "networkPrinters": "네트워크 프린터",
+    "myPrinters": "내 프린터",
+    "networkPrintersDescription": "로컬 네트워크에서 프린터를 발견하고 관리합니다. 장치 패널을 열고 프린터를 수동으로 추가하고 작업을 보냅니다.",
+    "loadingMore": "더 많은...",
+    "somethingWentWrong": "뭔가 잘못되었습니다.",
+    "tryAgain": "다시 시도",
+    "nothingHereYet": "아직 없음",
+    "emptyModelsDescription": "더 많은 모델을 발견하기 위해 검색을 새로 고침하거나 변경하십시오.",
+    "free": "무료 와이파이",
+    "@platformFilters": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "platforms": "플랫폼",
+    "all": "모두",
+    "platformCount": "{count} 플랫폼",
+    "noCategoriesAvailable": "자주 묻는 질문",
+    "allPlatforms": "모든 플랫폼",
+    "selectAll": "모두 선택",
+    "sortBy": "정렬 기준",
+    "tapOnePlatform": "탭 한 플랫폼",
+    "selectedCount": "{count} 선택",
+    "resetToDefaults": "기본값으로 재설정",
+    "multi": "지원하다",
+    "onlyOne": "만 1",
+    "done": "완료",
+    "clear": "지우기",
+    "couldNotLoadCategories": "카테고리를로드 할 수 없습니다 :\\n{error}",
+    "apply": "적용",
+    "sortTrending": "관련 기사",
+    "sortBestMatch": "최고의 경기",
+    "sortNewest": "더 알아보기",
+    "sortDownloads": "다운로드",
+    "sortLikes": "가장 좋아",
+    "@platformCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@selectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@couldNotLoadCategories": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "filters": "필터링",
+    "reset": "초기화",
+    "none": "이름 *",
+    "ascendingOrder": "공급 업체",
+    "ok": "확인",
+    "calculating": "교육 ...",
+    "unknown": "알 수 없는",
+    "loading": "로드 중 ...",
+    "makerSyncUser": "MakerSpell 사용자",
+    "guest": "(주)",
+    "driveConnected": "드라이브: {email}",
+    "driveNotConnected": "연결하지 않는 드라이브",
+    "driveModelBackup": "드라이브에 모델 파일을 백업",
+    "driveModelBackupDescription": "자동 백업 다운로드 모델 및 소스 파일 마켓 플레이스 목록에 사용됩니다.",
+    "driveModelBackupPremiumDescription": "A MakerSpell Pro 또는 Shop 가입은이 기능을 사용해야합니다.",
+    "driveModelBackupViewPlans": "Pro 및 Shop 계획 보기",
+    "driveModelSyncNow": "지금 동기화",
+    "driveModelWifiOnly": "Wi-Fi 전용 동기화",
+    "driveModelWifiOnlyDescription": "모바일 데이터를 사용하면서 모델 백업을 유지하고 Wi-Fi를 사용할 때 자동으로 계속.",
+    "driveModelWifiRequired": "Wi-Fi는 Wi-Fi 전용 동기화가 가능합니다.",
+    "driveModelSyncCompleted": "{count} 모델 파일에 대한 sync를 구동한다.",
+    "@driveModelSyncCompleted": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveModelSyncFailed": "모델 파일 동기화 실패: {error}",
+    "@driveModelSyncFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "driveBackupNotificationTitle": "드라이브에 모델을 백업",
+    "driveBackupNotificationPreparing": "{count} 모델 파일 준비 ...",
+    "@driveBackupNotificationPreparing": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveBackupNotificationProgress": "{percent}% · {current}/{total} · {fileName}",
+    "@driveBackupNotificationProgress": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            },
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "driveBackupNotificationCompleteTitle": "드라이브 백업 완료",
+    "driveBackupNotificationCompleteBody": "{count} 모델 파일 동기화.",
+    "@driveBackupNotificationCompleteBody": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveBackupNotificationPendingTitle": "백업 일시 중지",
+    "driveBackupNotificationPendingBody": "{count} 파일 (s) 동기화 될 기다리고 있습니다.",
+    "@driveBackupNotificationPendingBody": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "notSignedIn": "로그인",
+    "connected": "지원하다",
+    "signOut": "이름 *",
+    "signInWithGoogle": "Google로 로그인",
+    "premium": "제품정보",
+    "unlockPremium": "비밀번호",
+    "removeAds": "광고를 제거",
+    "upgrade": "지원하다",
+    "makerSyncFree": "MakerSpell 무료",
+    "chooseMakerSpellPlan": "MakerSpell 플랜 선택",
+    "freePlanBenefits": "Pro와 무제한 프로젝트 slicing 및 광고없는 경험, 또는 MakerSpell Shop과 모든 Pro 및 Shop 기능을 잠금 해제하십시오.",
+    "freeCoreTitle": "무료로 할 수 있는 것",
+    "freeCoreDescription": "핵심 찾기, 준비 및 인쇄 작업 흐름은 구독이 필요하지 않습니다.",
+    "freeCoreFeatureDiscovery": "모델을 발견하고 소스와 면허를 검토",
+    "freeCoreFeatureSlicing": "지역적으로 Slice 및 무료 관용 내에서 G 코드 내보내기",
+    "freeCoreFeaturePrinters": "호환 로컬 프린터를 발견하고 관리",
+    "freeCoreFeatureWeeklyAllowance": "{catalog} 카탈로그 + {local} 주 당 지역 슬라이딩 프로젝트, 플러스 {welcome} 새로운 계정을위한 환영 프로젝트",
+    "@freeCoreFeatureWeeklyAllowance": {
+        "placeholders": {
+            "catalog": {
+                "type": "int"
+            },
+            "local": {
+                "type": "int"
+            },
+            "welcome": {
+                "type": "int"
+            }
+        }
+    },
+    "freeCoreFeatureRewardedUnlock": "수당 중? 선택적 보상 비디오는 24 시간 동안 노래를 잠금 해제 (일당 최대 {daily})",
+    "@freeCoreFeatureRewardedUnlock": {
+        "placeholders": {
+            "daily": {
+                "type": "int"
+            }
+        }
+    },
+    "continueWithFree": "계속 무료",
+    "continueFreeWithAd": "계속 무료 · 시계 한 광고",
+    "freeActionProLimitNote": "이 워크플로우는 무료로 제공됩니다. Pro는 사용 제한 및 광고를 제거합니다.",
+    "makerToolsSection": "옵션 메이커 업그레이드",
+    "sellerToolsSection": "판매자에게 별도의 도구",
+    "proOptionalUpgradeNote": "코어 워크플로를 무료로 사용하거나 무제한 사용 및 광고를 위해 Pro를 선택하십시오.",
+    "betaAccessBannerTitle": "21일 Pro 액세스 — 결제 방법 없음",
+    "betaAccessBannerDescription": "당신의 오픈 테스트 보상이 활성화되어 있습니다. 자동으로 갱신되거나 충전되지 않습니다.",
+    "settingsCommerceFeaturesTitle": "Show Shop 및 전자 상거래 도구",
+    "settingsCommerceFeaturesDescription": "핵심 인쇄 워크플로에서 별도의 판매, 목록, 가격 및 저장소 기능을 유지하십시오.",
+    "settingsCommerceFeaturesIncludedWithShop": "MakerSpell 숍이 활성화되어 있기 때문에 눈에 띄는.",
+    "proPlanActive": "당신의 Pro 계획은 활동적입니다",
+    "proPlanBenefits": "무제한 프로젝트 slicing 및 광고없는 경험은 활성화됩니다.",
+    "shopPlanActive": "가게 플랜",
+    "shopPlanBenefits": "모든 MakerSpell Pro 및 Shop 기능 활성화.",
+    "viewPlans": "계획 보기",
+    "upgradeToShop": "쇼핑하기",
+    "viewPlanDetails": "플랜 일람",
+    "checkingSubscription": "자주 묻는 질문",
+    "pleaseWait": "자세히보기",
+    "activeNodes": "활성 노드",
+    "cloudPlatformSynchronizations": "Cloud 플랫폼 동기화",
+    "manageActiveNodes": "Active Nodes 관리",
+    "connectedCount": "{connected} / {total} 연결",
+    "account": "계좌정보",
+    "signIn": "이름 *",
+    "signedIn": "이름 *",
+    "continueWithGoogle": "계속 Google",
+    "onboardingSkip": "건너뛰기",
+    "onboardingNext": "다음",
+    "onboardingBack": "뒷면",
+    "onboardingGetStarted": "시작하기",
+    "onboardingWelcomeTitle": "모든 제작자 필요,\n한 곳에서",
+    "onboardingWelcomeDescription": "앱간에 점프하지 않고 여러 플랫폼에서 인쇄 가능한 모델을 발견하십시오.",
+    "onboardingDiscoverTitle": "다음 인쇄 찾기",
+    "onboardingDiscoverDescription": "검색, 비교, 즐겨 찾기를 저장하고, 모델 라이브러리를 정리하십시오.",
+    "onboardingSliceTitle": "휴대폰에서 슬라이스와 인쇄",
+    "onboardingSliceDescription": "휴대 전화에서 준비 및 슬라이스 모델, 프린터에 G-code를 보내고, 하나의 장소에서 로컬 네트워크에 프린터를 모니터링하고 관리합니다.",
+    "onboardingShopTitle": "인쇄를 사업으로 전환",
+    "onboardingShopDescription": "MakerSpell 쇼핑을 통해 마켓 플레이스를 연결하고 목록을 계산하고 가격을 계산하고 팀과 함께 작동합니다.",
+    "onboardingCloudTitle": "당신과 함께 프로젝트 유지",
+    "onboardingCloudDescription": "Google과 로그인하여 자신의 드라이브, 동기화 설정 및 구입을 연결하고 장치에서 MakerSpell 데이터를 액세스하십시오.",
+    "onboardingGoogleSignIn": "Google로 로그인",
+    "onboardingGoogleSigningIn": "로그인 ...",
+    "onboardingGoogleConnected": "Google 계정 연결",
+    "onboardingGoogleOptional": "옵션 - 설정에서 나중에 Google Drive을 연결할 수 있습니다.",
+    "onboardingGoogleSignInFailed": "Google 로그인이 완료되지 않았습니다. 로그인하지 않고 다시 시도하거나 계속 할 수 있습니다.",
+    "onboardingPurposeTitle": "MakerSpell를 사용할 수 있습니까?",
+    "onboardingCommerceTitle": "전자 상거래에 관심이 있습니까?",
+    "onboardingCommerceDescription": "당신의 대답은 우리가 추천하는 시작 목표만 형성합니다. 당신은 나중에 권고를 수동으로 조정할 수 있습니다.",
+    "onboardingCommerceYes": "예, 판매 또는 판매 계획",
+    "onboardingCommerceYesDescription": "샵 도구, 제품 준비 및 판매 워크플로우가 추천에 추가됩니다.",
+    "onboardingCommerceNo": "아니, 나는 여기에 개인적인 사용을 위해",
+    "onboardingCommerceNoDescription": "모형 발견의 핵심 교류, slicing 및 인쇄 기계 통제는 추천됩니다.",
+    "onboardingPurposeDescription": "하나 이상의 목표를 선택하면 우선순위로 드래그하십시오. 집을 명시적으로 선택하고 나중에 설정을 변경할 수 있습니다.",
+    "usagePurposeDiscover": "인쇄 할 모델 찾기",
+    "usagePurposeDiscoverDescription": "모델 발견, 검색, 즐겨 찾기 및 다운로드로 시작하십시오.",
+    "usagePurposeSlice": "Slice 나의 자신의 모델",
+    "usagePurposeSliceDescription": "열린 작업 공간에서 시작, 준비하고, 로컬 모델을 조각.",
+    "usagePurposePrinter": "제어 네트워크 프린터",
+    "usagePurposePrinterDescription": "저장된 인쇄 기계, 살아있는 상태, 사진기 및 인쇄 통제로 시작.",
+    "usagePurposeShop": "제품 판매",
+    "usagePurposeShopDescription": "Shop 초안, 가격 및 시장 목록 도구로 시작하십시오.",
+    "usagePurposeFavorites": "내 마음에 드는",
+    "usagePurposeFavoritesDescription": "저장된 모델을 재시동하고 신속하게 수집합니다.",
+    "usagePurposeSelectedTitle": "당신의 우선 순위",
+    "usagePurposeAvailableTitle": "다른 목표",
+    "usagePurposeMakeHome": "이 집을",
+    "usagePurposeHome": "홈",
+    "usagePurposeInfoTooltip": "이 목표",
+    "usagePurposeSelectRecommended": "자주 묻는 질문",
+    "usagePurposeNavigationPreviewTitle": "탐색 메뉴 미리보기",
+    "usagePurposeNavigationPreviewDescription": "선택 항목, 순서, 홈 화면 설정이 아래 탐색 메뉴에 즉시 반영됩니다.",
+    "notificationCenterTitle": "공지사항",
+    "notificationCenterEmpty": "없음 MakerSpell 아직 알림",
+    "notificationCenterEmptyDescription": "Android 패널에서 표시된 slicing, Printer 및 Drive 알림을 다운로드하십시오.",
+    "notificationCenterActive": "Android 알림 패널에서 Active",
+    "notificationCenterMarkRead": "모두 읽기",
+    "notificationCenterClear": "Clear 알림 역사",
+    "notificationOnboardingTitle": "화면을보고하지 않고 정보를 유지",
+    "notificationOnboardingDescription": "알림은 인쇄 마감 또는 주의해야 할 때 알려줍니다. slicing가 완료되면 다운로드 또는 드라이브 백업이 준비됩니다. 우리는 원치 않는 프로모션 경고에 대한이 권한을 사용하지 않습니다.",
+    "notificationOnboardingEnable": "자주 묻는 질문",
+    "notificationOnboardingLater": "현재 위치",
+    "notificationOnboardingEnabled": "자주 묻는 질문",
+    "notificationOnboardingDenied": "알림이 활성화되지 않았습니다. 시스템 설정에서 나중에 허용 할 수 있습니다.",
+    "weeklyDiscoveryDigestTitle": "주간 발견 digest",
+    "weeklyDiscoveryDigestDescription": "선택적, 조용한 모델 발견 요약. 기본적으로 꺼지고 일주일에 한 번에 나타납니다.",
+    "weeklyDiscoveryDigestNotificationTitle": "다음 인쇄에 대한 신선한 아이디어",
+    "weeklyDiscoveryDigestNotificationBody": "MakerSpell에서 이번 주 모델 발견을 참조하십시오.",
+    "weeklyDiscoveryDigestPermissionDenied": "알림 권한이 부여되지 않았기 때문에 주간 다이제스트를 활성화 할 수 없습니다.",
+    "weeklyDiscoveryDigestViewedCount": "이번 주에 모델 {count}개를 확인했습니다.",
+    "@weeklyDiscoveryDigestViewedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestSavedCount": "모델 {count}개를 저장했습니다.",
+    "@weeklyDiscoveryDigestSavedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestFollowedCount": "팔로우한 디자이너의 새 모델 {count}개.",
+    "@weeklyDiscoveryDigestFollowedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestEndingContests": "곧 마감되는 콘테스트가 {count}개 있습니다.",
+    "@weeklyDiscoveryDigestEndingContests": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "settingsUsagePurposeTitle": "이용 방법 MakerSpell",
+    "settingsUsagePurposeDescription": "우선순위로 목표를 드래그하고 명시적으로 집을 선택합니다.",
+    "settingsUsagePurposeSelectedCount": "{count} 선택된 목표",
+    "@settingsUsagePurposeSelectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "settingsUsagePurposeHomeSummary": "홈: {purpose}",
+    "@settingsUsagePurposeHomeSummary": {
+        "placeholders": {
+            "purpose": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsUsagePurposeUpdated": "시작 경험은 업데이트되었습니다.",
+    "slicerTourMenu": "쇼 슬라이서 투어",
+    "slicerTourSkip": "공지사항",
+    "slicerTourNext": "다음",
+    "slicerTourBack": "뒷면",
+    "slicerTourDone": "뚱 베어",
+    "slicerTourStepCount": "%1의 %2",
+    "slicerTourPrinterTitle": "인쇄 기계",
+    "slicerTourPrinterDescription": "프린터 프로파일을 선택하고 여기에 인쇄 설정을 엽니 다.",
+    "slicerTourMenuTitle": "더 많은 슬라이서 도구",
+    "slicerTourMenuDescription": "접근 목표 hierarchy, 수출, 기계 조정, 네트워크 프린터 및 선호도.",
+    "slicerTourAddTitle": "모델 파일 추가",
+    "slicerTourAddDescription": "현재 판에 STL 또는 3MF 부품을 추가하고 멀티 파트 프로젝트를 구축하십시오.",
+    "slicerTourEditTitle": "모델 편집",
+    "slicerTourEditDescription": "이동, 회전, 스케일, 정렬, 복제, 또는 선택한 개체를 최적화.",
+    "slicerTourSliceTitle": "G-code 생성",
+    "slicerTourSliceDescription": "판이 준비되어 있을 때, 여기에서 slicing 시작하십시오. 당신은 인쇄의 앞에 연장통을 검토할 수 있습니다.",
+    "homeTourMenu": "관광 명소",
+    "homeTourSearchTitle": "모든 플랫폼",
+    "homeTourSearchDescription": "지원되는 모든 모델 플랫폼을 검색합니다. 다운로드 및 프린터의 메뉴를 사용하거나 자세한 결과를 필터 버튼.",
+    "homeTourPlatformsTitle": "소스 및 정렬 선택",
+    "homeTourPlatformsDescription": "탐색 화면을 떠나지 않고 모델 플랫폼, 범주 및 정렬을 선택하십시오.",
+    "homeTourModelsTitle": "모델 찾기 및 저장",
+    "homeTourModelsDescription": "세부 사항이나 책갈피 버튼을 사용하여 라이브러리에 모델을 추가하십시오.",
+    "homeTourNavigationTitle": "MakerSpell 작업 공간",
+    "homeTourNavigationDescription": "쇼핑, 즐겨 찾기, 탐험, 로컬 슬라이서 작업 공간 및 설정 사이 이동.",
+    "networkPrinterTourMenu": "네트워크 프린터 투어",
+    "networkPrinterTourAddTitle": "프린터를 수동으로 추가",
+    "networkPrinterTourAddDescription": "프린터가 자동으로 발견 될 수 없을 때 IP 주소와 연결 정보를 입력하십시오.",
+    "networkPrinterTourScanTitle": "로컬 네트워크를 스캔",
+    "networkPrinterTourScanDescription": "동일한 로컬 네트워크에 연결된 호환 프린터를 다시 검색합니다.",
+    "networkPrinterTourListTitle": "연결 및 관리 프린터",
+    "networkPrinterTourListDescription": "발견 된 프린터를 추가, 연결 상태 및 기능을 확인, 또는 저장 된 프린터를 탭하여 일반적인 제어를 엽니 다.",
+    "printerControlTourMenu": "프린터 컨트롤 투어",
+    "printerControlTourStatusTitle": "프린터 상태",
+    "printerControlTourStatusDescription": "연결, 현재 프린터 상태, 프로토콜 및 필수 장치 정보를 참조하십시오.",
+    "printerControlTourJobTitle": "활동적인 일을 감시하십시오",
+    "printerControlTourJobDescription": "파일 진행, 레이어, 탈출 시간 및 사용 일시 중지, 재시작, 또는 지원할 때 취소.",
+    "printerControlTourSettingsTitle": "온도 및 속도 제어",
+    "printerControlTourSettingsDescription": "분사구와 침대 표적, 점화, 팬 힘 및 인쇄 속도 인쇄 기계 기능에 따라 조정하십시오.",
+    "printerControlTourFilamentTitle": "적재 된 필라멘트 관리",
+    "printerControlTourFilamentDescription": "자료 슬롯 및 업데이트 브랜드, 자료, 이름 및 지원 프린터 색상.",
+    "printerControlTourMotionTitle": "이동 및 홈 프린터",
+    "printerControlTourMotionDescription": "Jog는 X, Y 및 Z 축 또는 집 위치로 보냅니다.",
+    "printerControlTourDeviceTitle": "장치 인터페이스를 엽니다.",
+    "printerControlTourDeviceDescription": "프린터 제조업체의 고급 또는 모델별 기능을 위한 로컬 인터페이스를 사용합니다.",
+    "networkPrinterShowCapabilities": "쇼 기능",
+    "networkPrinterHideCapabilities": "기능 기능",
+    "shopTourMenu": "쇼 쇼핑 투어",
+    "shopTourOverviewTitle": "당신의 시장 업무 공간",
+    "shopTourOverviewDescription": "연결된 매장과 지원되는 마켓 플레이스를 한눈에 볼 수 있으며, 제품에 직접 점프할 수 있습니다.",
+    "shopTourTeamTitle": "함께 일하십시오.",
+    "shopTourTeamDescription": "Invite teammates, 암호화 된 쇼핑 데이터를 공유하고 함께 목록을 계속합니다.",
+    "shopTourConnectTitle": "회사 소개",
+    "shopTourConnectDescription": "각 지원된 마켓플레이스에서 제공하는 연결 규칙을 사용하여 판매자 계정 추가.",
+    "shopTourQuickAccessTitle": "당신의 상점 공구",
+    "shopTourQuickAccessDescription": "업로드 된 제품을 열고 자체 Google Drive를 연결하거나 AI 공급자를 구성하십시오.",
+    "shopTourPricingTitle": "시장 가격 공식",
+    "shopTourPricingDescription": "비용, 수수료, 이익 및 최종 판매 가격을 위한 플랫폼 별 공식을 창조하십시오.",
+    "about": "제품정보",
+    "aboutSubtitle": "제품 정보 및 슬라이서 공정 경계",
+    "licenses": "이름 *",
+    "licensesSubtitle": "AGPL 슬라이서 CLI 소스 및 오픈 소스 공지",
+    "thirdPartyLicenses": "제3자 패키지 라이센스",
+    "thirdPartyLicensesSubtitle": "Flutter 및 설치 패키지에 의해 등록 된 라이센스 통지 보기",
+    "clearImageCache": "명확한 이미지 캐시",
+    "clearImageCacheSubtitle": "캐시 된 이미지 ({size})를 삭제하여 저장 무료",
+    "clearImageCacheQuestion": "모든 캐시 된 이미지를 정리하고 싶습니까? 이 작업은 undone이 될 수 없습니다.",
+    "imageCacheCleared": "이미지 캐시는 성공적으로 맑게 했습니다",
+    "automaticImageCacheCleanup": "자동 이미지 캐시 Cleanup",
+    "automaticImageCacheCleanupSubtitle": "기본적으로. 캐시 된 이미지가 2 GB를 초과하면 가장 오래된 것들은 캐시가 약 1 GB입니다.",
+    "errorClearingCache": "캐시를 맑게 하는 오류: {error}",
+    "contactSupport": "연락처",
+    "contactSupportSubtitle": "스크린 샷 및 진단 세부 사항 보내기",
+    "notSignedInMessage": "로그인하지 않습니다.",
+    "signOutQuestion": "로그인?",
+    "signOutDescription": "게스트로 앱에 머물게 됩니다. 이 기기에서 비밀을 저장하고 드라이브가 보관됩니다.",
+    "signingOut": "로그인 ...",
+    "signedOut": "이름 *",
+    "signOutFailed": "로그인 실패: {error}",
+    "signInFirstDelete": "계정을 삭제하려면 먼저 로그인하십시오.",
+    "deleteAccountQuestion": "영구적으로 계정 삭제?",
+    "deleteAccountDescription": "이 제거 MakerSpell 프로필, 통계, 구매, 그리고 auth 사용자.\\n\\nYour Google Drive 파일은 삭제되지 않습니다 (BYOC). 로컬 장치 암호 키는 닦을 것입니다.\\n\\n이 undone 수 없습니다.",
+    "deleteAccount": "계정 삭제",
+    "typeDeleteToConfirm": "DELETE를 입력하여 확인",
+    "confirm": "확인",
+    "accountDeleted": "계정 삭제.",
+    "deleteFailed": "삭제 실패: {error}",
+    "dangerZone": "위험 구역",
+    "dangerZoneSignedIn": "MakerSpell 의 로그인, 또는 영구적으로 계정을 삭제합니다. 드라이브 파일은 제거되지 않습니다.",
+    "dangerZoneSignedOut": "세션 및 계정 삭제를 관리합니다.",
+    "@driveConnected": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorClearingCache": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@signOutFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@deleteFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@clearImageCacheSubtitle": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "@connectedCount": {
+        "placeholders": {
+            "connected": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "authenticated": "인증 된",
+    "notConnected": "연결하기",
+    "disconnect": "연결하기",
+    "connect": "연결",
+    "noPlatformsRequireAuthentication": "플랫폼은 인증이 필요합니다.",
+    "copySource": "복사 소스",
+    "copiedMarkdownSource": "Copied 마크 다운 소스",
+    "failedToLoad": "로드 실패: {error}",
+    "supportIntro": "메시지 보내기 MakerSpell 팀. 로그인 된 사용자는 내 요청에서 응답을 추적 할 수 있습니다.",
+    "yourName": "이름 *",
+    "requiredField": "견적 요청",
+    "email": "이름 *",
+    "enterValidEmail": "자주 묻는 질문",
+    "category": "(주)",
+    "subject": "이름 *",
+    "howCanWeHelp": "어떻게 도와드릴까요?",
+    "writeMoreDetail": "좀 더 자세히",
+    "sending": "이름 *",
+    "sendMessage": "자주 묻는 질문",
+    "messageSent": "메시지를 보낼 수 있습니다. 내 요청에 따라 추적 할 수 있습니다.",
+    "couldNotSendMessage": "메시지를 보낼 수 없습니다: {error}",
+    "supportCategoryGeneral": "일반 질문",
+    "supportCategoryBug": "버그 보고서",
+    "supportCategoryBilling": "청구 / 구독",
+    "supportCategoryFeature": "기능 요청",
+    "supportCategoryAccount": "계정 / 로그인",
+    "supportCategoryOther": "기타",
+    "supportAttachments": "첨부파일",
+    "supportAttachmentsDescription": "하나의 스크린 샷을 추가하고, 선택하면, 개인 정보 보호 필터링 기술 진단.",
+    "supportAddScreenshot": "스크린 샷",
+    "supportScreenshot": "스크린 샷",
+    "supportScreenshotTooLarge": "스크린 샷은 1.5MB 미만이어야합니다.",
+    "supportScreenshotPickFailed": "스크린 샷을 추가 할 수 없습니다 : {error}",
+    "supportAttachmentSignIn": "스크린 샷을 첨부하려면 로그인하십시오.",
+    "supportIncludeDiagnostics": "기술 진단 포함",
+    "supportDiagnosticsDescription": "최대 10개의 최근 개인 정보 보호 필터링 오류 이벤트를 공유합니다. 암호, 토큰, URL, 응답체, 파일 이름 및 원시 오류 메시지는 포함되지 않습니다.",
+    "@supportScreenshotPickFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedToLoad": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotSendMessage": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "newCollection": "새로운 컬렉션",
+    "collectionName": "수집 이름",
+    "descriptionOptional": "묘사 (선택)",
+    "visibleToTeam": "팀에 가시성",
+    "shopMembersCanSeeCollection": "이 컬렉션을 볼 수 있습니다",
+    "onlyYouDriveBackup": "(운전까지)",
+    "enterCollectionName": "자주 묻는 질문",
+    "collectionCreatedTeam": "수집 (팀에 접근 가능)",
+    "collectionCreated": "성공적으로 만든 컬렉션",
+    "errorMessage": "오류: {error}",
+    "create": "생성",
+    "syncing": "동기화 ...",
+    "allCollectionsBackedUp": "모든 컬렉션을 드라이브로 백업",
+    "syncCollectionsWithDrive": "드라이브와 동기화 컬렉션",
+    "driveNotConnectedLocalOnly": "연결된 드라이브 — 로컬 전용",
+    "syncIssue": "동기화 문제: {error}",
+    "collectionsBackedUp": "{count} 수집(s) 백업",
+    "driveNotAvailableKeptLocal": "사용하지 않는 드라이브 — 유지된 로컬",
+    "models": "모델 번호:",
+    "collections": "회사 소개",
+    "noCollectionsYet": "아직 컬렉션 없음",
+    "createCollectionDescription": "모델을 구성하는 컬렉션을 만듭니다.\\nWith Google Drive 연결, 모든 컬렉션 (포함 개인 한) 백업 및 복원.",
+    "myCollections": "내 컬렉션",
+    "teamCollections": "팀 컬렉션",
+    "itemCount": "{count} 상품",
+    "yourLibraryIsEmpty": "당신의 도서관은 비어 있습니다",
+    "saveModelsFromExplore": "탐색에서 모델을 저장하십시오.",
+    "exploreModels": "모델 탐색",
+    "@errorMessage": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@syncIssue": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@collectionsBackedUp": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@itemCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "addedToCollection": "{name}에 추가",
+    "change": "- 기타",
+    "addedToCollections": "{count} 컬렉션에 추가",
+    "removedFromCollection": "{name}에서 제거",
+    "removedFromCollections": "{count} 컬렉션에서 제거",
+    "updatedCollections": "자주 묻는 질문",
+    "addToCollections": "비밀번호",
+    "createCollection": "회사소개",
+    "@addedToCollection": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@removedFromCollection": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@addedToCollections": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@removedFromCollections": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "makerSyncPlans": "MakerSpell 플랜",
+    "restore": "복원",
+    "makerSyncPro": "MakerSpell 프로",
+    "makerSyncShop": "MakerSpell 숍",
+    "proPlanSubtitle": "카탈로그 및 현지 프로젝트를 위한 무제한 라이선스",
+    "unlimitedProjectSlicing": "무제한 프로젝트 slicing",
+    "noNativeAds": "기본 광고 없음",
+    "cloudProfileSyncReports": "Cloud Profile 동기화 및 고급 보고서",
+    "shopPlanSubtitle": "Pro의 모든 것, 플러스 시장 자동화",
+    "allProFeatures": "모든 MakerSpell 프로 기능",
+    "marketplaceListingTools": "Marketplace 목록 도구",
+    "shopAutomationFeatures": "쇼핑 팀, 가격 및 제품 자동화",
+    "shopShowcaseEyebrow": "MAKERSYNC와 SMARTER 판매",
+    "shopShowcaseTitle": "3D 모델을 판매 가능한 제품으로 전환합니다.",
+    "shopShowcaseDescription": "마켓 플레이스 목록을 준비하고 올바른 가격을 계산하고, 하나의 모델에서 모든 판매 채널에 저장 워크플로를 유지하십시오.",
+    "shopWorkflowModel": "모델",
+    "shopWorkflowPrepare": "준비 하기",
+    "shopWorkflowPublish": "게시",
+    "shopFeatureStoresTitle": "당신의 시장을 연결",
+    "shopFeatureStoresDescription": "지원된 판매 채널을 관리하고 단일 작업 공간에서 설정을 저장합니다.",
+    "shopFeatureListingTitle": "더 빠른 목록",
+    "shopFeatureListingDescription": "모형 세부사항, 이미지 및 생산 자료를 구조화한 제품 명부로 도십시오.",
+    "shopFeaturePricingTitle": "Automate 수익성 가격",
+    "shopFeaturePricingDescription": "비용, 시장 요금, 세금 및 목표 마진에 대한 공식 만들기.",
+    "shopFeatureTeamTitle": "일 1개의 상점 팀",
+    "shopFeatureTeamDescription": "Share drafts and collections so teammates can review and keep 워크플로우.",
+    "shopIncludesProTitle": "MakerSpell 프로 포함",
+    "shopIncludesProDescription": "무제한 프로젝트 슬라이딩, 광고없는 경험, 그리고 모든 MakerSpell 프로 기능.",
+    "shopRequiredTitle": "MakerSpell 매장 필요",
+    "shopRequiredDescription": "이 기능을 사용하려면 MakerSpell Shop 가입이 필요합니다.",
+    "shopExplorePlan": "MakerSpell 쇼핑",
+    "shopExplorePlanHint": "subscribing의 앞에 포장 세부사항을 검토하십시오.",
+    "shopMarketplacePriceFormulas": "시장 가격 공식",
+    "pricingSavedFormula": "%1에 대한 저장된 공식",
+    "pricingAddMarketplaceFormula": "가격 책정",
+    "pricingCustomPlatformId": "사용자 정의 플랫폼 ID ...",
+    "pricingPlatformId": "플랫폼 ID",
+    "pricingPlatformIdHint": "예. hepsiburada",
+    "pricingFormulaFallbackName": "제품 정보",
+    "pricingAddFormula": "관련 제품",
+    "pricingIntro": "각 전자 상거래 플랫폼은 자체 가격 공식을 사용할 수 있습니다. 기본은 필라멘트, 포장, 배송, 플랫폼 수수료, 수수료 및 이익을 사용하여 고전적인 Trendyol 계산입니다.",
+    "pricingTrendyolTemplate": "Trendyol 템플릿",
+    "pricingCustomFormula": "공급 업체",
+    "pricingCardSummary": "%1 · %2 · 수수료 %3 · 수수료 %4 %",
+    "pricingNoFormulas": "아직 공식이 없습니다 - 하나를 추가하십시오. Trendyol는 다음 저장에 기본적으로 생성됩니다.",
+    "pricingAddParameter": "매개 변수",
+    "pricingParameterName": "이름 (identifier)",
+    "pricingParameterNameHint": "e.g. 노동, desiFee",
+    "pricingParameterNameHelper": "문자, 숫자, 그리고 밑줄; 문자로 시작",
+    "pricingDefaultValue": "기본 값",
+    "pricingAdd": "추가",
+    "pricingInvalidParameterName": "잘못된 이름. 유효한 식별자를 사용, 예를 들어 laborCost.",
+    "pricingParameterExists": "매개변수 “%1” 이미 존재하거나 예약.",
+    "pricingFormulaMustSetGrandTotal": "공식은 grandTotal을 설정해야합니다.",
+    "pricingFormulaError": "공식 오류: %1",
+    "pricingSave": "저장",
+    "pricingDisplayName": "표시 이름",
+    "pricingParameters": "이름 *",
+    "pricingParametersDescription": "내장 매개 변수 및 추가는 공식 변수로 사용할 수 있습니다. 런타임 입력은 항상 사용할 수 있습니다. filamentGR, extraPartCost.",
+    "pricingCustomTag": "사용자 정의",
+    "pricingRemoveParameter": "매개 변수 제거",
+    "pricingFormulaSection": "공식 (assignments). 기능: 최대, 분, 만약에, 아bs.",
+    "pricingFormulaHint": "할아버지 = ...",
+    "pricingTestWeight": "시험 g",
+    "pricingPreview": "미리 보기",
+    "pricingPreviewResult": "샘플 %1 g → 판매 가격 %2",
+    "pricingTip": "팁 : 기본 몸은 고전적인 Trendyol 공식입니다. 필수 출력 : grandTotal. 사용자 정의 매개 변수와 예 : grandTotal = 합계 * (1 + profitRate) + laborCost",
+    "viewerSectionQuality": "품질경영",
+    "viewerLayerHeight": "레이어 높이",
+    "viewerSectionInfill": "구매하기",
+    "viewerPattern": "패턴",
+    "viewerDensity": "밀도",
+    "viewerSectionSupport": "공지사항",
+    "viewerEnableSupport": "서포트 사용",
+    "viewerType": "유형",
+    "viewerSectionAdhesion": "광고",
+    "viewerBrimType": "브림 유형",
+    "viewerApplySettings": "설정 적용",
+    "viewerPatternGyroid": "자이로이드",
+    "viewerPatternGrid": "격자",
+    "viewerPatternTriangles": "삼각형",
+    "viewerPatternCubic": "정육면체",
+    "viewerSupportTreeAuto": "트리(자동)",
+    "viewerSupportNormalAuto": "일반(자동)",
+    "viewerBrimOuterOnly": "외부 만",
+    "viewerBrimInnerOnly": "내부 만",
+    "viewerNoBrim": "아니 brim",
+    "viewerStartingSlicer": "시작 슬라이더 ...",
+    "slicingProgressPreparing": "준비 OrcaSlicer...",
+    "slicingProgressStarting": "slicing 시작 ...",
+    "slicingProgressMesh": "Slicing 메쉬 ...",
+    "slicingProgressWalls": "벽을 생성 ...",
+    "slicingProgressInfillRegions": "infill 영역 생성 ...",
+    "slicingProgressInfillToolpath": "Infill Toolpath 생성 ...",
+    "slicingProgressCheckingSupport": "지원이 필요한지 확인 ...",
+    "slicingProgressSupport": "지원 생성...",
+    "slicingProgressSupportContacts": "지원 접촉 포인트 생성...",
+    "slicingProgressSkirtBrim": "치마와 brim을 생성 ...",
+    "slicingProgressDetectingOverhangs": "자동 리프트에 대한 오버행 감지 ...",
+    "slicingProgressOptimizingToolpath": "최적화 툴...",
+    "slicingProgressGeneratingGcode": "G-code 생성 ...",
+    "slicingProgressGeneratingGcodeLayer": "G 코드 생성 · 층 %1 ...",
+    "slicingProgressExportingGcode": "G 코드 내보내기 ...",
+    "slicingProgressFinalizingGcode": "G-code를 정의 ...",
+    "slicingProgressComplete": "슬라이싱 완료",
+    "viewerCouldNotOpenSliceResult": "슬라이스 결과를 열 수 없습니다",
+    "viewerSlicingFailed": "Slicing 실패",
+    "viewerNativeSlicerStopped": "기본 슬라이서가 중지되었습니다.",
+    "viewerCouldNotCloseSafely": "3D 뷰어를 안전하게 닫을 수 없습니다.",
+    "viewerSlicingFile": "접합 %1",
+    "viewerSlicingStopped": "슬라이딩 중지",
+    "viewerCancelledOrFailed": "취소 또는 실패",
+    "viewerEmptyGcode": "빈 G 코드",
+    "viewerSliceComplete": "Slice 완전한",
+    "viewerLowMemorySlicing": "낮은 메모리 슬라이딩",
+    "viewerSlicing": "슬라이싱",
+    "viewerKeepOpenDuringSlicing": "MakerSpell slicing이 완료 될 때까지이 화면에 열고 남아. 앱을 닫거나 배경으로 이동하면 프로세스를 중단 할 수 있습니다.",
+    "viewerClosedForSlicing": "3D 뷰어가 완전히 닫혔습니다.\nWebView가 이 화면에서 실행되지 않습니다.",
+    "viewerSlicerThreads": "%1 슬라이서 스레드",
+    "viewerCancelling": "관련 기사",
+    "viewerBackToModel": "모델로 돌아가기",
+    "viewerCancel": "취소",
+    "viewerSimplifyAndHollowTitle": "단순화 및 빈 모델?",
+    "viewerSimplifyAndHollowDescription": "이 모형은 믿을 수 있는 on-device 중공을 위해 너무 복잡합니다. 그것은 simplified 일 것입니다, 그 후에 중공은 자동적으로 적용될 것입니다. 당신은 완전한 가동을 할 수 있습니다.",
+    "viewerSimplifyAndHollowAction": "단순하고 빈",
+    "viewerSelectModelBeforeClone": "먼저 플레이트에 모델을 선택, 그 다음 그것을 복제.",
+    "viewerModelCloned": "모델 복제",
+    "viewerCopiesCloned": "Cloned %1 사본",
+    "viewerAutoRotateApplied": "자동 회전 : 가장 낮은 인쇄 높이 적용",
+    "viewerAutoRotateSelectModel": "Auto Rotate failed - 모델을 먼저 선택",
+    "viewerAutoRotateError": "자동 회전 오류 : %1",
+    "viewerArrangingObjects": "개체를 배열 ...",
+    "viewerAddingModel": "모델 추가 ...",
+    "viewerNotReady": "뷰어는 아직 준비되지 않았습니다.",
+    "viewerGcodeCannotBeAdded": "G-code는 단단한 객체로 추가할 수 없습니다. 대신 새로운 파일로 엽니다.",
+    "viewerCannotAddExtension": "장면에 “.%1”을 추가할 수 없습니다. 3MF 또는 STL을 사용하십시오.",
+    "viewerFilePickFailed": "파일 선택 실패: %1",
+    "viewerAddPrimitive": "primitive 추가",
+    "viewerPrimitiveCube": "정육면체",
+    "viewerPrimitiveCylinder": "원기둥",
+    "viewerPrimitiveSphere": "구체",
+    "viewerPrimitiveCone": "원뿔",
+    "viewerPrimitiveDisc": "디스크",
+    "viewerPrimitiveTorus": "토러스",
+    "viewerPrimitiveDescription": "큐브, 실린더, 구체, 콘, 원판, 또는 토러스",
+    "viewerFromLibrary": "도서관에서",
+    "viewerFromLibraryDescription": "교정 및 유용한 테스트 모델",
+    "viewerFromDownloads": "다운로드",
+    "viewerFromDownloadsDescription": "자주 묻는 질문",
+    "viewerFromDevice": "장치에서",
+    "viewerFromDeviceDescription": "3MF 또는 STL 파일을 선택하십시오.",
+    "viewerHandyModels": "유용한 모델",
+    "viewerFormat": "체재: %1",
+    "viewerArrangeSettings": "정렬 설정",
+    "viewerSpacing": "간격",
+    "viewerAuto": "자동",
+    "viewerAutoSpacingDescription": "0은 자동 간격을 의미합니다.",
+    "viewerAutoRotateArrangement": "자동으로 배열 회전",
+    "viewerAllowMultipleMaterials": "동일한 판에 다수 물자를 허용하십시오",
+    "viewerMultiplePlatesUnsupported": "다수 판은 지원되지 않습니다. 모든 목표는 현재 판에 배열될 것입니다.",
+    "viewerAlignYAxis": "Y 축선에 정렬",
+    "viewerArrange": "정렬",
+    "viewerApplied": "적용분야",
+    "viewerAutoRotateComplete": "자동 회전 완료",
+    "viewerMinSupportComplete": "최소 지원 완료",
+    "viewerAutoOrientationFailed": "자동 방향 실패 — 모델 얼굴은 발견되지 않았습니다.",
+    "viewerAddModelToScene": "모델 추가",
+    "viewerExistingObjectsStay": "Existing 개체는 접시에 머물",
+    "viewerModelDimensions": "모형 차원",
+    "viewerLayOnFace": "얼굴에 Lay (Beta)",
+    "viewerLayOnFaceDescription": "베타 - 침대에 얼굴을 배치하는 표면을 탭합니다. Complex Meshes는 두 번째 시도가 필요할 수 있습니다.",
+    "viewerCut": "자르기",
+    "viewerPlanar": "평면",
+    "viewerDovetail": "도브테일",
+    "viewerCutHeight": "고도를 삭감하십시오 (Z):",
+    "viewerWidth": "너비:",
+    "viewerDepth": "깊이:",
+    "viewerFlapAngle": "플랩 각:",
+    "viewerGrooveAngle": "강저 각:",
+    "viewerAfterCut": "절단 후에:",
+    "viewerUpperPart": "상부 부품",
+    "viewerLowerPart": "하부 부품",
+    "viewerKeep": "유지",
+    "viewerLayFlat": "Lay 플랫",
+    "viewerRotate": "회전",
+    "viewerPositionControl": "위치 제어 (mm)",
+    "viewerRotationControl": "회전 제어 (°)",
+    "viewerScaleControl": "가늠자 통제",
+    "viewerDimensionsMm": "차원 (mm)",
+    "viewerUniform": "뚱 베어",
+    "viewerFree": "무료 다운로드",
+    "viewerMove": "이동",
+    "viewerScale": "배율",
+    "viewerMirror": "반전",
+    "viewerMirrorModel": "미러 모델",
+    "viewerMirrorDescription": "선택된 모델을 반영하기 위해 축을 선택하십시오. 동일한 축을 다시 미러링하여 이전 방향을 복원합니다.",
+    "viewerMirrorLeftRight": "왼쪽 ↔ 오른쪽",
+    "viewerMirrorFrontBack": "정면 ↔ 뒤",
+    "viewerMirrorTopBottom": "상단 ↔ 하단",
+    "viewerMirrorApplied": "{axis} 축에 미러링 모델.",
+    "@viewerMirrorApplied": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerMirrorSelectModel": "미러링하기 전에 모델을 선택하십시오.",
+    "viewerColorPainting": "색 칠하기",
+    "viewerPaintCircle": "원",
+    "viewerPaintSphere": "구체",
+    "viewerPaintTriangle": "삼각형",
+    "viewerPaintSmartFill": "스마트 채우기",
+    "viewerPaintHeightRange": "높이 범위",
+    "viewerPaintFilament": "필라멘트 %1",
+    "viewerPaintBrushSize": "펜 크기",
+    "viewerPaintAngle": "충전 각도",
+    "viewerPaintHeight": "높이",
+    "viewerPaintEraser": "Erase 그림",
+    "viewerPaintNavigate": "회전 및 줌보기",
+    "viewerPaintClear": "모든 페인팅 삭제",
+    "viewerPaintSelectModel": "색상 그림 열기 전에 모델을 선택하십시오.",
+    "viewerPaintStartFailed": "색깔 회화는 열릴 수 없습니다: %1",
+    "viewerViewCube": "큐브 보기",
+    "viewerChooseView": "카메라 보기",
+    "viewerViewFront": "앞",
+    "viewerViewBack": "뒷면",
+    "viewerViewLeft": "왼쪽",
+    "viewerViewRight": "오른쪽",
+    "viewerViewTop": "상부",
+    "viewerViewBottom": "하부",
+    "viewerViewIsometric": "이소미터",
+    "viewerAutoRotate": "자동 회전",
+    "viewerMinSupport": "최소 지원",
+    "viewerLayFaceShort": "Lay 얼굴 β",
+    "viewerAnalyzingSurfaces": "Analyzing 참조 표면 ...",
+    "viewerClone": "복제",
+    "viewerCloneModel": "Clone 모형",
+    "viewerCloneCount": "번호",
+    "viewerCloneCountDescription": "선택한 모델의 새 사본을 만드는 방법을 선택하십시오.",
+    "viewerCloneCountRange": "1에서 20까지의 값을 입력하십시오.",
+    "viewerCloneCountInvalid": "1과 20 사이의 숫자를 입력합니다.",
+    "viewerAdd": "추가",
+    "viewerClose": "닫기",
+    "viewerEditModel": "편집 모델",
+    "viewerMeasure": "Measure",
+    "viewerMeasureResult": "Measurement",
+    "viewerMeasureTapFirstPoint": "Tap the first point on the model.",
+    "viewerMeasureSecondPoint": "Now tap the second point on the model.",
+    "viewerMeasureTapToReplace": "Tap again to replace it, or tap Clear.",
+    "viewerMeasureClear": "Clear",
+    "viewerMeasureAngle": "각도",
+    "viewerMeasureInfinite": "무한 거리",
+    "viewerMeasureCircle": "원",
+    "viewerMeasureCenter": "중앙",
+    "viewerMeshDiagnostics": "메시 진단",
+    "meshDiagnosticsStatsTitle": "메쉬 통계",
+    "meshDiagnosticsTriangleLabel": "삼각형",
+    "meshDiagnosticsVertexLabel": "언어: English",
+    "meshDiagnosticsShellLabel": "쉘",
+    "meshDiagnosticsIdleHint": "slicing에 영향을 미칠 수있는 메쉬 문제에 대한 현재의 장면을 분석합니다.",
+    "meshDiagnosticsAnalyzingTitle": "분석 메쉬 ...",
+    "meshDiagnosticsCancellingTitle": "관련 기사",
+    "meshDiagnosticsFailedTitle": "분석 실패",
+    "meshDiagnosticsFailedHint": "메시는 분석될 수 없었습니다. 당신의 프로젝트는 바뀔 수 없었습니다.",
+    "meshDiagnosticsCleanTitle": "메시는 건강합니다",
+    "meshDiagnosticsCleanMessage": "메시 문제점이 발견되지 않았습니다. 모형은 접합을 위해 준비되어 있습니다.",
+    "meshDiagnosticsResultsTitle": "메쉬 찾기",
+    "meshDiagnosticsResultsBlockingIntro": "슬라이딩을 차단할 수 있는 문제.",
+    "meshDiagnosticsResultsWarningIntro": "경고가 발견되었습니다. 그들은 현재 슬라이딩을 차단하지 않습니다.",
+    "meshDiagnosticsBlockingLabel": "관련 링크",
+    "meshDiagnosticsWarningLabel": "경고",
+    "meshDiagnosticsRepairableLabel": "수리용 연장통",
+    "meshDiagnosticsNotRepairableLabel": "수리 가능",
+    "meshDiagnosticsAnalyzeAction": "뚱 베어",
+    "meshDiagnosticsUnexpected": "메쉬 분석은 예상치 못한 결과를 반환합니다.",
+    "meshDiagnosticsMemoryLimit": "이 모델은 현재 장치보다 더 무료 메모리가 필요합니다.",
+    "meshDiagnosticsMemoryWarningTitle": "높은 메모리 사용",
+    "meshDiagnosticsMemoryWarningBody": "이 분석은 대용량의 메모리를 사용할 수 있습니다. 계속하기 전에 다른 응용 프로그램을 닫습니다.",
+    "meshDiagnosticsContinueAction": "계속하기",
+    "meshDiagnosticsExportFailed": "현재 장면은 분석에 대비할 수 없습니다.",
+    "meshDiagnosticsOpenEdges": "연락처",
+    "meshDiagnosticsNonManifoldEdges": "비 다기관 가장자리",
+    "meshDiagnosticsInvertedFaces": "거꾸로",
+    "meshDiagnosticsDegenerateTriangles": "삼각형 생성",
+    "meshDiagnosticsDisconnectedShells": "분리된 포탄",
+    "meshDiagnosticsSelfIntersections": "자기소개",
+    "meshDiagnosticsOccurrences": "{count, plural, =1{1 발생} other{{count} 현재 위치}}",
+    "@meshDiagnosticsOccurrences": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerSelectedPlatesFirst": "선택된 판 (s)를 첫째로 결합하십시오: %1",
+    "viewerNoSizeWeight": "크기 또는 무게 정보가 아직 없습니다. 먼저 로드하거나 슬라이딩하기 위해 모델을 기다립니다.",
+    "viewerLoadingModel": "로딩...",
+    "viewerPreparingModel": "전시를위한 모델을 준비 ...",
+    "viewerLoadingGcode": "로딩 중...",
+    "viewerLoadingGcodePreview": "로딩 중...",
+    "viewerReloadingModel": "Reloading 모델 ...",
+    "viewerLoadingToolpath": "로딩 ...",
+    "viewerFailedToLoadGcode": "G 코드로드 실패 : %1",
+    "viewerSwitchSolidTitle": "솔리드 모드로 전환?",
+    "viewerSwitchSolidDescription": "G-code 미리보기가로드 된 G-code를 꺼내 빈 단단한 장면으로 돌아갑니다. 계속?",
+    "viewerSolidMode": "단단한 형태",
+    "viewerGcodePreview": "G-code 미리보기",
+    "viewerPreparationTab": "준비",
+    "viewerPreviewTab": "미리보기",
+    "viewerReslice": "재조합",
+    "viewerPrintSettingsChangedTitle": "인쇄 설정이 변경되었습니다",
+    "viewerPrintSettingsChangedReslicePrompt": "기존 G-code는 이전 설정으로 생성되었습니다. 지금 다시 슬라이스할까요?",
+    "viewerSliceForListing": "목록의 Slice",
+    "viewerSliceGcode": "Slice (G 코드)",
+    "viewerProjectFileUnverified": "프로젝트 파일은 확인 할 수 없습니다.",
+    "viewerWeeklyProjectLimit": "주간 프로젝트 제한 도달",
+    "viewerCatalogProjectLimitDescription": "%1 무료 카탈로그 프로젝트는 지난 7 일 동안 사용했습니다. 이 모델과 모든 파일 수는 하나의 프로젝트로 계산됩니다.",
+    "viewerLocalProjectLimitDescription": "당신은 당신의 %1 마지막 7 일에 있는 자유로운 국부적으로 파일 프로젝트를 사용했습니다.",
+    "viewerLater": "이름 *",
+    "viewerViewPro": "Pro 보기",
+    "viewerWatchAdProject": "광고보기 · +1 프로젝트",
+    "viewerRewardedAdUnavailable": "보상된 광고는 지금 사용할 수 없습니다.",
+    "viewerSelectedPathUnreadable": "선택한 파일 경로를 읽을 수 없습니다.",
+    "viewerUnsupportedFileType": "지원되지 않은 파일 형식 \".%1\". 3MF, STL, OBJ 또는 G-code를 사용하십시오.",
+    "viewerOpen": "열기",
+    "viewerOpenFile": "파일 열기",
+    "viewerOpenFileDescription": "현재 작업 공간 모델을 대체",
+    "viewerDownloadsDescription": "이미 다운로드한 모델 선택 MakerSpell",
+    "viewerDeviceDescription": "저장을 검색하거나 시스템 파일 선택기를 사용",
+    "viewerAddCurrentScene": "현재 장면에 추가",
+    "viewerAddCurrentSceneDescription": "라이브러리, 다운로드, 또는 장치 — 기존 객체 유지",
+    "viewerProjectSettingsAdapted": "Project 설정 적용",
+    "viewerProjectSettingsAdaptedDescription": "이 파일의 일부 값은 더 이상 유효하지 않습니다. 그들은 현재의 Orca 기본값으로 업데이트되었으므로 slicing은 올바르게 작동합니다.",
+    "viewerSettingsUpdatedCount": "%1 설정(s) 업데이트",
+    "viewerClosing3d": "3D 뷰어를 완전히 닫습니다 ...",
+    "viewerViewerClosedStartingSlice": "Viewer 폐쇄 - 격리 된 슬라이딩 시작 ...",
+    "viewerLoadedFromCache": "캐시에서로드",
+    "viewerCachedSliceTitle": "이전 슬라이스를 사용?",
+    "viewerCachedSliceDescription": "이전에 동일한 프린터와 설정을 가진이 모델을 슬라이딩했습니다. 캐시 된 G 코드를 사용하시겠습니까?",
+    "viewerUseCachedSlice": "캐시 G-code 사용",
+    "viewerSliceCompleteCache": "Slice 완전한 (cache)",
+    "viewerFileReady": "%1 준비",
+    "viewerSliceDoneListing": "Slice 완전한 (~%1 g). 무게와 크기를 적용하기 위해 \"목록에 사용\"을 탭합니다.",
+    "viewerSliceDoneExport": "Slicing는 완료됩니다. 저장하기 위하여 수출 G-Code를 사용하십시오.",
+    "viewerSliceSettingsAdapted": "Slice 설정 적용",
+    "viewerSliceSettingsAdaptedDescription": "추가 프로파일 값은 슬라이딩 중에 조정되었습니다.",
+    "viewerSliceSettingsAdaptedFailure": "일부 프로파일 값은 실패하기 전에 조정되었습니다.",
+    "viewerSlicingFailedDetail": "슬링 실패: %1",
+    "viewerSelectPrinter": "인쇄 기계",
+    "viewerBack": "뒷면",
+    "viewerUndo": "실행 취소",
+    "viewerRedo": "다시 실행",
+    "viewerMenu": "(주)",
+    "viewerObjectsHierarchy": "목표 hierarchy",
+    "viewerExportGcode": "수출 G-Code",
+    "viewerExport3mf": "3MF 내보내기",
+    "viewerMachineSettings": "기계 설정",
+    "viewerPrinterAndSettings": "프린터 및 설정",
+    "viewerNetworkPrinters": "네트워크 프린터",
+    "viewerPreferences": "기본 설정",
+    "viewerAutoOrienting": "자동 orienting ...",
+    "viewerSlicingCancelled": "취소 취소",
+    "viewerStoppedByUser": "사용자에 의해 중지",
+    "viewerListingPrepareDescription": "목록 준비 - 프린터를 선택, 모델을 확장, 인쇄 설정을 조정할, 그 다음 목록에 사용. 변경을 건너면, 마지막 활성 프린터와 과다가 사용됩니다.",
+    "viewerSimplify": "단순화",
+    "viewerWeight": "무게: %1",
+    "viewerSliceSummary": "Slice 요약",
+    "viewerPlate": "플레이트 %1",
+    "viewerAllPlates": "모든 판",
+    "viewerSinglePlate": "선택된 판",
+    "viewerUseSlicedListing": "목록 사용 (sliced)",
+    "viewerUseMeshListing": "listing를 위한 사용 메시 크기",
+    "viewerPrint": "출력",
+    "viewerAddFile": "파일 추가",
+    "viewerEditModelTooltip": "편집 모델 (scale / 이동 / 회전)",
+    "viewerLineType": "라인 타입",
+    "viewerFilament": "필라멘트",
+    "viewerTime": "시간",
+    "viewerUsage": "제품 정보",
+    "viewerModel": "모델",
+    "viewerSupport": "서포트",
+    "viewerTower": "타워",
+    "viewerTotal": "합계",
+    "viewerTotalFilament": "총 필라멘트",
+    "viewerModelFilament": "모형 필라멘트",
+    "viewerCost": "비용",
+    "viewerSlicingTime": "접합 시간",
+    "viewerPrepareTime": "준비 시간",
+    "viewerModelPrintTime": "모델 출력 시간",
+    "viewerTotalTime": "시간 합계",
+    "viewerFilamentChanges": "필라멘트 변경",
+    "viewerUnknownError": "알 수 없는 오류",
+    "viewerOffFullDetail": "3D 뷰어가 꺼져 있습니다\n(충분한 접합)",
+    "viewerOffFreeMemory": "3D 뷰어가 꺼져 있습니다\n무료 메모리",
+    "viewerRestoring3d": "3D 뷰어를 복원 ...",
+    "viewerNoSimplifyDescription": "당신은 단순히 선택하지. 시청자는 끝을 슬라이딩 때까지 비활성화 유지.",
+    "viewerNeedsRamDescription": "슬라이서는 모든 사용할 수있는 RAM을 필요로한다. Toolpath 최적화.",
+    "viewerModelAdded": "모델 추가 에 the 장면",
+    "viewerModelAddFailed": "모델을 장면에 추가 할 수 없습니다",
+    "viewerExporting": "수출 ...",
+    "viewerPreparingPlateProgress": "현재 플레이트 준비... %1% — %2",
+    "viewerExporting3mfProgress": "수출 3MF ... %1% - %2",
+    "viewerLargeGcodeTitle": "큰 G 코드",
+    "viewerLargeGcodeDescription": "이 G 코드는 매우 크다 (%1 운동). 임시 낮은 세부 미리보기는 부드러운 유지 모델을 이동하면서 표시됩니다. 전체 세부 사항이 릴리스 될 때 반환.",
+    "viewerCutSuccess": "모형은 성공적으로 자르.",
+    "viewerCutFailed": "절단 실패: %1",
+    "viewerUnknownFailure": "알 수 없는 오류",
+    "viewerGcodePreviewLoadFailed": "G-code 미리보기는로드 할 수 없습니다.",
+    "viewerLoadingPercent": "로딩중... %1%",
+    "viewerLoading": "로드 중 ...",
+    "viewerModelLoadWarning": "모형 짐 경고",
+    "viewerModelTooLarge": "이 모델은 장치 메모리에 너무 크다. 3D 미리보기가 비활성화되었지만 여전히 G-code를 생성 할 수 있습니다.",
+    "viewerModelLoadWarningDescription": "오류는 모델을 로딩하는 동안 발생했습니다. 3D 미리보기는 나타나지 않을 수 있지만 직접 slicing을 시도 할 수 있습니다.",
+    "viewerSliceBeforePrint": "인쇄의 앞에 모형을 결합하십시오.",
+    "viewerSliceOrOpenGcode": "모델 또는 G-code 파일을 먼저 엽니다.",
+    "viewerSaveDownloads": "다운로드",
+    "viewerSaveDownloadsDescription": "내부 저장 · 폴더 다운로드",
+    "viewerShare": "공유 ...",
+    "viewerShareDescription": "파일, 드라이브 및 기타 앱",
+    "viewerExportUsb": "USB에 수출 · %1",
+    "viewerNoUsb": "검출되는 USB/OTG 드라이브 없음",
+    "viewerNoUsbDescription": "드라이브를 연결하고이 메뉴를 다시 엽니 다",
+    "viewerGcodeSaved": "저장되는 G 부호:\n%1",
+    "viewerShareFailed": "공유 실패: %1",
+    "viewerUsbSaved": "USB에 저장 (%1):\n%2를",
+    "viewerUsbWriteFailed": "USB (%1)로 작성할 수 없습니다. 저장 권한을 확인합니다.\n%2를",
+    "viewerUsbExportFailed": "USB 수출 실패: %1",
+    "viewerSliceCompleteElapsed": "Slice 완전한%1%2.",
+    "viewerElapsedIn": "에서 %1",
+    "viewerWeightSuffix": "(~)%1개 g)",
+    "viewerSimplifyQuestion": "이 모델을 단순화?",
+    "viewerHighPolyDescription": "이 모델은 높다 (~%1 삼각형). 모바일에서, 이것은 슬라이딩을 느리고 많은 메모리를 사용합니다.",
+    "viewerSimplifyRecommendation": "우리는 slicing 전에 단순화하는 것이 좋습니다. Fewer 삼각형은 보통 더 빠른 접합을 의미합니다. 정밀한 세부사항은 감소되고 다색 페인트는 영향을 미칠 수 있습니다.",
+    "viewerKeepOriginal": "자주 묻는 질문",
+    "viewerSimplifyRecommended": "(추천)",
+    "viewerSimplifying": "모델 단순화 ...",
+    "viewerSimplifiedCount": "모델 단순화: %1 → %2 삼각형",
+    "viewerSimplified": "Model simplified - 슬라이딩은 더 빠릅니다.",
+    "viewerSimplifyUnavailable": "간단하게 할 수 없습니다; 본래 메시는 사용될 것입니다.",
+    "viewerSimplifyFailed": "단순화 실패; 원래 메쉬는 사용됩니다 : %1",
+    "viewerLowMemoryMode": "낮은 메모리 슬라이딩 모드",
+    "viewerLowMemoryDescription": "이 모형은 조각에 추가 기억을 요구합니다. MakerSpell는 일시적으로 저 기억 형태에 전환하고 slicing 도중 3D 구경꾼을 닫을 것입니다.",
+    "viewerFullDetailPreserved": "당신의 모형은 그것의 가득 차있는 기하학적 세부사항을 지킵니다. slicing 끝 때, G 부호 시사는 자동적으로 엽니다.",
+    "viewerKeepForeground": "MakerSpell 오픈을 유지하고 slicing이 완료 될 때까지 전장에서. 배경에 앱을 이동하면 프로세스를 중지하는 안드로이드가 발생할 수 있습니다.",
+    "viewerModelTriangleInfo": "모델: ~%1 삼각형%2",
+    "viewerStartSlicing": "시작 slicing",
+    "viewer3mfSaved": "저장된 3MF 모형: %1",
+    "viewer3mfShareOpened": "3MF 공유 대화 상자를 엽니다. 다운로드할 수도 있습니다.",
+    "viewer3mfExportFailed": "3MF 수출 실패: %1",
+    "viewerRenamePlate": "이름 판",
+    "viewerPlateNameHint": "새 플레이트 이름을 입력",
+    "viewerSave": "저장",
+    "viewerSelectedPlatesSliced": "선택된 플레이트 슬라이딩 · 총 %1 g. 탭 “목록에 사용” 적용.",
+    "viewerPreparingPlate": "플레이트 준비 %1 의 %2...",
+    "viewerSimplifyingPolygons": "모델 polygons 단순화 ...\n(Slicing 엔진 활성화)",
+    "viewerCpuSlicingActive": "CPU 접합 엔진 활성!\n접합: %1%",
+    "viewerRoleInnerWall": "내벽",
+    "viewerRoleOuterWall": "외벽",
+    "viewerRoleOverhangWall": "오버행 벽",
+    "viewerRoleSparseInfill": "드문 채우기",
+    "viewerRoleInternalSolidInfill": "꽉찬 내부 채우기",
+    "viewerRoleTopSurface": "상단 표면",
+    "viewerRoleBottomSurface": "하단 표면",
+    "viewerRoleBridge": "브릿지",
+    "viewerRoleInternalBridge": "내부 교량",
+    "viewerRoleGapInfill": "간격 채우기",
+    "viewerRoleIroning": "다림질",
+    "viewerRoleSkirt": "스커트",
+    "viewerRoleBrim": "브림",
+    "viewerRoleSupportInterface": "서포트 접점",
+    "viewerRoleSupportTransition": "서포트 전환",
+    "viewerRolePrimeTower": "프라임 타워",
+    "viewerRoleCustom": "사용자 정의",
+    "viewerRoleMixed": "한국어",
+    "viewerRoleTravel": "이동",
+    "viewerRoleRetract": "후퇴",
+    "viewerRoleUnretract": "후퇴 취소",
+    "viewerRoleWipe": "노즐 청소",
+    "viewerRoleSeams": "재봉선",
+    "viewerRoleToolChange": "도구 변경",
+    "viewerRoleColorChange": "색 변경",
+    "viewerRolePause": "일시 정지",
+    "viewerRoleCustomGcode": "사용자 정의 Gcode",
+    "shopConnectStore": "관련 링크",
+    "shopDrafts": "회사 소개",
+    "shopDraftsDescription": "Unfinished 마켓 플레이스 목록은 상점 팀에 사용할 수 있습니다. 팀메이트는 저장된 필드를 검토하고 마지막 단계에서 계속할 수 있습니다.",
+    "shopNoDrafts": "unfinished 시장 목록 없음.",
+    "shopYourStores": "당신의 상점",
+    "shopQuickAccess": "빠른 액세스",
+    "shopListOwnModel": "자신의 모델 목록",
+    "shopListOwnModelDescription": "로컬 3MF, STL 또는 OBJ 파일에서 마켓 플레이스 제품을 만듭니다.",
+    "shopPreparingLocalModel": "현지 모델 준비 ...",
+    "shopLocalModel": "지역 모델",
+    "shopLocalModelFileUnavailable": "선택한 모델 파일은 더 이상 사용할 수 없습니다.",
+    "shopLocalListingPrepareFailed": "로컬 모델은 준비 할 수 없습니다 : %1",
+    "shopEmbeddedImagesTitle": "3MF의 이미지 사용",
+    "shopEmbeddedImagesDescription": "임베디드 모델 미리보기를 선택하여 마켓 플레이스 제품 이미지로 사용할 수 있습니다.",
+    "shopUseSelectedImages": "선택된 사용 (%1)",
+    "shopUploadingEmbeddedImages": "선택된 3MF 이미지를 안전하게 업로드 ...",
+    "shopUploadedProducts": "관련 제품",
+    "shopUploadedProductsDescription": "목록, 필터 및 제품을 시장으로 전송",
+    "shopConnectGoogleDrive": "연결 Google Drive",
+    "shopDriveLinked": "연결: %1",
+    "shopDriveByocDescription": "BYOC: 드라이브에 저장 데이터를 암호화",
+    "shopAiProvider": "AI 공급자",
+    "shopAiProviderDescription": "Gemini 또는 무료 AI 모델을 선택하고 콘텐츠 언어를 구성하십시오.",
+    "aiProviderIntro": "무료 모델을 선택하거나 Gemini, ChatGPT, Claude, 또는 당신의 자신의 API 키와 함께 OpenAI 호환 공급자를 연결하십시오. BYOK 비밀은 안전한 장치 저장에 체재합니다.",
+    "aiProviderLabel": "AI 공급자",
+    "aiProviderSelectionSection": "공급자와 산출",
+    "aiProviderConnectionSection": "연결 세부사항",
+    "aiProviderDataSection": "저장 및 공유",
+    "aiProviderFreeModel": "무료 모델 (API 키 없음)",
+    "aiProviderGeminiByok": "젬니 · BYOK",
+    "aiProviderOpenAiByok": "ChatGPT / OpenAI · BYOK",
+    "aiProviderClaudeByok": "Claude / Anthropic · BYOK",
+    "aiProviderCompatibleByok": "OpenAI 호환 · BYOK",
+    "aiProviderApiKey": "API 키",
+    "aiProviderOpenAiApiKey": "OpenAI API 키",
+    "aiProviderAnthropicApiKey": "Anthropic API 키",
+    "aiProviderBaseUrl": "기본 URL",
+    "aiProviderModelId": "모델 ID",
+    "aiProviderImageModelId": "이미지 모델 ID (선택 사항)",
+    "aiProviderImageModelHelper": "제품 이미지에 사용됩니다. 모델 ID를 사용하려면 빈을 두십시오.",
+    "aiProviderContentLanguage": "이름 *",
+    "aiProviderSystemLanguage": "시스템 언어",
+    "aiProviderBackupDrive": "위로 돌아 가기 Google Drive",
+    "aiProviderBackupDriveDescription": "{appName}의 프라이빗 드라이브 앱 데이터에 연결 저장.",
+    "@aiProviderBackupDriveDescription": {
+        "placeholders": {
+            "appName": {
+                "type": "String"
+            }
+        }
+    },
+    "aiProviderShareTeam": "내 상점 팀과 공유",
+    "aiProviderShareTeamDescription": "sync it 를 때 end-to-end 암호화 된 Shop Vault에서만이 키를 포함하십시오.",
+    "aiProviderSaveSettings": "AI 설정 저장",
+    "aiProviderTestAndSave": "시험 및 저장",
+    "aiProviderRestoreDrive": "Google Drive에서 복원",
+    "aiProviderEnterBaseUrl": "공급자 기본 URL을 입력하십시오.",
+    "aiProviderEnterApiKey": "선택된 공급자를 위한 API 열쇠를 입력하십시오.",
+    "aiProviderTesting": "테스트 AI 공급자 ...",
+    "aiProviderSaving": "저장...",
+    "aiProviderConnected": "AI 공급자는 성공적으로 연결했습니다.",
+    "aiProviderSaved": "AI 공급자 조정은 저장했습니다.",
+    "aiProviderConnectionFailed": "연결할 수 없습니다: {error}",
+    "@aiProviderConnectionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "aiProviderRestoringDrive": "Google Drive에서 복원 ...",
+    "aiProviderNoDriveBackup": "AI 공급자 백업이 Drive에서 발견되지 않았습니다.",
+    "aiProviderRestoredDrive": "AI 공급자 설정은 드라이브에서 복원.",
+    "aiProviderRestoreFailed": "복구 실패 드라이브 : {error}",
+    "@aiProviderRestoreFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "shopComingSoon": "곧 출시",
+    "shopComingSoonDescription": "이 시장은 아직 연결에 사용할 수 없습니다.",
+    "shopLegacyMigrationTitle": "Legacy 서버 설정",
+    "shopLegacyMigrationDescription": "드라이브에 이전 가격과 설정을 한 번 이동",
+    "shopLegacyMigrationComplete": "마이그레이션 완료. 수입: %1 · 수출: %2%3%4 · 오래된 파일 trashed: %5.%6",
+    "shopLegacyMigrationFullDump": "· 전체 덤프",
+    "shopLegacyMigrationWarning": "경고: 수출은 불완전할지도 모릅니다; backend와 migrate를 다시 용접하십시오.",
+    "shopLegacyMigrationFailed": "마이그레이션 실패: %1",
+    "shopDraftMissingSource": "이 초안은 소스 모델 정보를 포함하지 않습니다.",
+    "shopDeleteDraftQuestion": "초안 삭제?",
+    "shopDeleteDraftDescription": "\"%1\"은 초안에서 제거됩니다.",
+    "shopDelete": "삭제",
+    "shopDraftDeleted": "Draft 삭제.",
+    "shopDraftDeleteFailed": "초안을 삭제할 수 없습니다: %1",
+    "shopStoreConnected": "%1 매장 연결.",
+    "shopStoreUpdated": "업데이트",
+    "shopDisconnectStoreQuestion": "연결 상점?",
+    "shopDisconnectStoreDescription": "이 장치에서 \"%1\"(%2)를 제거합니까? 서버의 제품 역사는 삭제되지 않습니다.",
+    "shopDisconnect": "연결하기",
+    "shopProductListingUnavailable": "%1 제품 목록은 아직 사용할 수 없습니다.",
+    "shopSignInFirst": "로그인 MakerSpell 먼저.",
+    "shopDriveConnectedAs": "%1로 연결되는 드라이브.",
+    "shopDriveConnectFailed": "구동 연결 실패: %1",
+    "shopTeamScope": "회사연혁",
+    "shopLocalScope": "한국어",
+    "shopDraftStep": "단계 %1/%2 · %3 · %4",
+    "shopStepSelectModels": "모델 선택",
+    "shopStepSelectStores": "매장 찾기",
+    "shopStepProductDetails": "제품 세부사항",
+    "shopStepStoreDetails": "관련 상품",
+    "shopStepReviewPublish": "리뷰 및 출판",
+    "shopContinue": "계속하기",
+    "shopDeleteDraftTooltip": "삭제하기",
+    "shopMarketplaceHub": "시장 허브",
+    "shopSupportedMarketplacesTitle": "지원되는 시장",
+    "shopSupportedMarketplacesDescription": "여기에 표시된 마켓 플레이스에 직접 연결하고 게시합니다. 지원은 규칙 구동이며 앱 업데이트없이 확장 할 수 있습니다.",
+    "shopFreePublishingTitle": "무료 주간 게시",
+    "shopFreePublishingRemaining": "%1 의 %2 목록 슬롯 남아 마지막 7 일",
+    "shopFreePublishingExplanation": "1개의 성공적인 제품 × 상점 간행물은 1개의 구멍을 이용합니다. 실패한 간행물은 당신의 관용을 사용하지 않습니다.",
+    "shopPublishingUnlimited": "무제한 마켓 플레이스 MakerSpell Shop",
+    "shopPublishingQuotaUnavailable": "출판 관용은 적재할 수 없습니다. 새로 고침을 잡아라.",
+    "shopPublishingSignIn": "무료 주간 발행 수당을 사용하는 로그인.",
+    "shopUpgradeForUnlimited": "무제한 출판",
+    "shopConnectSellerDescription": "시장 별 통합 필드를 사용하여 판매자 계정 연결.",
+    "shopHubLinkedSummary": "%1 연결 · %2 카탈로그의 시장",
+    "shopViewProducts": "제품보기",
+    "shopNoStoresConnected": "관련 상품",
+    "shopNoStoresDescription": "카탈로그에서 지원되는 시장을 추가하여 제품을 관리합니다.",
+    "shopConnectFirstStore": "첫 매장을 연결",
+    "shopSeller": "판매자 %1",
+    "shopConnectedStatus": "연결하기",
+    "shopIncompleteStatus": "이름 *",
+    "shopLinkedDate": "연결 %1",
+    "shopProducts": "제품 정보",
+    "shopEdit": "편집",
+    "shopDefaultFormula": "%1 기본 공식",
+    "shopUnavailableYet": "%1은 아직 사용할 수 없습니다.",
+    "shopFieldRequired": "%1이 필요합니다.",
+    "shopHttpsUrlRequired": "%1는 유효한 HTTPS URL이어야 합니다.",
+    "shopConnectionVerificationFailed": "저장 연결을 확인할 수 없습니다: %1",
+    "shopCredentialsRequired": "판매자 ID, API 키, API 비밀이 필요합니다.",
+    "shopStoreDisplayName": "상점 전시 이름",
+    "shopSellerIdLabel": "판매자 ID",
+    "shopApiKeyLabel": "API 키",
+    "shopApiSecretLabel": "API 비밀",
+    "shopOriginCountryInvalid": "기원의 국가는 예를 들어 TR에 대한 두 개의 터미널 코드가 있어야합니다.",
+    "shopDefaultBrandRequired": "기본 브랜드가 필요합니다.",
+    "shopDefaultCargoRequired": "기본 화물 회사는 필수입니다.",
+    "shopDefaultStoreName": "%1 점포",
+    "shopEditStore": "관련 상품",
+    "shopCredentialsSecure": "당신의 시장 자격 증명은 안전한 저장에서 암호화됩니다.",
+    "shopPriceFormula": "가격 공식",
+    "shopPriceFormulaDescription": "이 상점에 판매 가격을 계산 할 때 사용",
+    "shopManageFormulas": "관련 기사",
+    "shopSelectFormula": "관련 제품",
+    "shopListingDefaults": "목록 기본값",
+    "shopDefaultCountryOrigin": "원산지의 기본 국가",
+    "shopCountryCodeHelper": "2-letter ISO 국가 코드 사용",
+    "shopDefaultBrand": "기본 상표",
+    "shopBrandCatalogHelper": "시장 브랜드 카탈로그와 일치",
+    "shopDefaultCargoCompany": "기본 화물 회사",
+    "shopDescriptionExtraText": "제품 설명 추가 텍스트",
+    "shopDescriptionExtraHint": "이 상점에 대한 모든 제품 설명에 찬성",
+    "shopSaveChanges": "자주 묻는 질문",
+    "shopTeamTitle": "쇼핑 팀",
+    "shopTeamDescription": "Invite teammate 및 공유, 암호화 된 Shop 작업 공간 관리.",
+    "shopTeamPremiumTitle": "팀 작업 공간",
+    "shopTeamPremiumDescription": "상점, 암호화 된 자격 증명, 가격 및 상점 팀과 초안. 무료 발행 재판은 사용할 수 있습니다.",
+    "shopAutomationPremiumTitle": "고급 가격 자동화",
+    "shopAutomationPremiumDescription": "Automate 비용, 커미션 및 이익 마진을 자동화하는 시장 별 공식을 만듭니다. 기본 제품 출판은 사용할 수 있습니다.",
+    "shopPricingWeeklyLimitReachedDescription": "무료 사용자는 매주 나열 슬롯으로 가격 자동화를 사용할 수 있습니다. 현재 허용은 배출됩니다. 슬롯을 기다리거나 무제한 액세스를위한 MakerSpell 쇼핑을하십시오.",
+    "shopPricingTrialTitle": "가격 자동화를 한 번 시도",
+    "shopPricingTrialDescription": "모든 공식 도구를 탐험하십시오. 한 번의 시험은 공식이 성공적으로 저장될 때만 사용됩니다.",
+    "shopPricingTrialSignInDescription": "기기에서 한 번의 가격 자동화를 안전하게 유지하십시오.",
+    "shopPricingTrialUnavailable": "가격 평가판을 확인 할 수 없습니다. 연결 확인 및 다시 시도하십시오.",
+    "shopPricingTrialSaveFailed": "수식이 저장되지 않을 수 있습니다. 당신의 재판은 사용되지 않았습니다.",
+    "shopPricingSaveFailed": "가격 공식은 저장되지 않을 수 있습니다. 다시 시도하십시오.",
+    "shopPricingTrialUsedTitle": "시험 완료",
+    "shopPricingTrialUsedDescription": "당신의 공식은 저장됩니다. 가격을 자동화하는 것을 계속하기 위하여 MakerSpell 상점을 얻으십시오.",
+    "shopViewPlan": "숍 플랜",
+    "shopTeamSummary": "%1 회원 · %2 매장에 합류",
+    "shopInviteTeammate": "뚱 베어",
+    "shopLinkAndQr": "링크 또는 QR",
+    "shopJoinTeam": "자주 묻는 질문",
+    "shopScanOrPaste": "검사 또는 풀",
+    "shopJoinTeamDescription": "MakerSpell 쇼핑 초대 링크 또는 QR 코드를 스캔.",
+    "shopInviteLink": "공지사항",
+    "shopJoinWithLink": "자주 묻는 질문",
+    "shopInvalidInviteLink": "이것은 유효한 MakerSpell 상점 안내장 연결 아닙니다.",
+    "shopCopyInviteLink": "관련 링크",
+    "shopShareInviteLink": "공유 링크",
+    "shopPasteClipboard": "붙여넣기",
+    "shopTeamSignInHint": "Teammate를 초대하거나 Shop QR을 스캔합니다.",
+    "shopShowInviteQr": "QR 코드",
+    "shopScanToJoin": "채팅하기",
+    "shopSyncVaultToDrive": "드라이브에 동기화 vault",
+    "shopRestoreBackup": "쇼핑 백업 복원",
+    "shopRestoreBackupDescription": "Google Drive 앱 데이터에서 개인적으로 저장된 암호화 된 복구 포인트를 선택하십시오.",
+    "shopLatestBackup": "최근 백업",
+    "shopDatedBackup": "매일 백업",
+    "shopNoBackupFound": "상점 백업이 Google Drive에서 발견되지 않았습니다.",
+    "shopRestoreBackupConfirmTitle": "이 백업을 복원?",
+    "shopRestoreBackupConfirmDescription": "이 복구 포인트에서 삭제 된 상점과 제품은 상점으로 돌아와 팀과 동기화됩니다.",
+    "shopBackupRestored": "쇼핑 백업 복원 및 동기화.",
+    "shopRestoreBackupFailed": "상점 백업을 복원 할 수 없습니다 : %1",
+    "shopProtectRecoveryKey": "보호 기능",
+    "shopRecoveryProtectionHint": "앱을 다시 설치하거나이 장치를 잃은 후 영구 데이터 손실 방지.",
+    "shopRecoveryProtected": "복구 키 보호",
+    "shopRecoveryPasswordTitle": "복구 암호 설정",
+    "shopRecoveryPasswordDescription": "적어도 12 문자를 사용하십시오. 앱을 다시 설치하거나이 장치를 잃은 후이 암호가 필요합니다. MakerSpell는 잊어버린 암호를 복구 할 수 없습니다.",
+    "shopRecoveryPassword": "비밀번호",
+    "shopRecoveryPasswordConfirm": "비밀번호",
+    "shopRecoveryPasswordTooShort": "적어도 12 문자를 사용하십시오.",
+    "shopRecoveryPasswordsDoNotMatch": "비밀번호는 일치하지 않습니다.",
+    "shopRecoveryKeySaved": "암호화 된 복구 키는 개인적으로 저장되었습니다 Google Drive.",
+    "shopRecoveryKeySaveFailed": "복구 키를 보호 할 수 없습니다 : %1",
+    "shopRecoveryPasswordRequiredTitle": "비밀번호필수",
+    "shopRecoveryPasswordRequiredDescription": "이 백업은 이전 장치 키로 암호화되었습니다. 앱을 재설치하기 전에 생성 된 복구 암호를 입력하십시오.",
+    "shopRecoveryPasswordIncorrect": "비밀번호는 잘못 또는 복구 키가 손상됩니다.",
+    "shopRecoveryKeyMissing": "보호 된 복구 키가 Google Drive에서 발견되지 않았습니다. 이 백업은이 장치에서 열 수 없습니다.",
+    "shopRecoverDeviceKey": "이전 장치 키 복구",
+    "shopRecoveryMustRestoreBeforeSync": "귀하의 Google Drive 백업은 다른 장치 키를 사용합니다. 과잉 복구 가능한 데이터를 피하기 위해 동기화하기 전에 복구하십시오.",
+    "shopRecoveryKeyRecovered": "이전 장치 키가 안전하게 회복되었습니다.",
+    "shopMembersCount": "회원 (%1)",
+    "shopKeyReady": "키 준비",
+    "shopNoPublicKey": "공공 키",
+    "shopMemberRemoved": "회원 제거.",
+    "shopMemberRemoveFailed": "회원을 제거 할 수 없습니다 : %1",
+    "shopJoinedShops": "로그인",
+    "shopOwnerLabel": "소유자 %1 ...",
+    "shopRoleOwner": "이름 *",
+    "shopRoleAdmin": "계정 관리",
+    "shopRoleMember": "이름 *",
+    "shopSignInToShare": "상점을 공유하기 위해 MakerSpell에 로그인하십시오.",
+    "shopSignInToJoin": "쇼핑에 가입하려면 MakerSpell에 로그인하십시오.",
+    "shopJoinedOwner": "%1의 상점에 가입.",
+    "shopVaultSaved": "%1 회원에 대한 vault 동기화. 파일: %2...",
+    "shopVaultSyncFailed": "Vault 동기화 실패: %1",
+    "shopShareTitle": "회사 소개",
+    "shopShareDescription": "이 QR을 스캔 한 사람은 상점에 가입 할 수 있습니다. 암호화 된 볼트를 통해 Credentials 및 가격 동기화; 모델 파일은 Drive에서 MakerSpell-Library에 남아 있습니다.",
+    "shopRetry": "재시도",
+    "shopVaultScope": "Vault: 상점 · 자격 · 가격\n모델: 눈에 보이는 MakerSpell-Library 폴더",
+    "shopInviteCopied": "초대 링크 복사.",
+    "shopCopyInviteData": "비밀번호",
+    "shopInvalidInviteQr": "이것은 MakerSpell 쇼핑 초대 QR.",
+    "shopJoining": "관련 상품",
+    "shopSignInThenScan": "MakerSpell에 로그인한 후 다시 스캔합니다.",
+    "shopScanInviteTitle": "Scan Shop 소개",
+    "shopScanInviteDescription": "소유자의 상점 QR을 스캔하여 상점, 자격 및 가격 작업 공간에 가입하십시오. 모델 파일은 드라이브에 MakerSpell-Library에 남아 있습니다.",
+    "storeProductsUnavailable": "상점 제품은이 빌드에서 사용할 수 없습니다. Google Play 및 App Store Connect의 제품 ID를 구성하십시오.",
+    "currentPlan": "현재 계획",
+    "betaProBadge": "BETA 프로",
+    "betaProActive": "Beta Pro는 활성",
+    "betaProDaysRemaining": "베타 테스트 액세스 · {days} 나머지 일 (s)",
+    "@betaProDaysRemaining": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "betaProNoRenewal": "지불 방법 또는 자동 갱신 없음.",
+    "unavailable": "이용안내",
+    "subscribePrice": "구독 · {price}",
+    "freeTrialAvailable": "무료 체험",
+    "freeTrialDays": "{days}-일 무료 체험",
+    "startFreeTrial": "무료 체험",
+    "startFreeTrialDays": "{days} 일 무료 체험",
+    "freeTrialThenPrice": "그런 다음 {price} / 월. 언제든지 취소.",
+    "@freeTrialDays": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@startFreeTrialDays": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@freeTrialThenPrice": {
+        "placeholders": {
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "subscriptionProductUnavailable": "구독 제품은이 저장소 빌드에서 사용할 수 없습니다.",
+    "purchaseFailed": "구매 실패.",
+    "signInBeforePurchase": "구독을 구입하기 전에 로그인하십시오.",
+    "purchaseBelongsToAnotherAccount": "이 구매는 다른 MakerSpell 계정에 속합니다.",
+    "purchaseVerificationFailed": "Google Play는이 구매를 확인할 수 없습니다. 다시 시도하십시오.",
+    "includedInShop": "매장에 포함",
+    "purchaseAccountConfirmation": "이 구독은 {email}에 연결됩니다. 계속?",
+    "@purchaseAccountConfirmation": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "@subscribePrice": {
+        "placeholders": {
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "noDataFound": "찾을 수 없습니다.",
+    "errorSharingModel": "오류 공유 모델: {error}",
+    "translationError": "번역 오류: {error}",
+    "translationModelsReady": "번역 언어 파일이 다운로드되었습니다. English–Turkish 번역은 이제부터 더 빠릅니다.",
+    "noPlatesAvailable": "이 단면도에서 유효한 판 없음",
+    "fileAlreadyDownloaded": "File Already 다운로드",
+    "profileDownloadedBefore": "이 프로필은 이전에 다운로드되었습니다. 다시 다운로드하시겠습니까?",
+    "yes": "예",
+    "downloadRequiresLoginNoAuth": "이 다운로드는 로그인이 필요하지만 인증 구성이 없습니다.",
+    "downloadLoginNoticeTitle": "자주 묻는 질문",
+    "downloadLoginNoticeMessage": "일부 플랫폼은 다운로드하기 전에 로그인해야합니다. 플랫폼의 로그인 페이지로 리디렉션됩니다. 성공적으로 로그인 한 후, 다운로드가 자동으로 시작됩니다.",
+    "operationCancelled": "운영 취소",
+    "failedDownloadProfile": "프로필 다운로드 실패: {error}",
+    "modelDownloadedBefore": "이 모델은 이전에 다운로드되었습니다. 다시 다운로드하시겠습니까?",
+    "downloadAgain": "다운로드",
+    "downloadStarted": "시작 다운로드: {name}",
+    "downloadCaptchaCancelled": "다운로드 취소: captcha가 해결되지 않았습니다.",
+    "failedStartDownload": "다운로드 시작 실패: {error}",
+    "profiles": "회사연혁",
+    "detail": "제품정보",
+    "comments": "이름 *",
+    "related": "이름 *",
+    "showOriginal": "쇼 원본",
+    "translateToTurkish": "터키의 번역",
+    "translateToLanguage": "{language}(으)로 번역",
+    "shareModel": "공유 모델",
+    "removeFromWishlist": "wishlist에서 제거",
+    "addToWishlist": "위시리스트",
+    "downloads": "다운로드",
+    "tags": "이름 *",
+    "relatedModels": "관련 모델",
+    "downloadedFileNotFound": "디스크에서 찾을 수없는 파일 다운로드. 다시 다운로드 시도.",
+    "openIn3dViewer": "3D 뷰어에서 열기",
+    "downloadAgainTooltip": "다시 다운로드",
+    "download": "다운로드",
+    "printerControlDownloadUnavailable": "프린터는 파일 다운로드 주소를 제공하지 않았습니다.",
+    "printProfiles": "인쇄 프로필",
+    "showLess": "더보기",
+    "showMore": "더 보기",
+    "logInToViewFiles": "파일 보기 및 다운로드",
+    "logIn": "로그인",
+    "licenseAgreement": "법적 고지",
+    "noLicenseText": "이용 약관",
+    "source": "이름 *",
+    "listOnMarketplace": "회사 소개",
+    "prepareAndPrint": "준비 및 인쇄",
+    "prepareAndPrintDescription": "작업 공간에 모델을 열고, 검토 인쇄 설정, 슬라이스, 프린터를 선택하고 작업을 보냅니다.",
+    "preparingModel": "모델 준비 ...",
+    "openAndPrepare": "자주 묻는 질문",
+    "downloadAndPrepare": "다운로드 및 준비",
+    "allDiscussions": "모든 토론 ({count})",
+    "ascending": "회사 소개",
+    "descending": "연락처",
+    "loadingComments": "로딩 ...",
+    "noCommentsYet": "코멘트 없음",
+    "loadMoreComments": "더 많은 의견",
+    "showReplies": "연락처",
+    "showRepliesCount": "답글 보기 ({count})",
+    "failedLoadReplies": "응답을로드 실패 : {error}",
+    "@errorSharingModel": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@translationError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedDownloadProfile": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedStartDownload": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedLoadReplies": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@downloadStarted": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@allDiscussions": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@showRepliesCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "price": "가격",
+    "likes": "이름 *",
+    "license": "라이센스",
+    "licenseAndCommercialUse": "면허 및 상업적인 사용",
+    "viewOnNamedPlatform": "{platformName}에 보기",
+    "@viewOnNamedPlatform": {
+        "placeholders": {
+            "platformName": {
+                "type": "String"
+            }
+        }
+    },
+    "licenseStoreAllowed": "이 라이센스는 일반적으로 매장에서 물리적으로 인쇄 된 제품을 판매 할 수 있습니다.",
+    "licenseStoreNotAllowed": "이 제품을 상점에 추가하기 전에 제작자로부터 권한을 얻으십시오.",
+    "licenseStoreReview": "이 모델을 저장하기 전에 전체 라이센스를 검토합니다.",
+    "licensePhysicalProductDisclaimer": "이 평가는 디지털 모델 파일의 물리적으로 인쇄 된 제품, 재판매 또는 재배치에 적용됩니다. 플랫폼 용어 및 전체 라이센스는 승인 남아 있습니다.",
+    "viewFullLicense": "전체 라이센스",
+    "licenseMoreInfo": "이 라이선스에 대한 추가 정보",
+    "licenseSummaryPublicDomain": "작업은 공공 도메인에 전념하고 일반적으로 attribution없이 상업적으로 사용될 수 있습니다.",
+    "licenseSummaryAttribution": "상업적 사용은 일반적으로 허용되지만, 원래 제작자 및 라이센스는 신용해야합니다.",
+    "licenseSummaryShareAlike": "상업적인 사용은 일반적으로 attribution로 허용됩니다. 적응은 동일한 면허를 사용할 필요가 있을지도 모릅니다.",
+    "licenseSummaryNonCommercial": "상업 사용 및 판매 인쇄 된 제품은 제작자로부터 별도의 허가없이 허용되지 않습니다.",
+    "licenseSummaryCommercial": "라이센스 라벨은 상업 사용, 정확한 조건 및 플랫폼 조건에 따라 나타냅니다.",
+    "licenseSummaryOpenSource": "상업적 사용은 일반적으로 가능하지만, attribution, Source, notice, 또는 share-alike 의무가 적용될 수 있습니다.",
+    "licenseSummaryUnknown": "이 플랫폼 별 또는 알 수없는 라이센스는 안전하게 분류 할 수 없습니다.",
+    "licenseStandardPersonalUse": "표준/개인 용도 전용",
+    "licensePlatformPersonalUseDisclaimer": "이 플랫폼의 모델은 기본적으로 개인용 라이선스에 따라 제공됩니다. 상업용 이용 약관 및 현재 세부 정보의 소스 페이지를 확인하십시오.",
+    "timeWeight": "시간: {time} | 무게: {weight}g",
+    "platesNozzle": "플레이트: {plates} | 노즐: {nozzle}",
+    "notAvailable": "N/A",
+    "downloadProfile": "다운로드 Profile",
+    "discussions": "의논하기",
+    "noDescriptionProvided": "자주 묻는 질문",
+    "storeListingsTitle": "이 모델은 다음과 같습니다.",
+    "refresh": "새로 고침",
+    "storeListingsDescription": "이미이 모델에 대한 제품을 가지고있는 것을보십시오.",
+    "couldNotLoadStoreListings": "상점 목록을 적재할 수 없습니다.",
+    "listingCount": "{count} 목록",
+    "product": "제품정보",
+    "storeMarketplace": "상점 : {store} · 마켓 플레이스 : {marketplace}",
+    "barcode": "바코드",
+    "sku": "사이트맵",
+    "listedAt": "목록 {date}",
+    "listingDetails": "연락처",
+    "store": "제품정보",
+    "marketplace": "회사 소개",
+    "title": "제목",
+    "status": "상태",
+    "salePrice": "판매가격",
+    "manageListingsHint": "Shop → Uploaded 제품에서 모든 목록을 관리합니다.",
+    "notListedYet": "아직 매장에 나열되지 않음",
+    "notListedDescription": "이 모델을 시장에 업로드 할 때, 그것은 상점과 상태와 함께 여기에 표시됩니다.",
+    "retry": "재시도",
+    "@listedAt": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@platesNozzle": {
+        "placeholders": {
+            "nozzle": {
+                "type": "String"
+            },
+            "plates": {
+                "type": "int"
+            }
+        }
+    },
+    "@storeMarketplace": {
+        "placeholders": {
+            "marketplace": {
+                "type": "String"
+            },
+            "store": {
+                "type": "String"
+            }
+        }
+    },
+    "@timeWeight": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            },
+            "weight": {
+                "type": "String"
+            }
+        }
+    },
+    "fetchingModelInfo": "Fetching 모델 정보 ...",
+    "loadingModelDetails": "적재 모형 세부사항...",
+    "preparingDownloadLink": "다운로드 링크 준비 ...",
+    "openingDownloadPage": "오픈 다운로드 페이지 ...",
+    "downloadUrlCaptureFailed": "URL을 캡처 할 수 없습니다",
+    "unsupportedPlatform": "지원 플랫폼: {platform}",
+    "downloading3mfFile": "다운로드 3MF 파일 ...",
+    "printTime": "인쇄 시간",
+    "filamentWeight": "필라멘트 무게",
+    "plateCount": "판 조사",
+    "nozzle": "노즐",
+    "multiColor": "다 색깔",
+    "no": "아니오",
+    "processing": "기타...",
+    "dimensionInfo": "차원 정보",
+    "loaded": "로드 중 ...",
+    "couldNotGetDimensionInfo": "차원 정보를 얻을 수 없습니다",
+    "fileTooLargeTryAgain": "너무 큰 파일. 다시 시도하십시오.",
+    "serverAccessErrorTryAgain": "서버 액세스 오류. 다시 시도하십시오.",
+    "errorWithMessage": "오류: {message}",
+    "materials": "자료실",
+    "compatiblePrinters": "호환 프린터",
+    "plates": "공지사항",
+    "weight": "무게:",
+    "threeMfDimensionInfo": "3MF 차원 정보",
+    "fileLabel": "파일: {fileName}",
+    "plateNumber": "플레이트 {number}",
+    "modelCountLabel": "{count} 모형 (s)",
+    "sizeLabel": "크기: {size}",
+    "partCountLabel": "부품 번호: {count}",
+    "@unsupportedPlatform": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorWithMessage": {
+        "placeholders": {
+            "message": {
+                "type": "String"
+            }
+        }
+    },
+    "@fileLabel": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "@plateNumber": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "@modelCountLabel": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@sizeLabel": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "@partCountLabel": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "replyCount": "{count, plural, =1{1개의 대답} other{{count} 이름 *}}",
+    "repliesTitle": "댓글 ({count})",
+    "moreReplies": "+{count} 더",
+    "@replyCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@repliesTitle": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@moreReplies": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "filterAndSort": "필터 및 정렬",
+    "downloading": "다운로드 중",
+    "downloadNotificationRunningTitle": "다운로드 {fileName}",
+    "@downloadNotificationRunningTitle": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationRunningBody": "{progress} • {speed} • {remaining} 나머지",
+    "@downloadNotificationRunningBody": {
+        "placeholders": {
+            "progress": {
+                "type": "String"
+            },
+            "speed": {
+                "type": "String"
+            },
+            "remaining": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationRunningProgress": "{progress} 다운로드",
+    "@downloadNotificationRunningProgress": {
+        "placeholders": {
+            "progress": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationCompleteTitle": "다운로드",
+    "downloadNotificationCompleteBody": "{fileName} 오픈 예정",
+    "@downloadNotificationCompleteBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationErrorTitle": "다운로드 실패",
+    "downloadNotificationErrorBody": "{fileName} 다운로드 할 수 없습니다",
+    "@downloadNotificationErrorBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadPause": "일시 정지",
+    "downloadResume": "계속",
+    "downloadNotificationPausedTitle": "다운로드 paused",
+    "downloadNotificationPausedBody": "{fileName}는 일시 중지",
+    "@downloadNotificationPausedBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationCanceledTitle": "자주 묻는 질문",
+    "downloadNotificationCanceledBody": "{fileName} 취소",
+    "@downloadNotificationCanceledBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "completed": "완료",
+    "failed": "실패",
+    "paused": "뚱 베어",
+    "fileType": "파일 형식",
+    "models3d": "3D 모델",
+    "gcode": "G 코드",
+    "archives": "관련 기사",
+    "archiveViewerTitle": "아카이브 모델",
+    "archiveViewerQuestion": "이 아카이브에는 {count} 모델 파일이 포함되어 있습니다. 어떻게 그들을 열 것인지?",
+    "@archiveViewerQuestion": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "archiveViewerSamePlate": "가장 적은 판을 사용하십시오",
+    "archiveViewerSamePlateDescription": "정리를 가진 배열 모형은 필요로 할 때만 새로운 판에 계속합니다.",
+    "archiveViewerSeparatePlates": "별도의 판에 열기",
+    "archiveViewerSeparatePlatesDescription": "각 모델에 별도의 빌드 플레이트를 만듭니다.",
+    "images": "이미지",
+    "other": "기타",
+    "allTypes": "모든 유형",
+    "sortDownloadingFirst": "상태 (첫 번째 다운로드)",
+    "nameAscending": "이름 A → Z",
+    "nameDescending": "이름 Z → A",
+    "sizeLargestFirst": "크기 (최초)",
+    "sizeSmallestFirst": "크기 (최초)",
+    "filePathNotFound": "파일 경로 찾을 수 없습니다",
+    "fileNotFound": "찾을 수 없음",
+    "sharingFailed": "공유 실패: {error}",
+    "imageFileNotFound": "찾을 수 없음",
+    "deleteDownload": "다운로드",
+    "deleteDownloadQuestion": "기기에서 \"{fileName}\"을 삭제하시겠습니까?",
+    "delete": "삭제",
+    "downloadSearchHint": "검색 이름, 유형, 플랫폼...",
+    "downloadResults": "{count} 결과 (s)",
+    "downloadFilteredResults": "{shown} 의 {total} 결과",
+    "noMatchingDownloads": "일치하는 다운로드 없음",
+    "noDownloadsYet": "아직 다운로드 없음",
+    "downloadFilterHint": "다른 검색, 플랫폼, 상태 또는 파일 유형을 시도하십시오.",
+    "clearFilters": "명확한 필터",
+    "queued": "대기 중",
+    "retrying": "관련 기사",
+    "canceled": "취소됨",
+    "notFound": "이름 *",
+    "starting": "시작 ...",
+    "no3dFilesInFolder": "이 폴더에서 발견 된 3D 파일 없음",
+    "view3d": "보기 3D",
+    "share": "지원하다",
+    "failedLoadImage": "이미지로드 실패",
+    "@sharingFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@deleteDownloadQuestion": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "@downloadResults": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@downloadFilteredResults": {
+        "placeholders": {
+            "shown": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "platform": "회사연혁",
+    "back": "뒷면",
+    "contestsLoadFailed": "대회는 적재될 수 없습니다",
+    "noContestsFound": "제안 없음",
+    "checkBackForContests": "새로운 대회에 대해 나중에 다시 확인",
+    "views": "이름 *",
+    "entries": "이름 *",
+    "participants": "회사 소개",
+    "contestEnded": "이름 *",
+    "timeLeftDaysHours": "{days}d {hours}h 왼쪽",
+    "timeLeftHours": "{hours}h 왼쪽",
+    "timeLeftMinutes": "{minutes}m 왼쪽",
+    "daysLeft": "{days} 일 왼쪽",
+    "hoursLeft": "{hours} 시간 왼쪽",
+    "minutesLeft": "{minutes} 분 왼쪽",
+    "visitContestSite": "관람안내",
+    "contestDetail": "공지사항",
+    "contestRules": "대회 규칙",
+    "allEntries": "모든 항목",
+    "errorLoadingData": "오류 로드 데이터",
+    "noDetailAvailable": "자주 묻는 질문",
+    "noRulesAvailable": "자주 묻는 질문",
+    "errorLoadingEntries": "오류 로딩 항목",
+    "noEntriesYet": "아직 항목 없음",
+    "firstToSubmitEntry": "참가를 먼저 제출하십시오!",
+    "prizes": "수상내역",
+    "winnerCount": "{count} 수상자",
+    "popularModels": "인기 모델",
+    "rulesNotFound": "발견되지 않은 규칙",
+    "totalEntries": "총 {count} 항목",
+    "description": "이름 *",
+    "contestStart": "시작: {date}",
+    "submissionEnd": "제출 끝: {date}",
+    "reviewEnd": "리뷰 끝: {date}",
+    "winnerAnnouncement": "수상자 발표: {date}",
+    "upcoming": "지원하다",
+    "active": "지원하다",
+    "reviewing": "관련 기사",
+    "ended": "이름 *",
+    "resultsPublished": "결과 게시",
+    "@timeLeftDaysHours": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            },
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@timeLeftHours": {
+        "placeholders": {
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@timeLeftMinutes": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@daysLeft": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@hoursLeft": {
+        "placeholders": {
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@minutesLeft": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@winnerCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@totalEntries": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@contestStart": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@submissionEnd": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@reviewEnd": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@winnerAnnouncement": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "platformMissing": "플랫폼은 누락",
+    "uploadedProducts": "관련 제품",
+    "catalogSourceDrive": "출처: Google Drive",
+    "catalogSourceDevice": "출처: 이 장치",
+    "checkMarketplaceStatuses": "시장 상태 확인 (pending/failed)",
+    "openDriveSpreadsheet": "오픈 드라이브 스프레드 시트",
+    "syncCatalogDrive": "Excel/Sheets를 구동하는 동기화 카탈로그",
+    "uploadedProductSearchHint": "제목, 바코드 또는 SKU로 검색 ...",
+    "pending": "대기중",
+    "success": "지원하다",
+    "noProductsUploaded": "제품 업로드",
+    "pageOf": "페이지 {page} / {total}",
+    "noTitle": "번호 제목",
+    "barcodeValue": "바코드: {barcode}",
+    "stockValue": "재고: {stock}",
+    "errorLoadingProducts": "오류 로드 제품: {error}",
+    "refreshMarketplaceStatuses": "새로 고침 시장 상태",
+    "refreshMarketplaceStatusesDescription": "연결되는 상점에 대하여 pending/failed 제품을 검사하십시오. 시장에 이미 찬성된 제품은 성공적으로 표시될 것입니다. 큰 카탈로그는 동안 가지고 갈지도 모릅니다.",
+    "checkNow": "더 보기",
+    "startingMarketplaceCheck": "시작 시장 검사 ...",
+    "checkingProducts": "Check{done}/ 한국어{total}{barcode}",
+    "statusCheckFailed": "상태 확인 실패: {error}",
+    "couldNotOpenSpreadsheet": "스프레드 시트를 열 수 없습니다 : {url}",
+    "driveSpreadsheetError": "스프레드 시트 오류를 구동 : {error}",
+    "syncToDrive": "드라이브에 동기화",
+    "syncToDriveDescription": "연결된 Google Drive에 “MakerSpell 업로드된 제품”을 생성하거나 업데이트합니다. 그것은 구글 시트에 열거나 Excel로 다운로드 할 수 있습니다. 계속?",
+    "sync": "동기화",
+    "productsSynced": "{count} 제품 드라이브 스프레드 시트에 동기화.",
+    "open": "열기",
+    "syncError": "동기화 오류: {error}",
+    "couldNotOpenUrlValue": "URL을 열 수 없습니다: {url}",
+    "spreadsheetUpdated": "Spreadsheet 업데이트 ({count} 드라이브에 제품).",
+    "sourcePlatformNotFound": "Source platform 정보 찾을 수 없음",
+    "modelIdNotFound": "모델 ID 찾을 수 없습니다",
+    "productIdNotFound": "제품 ID 찾을 수 없습니다",
+    "deleteProduct": "제품 삭제",
+    "deleteProductQuestion": "이 제품을 삭제하시겠습니까?\n\n제목: {title}\n바코드: {barcode}\nID: {id}\n\n이 동작은 undone일 수 없습니다.",
+    "productDeleted": "제품 성공적으로 삭제 (ID: {id})",
+    "errorDeletingProduct": "오류 삭제 제품 : {error}",
+    "changeStatus": "변경 상태",
+    "currentStatus": "현재 상태: {status}",
+    "selectNewStatus": "새로운 상태 선택:",
+    "statusUpdated": "업데이트 상태: {status}",
+    "errorUpdatingStatus": "오류 업데이트 상태: {error}",
+    "sourceModelIdNotFound": "소스 모델 ID 찾을 수 없습니다",
+    "errorLoadingModelDetails": "오류 로드 모델 세부 사항: {error}",
+    "warning": "경고",
+    "duplicateUploadWarning": "이 제품은 이미 성공적으로 업로드되었습니다. 다시 업로드하시겠습니까?\n\n여러 제품은 일부 시장에서 동일한 바코드로 만들 수 있습니다.",
+    "continueAction": "계속하기",
+    "batchStatus": "배치 상태",
+    "batchIdValue": "일괄 ID: {id}",
+    "closeAndRefresh": "닫기 및 새로 고침",
+    "batchStatusCheckFailed": "배치 상태는 검사될 수 없었습니다",
+    "productDetails": "제품 세부사항",
+    "productImages": "제품 이미지",
+    "storeAndMarketplace": "상점 & 시장",
+    "stockCode": "주식 코드",
+    "brand": "주요 특징",
+    "listPrice": "판매가격",
+    "calculatedPrice": "계산 된 가격",
+    "stock": "주요특징",
+    "vat": "세금 포함",
+    "printProfile": "회사소개",
+    "sourcePlatform": "소스 플랫폼",
+    "modelId": "모델 ID",
+    "sourceUrl": "소스 URL:",
+    "batchId": "일괄 ID",
+    "checkBatchStatus": "일괄 처리 상태 확인",
+    "marketplaceResponse": "시장 응답",
+    "editAndReupload": "편집 및 재판매",
+    "openSourceModel": "오픈 소스 모델",
+    "syncDriveSpreadsheet": "스프레드 시트를 구동하는 동기화",
+    "deleteProductAction": "제품 삭제",
+    "listingFallback": "관련 기사",
+    "productStatus": "제품 상태",
+    "failureReasons": "실패 Reasons:",
+    "lastUpdate": "마지막 업데이트: {date}",
+    "detailedResponseJson": "상세한 응답 (JSON)",
+    "@pageOf": {
+        "placeholders": {
+            "page": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "@barcodeValue": {
+        "placeholders": {
+            "barcode": {
+                "type": "String"
+            }
+        }
+    },
+    "@stockValue": {
+        "placeholders": {
+            "stock": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorLoadingProducts": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@checkingProducts": {
+        "placeholders": {
+            "done": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "barcode": {
+                "type": "String"
+            }
+        }
+    },
+    "@statusCheckFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotOpenSpreadsheet": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "@driveSpreadsheetError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@productsSynced": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@syncError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotOpenUrlValue": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "@spreadsheetUpdated": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@deleteProductQuestion": {
+        "placeholders": {
+            "title": {
+                "type": "String"
+            },
+            "barcode": {
+                "type": "String"
+            },
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@productDeleted": {
+        "placeholders": {
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorDeletingProduct": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@currentStatus": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "@statusUpdated": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorUpdatingStatus": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorLoadingModelDetails": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@batchIdValue": {
+        "placeholders": {
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@lastUpdate": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileUserFallback": "사용자",
+    "followDesigner": "디자이너",
+    "unfollowDesigner": "이름 *",
+    "designerFollowed": "다음 {name}",
+    "@designerFollowed": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "designerUnfollowed": "다음을 중지 {name}",
+    "newModelsCount": "{count} 당신의 마지막 방문 이후 새로운 모델",
+    "@newModelsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@designerUnfollowed": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileUserInfoUnavailable": "사용자 정보는 retrieved 할 수 없습니다.",
+    "ownerProfileUserInfoLoadError": "오류로드 사용자 정보 : {error}",
+    "@ownerProfileUserInfoLoadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileModelsCount": "모형 ({count})",
+    "@ownerProfileModelsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "ownerProfileTryAgain": "다시 시도",
+    "ownerProfileNoModels": "아직 발견되지 않은 모델",
+    "ownerProfileStatModels": "모델 번호:",
+    "ownerProfileStatLikes": "이름 *",
+    "ownerProfileStatFollowers": "이름 *",
+    "ownerProfileStatDownloads": "다운로드",
+    "ownerProfileAbout": "제품정보",
+    "ownerProfileAscending": "회사 소개",
+    "ownerProfileDescending": "연락처",
+    "prepareSelectModel": "모델 파일을 선택하고 계속하기 전에 패키지 크기를 계산합니다.",
+    "prepareLoadedPrevious": "이전 업로드에서로드. 다시 게시하기 전에 필드를 검토합니다.",
+    "statusCheckSummary": "{checked}: {success} 성공, {failed} 실패, {pending} 여전히 종료, {notFound} 시장, {errors} 오류에. 카탈로그 업데이트 : {updated}.",
+    "@statusCheckSummary": {
+        "placeholders": {
+            "checked": {
+                "type": "int"
+            },
+            "success": {
+                "type": "int"
+            },
+            "failed": {
+                "type": "int"
+            },
+            "pending": {
+                "type": "int"
+            },
+            "notFound": {
+                "type": "int"
+            },
+            "errors": {
+                "type": "int"
+            },
+            "updated": {
+                "type": "int"
+            }
+        }
+    },
+    "marketplaceRuleNotFound": "찾을 수없는 시장 규칙 : {platform}",
+    "batchOrMarketplaceMissing": "일괄 ID 또는 시장은 누락",
+    "@marketplaceRuleNotFound": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "add": "추가",
+    "edit": "편집",
+    "remove": "제거",
+    "save": "저장",
+    "objectHierarchyTitle": "객체 Hierarchy",
+    "objectHierarchyNoPlates": "검출되는 판 없음",
+    "objectHierarchySearchHint": "검색 플레이트, 물체 및 부품 ...",
+    "objectHierarchyShowInScene": "전시 현장",
+    "objectHierarchyRenamePlate": "이름 판",
+    "objectHierarchyObjectActions": "객체 작업",
+    "objectHierarchySplitToObjects": "객체로 분할",
+    "objectHierarchySplitToParts": "부품으로 분할",
+    "objectHierarchyCannotSplit": "이 모형은 다수 분리가능한 몸을 포함하지 않습니다.",
+    "objectHierarchyObject": "객체",
+    "objectHierarchyObjectNumbered": "오브젝트 {number}",
+    "@objectHierarchyObjectNumbered": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "objectHierarchyPart": "부품 {number}",
+    "@objectHierarchyPart": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "objectHierarchyPlate": "플레이트 {number}",
+    "@objectHierarchyPlate": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "printerSelectionTitle": "프린터 선택",
+    "printerSelectionMultipleTitle": "프린터 프로필 선택",
+    "printerSelectionUseSelected": "선택된 프린터 사용",
+    "printerSelectionSearchHint": "인쇄 기계 ...",
+    "printerSelectionNotFound": "인쇄 기계 없음",
+    "workspacePrinterSetupTitle": "Workspace 설정",
+    "workspacePrinterSetupHeading": "어떤 프린터를 사용합니까?",
+    "workspacePrinterSetupDescription": "모든 프린터 프로파일을 선택하여 작업 공간 호환 침대, 미리 설정 및 슬라이딩 설정을 준비 할 수 있습니다.",
+    "workspacePrinterSetupLater": "이름 *",
+    "workspacePrinterSetupPreparing": "프린터 카탈로그 준비 ...",
+    "workspacePrinterSetupDownloading": "다운로드 프린터 프로파일 ...",
+    "workspacePrinterSetupDownloadHint": "다운로드가 배경에서 실행되는 동안 다른 화면을 계속 탐색 할 수 있습니다. 완료되면 Workspace로 돌아가십시오.",
+    "workspacePrinterSetupBrowse": "다른 화면을 탐험",
+    "workspacePrinterSetupError": "프린터 카탈로그가 준비되지 않았습니다. 연결 확인 및 다시 시도하십시오.",
+    "workspacePrinterSetupEmpty": "하나 이상의 프린터 프로필을 선택하십시오. 첫 번째 프린터는 기본으로 사용됩니다.",
+    "workspacePrinterSetupCatalogTitle": "프린터 프로필에서 선택",
+    "workspacePrinterSetupOfflineHint": "프린터는 네트워크에 전원을 공급할 필요가 없습니다. 나중에 연결할 수 있습니다.",
+    "workspacePrinterSetupAdd": "프린터 프로필 선택",
+    "workspacePrinterSetupAddAnother": "다른 프린터 추가",
+    "workspacePrinterSetupEditSelection": "선택된 프린터 편집",
+    "workspacePrinterSetupContinue": "계속 작업 공간",
+    "workspacePrinterSetupDefault": "기본 프린터",
+    "networkPrintersTitle": "네트워크 프린터",
+    "networkPrinterAddManual": "프린터 매뉴얼",
+    "networkPrinterNameHint": "프린터 이름 (예 : Snapmaker U1)",
+    "networkPrinterIpHint": "IP 주소 (예: 192.168.1.50)",
+    "networkPrinterApiKeyOptional": "(선택) API 열쇠",
+    "networkPrinterApiKeyIfNeeded": "API 키 (필요한 경우)",
+    "networkPrinterCameraUrlOptional": "(선택) 사진기 URL",
+    "networkPrinterManualName": "수동 인쇄 기계",
+    "networkPrinterDisplayName": "표시 이름",
+    "networkPrinterEdit": "인쇄 기계",
+    "networkPrinterSaved": "회사 소개",
+    "networkPrinterDiscovered": "회사 소개",
+    "networkPrinterNoneFound": "로컬 네트워크에 있는 프린터가 없습니다.",
+    "networkPrinterType": "유형: {type}",
+    "@networkPrinterType": {
+        "placeholders": {
+            "type": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterHostname": "호스트 이름: {hostname}",
+    "@networkPrinterHostname": {
+        "placeholders": {
+            "hostname": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterStatusDiscovering": "회사 소개",
+    "networkPrinterStatusIdentifying": "이름 *",
+    "networkPrinterStatusConnected": "연결하기",
+    "networkPrinterStatusAvailable": "지원하다",
+    "networkPrinterStatusAuthenticationRequired": "인증 필수",
+    "networkPrinterStatusOffline": "오프라인",
+    "noInternetConnectionTitle": "인터넷 연결 없음",
+    "noInternetConnectionMessage": "현재 오프라인입니다. 나중에 다시 시도하십시오.",
+    "networkPrinterStatusUnsupported": "지원되는",
+    "networkPrinterStatusConnectionFailed": "연결 실패",
+    "networkPrinterStatusNotChecked": "견적 요청",
+    "networkPrinterRemoteId": "서버 프린터 ID",
+    "networkPrinterRemoteIdHelp": "프린터 서버에 의해 관리하고 여기에서 변경할 수 없습니다.",
+    "printSettingsNozzle": "{size} 노즐",
+    "@printSettingsNozzle": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "printSettingsSearchHint": "검색 설정...",
+    "selectModelFile": "모델 파일 선택",
+    "couldNotOpenSettings": "설정을 열 수 없습니다.",
+    "modelFileStorageAccessDenied": "스토리지 액세스는 부여되지 않았습니다. 당신은 여전히 저장을 검색 할 수 있습니다.",
+    "modelFileCouldNotOpen": "선택한 파일을 열 수 없습니다.",
+    "modelFileUnsupportedType": "이 파일 유형은 이 작업 흐름에서 사용할 수 없습니다.",
+    "modelFileAllTypes": "모든 유형",
+    "modelFileSearchHint": "파일 이름으로 찾기 ...",
+    "modelFileScanning": "Scanning 장치 ...",
+    "modelFileScanningDescription": "큰 저장에 잠시 걸릴 수 있습니다.",
+    "modelFileGrantStorageAccess": "Grant 스토리지 액세스",
+    "modelFileBrowseStorage": "Browse 저장 ...",
+    "modelFilePermissionRequired": "저장 허가는 목록 모형 파일에 자동적으로 요구됩니다.",
+    "modelFilePermissionInstructions": "Grant “모든 파일 액세스” for MakerSpell, 그 다음 여기에 반환.",
+    "modelFileNoFilterMatches": "이 필터 또는 검색과 일치하는 파일 없음.",
+    "modelFileNoneFound": "3MF, STL, OBJ 또는 G-code 파일이 없습니다.",
+    "modelFileTryAnotherSearch": "다른 이름 또는 파일 유형을 시도하십시오.",
+    "modelFileTryRefreshOrBrowse": "목록 또는 저장을 새로 고침하십시오.",
+    "modelFileFilterSummary": "필터: {filter} · {query} · {count} 파일",
+    "@modelFileFilterSummary": {
+        "placeholders": {
+            "filter": {
+                "type": "String"
+            },
+            "query": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerSettingsTitle": "인쇄 기계 설정",
+    "printerSettingsRefreshProfiles": "새로 고침 프로파일 (debug)",
+    "printerSettingsSavePreset": "저장 기계 Preset",
+    "printerSettingsPresetName": "Preset 이름",
+    "printSettingsGlobal": "전역",
+    "printSettingsObjects": "객체",
+    "printSettingsSelectHierarchyObject": "설정 편집을 위해 hierarchy의 판 또는 객체를 선택합니다.",
+    "printSettingsSimple": "지원하다",
+    "printSettingsAdvanced": "고급",
+    "printSettingsNoSettings": "이 탭에서 설정 없음",
+    "printSettingsNoSearchResults": "설정 일치 없음 “{query}”",
+    "@printSettingsNoSearchResults": {
+        "placeholders": {
+            "query": {
+                "type": "String"
+            }
+        }
+    },
+    "printSettingsSelectPreset": "사전 설정",
+    "defaultLabel": "기본값",
+    "printSettingsPlateSettings": "플레이트 설정",
+    "printSettingsFrequent": "빈도",
+    "printSettingsColorMixingExperimental": "색상 혼합 (실험)",
+    "bedTypeSmoothCoolPlate": "부드러운 쿨 플레이트",
+    "bedTypeEngineeringPlate": "엔지니어링 플레이트",
+    "bedTypeSmoothHighTempPlate": "부드러운 고온 플레이트",
+    "bedTypeTexturedPeiPlate": "텍스처 PEI 플레이트",
+    "bedTypeTexturedCoolPlate": "텍스처 쿨 플레이트",
+    "bedTypeSuperTackPlate": "쿨 플레이트(슈퍼택)",
+    "filamentColors": "필라멘트 색깔",
+    "filamentSlotName": "필라멘트 {number}",
+    "@filamentSlotName": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "filamentMoreActions": "더 많은 필라멘트 활동",
+    "filamentCurrent": "현재 필라멘트: {name}",
+    "@filamentCurrent": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentCurrentUnknown": "현재 필라멘트: 알 수없는",
+    "filamentEdit": "편집",
+    "filamentMerge": "한국어",
+    "filamentDelete": "삭제",
+    "filamentMergeTarget": "Merge 대상",
+    "filamentSelectColor": "색깔 선택",
+    "filamentCustomColor": "사용자 정의 색상",
+    "filamentHue": "Hue 조명",
+    "filamentSaturation": "관련 기사",
+    "filamentBrightness": "사이트맵",
+    "printerProfilesTitle": "인쇄 기계 단면도",
+    "printerProfilesRememberSelection": "자주 묻는 질문",
+    "rememberLastModelWorkspace": "마지막 모델 작업 공간 기억하기",
+    "rememberLastModelWorkspaceSubtitle": "마지막 모델, 선택된 판 및 적용된 인쇄 설정을 복원할 때 작업 공간에 반환합니다. 기본적으로 비활성화됩니다.",
+    "printerProfilesProjectPresets": "프로젝트 Presets",
+    "printerProfilesSystemPresets": "시스템 설정",
+    "printerProfilesUserPresets": "사용자 설정",
+    "printerProfilesNoneRegistered": "아직 등록된 프린터 없음",
+    "printerProfilesAddPrinter": "새 프린터 추가",
+    "printerProfilesUnknownBrand": "알 수 없는",
+    "printerProfilesActive": "·",
+    "printerProfilesRename": "이름 변경",
+    "printerProfilesDelete": "삭제",
+    "printerProfilesDeleteTitle": "파일 삭제",
+    "printerProfilesDeleteConfirmation": "프로필 삭제하시겠습니까 “{name}”?",
+    "@printerProfilesDeleteConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesRenameTitle": "비밀번호",
+    "printerProfilesNameHint": "프로필 이름",
+    "driveModelsReconnect": "재연결 Google Drive",
+    "printerProfilesImport": "회사 소개",
+    "printerProfilesExport": "수출 단면도",
+    "printerProfilesImportSuccess": "“{name}”는 수입되고 활성화되었습니다.",
+    "@printerProfilesImportSuccess": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesImportInvalid": "이 프로파일 파일은 읽을 수 없습니다. 유효한 OrcaSlicer JSON 프로파일을 선택하십시오.",
+    "printerProfilesImportNotMachine": "선택한 JSON은 프린터 프로파일(type: machine)이 아닙니다.",
+    "printerProfilesExportSubject": "MakerSpell 프린터 프로필 : {name}",
+    "@printerProfilesExportSubject": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesExportFailed": "인쇄 기계 단면도는 수출될 수 없습니다.",
+    "productInformation": "제품 정보",
+    "productActions": "동작",
+    "listingStepSelectModels": "모델 선택",
+    "listingStepSelectStores": "매장 찾기",
+    "listingStepProductDetails": "제품 세부사항",
+    "listingStepStoreDetails": "관련 상품",
+    "listingStepReviewPublish": "리뷰 및 출판",
+    "listingStepProgress": "단계 {current}/{total}: {title}",
+    "@listingStepProgress": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "title": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPublished": "게시: {count} 성공적인",
+    "@listingPublished": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "listingPublishedWithFailures": "게시: {success} 성공, {failed} 실패",
+    "@listingPublishedWithFailures": {
+        "placeholders": {
+            "success": {
+                "type": "int"
+            },
+            "failed": {
+                "type": "int"
+            }
+        }
+    },
+    "listingPublishError": "오류 게시 : {error}",
+    "listingDraftSaveError": "초안을 저장할 수 없습니다: {error}",
+    "listingAiGenerationFailed": "AI 리스팅 발생 실패: {error}",
+    "@listingPublishError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingDraftSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingAiGenerationFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingAiProviderFallback": "선택한 AI 공급자는 사용할 수 없습니다. 무료 AI 모델을 시도 ...",
+    "listingSaveDraft": "저장 초안",
+    "listingPublish": "게시",
+    "listingPublishing": "출판...",
+    "listingQuotaExceededTitle": "주간 게시 수당 사용",
+    "listingQuotaExceededDescription": "이 간행물은 %1 슬롯이 필요하지만, %2 남아있다. MakerSpell 상점은 무제한 시장 출판을 포함한다.",
+    "listingQuotaSignInRequired": "무료 주간 시장 발행 수당을 사용하기 전에 로그인하십시오.",
+    "listingQuotaServiceUnavailable": "게시 허용은 확인되지 않았습니다. 연결을 확인하고 다시 시도하십시오.",
+    "listingUpgradeToShop": "보기 MakerSpell 쇼핑",
+    "listingQuotaCountNotice": "이 작업은 %1 제품 목록을 게시합니다. 성공적인 목록은 허용량을 사용합니다.",
+    "listingModelSelectionDescription": "하나의 3MF 패키지를 선택하거나 하나의 모델 세트로 여러 STL 부품을 선택하십시오. 선택된 STL 파일은 1 미리보기 침대를 공유하고 슬라이서에서 열립니다. 이미 다운로드 된 파일은 다운로드 관리자에서 재사용됩니다.",
+    "listingModelFiles": "모델 파일",
+    "listingNoModelFiles": "이 목록에 있는 모델 파일이 없습니다.",
+    "listingDownloaded": "다운로드",
+    "listingActiveInViewer": "뷰어에서 활동",
+    "listingDownloadPreview": "다운로드 및 3D 미리보기",
+    "listingOpeningLogin": "오픈 로그인 ...",
+    "listingDownloading": "다운로드 중...",
+    "listingDownloadSelectedStl": "선택된 STL 파일 다운로드",
+    "listingDownloadSelectedModel": "선택된 모델 다운로드",
+    "listingResliceCached": "Re-slice 캐시 된 결과",
+    "listingOpenFullSlicer": "전체 슬라이서 열기 (인쇄기 · 규모 · 슬라이스)",
+    "listingFullSlicerDescription": "목록 형태에 있는 국부적으로 모형 구경꾼을 여십시오. 인쇄 기계를 선택하고, 모형을, 편집 인쇄 조정, 조각, 그 후에 명부작성을 위한 사용을 두십시오. 호환이 되는 새겨진 조각 가치는 자동적으로 재사용됩니다. 조정이 변하지 않는 경우에, 마지막 활동적인 인쇄 기계 단면도 및 과정 overrides는 이용됩니다.",
+    "listingSelectModelToPreview": "3D 미리보기를 열고 모델을 다운로드",
+    "listingIncludedObjects": "어떤 물건을 포함해야합니까?",
+    "listingApplyViewerSelection": "Viewer에서 선택 적용",
+    "listingCalculationMethod": "우리는 무게 & 크기를 산출해야 합니까?",
+    "listingQuickMath": "빠른 수학 (추천)",
+    "listingQuickMathDescription": "메시 양 플러스 포탄/입구 견적. slicing 없음; 모든 플랫폼을 위한 일.",
+    "listingSliceBased": "Slice 기반 (더 정확한 무게)",
+    "listingSliceBasedDescription": "전체 모델 뷰어를 열고 프린터, 스케일, 설정 인쇄 설정 및 슬라이스를 선택합니다.",
+    "listingCalculating": "교육 ...",
+    "listingRunQuickCalculation": "빠른 계산",
+    "listingOpenSlicerCalculate": "슬라이서 및 계산",
+    "listingNoConnectedStores": "연결된 매장이 없습니다.\n상점에서 시장을 먼저 연결하십시오.",
+    "listingOpenShopHub": "오픈 숍 허브",
+    "listingStoreSelectionDescription": "하나 이상의 매장을 선택하십시오. 공유 제품 데이터는 한 번 입력됩니다.",
+    "listingReviewGeneratedContent": "회사 소개",
+    "listingProductTitle": "제품 제목",
+    "listingProductDescription": "제품 설명",
+    "listingUseThisContent": "이 콘텐츠를 사용",
+    "listingGeneratedContentApplied": "적용된 내용.",
+    "listingGeneratingContent": "제품 내용 생성...",
+    "listingGenerateWithAi": "AI로 제목 및 설명 생성",
+    "listingLanguageSuggestionTitle": "한국어",
+    "listingLanguageRecommended": "{store}에 대한 추천 목록 언어는 {language}입니다. 귀하의 응용 프로그램은 변경되지 않습니다. 이 선택은이 상점과 마켓 플레이스에 기억됩니다.",
+    "@listingLanguageRecommended": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingLanguageRequired": "{store} {language}에 목록이 필요합니다. 앱 언어가 변경되지 않습니다.",
+    "@listingLanguageRequired": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingContinueInLanguage": "계속 {language}",
+    "@listingContinueInLanguage": {
+        "placeholders": {
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingContentLanguage": "기업 정보",
+    "listingContentLanguageDescription": "이 목록에서만 AI-generated 제목 및 설명을 위해 사용하는.",
+    "listingUseApplicationLanguage": "사용 방법",
+    "listingNoStoresSelected": "매장 선택",
+    "listingStoreFieldsLoadFailed": "목록으로 만들기 분야는 적재될 수 없었습니다.",
+    "listingReloadStoreFields": "Reload 스토어 필드",
+    "listingAnalyzingCategory": "분석 범주...",
+    "listingSelectCategoryWithAi": "카테고리 선택 및 필수 속성 AI",
+    "listingMarketplacePreview": "Marketplace 제품 미리보기",
+    "listingMarketplacePreviewDescription": "출판 후 대략적인 제품 세부사항 외관",
+    "listingAvailableStock": "유효한 주식: {quantity}",
+    "@listingAvailableStock": {
+        "placeholders": {
+            "quantity": {
+                "type": "String"
+            }
+        }
+    },
+    "listingProductDetails": "제품 세부사항",
+    "listingModels": "모델 번호:",
+    "listingStores": "제품정보",
+    "listingResults": "이름 *",
+    "listingFailed": "실패",
+    "listingLoadOptionsFailed": "선택권을 적재하지 않을 수 있었습니다: {error}",
+    "@listingLoadOptionsFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingEbaySandboxInventoryUnavailable": "eBay Sandbox 재고 서비스는 일시적으로 사용할 수 없습니다 (error 25001). 나중에 다시 시도하십시오.",
+    "listingFilterCategories": "필터 범주",
+    "listingClosePreview": "닫기 미리보기",
+    "listingConnectGoogleDrive": "연결 Google Drive",
+    "listingDriveImageStorageDescription": "제품 이미지는 드라이브에 기존 MakerSpell-Library 폴더에 저장됩니다. 업로드된 제품 이미지는 링크와 함께 누구나 쉽게 다운로드할 수 있습니다.",
+    "listingConnectDrive": "연결 드라이브",
+    "listingGenerateProductImage": "제품 이미지 생성",
+    "listingCreateProductImageVariation": "제품소개",
+    "listingInstructions": "이름 *",
+    "listingGenerate": "제품 정보",
+    "listingRemoveImage": "이미지 제거",
+    "listingCreateAiVariation": "AI 변형 만들기",
+    "listingUploadImages": "관련 동영상",
+    "listingGenerateWithAiShort": "AI로 생성",
+    "listingDraftRestored": "저장 된 초안 복원.",
+    "listingSelectModelFirst": "먼저 모델 파일을 선택하십시오.",
+    "listingSignInToDownload": "다운로드하려면 {platform}에 로그인하십시오.",
+    "@listingSignInToDownload": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "listingCaptchaCancelled": "Captcha 취소.",
+    "listingDownloadFailed": "다운로드 실패.",
+    "listingDownloadError": "다운로드 실패: {error}",
+    "@listingDownloadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingStlFilesReady": "선택한 STL 파일은 공유 미리보기에서 준비됩니다.",
+    "listingDownloadModelFirst": "이 모델을 먼저 다운로드합니다.",
+    "listingSelectAtLeastOneModel": "목록에 적어도 하나의 모델 파일을 선택하십시오.",
+    "listingDownloadMeasureBeforeContinue": "다운로드 및 측정 “{model}” 계속하기 전에.",
+    "@listingDownloadMeasureBeforeContinue": {
+        "placeholders": {
+            "model": {
+                "type": "String"
+            }
+        }
+    },
+    "listingSelectAtLeastOneStore": "적어도 1개의 상점을 선택하십시오.",
+    "listingFieldRequired": "{field}가 필요합니다.",
+    "@listingFieldRequired": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingStoreFieldRequired": "{store}: {field}가 필요합니다.",
+    "@listingStoreFieldRequired": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPriceFormulaError": "가격 공식 오류 : {error}",
+    "listingAiCategoryFailed": "AI 카테고리 선택 실패: {error}",
+    "@listingPriceFormulaError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingAiCategoryFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingNoAiCategoryRules": "이 상점은 AI가 채울 수있는 범주 규칙을 제공하지 않습니다.",
+    "listingLoadField": "짐 {field}",
+    "@listingLoadField": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingViewerStarting": "시작 뷰어 ...",
+    "listingViewerFileNotFound": "찾을 수 없음",
+    "listingViewerReady": "뷰어 준비",
+    "listingViewerLoadingModel": "로딩...",
+    "listingViewerModelLoaded": "모형 적재하는",
+    "filamentSelect": "선택 필라멘트",
+    "filamentUserPresets": "사용자 설정",
+    "filamentAvailablePresets": "필라멘트",
+    "filamentSaveTitle": "구매 필라멘트",
+    "filamentPresetName": "이름",
+    "filamentSaveCopySuffix": "복사",
+    "filamentPresetSaved": "\"{name}\" 저장",
+    "@filamentPresetSaved": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSavingFailed": "저축 실패: {error}",
+    "@filamentSavingFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentPresetLoaded": "\"{name}\"로드",
+    "@filamentPresetLoaded": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentDeleteTitle": "필라멘트",
+    "filamentDeleteConfirmation": "당신은 영구적으로 사용자 사전 설정 \"{name}\"을 삭제하시겠습니까?",
+    "@filamentDeleteConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSettingsNotFound": "찾을 수없는 필라멘트 설정",
+    "filamentSearchSettings": "검색 설정...",
+    "filamentNoSearchResults": "설정 일치 없음 “{query}”",
+    "@filamentNoSearchResults": {
+        "placeholders": {
+            "query": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSetValue": "설정 ...",
+    "filamentRammingWarningTitle": "경고",
+    "filamentRammingWarningDescription": "Ramming는 단 하나 압출기에 공구 변화의 앞에 즉시 급속한 밀어남입니다. 그것은 언 로딩된 필라멘트 끝을 형성합니다 그래서 다음 필라멘트는 믿을 수 있는 삽입될 수 있습니다. 다른 물자는 다른 밀어남 속도를 요구할지도 모릅니다. 이것은 전문가 조정입니다; 잘못된 가치는 잼 또는 필라멘트 갈기를 일으킬 수 있습니다.",
+    "filamentProfilesDirectoryMissing": "프로파일 디렉토리를 찾을 수 없습니다.",
+    "filamentPrinterBrandsMissing": "프린터 브랜드가 없습니다.",
+    "filamentNoPrinterProfiles": "사용 가능한 프린터 프로파일이 없습니다.",
+    "filamentNoProcessProfiles": "사용 가능한 프로세스 프로파일이 없습니다.",
+    "filamentSelectCompatiblePrinters": "호환 프린터 선택",
+    "filamentSelectCompatibleProcesses": "호환 프로세스 프로파일 선택",
+    "networkPrinterNoControlPanel": "이 프린터 프로토콜은 웹 컨트롤 패널을 제공하지 않습니다.",
+    "networkPrinterControlPanelUnavailable": "프린터의 웹 컨트롤 패널은 사용할 수 없습니다.",
+    "networkPrinterConnectTitle": "관련 링크",
+    "networkPrinterAuthenticationDescription": "{printerName} 인증이 필요합니다. API 키, 비밀번호, 또는 장치 검증 코드를 계속 입력하세요.",
+    "@networkPrinterAuthenticationDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterCredentialLabel": "API 키, 암호, 또는 검증 코드",
+    "networkPrinterSupportVerified": "인증 및 인증",
+    "networkPrinterSupportCommunityVerified": "커뮤니티 확인",
+    "networkPrinterSupportProtocolCompatible": "Protocol 호환",
+    "networkPrinterSupportExperimental": "회사 소개",
+    "networkPrinterSupportUnsupported": "지원되는",
+    "networkPrinterCapabilityControlPanel": "제어반",
+    "networkPrinterCapabilityUpload": "업로드",
+    "networkPrinterCapabilityStartPrint": "시작 인쇄",
+    "networkPrinterCapabilityStatus": "상태",
+    "networkPrinterCapabilityCamera": "카메라",
+    "networkPrinterCapabilityMaterials": "자료실",
+    "networkPrinterCapabilityMultiMaterial": "다 물자",
+    "networkPrinterCapabilityExcludeObjects": "객체 제외",
+    "networkPrinterConnect": "연결",
+    "networkPrinterDiagnosticsExport": "수출 redacted 진단",
+    "networkPrinterDiagnosticsShareSubject": "MakerSpell 네트워크 프린터 진단",
+    "networkPrinterDiagnosticsExportFailed": "진단 패키지는 만들 수 없습니다.",
+    "printerDiagnosticsTelemetry": "익명 진단 공유",
+    "printerDiagnosticsTelemetrySubtitle": "Searches, IP Address, credentials, filenames, response body 또는 G-code없이 자동으로 응용 프로그램 및 프린터 실패를보고합니다.",
+    "networkPrinterBambuAccessCodeDescription": "{printerName} Bambu LAN Access Code가 필요합니다. 프린터의 네트워크 또는 LAN 모드 설정을 열고 표시된 Access Code를 입력하십시오.",
+    "@networkPrinterBambuAccessCodeDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterBambuAccessCodeLabel": "LAN 액세스 코드",
+    "networkPrinterBambuModeTitle": "Bambu 연결 모드 선택",
+    "networkPrinterBambuModeDescription": "이 선택은 명령을 결정한다 MakerSpell 프린터에 보낼 수 있습니다.",
+    "networkPrinterBambuStandardTitle": "표준 LAN",
+    "networkPrinterBambuStandardSubtitle": "안전한 감시 형태. MakerSpell는 인쇄 기계와 AMS 상태를 읽을 수 있습니다, 그러나 파일을 업로드할 수 없습니다, 시작 인쇄는, 사진기를 사용하거나, 인쇄 기계를 통제합니다.",
+    "networkPrinterBambuDeveloperTitle": "개발자 모드",
+    "networkPrinterBambuDeveloperSubtitle": "전체 로컬 컨트롤. 프린터에서, 오픈 네트워크 또는 LAN 모드 설정, 개발자 모드를 활성화, 다음 표시된 LAN 액세스 코드를 사용합니다. Bambu Cloud는 유효하지 않습니다. 이 모드는 활성화되어 있습니다.",
+    "networkPrinterBambuLocalServerTitle": "Bambu 로컬 서버",
+    "networkPrinterBambuLocalServerSubtitle": "곧 출시됩니다. 공식 액세스 및 모바일 호환 서버 지원이 준비되고 있습니다.",
+    "networkPrinterBambuComingSoon": "곧 출시",
+    "networkPrinterBambuModeSettingsHint": "이 모드를 나중에 프린터 설정에서 변경할 수 있습니다.",
+    "networkPrinterElegooAccessCodeDescription": "{printerName} Elegoo LAN Access Code가 필요합니다. 프린터의 네트워크 또는 LAN 설정을 열고 표시된 Access Code를 입력하십시오.",
+    "@networkPrinterElegooAccessCodeDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterElegooAccessCodeLabel": "LAN 액세스 코드",
+    "networkPrinterConnectAndAdd": "연결 및 추가",
+    "printerControlTitle": "인쇄 기계",
+    "printerControlDeviceInterface": "인쇄 기계 공용영역",
+    "printerControlDeviceInterfaceDescription": "이 프린터에서 제공하는 제어 인터페이스를 엽니다.",
+    "printerControlExpandSection": "확장 영역",
+    "printerControlCollapseSection": "연락처",
+    "printerControlFilesAndHistory": "파일, 역사 및 동영상",
+    "printerControlLocalFiles": "로컬 파일",
+    "printerControlPrintHistory": "인쇄 역사",
+    "printerControlNoPrintHistory": "인쇄 역사는 이 인쇄 기계에 의해 보고되었습니다.",
+    "printerControlHistoryCompleted": "완료",
+    "printerControlHistoryInProgress": "진행 중",
+    "printerControlHistoryCancelled": "이름 *",
+    "printerControlHistoryFailed": "실패",
+    "printerControlHistoryUnknown": "알 수 없는",
+    "printerControlTimelapse": "Timelapse 동영상",
+    "printerControlNoTimelapses": "timelapse 동영상이 이 프린터에 저장되지 않습니다.",
+    "printerControlPlayTimelapse": "재생 동영상",
+    "printerControlTimelapseUnavailable": "이 timelapse 비디오는 재생할 수 없습니다.",
+    "printerControlNoLocalFiles": "인쇄할 수 없는 파일은 이 인쇄 기계에 저장됩니다.",
+    "printerControlSortFiles": "정렬 파일",
+    "printerControlFileSize": "파일 크기",
+    "printerControlFileCreatedAt": "창조 시간",
+    "printerControlFilesSelected": "{count} 선택",
+    "@printerControlFilesSelected": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlDeleteFilesTitle": "{count} 파일 삭제?",
+    "@printerControlDeleteFilesTitle": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlDeleteFilesWarning": "삭제 된 프린터 파일은 복원 할 수 없습니다.",
+    "printerControlCannotDeleteActiveFile": "현재 인쇄된 파일은 삭제할 수 없습니다.",
+    "printerControlFilesDeleted": "선택한 파일이 삭제되었습니다.",
+    "printerControlStartPrint": "시작 인쇄",
+    "printerControlPrintOptions": "인쇄 옵션",
+    "printerControlEmbeddedSettingsHint": "프린터는 이 파일에 내장 된 접합 및 재료 설정을 사용합니다.",
+    "printerControlRunCalibration": "캘리브레이션 / 자기 테스트",
+    "printerControlRunCalibrationDescription": "시작 전에 프린터의 지원 사전 인쇄 교정을 실행하십시오.",
+    "printerControlPrintStarted": "인쇄가 시작되었습니다.",
+    "printerControlJob": "현재 작업",
+    "printerControlNoActiveJob": "활성 인쇄 작업",
+    "printerControlPause": "일시 정지",
+    "printerControlResume": "계속",
+    "printerControlCancelPrint": "출력 취소",
+    "printerControlCancelConfirmation": "활성 인쇄 작업을 취소?",
+    "printerControlCommandFailed": "프린터는이 명령을 완료 할 수 없습니다.",
+    "printerControlExcludeObjects": "객체 제외",
+    "printerControlExcludeObjectsDescription": "나머지 객체가 계속되는 동안 실패한 객체를 인쇄합니다.",
+    "printerControlExcludeObjectsIdle": "Object exclusion은 Active Multi-object print에서 사용할 수 있습니다.",
+    "printerControlExcludeObjectsUnavailable": "이 인쇄는 개별적으로 이름을 포함하지 않습니다. 다음 파일을 접합하기 전에 Print Settings에서 \"Exclude object\"를 사용할 수 있습니다.",
+    "printerControlExcludeObjectAction": "이름 *",
+    "printerControlExcludeObjectCurrent": "지금 구매",
+    "printerControlExcludeObjectExcluded": "이름 *",
+    "printerControlExcludeObjectLastRemaining": "마지막 남은 객체는 제외될 수 없습니다. 대신 인쇄를 취소하십시오.",
+    "printerControlExcludeObjectConfirmationTitle": "이 개체를 제외?",
+    "doNotAskAgain": "자주 묻는 질문",
+    "printerControlExcludeObjectConfirmation": "프린터는 영구적으로 현재 작업에 대한 \"{name}\"인쇄를 중지합니다. 다른 개체는 계속됩니다.",
+    "@printerControlExcludeObjectConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlExcludeObjectSuccess": "객체가 제외되었습니다. 나머지 객체는 계속 인쇄됩니다.",
+    "printerControlCamera": "카메라",
+    "printerCameraWallTitle": "사진기 벽",
+    "printerCameraWallLayout": "카메라 배치",
+    "printerCameraWallLarge": "대형 카메라",
+    "printerCameraWallBalanced": "균형된 격자",
+    "printerCameraWallCompact": "소형 격자",
+    "printerCameraWallPause": "모든 카메라를 일시 중지",
+    "printerCameraWallResume": "이력서 카메라",
+    "printerCameraWallResumeCount": "이력서 {count} 카메라",
+    "@printerCameraWallResumeCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerCameraWallOpenPrinter": "오픈 프린터 컨트롤",
+    "printerCameraWallEmpty": "지원되는 사진기를 가진 저장된 인쇄 기계 없음은 찾아냈습니다.",
+    "printerCameraWallScan": "프린터 스캔",
+    "printerControlCameraConnecting": "카메라에 연결 ...",
+    "printerControlCameraUnavailable": "사진기는 적재될 수 있었습니다.",
+    "printerControlCameraDiscovering": "프린터 카메라에 연결하려고 합니다. {current}의 테스트 방법 {total}.",
+    "@printerControlCameraDiscovering": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlCameraManualHint": "알려진 카메라 방법 중 하나가 일했습니다. 카메라 주소를 수동으로 입력하십시오.",
+    "printerControlCameraEnterAddress": "카메라 주소",
+    "printerControlCameraStopAndEnterManually": "자주 묻는 질문",
+    "printerControlCameraAddress": "카메라 주소",
+    "printerControlCameraAddressExample": "예를 들면: http://192.168.1.50:8080/?action=stream",
+    "printerControlCameraInvalidAddress": "유효한 HTTP 또는 HTTPS 주소를 입력하십시오.",
+    "printerControlCameraTestAddress": "시험 주소",
+    "printerControlSettings": "프린터 설정",
+    "printerControlExtruders": "압출기",
+    "printerControlPickExtruder": "압출기 선택",
+    "printerControlExtruderSelected": "도구 {tool} 선택.",
+    "@printerControlExtruderSelected": {
+        "placeholders": {
+            "tool": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlNozzle": "노즐",
+    "printerControlBed": "베드",
+    "printerControlNozzleTemperature": "분사구 표적 온도",
+    "printerControlBedTemperature": "침대 표적 온도",
+    "printerControlLight": "약실 빛",
+    "printerControlPartFan": "출력물 냉각 팬",
+    "printerControlRearFan": "후면 팬",
+    "printerControlAuxiliaryFan": "보조 팬",
+    "printerControlPrintSpeed": "인쇄 속도",
+    "printerControlMotion": "XYZ 통제",
+    "printerControlMotionPositionUnavailable": "위치 또는 이동 제한은 사용할 수 없습니다. 홈 프린터와 이동하기 전에 새로 고침.",
+    "printerControlMotionHomeRequired": "이동하기 전에이 축을 홈.",
+    "printerControlMotionLimitReached": "요청된 운동은 인쇄 기계 한계를 초과할 것입니다.",
+    "printerControlMotionSafetyHint": "이동 단추는 인쇄 기계에 의해 보고된 한계에 비활성화됩니다.",
+    "printerControlMoveAxisTitle": "{axis} 축 이동",
+    "@printerControlMoveAxisTitle": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlTargetCoordinate": "대상 좌표",
+    "printerControlCoordinateRange": "허용된 범위: {minimum}–{maximum} mm",
+    "@printerControlCoordinateRange": {
+        "placeholders": {
+            "minimum": {
+                "type": "String"
+            },
+            "maximum": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlMoveTo": "이동",
+    "printerControlHomeAxis": "홈 {axis} 축",
+    "@printerControlHomeAxis": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlHomeXY": "홈 X와 Y 축",
+    "printerControlTemperatureRange": "0과 {maximum} °C 사이 온도를 입력하십시오.",
+    "@printerControlTemperatureRange": {
+        "placeholders": {
+            "maximum": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlHomeAll": "집 모든 axes",
+    "printerControlFilaments": "필라멘트",
+    "printerControlEmpty": "비어 있음",
+    "printerControlSlot": "슬롯 {number}",
+    "@printerControlSlot": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlEditFilament": "편집 {slot}",
+    "@printerControlEditFilament": {
+        "placeholders": {
+            "slot": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlMaterialType": "물자 유형",
+    "printerControlMaterialName": "물자 변형",
+    "printerControlFilamentBrand": "주요 특징",
+    "printerControlFilamentColor": "필라멘트 색깔",
+    "printerControlColorHex": "색깔 부호",
+    "printerControlInvalidColor": "유효한 6 자리 색상 코드를 입력하십시오.",
+    "printerControlRequiredValue": "이 필드가 필요합니다 (최대 64 자).",
+    "printerControlInvalidValue": "이 값은 지원되지 않은 문자를 포함합니다.",
+    "printerControlFilamentUpdated": "필라멘트 슬롯 업데이트.",
+    "printerControlProtocol": "연결: {protocol}",
+    "@printerControlProtocol": {
+        "placeholders": {
+            "protocol": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateTitle": "프린터 프로필 업데이트",
+    "profilesUpdateMessage": "새로운 프린터 프로필 패키지는 사용할 수 있습니다 (버전 {version}, {size}). 지금 업데이트하시겠습니까?",
+    "@profilesUpdateMessage": {
+        "placeholders": {
+            "version": {
+                "type": "String"
+            },
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateLater": "이름 *",
+    "profilesUpdateNow": "업데이트",
+    "profilesUpdateDownloading": "프린터 프로필을 다운로드 ... 배경에서 MakerSpell을 유지하고 알림에서 진행 상황을 따를 수 있습니다.",
+    "profilesUpdateDone": "업데이트",
+    "profilesUpdateDoneMessage": "프린터 프로필 버전 {version} 사용할 준비가되어 있습니다.",
+    "@profilesUpdateDoneMessage": {
+        "placeholders": {
+            "version": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateError": "프린터 프로필을 업데이트 할 수 없습니다. 기존 프로파일은 보존되었습니다.",
+    "scrollToTop": "공지사항",
+    "experimentalPrinterBeta": "Experimental 프린터 기능",
+    "experimentalPrinterBetaSubtitle": "통합된 프린터 프로토콜을 위한 제어된 베타 기능",
+    "anycubicBetaTitle": "Anycubic LAN 제어 베타",
+    "anycubicBetaIntro": "일반적으로 사용되기 전에 로컬 Anycubic 지원을 검증하는 데 도움이됩니다. 특징은 선택이며 펌웨어 호환성이 발견되면 원격으로 비활성화 할 수 있습니다.",
+    "anycubicBetaJoin": "제어 베타에 가입",
+    "anycubicBetaLeave": "베타를 제거하고 모두 비활성화",
+    "anycubicBetaConsentTitle": "Anycubic LAN 베타 가입?",
+    "anycubicBetaConsentBody": "이 작업은 자동화 된 프로토콜 테스트를 통과했지만 모든 물리적 프린터 또는 펌웨어에서 확인되지 않았습니다. 프린터에 참석하는 동안 테스트는 작은 무해 파일로 시작하고 프린터 화면에서 중지 할 준비가되어 있습니다.",
+    "anycubicBetaConsentCheck": "나는이 기능을 실험하고 나는 모든 테스트를 감독 할 것이라고 이해한다.",
+    "anycubicBetaEnableTitle": "{feature} 사용 가능?",
+    "@anycubicBetaEnableTitle": {
+        "placeholders": {
+            "feature": {
+                "type": "String"
+            }
+        }
+    },
+    "anycubicBetaFeatureWarning": "테스트 중에 프린터를 유지하십시오. MakerSpell는 호환성 문제가보고되면 원격으로이 기능을 비활성화 할 수 있습니다.",
+    "anycubicBetaCamera": "실험 FLV 카메라",
+    "anycubicBetaCameraSubtitle": "프린터의 로컬 카메라 스트림을 시작합니다.",
+    "anycubicBetaUpload": "Experimental G-code 업로드",
+    "anycubicBetaUploadSubtitle": "인쇄를 시작하지 않고 프린터에 의해보고 된 서명 된 URL을 통해 업로드합니다.",
+    "anycubicBetaStart": "Experimental 인쇄 시작",
+    "anycubicBetaStartSubtitle": "업로드된 파일을 실행할 수 있습니다. 먼저 업로드할 수 있습니다.",
+    "anycubicBetaRemotelyDisabled": "호환성이 원격으로 비활성화되었기 때문에 Temporarily 사용할 수 없습니다.",
+    "anycubicBetaEnrolled": "Controlled beta는 이 장치에 활동적입니다.",
+    "anycubicBetaNotGeneralSupport": "이 베타는 현재 Stock-LAN Kobra 3 및 Kobra S1 가족을 대상으로합니다. Kobra 2 또는 Photon/resin 모델을 주장하지 않습니다.",
+    "bambuBetaTitle": "Bambu Lab LAN 제어 베타",
+    "bambuBetaIntro": "Bambu LAN에서 원격 시작 및 기본 사전 인쇄 캘리브레이션을 검증하는 데 도움이됩니다. 이 기능은 옵트 인, 원격으로 비활성화되며 프린터에 참석하는 동안 테스트해야합니다.",
+    "bambuBetaJoin": "Bambu 제어 베타 가입",
+    "bambuBetaLeave": "Bambu 베타를 남기고 모든 것을 비활성화하십시오.",
+    "bambuBetaConsentTitle": "Bambu Lab LAN 베타 가입?",
+    "bambuBetaConsentBody": "원격 시작 및 보정 사용 Bambu의 로컬 FTPS 및 MQTT 명령 및 모든 모델 또는 펌웨어에 물리적으로 확인되지 않았습니다. 예상 모션, 난방, 보정 실패, 인쇄 실패, 또는 장비 손상이 발생할 수 있습니다. 빌드 플레이트를 명확하게 유지, 작은 무해한 G 코드 파일로 시작, 프린터 화면에서 그것을 중지 할 준비가되어 있습니다. 당신은 이러한 베타 기능을 자발적으로 사용하고 자신의 위험에. 적용 가능한 법에 의해 허용하는 범위,MakerSpell그리고 그 개발자들은 이러한 실험적인 기능을 이용하여 발생하는 손해 또는 손실에 대해 책임지지 않습니다.",
+    "bambuBetaConsentCheck": "나는이 Bambu 기능 실험을 이해, 위에서 설명 된 위험을 받아, 모든 테스트를 감독 할 것입니다.",
+    "bambuBetaEnrolled": "Bambu 제어 베타는이 장치에서 활성화됩니다.",
+    "bambuBetaStart": "실험 Bambu 먼 시작",
+    "bambuBetaStartSubtitle": "Bambu LAN MQTT 프로토콜을 통해 프린터의 캐시에 업로드 된 G 코드를 시작합니다.",
+    "bambuBetaCalibration": "실험 Bambu 사전 인쇄 교정",
+    "bambuBetaCalibrationSubtitle": "기본 침대 레벨링 및 진동 교정을 실행하고 완료를 기다립니다. 업로드 된 G-code를 시작합니다. 원격 시작을 활성화해야합니다.",
+    "bambuBetaPrintWarning": "이 Bambu 작업은 실험적이며 자신의 위험에 사용됩니다. 예상 동작, 난방, 인쇄 실패 또는 장비 손상이 발생할 수 있습니다. 캘리브레이션 동안 빌드 플레이트를 클리어 유지, 프린터 옆에 유지하고 프린터 화면에서 중지 할 준비가되어 있습니다. 적용 가능한 법률에 의해 허용하는 범위, MakerSpell 및 그 개발자는 손해 또는 손실에 대해 책임을지지 않습니다.",
+    "bambuBetaRiskNotice": "Experimental 기능 - 자신의 위험에 사용. 물리적 행동은 프린터 모델과 펌웨어에 따라 다를 수 있습니다. 절대 테스트 의도.",
+    "recentlyViewedModels": "최근 본 모델",
+    "recentlyViewedModelsSubtitle": "이 장치에서 최근 열린 모델보기",
+    "recentlyViewedEmpty": "당신이 열리는 모형은 여기에서 나타날 것입니다.",
+    "clearViewingHistory": "관련 동영상",
+    "clearViewingHistoryConfirm": "이 장치에서 최근 모든 모델을 제거?",
+    "removeFromViewingHistory": "본문 바로가기",
+    "viewedAt": "{date} {time}에서",
+    "@viewedAt": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            },
+            "time": {
+                "type": "String"
+            }
+        }
+    },
+    "mySupportRequests": "내 요청",
+    "mySupportRequestsSubtitle": "진단 및 지원 요청 추적",
+    "supportRequest": "지원 요청",
+    "supportRequestsSignIn": "지원 요청을 보고 추적하기 위해 로그인하십시오.",
+    "supportRequestsLoadFailed": "지원 요청이 로드되지 않을 수 있습니다.",
+    "supportRequestsEmpty": "아직 지원 요청이 없습니다.",
+    "supportStatusNew": "이름 *",
+    "supportStatusOpen": "댓글 남기기",
+    "supportStatusPending": "뚱 베어",
+    "supportStatusResolved": "해결 된",
+    "supportStatusClosed": "【특징】",
+    "supportRequestAwaitingResponse": "상태",
+    "supportRequestAwaitingResponseBody": "우리는 당신의 요구를 받고 진단 정보를 검토할 것입니다.",
+    "supportRequestResponse": "MakerSpell 응답",
+    "sendFailureDiagnosticsTitle": "이 기능을 수정하는 데 도움이",
+    "sendFailureDiagnosticsBody": "이 기능은 예상대로 작동하지 않았습니다. 개인 정보 보호 필터 오류 진단을 보내 싶습니까? 보내면 가능한 한 빨리 문제를 조사 할 것입니다. 설정에서 내 요청에서 요청을 추적하고 응답 할 때 인앱 알림을 볼 수 있습니다.",
+    "sendFailureDiagnosticsPrivacy": "IP 주소, 액세스 코드, 자격 증명, 파일명, G 코드 및 원시 프린터 응답은 포함되지 않습니다.",
+    "sendFailureDiagnostics": "진단을 보내십시오",
+    "failureDiagnosticsSent": "보내진 진단. 요청 ID: {requestId}",
+    "@failureDiagnosticsSent": {
+        "placeholders": {
+            "requestId": {
+                "type": "String"
+            }
+        }
+    },
+    "failureDiagnosticsFailed": "진단은 보내질 수 없습니다. 로그인하고 다시 시도하십시오.",
+    "reportProblem": "문제 신고",
+    "blockUser": "이 사용자 정의",
+    "blockedUserHidden": "이 사용자의 의견은 이제이 플랫폼에 숨겨져 있습니다.",
+    "undo": "실행 취소",
+    "printSendTitle": "Gcode 전송",
+    "printSendUploading": "관련 기사",
+    "printSendDoNotLeaveDuringUpload": "이 화면을 업로드 마감까지 유지하십시오.",
+    "printSendStartPrint": "시작 인쇄",
+    "printSendUploadOnly": "다운로드",
+    "printSendUploadAndPrint": "업로드 및 인쇄",
+    "printSendManagePrinters": "계정 관리",
+    "printSendOnDevice": "인쇄 기계",
+    "printSendAddPrinter": "프린터 추가 또는 발견",
+    "printSendTime": "시간: {value}",
+    "@printSendTime": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "printSendMaterial": "자료: {value}",
+    "@printSendMaterial": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "printSendToolChanges": "도구 변경: {count}",
+    "@printSendToolChanges": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printSendCapabilityUpload": "업로드",
+    "printSendCapabilityStart": "먼 시작",
+    "printSendCapabilityMultiMaterial": "다 물자",
+    "printSendFilamentAssignment": "필라멘트 할당",
+    "printSendRefreshFilaments": "인쇄 기계 필라멘트 구멍",
+    "printSendFilamentMappingHelp": "각 G-code 도구를 물리적 프린터 슬롯으로 맵하십시오.",
+    "printSendFilamentManagedHelp": "Loaded 필라멘트 정보는 프린터에 의해 보고될 때 표시됩니다. 어댑터가 안전하게 적용할 수 없는 슬롯 리밍은 숨겨집니다.",
+    "printSendPreferences": "프린터 지원 옵션",
+    "printSendFlowCalibration": "압출 흐름 교정",
+    "printSendFlowCalibrationHelp": "이 인쇄의 시작 부분에 프린터 프로파일 흐름 교정 루틴을 사용합니다.",
+    "printSendTimelapseCapture": "Timelapse 카메라",
+    "printSendTimelapseCaptureHelp": "이 인쇄 중에 캡처 타임랩스 프레임.",
+    "printSendAutoLeveling": "자동 수평",
+    "printSendAutoLevelingHelp": "print start sequence의 일부로 프린터의 네이티브 침대 레벨링 루틴을 실행합니다.",
+    "printSendRunCalibration": "회사 소개",
+    "printSendRunCalibrationHelp": "프린터의 자체 프로토콜은 인쇄하기 전에 지원되는 교정 루틴을 실행합니다.",
+    "printSendAuthenticationRequired": "이 프린터는 인증이 필요합니다. 오픈 프린터 관리 및 요청된 자격 증명을 입력합니다.",
+    "printSendPrinterOffline": "이 프린터는 오프라인입니다. 전원 및 네트워크 연결을 확인하십시오.",
+    "printSendConnectionFailed": "MakerSpell 이 프린터에 연결할 수 없습니다.",
+    "printSendUnsupported": "이 프린터 연결은 G-code 전송을 지원하지 않습니다.",
+    "printSendConnectionNotReady": "프린터 연결은 아직 준비되지 않았습니다.",
+    "printSendUploadUnsupported": "이 프린터 어댑터는 G-code를 업로드 할 수 없습니다. 파일을 내보내고 프린터의 자체 인터페이스를 사용하여 전송할 수 있습니다.",
+    "printSendBedMeshCalibration": "홈 축 및 보정 침대 메쉬",
+    "printSendBedMeshCalibrationHelp": "인쇄하기 전에, MakerSpell Klipper가 Bed mesh 지원을보고, 그 후 큐 G28 및 BED MESH CALIBRATE. 지원이 확인되지 않는 경우, 인쇄가 시작되지 않습니다.",
+    "printSendCalibrating": "프린터를 교정 ...",
+    "printSendStartingPrint": "인쇄 시작 ...",
+    "printSendBambuCalibration": "Bambu 침대 레벨링 및 진동 교정",
+    "printSendBambuCalibrationHelp": "제어 베타: MakerSpell 시작 Bambu의 기본 보정, 그것을 위해 기다립니다 완료, 다음 업로드 G-code 시작.",
+    "networkPrinterBambuDeveloperPrintTitle": "Bambu Developer Mode를 통해 시작합니까?",
+    "networkPrinterBambuDeveloperPrintWarning": "MakerSpell는 이 Bambu 인쇄 기계에 직접 로컬 교정 및 인쇄 명령을 보낼 것입니다. 빌드 플레이트가 명확하고 프린터 근처에 머무는지 확인하기 위해 작업 시작.",
+    "modelFileBrowseDrive": "검색 Google Drive",
+    "driveModelsTitle": "Google Drive 모델",
+    "driveModelsSubtitle": "MakerSpell-Library 모델",
+    "driveModelsEmpty": "지원되지 않은 모델 파일은 MakerSpell-Library에서 찾을 수 없습니다. 드라이브에서 다른 파일을 선택할 수있는 시스템 파일 선택기를 사용할 수 있습니다.",
+    "driveModelsError": "Google Drive 파일은로드 할 수 없습니다. 연결을 확인하고 다시 시도하십시오.",
+    "driveModelDownloading": "Google Drive에서 다운로드 ...",
+    "preparingSignIn": "로그인 준비 ...",
+    "driveModelDownloadingProgress": "{percent}%·{received}/ 한국어{total}",
+    "@driveModelDownloadingProgress": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            },
+            "received": {
+                "type": "String"
+            },
+            "total": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerVariableLayers": "변하기 쉬운 층",
+    "viewerVariableLayerHeight": "레이어 높이 가변",
+    "viewerVariableLayerHeightDescription": "자동적으로 얇은 층을 사용하여 상세한 표면과 두꺼운 층을 사용하여 시간을 절약합니다.",
+    "viewerQualitySpeed": "품질 / 속도",
+    "viewerQuality": "품질",
+    "viewerSpeed": "속도",
+    "viewerSmoothing": "연락처",
+    "viewerKeepMinimumLayerHeight": "고정되는 최소한도 층 고도",
+    "viewerVariableLayerHeightApplied": "변하기 쉬운 층 고도는 다음 조각에 사용될 것입니다",
+    "viewerDeleteModel": "모델 삭제",
+    "viewerSelectModelToDelete": "삭제할 모델 선택",
+    "viewerAddPlate": "플레이트 추가",
+    "viewerNewProject": "새로운 프로젝트",
+    "viewerNewProjectConfirmation": "빈 프로젝트를 만들? Unsaved 장면 변경은 명확하게됩니다.",
+    "viewerCreate": "생성",
+    "viewerRecentProjects": "최근 프로젝트",
+    "viewerRecentProjectsEmpty": "최근 프로젝트 파일이 없습니다.",
+    "viewerMoveToPlate": "판으로 이동",
+    "viewerSelectModelToMove": "모델 선택",
+    "viewerCurrentPlate": "현재 판",
+    "viewerMoveToNewPlate": "새로운 판으로 이동",
+    "viewerAddConnector": "커넥터 추가",
+    "viewerEditConnector": "연락처",
+    "viewerCutConnectors": "커넥터",
+    "viewerConnectorPlug": "플러그",
+    "viewerConnectorDowel": "도웰",
+    "viewerConnectorSnap": "스냅",
+    "viewerConnectorTolerance": "공차",
+    "viewerConnectorSize": "크기",
+    "viewerConnectorRotation": "회전",
+    "viewerConnectorStyle": "모양",
+    "viewerConnectorShape": "형태",
+    "viewerConnectorPlacementHint": "연결관을 두기 위하여 모형을 두십시오. 당신은 아직도 자전하고 장면을 급상승 할 수 있습니다.",
+    "viewerConnectorSelectionHint": "커넥터를 탭하여 활성화하거나 비활성화하십시오.",
+    "viewerConnectorPlaceMode": "커넥터 추가",
+    "viewerConnectorSelectMode": "커넥터 선택",
+    "viewerConnectorControlsTitle": "연결관 통제",
+    "viewerConnectorControlsBody": "커넥터를 추가하기 위해 절단 표면을 탭합니다. 선택 모드에서 커넥터를 탭하여 활성화하거나 비활성화 할 수 있습니다. 활성 커넥터는 녹색이며 비활성화 커넥터는 회색입니다. 더블탭 커넥터를 제거하십시오. 커넥터를 누르고 연결하여 이동하십시오.",
+    "viewerConnectorOptions": "연결관 선택권",
+    "viewerConnectorMove": "이동",
+    "viewerConnectorMoveHint": "커넥터를 새로운 위치로 이동하기 위해 모델을 탭합니다.",
+    "viewerConnectorDuplicate": "기타 제품",
+    "viewerConnectorMoved": "연결관 이동",
+    "viewerConnectorPrism": "프리즘",
+    "viewerConnectorFrustum": "원뿔대",
+    "viewerConnectorCircle": "원",
+    "viewerConnectorTriangle": "삼각형",
+    "viewerConnectorSquare": "사각형",
+    "viewerConnectorHexagon": "육각형",
+    "appUpdateTitle": "새로운 버전이 준비되어 있습니다.",
+    "appUpdateAvailable": "{appName}의 새로운 버전은 Google Play에서 사용할 수 있습니다. 다운로드하는 동안 앱을 사용하여 유지할 수 있습니다.",
+    "@appUpdateAvailable": {
+        "placeholders": {
+            "appName": {
+                "type": "String"
+            }
+        }
+    },
+    "appUpdateLater": "이름 *",
+    "appUpdateNow": "업데이트",
+    "appUpdateDownloading": "업데이트는 배경에서 다운로드됩니다. 앱을 사용하여 유지할 수 있습니다.",
+    "appUpdateReadyTitle": "다운로드",
+    "appUpdateReadyMessage": "업데이트를 설치하기 위해 앱을 복원합니다.",
+    "appUpdateRestart": "휴식 및 업데이트",
+    "appUpdateFailed": "업데이트가 완료되지 않았습니다. 나중에 다시 시도하십시오.",
+    "serverUpdateRequiredTitle": "Update required",
+    "serverUpdateRequiredContent": "This version is no longer supported. Please update the app to continue.",
+    "serverUpdateRecommendedContent": "A newer version is available. We recommend updating for the best experience.",
+    "serverUpdateActionUpdate": "Update",
+    "betaProRewardReady": "닫히는 알파 보상은 준비되어 있습니다",
+    "betaProSignInDescription": "MakerSpell Pro의 21 일 활성화하려면 로그인하십시오. 결제 방법이 필요하지 않습니다.",
+    "betaProActivating": "활성 베타 프로",
+    "betaProActivatingDescription": "귀하의 계정 제목은 확인됩니다.",
+    "betaProActivationFailed": "Beta Pro는 관심을 필요로 합니다",
+    "betaProActivationRetryDescription": "우리는 보상을 확인 할 수 없습니다. 연결을 확인하고 다시 시도하십시오.",
+    "downloadDestination": "자주 묻는 질문",
+    "downloadDestinationDescription": "다운로드된 파일을 저장합니다.",
+    "imagesDestination": "이미지",
+    "modelsProfilesDestination": "모형 & 단면도",
+    "picturesMakerSpell": "사진 / MakerSpell",
+    "downloadsMakerSpell": "다운로드 / MakerSpell",
+    "customFolder": "사용자 정의 폴더 ...",
+    "destinationCustomNote": "사용자 정의 폴더는이 플랫폼에서 지원되지 않습니다. 앱 저장을 사용하여.",
+    "destinationRevoked": "저장 된 폴더 액세스가 손실되었습니다. 목적지를 재조정하십시오.",
+    "printFarmTab": "주요사업",
+    "printFarmTitle": "생산 농장",
+    "printFarmDescription": "프린터 함대 및 수량 기반 생산 작업을 한 곳에서 관리하십시오.",
+    "printFarmNewOrder": "생산 순서",
+    "printFarmFleetPrinting": "출력 중",
+    "printFarmFleetReady": "지원하다",
+    "printFarmFleetAttention": "(주)",
+    "printFarmFleetOffline": "오프라인",
+    "printFarmFleetChecking": "Check",
+    "printFarmSafetyNotice": "작업은 자동으로 시작되지 않습니다. 빌드 플레이트가 모든 새로운 인쇄 전에 명확하다는 것을 확인합니다.",
+    "printFarmOrders": "생산 주문",
+    "printFarmNoOrders": "아직 생산 주문 없음. 당신의 첫번째 양 근거한 일을 창조하십시오.",
+    "printFarmRemainingSummary": "{orders} 오픈 · {units} 단위 남아",
+    "@printFarmRemainingSummary": {
+        "placeholders": {
+            "orders": {
+                "type": "int"
+            },
+            "units": {
+                "type": "int"
+            }
+        }
+    },
+    "printFarmOrderName": "제품 또는 작업 이름",
+    "printFarmTargetQuantity": "대상 수량",
+    "printFarmInvalidQuantity": "적어도 1",
+    "printFarmMaterialOptional": "(선택) 물자",
+    "printFarmMaterialUnspecified": "지정되지 않는 물자",
+    "printFarmOrderProgress": "{completed}/{target} 완료 · {remaining} 나머지",
+    "@printFarmOrderProgress": {
+        "placeholders": {
+            "completed": {
+                "type": "int"
+            },
+            "target": {
+                "type": "int"
+            },
+            "remaining": {
+                "type": "int"
+            }
+        }
+    },
+    "printFarmCompleted": "완료",
+    "printFarmFailed": "실패",
+    "printFarmStateActive": "지원하다",
+    "printFarmStatePaused": "뚱 베어",
+    "printFarmStateCompleted": "완료",
+    "printFarmStateCancelled": "이름 *",
+    "printFarmPause": "일시 정지",
+    "printFarmResume": "계속",
+    "printFarmSuggestPrinter": "회사 소개",
+    "printFarmSuggestionExplanation": "프린터는 실시간 상태, 파일 지원, 자료 슬롯 및 알려진 하드웨어 요구 사항에 의해 평가됩니다. 할당은 인쇄를 시작하지 않습니다.",
+    "printFarmNoPrinters": "저장된 프린터는 없습니다.",
+    "printFarmPrinterCompatible": "알려진 작업 요구와 호환",
+    "printFarmAssignedPrinter": "인쇄 기계",
+    "printFarmChangePrinter": "- 기타",
+    "printFarmOperatorConfirmed": "연산자 검토 프린터 및 작업",
+    "printFarmBedClearConfirmed": "판은 명확하고 준비되어 있습니다",
+    "printFarmReadyForManualStart": "매뉴얼 시작",
+    "printFarmFitCannotStart": "이 작업을받을 수 없습니다",
+    "printFarmFitFileUnsupported": "파일 형식은 지원되지 않습니다.",
+    "printFarmFitOffline": "프린터는 오프라인",
+    "printFarmFitAttention": "인쇄 기계 주의",
+    "printFarmFitBusy": "Busy; 현재 인쇄 후에 queued 할 수 있습니다",
+    "printFarmFitSlotsUnknown": "물자 구멍은 확인될 수 있었습니다",
+    "printFarmFitNotEnoughSlots": "적재되지 않는 물자 구멍",
+    "printFarmFitMaterialUnknown": "적재된 물자는 확인되지 않을 수 있었습니다",
+    "printFarmFitMaterialChange": "물자 변화 필수",
+    "printFarmFitNozzleUnknown": "분사구 직경은 확인되어야 합니다",
+    "printFarmFitNozzleMismatch": "분사구 직경은 일치하지 않습니다",
+    "printFarmFitBedTooSmall": "볼륨이 너무 작습니다.",
+    "printFarmFitBedUnknown": "볼륨을 확인해야합니다",
+    "printFarmNoVerifiedGCode": "첨부된 G-code 없음",
+    "printFarmAttachGCode": "G-code 인증",
+    "printFarmChangeGCode": "G-code 변경",
+    "printFarmAttachGCodeDescription": "아카이브 인쇄 센터 일자리를 선택하십시오. MakerSpell는 해시를 검증하고 독립적 인 농장 사본을 유지합니다.",
+    "printFarmNoArchivedGCode": "아카이브 G-code는 아직 사용할 수 없습니다. 슬라이스 또는 모델을 먼저 보냅니다.",
+    "printFarmGCodeVerificationFailed": "G 코드 아카이브는 확인 할 수 없습니다.",
+    "printFarmGCodeRequirements": "{tools} 중고 공구 · {nozzle} mm 노즐",
+    "@printFarmGCodeRequirements": {
+        "placeholders": {
+            "tools": {
+                "type": "int"
+            },
+            "nozzle": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterTitle": "인쇄센터",
+    "printCenterSubtitle": "프린터, 활동 작업 및 준비 파일 한 곳에서",
+    "printCenterActive": "지원하다",
+    "printCenterReady": "지원하다",
+    "printCenterHistory": "- 연혁",
+    "printCenterOnlinePrinters": "온라인 프린터",
+    "printCenterViewAll": "모두 보기",
+    "printCenterNoActiveJobs": "활성 인쇄 없음",
+    "printCenterNoReadyJobs": "파일이 인쇄되어 있습니다.",
+    "printCenterNoHistory": "인쇄 역사는 여기에서 나타날 것입니다",
+    "printCenterNotifications": "프린터 알림",
+    "printCenterNotifyCompleted": "인쇄 완료",
+    "printCenterNotifyInterrupted": "인쇄 중단 또는 실패",
+    "printCenterNotifyOffline": "프린터가 오프라인으로",
+    "printCenterStart": "시작 인쇄",
+    "printCenterRefresh": "새로 고침 상태",
+    "printCenterClearHistory": "관련 기사",
+    "printCenterQueueSafety": "준비 작업은 자동으로 시작되지 않습니다. 빌드 플레이트를 확인하기 전에 다음 인쇄를 시작합니다.",
+    "printCenterStartFailed": "인쇄는 시작될 수 없습니다",
+    "printCenterRepeatExact": "같은 설정으로 다시 인쇄",
+    "printCenterRepeatChecking": "아카이브 파일, 프로필 및 프린터 확인 ...",
+    "printCenterRepeatReady": "아카이브 G-code는 intact입니다. 빌드 플레이트가 다시 인쇄하기 전에 명확하다는 것을 확인하십시오.",
+    "printCenterRepeatChanged": "소스 프로젝트 또는 프린터 프로필이 인쇄 이후 변경되었습니다. 확인 된 아카이브 G-code는 변환되지 않으며 이전에 인쇄 된 것과 정확히 보내질 수 있습니다.",
+    "printCenterRepeatPrinterChanged": "저장된 프린터는 이제 다른 하드웨어 또는 연결 세부 사항을보고합니다. 계속하기 전에 차이를 검토하십시오.",
+    "printCenterRepeatUnavailable": "정확한 아카이브 사본은 유효하지 않거나 무결성 체크 실패합니다. 소스를 다시 열고 인쇄를 안전하게 준비하십시오.",
+    "printCenterRepeatOldPrinter": "인쇄: {printer}",
+    "@printCenterRepeatOldPrinter": {
+        "placeholders": {
+            "printer": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterRepeatCurrentPrinter": "현재 프린터: {printer}",
+    "@printCenterRepeatCurrentPrinter": {
+        "placeholders": {
+            "printer": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterOpenSource": "오픈 소스",
+    "printCenterStateReady": "인쇄하기",
+    "printCenterStatePrinting": "출력 중",
+    "printCenterStatePaused": "뚱 베어",
+    "printCenterStateCompleted": "완료",
+    "printCenterStateFailed": "자주 묻는 질문",
+    "printCenterStateCancelled": "이름 *",
+    "printCenterQuietHours": "영업시간",
+    "printCenterQuietHoursStart": "Quiet 시간 시작",
+    "printCenterQuietHoursEnd": "종료 시간",
+    "printJournalEntryTitle": "본문 바로가기",
+    "printJournalEdit": "인쇄물에 결과 추가",
+    "printJournalRating": "이 인쇄는 어떻게 꺼졌습니까?",
+    "printJournalNote": "회사 소개",
+    "printJournalNoteHint": "기록 표면 품질, 적합, 재료 변경 또는 다음 시간을 시도하는 것.",
+    "printJournalAddPhoto": "검색 결과",
+    "printJournalRemovePhoto": "사진 제거",
+    "printJournalOpenProject": "프로젝트로 열기",
+    "printJournalSave": "저장",
+    "printJournalDelete": "자주 묻는 질문",
+    "printerMaintenanceTab": "제품정보",
+    "printerMaintenanceDescription": "유지 보수는 프린터 기능 문서의 실제 인쇄 사용 및 임계값에서 계산됩니다.",
+    "printerMaintenanceEmpty": "이 프린터의 유지 보수 또는 해결되지 않은 문제가 없습니다.",
+    "printerMaintenanceRecommendations": "회사 소개",
+    "printerIssuesTitle": "주의사항",
+    "printerIssueResolve": "해결 된",
+    "printerIssueResolved": "해결 된",
+    "printerIssueRetry": "다시 시도",
+    "printerIssueResolveAll": "모두 해결",
+    "printCenterProgressTab": "진행 상황",
+    "progressCenterTitle": "내 MakerSpell 진행",
+    "progressCenterDescription": "진짜로 완성된 일은 여기 나타납니다. streaks, point, 또는 Leaderboard가 없습니다.",
+    "progressFirstPrintTitle": "첫 번째 성공적인 인쇄",
+    "progressFirstPrintDescription": "성공적으로 네트워크 프린터에 인쇄 완료.",
+    "progressFirstSendTitle": "첫 번째 네트워크 전송",
+    "progressFirstSendDescription": "G-code를 프린터로 전송합니다.",
+    "progressMultiPlateTitle": "Multi-plate 프로젝트",
+    "progressMultiPlateDescription": "여러 판을 포함하는 프로젝트를 성공적으로 슬라이딩합니다.",
+    "progressFirstListingTitle": "첫 번째 제품 출판",
+    "progressFirstListingDescription": "Shop을 통해 첫 성공적인 마켓 플레이스 게시를 완료하십시오.",
+    "progressUnlocked": "완료",
+    "progressLocked": "아직 완료되지 않음",
+    "progressInviteTitle": "공유 MakerSpell",
+    "progressInviteDescription": "친구와 함께 초대 코드를 공유합니다. 그들이 그것을 받아들이고 첫 번째 실제 인쇄, 네트워크 전송, 또는 제품 게시 작업을 완료 한 후, 초대는 확인되고 커뮤니티 빌더 배지가 잠금 해제됩니다. 코드를 입력하면 혼자 보상이 없습니다.",
+    "progressInviteCodeHelp": "누군가가 당신에게 MakerSpell 초대 코드를 보내면, 여기에 받아 들일 수 있습니다. 그것은 당신의 첫 번째 실제 성공 후 만 보낸 사람에 대해 확인됩니다.",
+    "progressInviteShare": "비밀번호",
+    "progressInviteShareText": "3D 모델을 발견하고 슬라이스하고 MakerSpell로 프린터에 보내주세요. 내 초대 코드 : {code}\n{url} 의",
+    "@progressInviteShareText": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            },
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "progressInviteActivated": "{count} 인증 안내",
+    "@progressInviteActivated": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "progressInvitePending": "{count} 활성화를 기다리고",
+    "@progressInvitePending": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "progressCommunityBadge": "커뮤니티 빌더 배지 잠금 해제",
+    "progressHaveInviteCode": "나는 초대 코드를 가지고",
+    "progressEnterInviteCode": "자주 묻는 질문",
+    "progressAcceptInvite": "자주 묻는 질문",
+    "progressInviteAccepted": "저장된 안내장. 그것은 당신의 첫번째 진짜 성공 후에 자동적으로 활성화할 것입니다.",
+    "progressInviteInvalid": "코드는 허용되지 않을 수 있습니다. 코드를 확인하고 연결하십시오.",
+    "progressInviteUnavailable": "초대 정보는 현재 사용할 수 없습니다.",
+    "progressInviteSignIn": "초대 코드를 생성하고 공유하려면 로그인하십시오.",
+    "progressInviteLoadFailed": "로그인하지만, 초대 정보는 서버에서로드 할 수 없습니다. 연결을 확인하고 다시 시도하십시오.",
+    "printerMaintenanceDone": "완료",
+    "printerMaintenanceBuildPlate": "깨끗하고 빌드 플레이트를 검사",
+    "printerMaintenanceBeltSurface": "깨끗하고 벨트 표면 검사",
+    "printerMaintenanceBelts": "Inspect 벨트 장력",
+    "printerMaintenanceNozzle": "Inspect 또는 노즐 교체",
+    "printerMaintenanceCfsPath": "CFS 필라멘트 경로 청소",
+    "printerMaintenanceLinearMotion": "선형 모션 시스템 검사",
+    "printerMaintenanceToolheads": "툴헤드 검사",
+    "printerMaintenanceHoursProgress": "{used} / {limit} 인쇄 시간",
+    "@printerMaintenanceHoursProgress": {
+        "placeholders": {
+            "used": {
+                "type": "String"
+            },
+            "limit": {
+                "type": "String"
+            }
+        }
+    },
+    "printerMaintenanceFilamentProgress": "{used} / {limit} g 필라멘트",
+    "@printerMaintenanceFilamentProgress": {
+        "placeholders": {
+            "used": {
+                "type": "String"
+            },
+            "limit": {
+                "type": "String"
+            }
+        }
+    },
+    "printJournalExport": "수출지",
+    "printJournalExportDescription": "MakerSpell 인쇄 저널 수출",
+    "printJournalExportFailed": "인쇄 저널은 수출 할 수 없습니다 : {error}",
+    "@printJournalExportFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "continueHubTitle": "계속하기",
+    "continueActivePrint": "Active 인쇄",
+    "continueRecentProject": "최근 프로젝트",
+    "continueLastSuccessfulSetup": "마지막 성공 설정",
+    "continueSetupApplied": "성공적인 인쇄 설정이 준비되어 있습니다.",
+    "printResultShareTitle": "인쇄 결과",
+    "printResultShareSubtitle": "이 미리보기 카드 만 공유됩니다. 파일 경로 및 프린터 주소는 개인을 유지.",
+    "printResultShareAction": "지원하다",
+    "printResultShareCaption": "MakerSpell로 인쇄",
+    "printResultCompleted": "인쇄 완료",
+    "printerNeedsAttention": "인쇄 기계 주의",
+    "crealityErrorFr2849": "필라멘트는 CFS 허브 (FR2849)에 철회 할 수 없습니다. 필라멘트 경로를 지우고 프린터에서 다시 시도하십시오.",
+    "plateSettingsTitle": "플레이트 설정",
+    "plateSettingsName": "플레이트 이름",
+    "plateSettingsBedType": "베드 유형",
+    "plateSettingsGlobalBedType": "세계적인 판 유형과 같",
+    "plateSettingsSmoothHighTempPlate": "매끄러운 PEI/고온판",
+    "plateSettingsTexturedPeiPlate": "텍스처 PEI 플레이트",
+    "plateSettingsCustomizedPlate": "공급 업체",
+    "plateSettingsEpoxyResinPlate": "에폭시 수지 판",
+    "plateSettingsCoolPlate": "쿨 플레이트",
+    "plateSettingsTexturedCoolPlate": "텍스처 쿨 플레이트",
+    "plateSettingsSuperTackPlate": "SuperTack 판",
+    "plateSettingsPrintSequence": "출력 순서",
+    "plateSettingsGlobalPrintSequence": "글로벌 프린트 시퀀스",
+    "plateSettingsByLayer": "레이어별",
+    "plateSettingsByObject": "객체별",
+    "plateSettingsSpiralVase": "나선형 꽃병 모드",
+    "plateSettingsSameAsGlobal": "글로벌",
+    "plateSettingsOn": "이름 *",
+    "plateSettingsOff": "이름 *",
+    "plateSettingsFirstLayerFilamentSequence": "첫 번째 레이어 필라멘트 순서",
+    "plateSettingsOtherLayerFilamentSequence": "다른 층 필라멘트 순서",
+    "plateSettingsAutomatic": "제품정보",
+    "plateSettingsCustomize": "사용자 정의",
+    "plateSettingsAddLayerRange": "층 범위를 추가하십시오",
+    "plateSettingsRemoveLastLayerRange": "마지막 층 범위를 제거하십시오",
+    "plateSettingsLayer": "레이어",
+    "plateSettingsTo": "으로",
+    "plateSettingsEnd": "끝",
+    "viewer3mfSettingsTitle": "3MF 프로젝트 설정",
+    "viewer3mfSettingsSummary": "모든 필라멘트 팔레트는 모델의 색상 할당을 변경하지 않고 병합되었습니다. 프린터 및 프로세스 설정이 프로젝트를 제어해야합니다 3MF를 선택하십시오.",
+    "viewer3mfPaletteMerged": "%1 프로젝트 필라멘트 (s)는 회화와 접합을 위해 유효합니다.",
+    "viewer3mfPrimaryFile": "기본 파일 · 현재 선호",
+    "viewer3mfUseSettings": "이 설정 사용",
+    "viewer3mfSettingsSourceTooltip": "3MF 설정 소스 선택",
+    "platformAuthCreateAccount": "계정 만들기",
+    "printerErrorOfficialSolution": "공식 솔루션 보기",
+    "printerErrorCodeLabel": "오류 코드 : {code}",
+    "@printerErrorCodeLabel": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            }
+        }
+    },
+    "printerCommunityBannerTitle": "이 프린터를 개선",
+    "printerCommunityBannerDescription": "개발자는이 프린터에 액세스 할 수 없습니다, 그래서 모든 실제 장치 테스트 문제. 그것의 연결 및 인터페이스 규칙을 검토 한 다음 무슨 일을 표시하고 어떤 필요 개선.",
+    "printerCommunityBannerWorkingDescription": "프린터 옆에 안전하게 테스트 한 후, 당신의 발견을 공유하고 작업 기능을 승인하는 것을 기억하십시오. 귀하의 확인은 전 세계적으로 MakerSpell 및 제조업체 커뮤니티를 지원하며이 장치가 커뮤니티 검증 상태를 얻습니다.",
+    "printerCommunityEditRules": "리뷰 및 개선",
+    "printerCommunityApprove": "모든 작품",
+    "printerCommunityApproved": "이름 *",
+    "printerCommunityApprovalCount": "{count} 사람들에 의해 확인",
+    "@printerCommunityApprovalCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerCommunityApprovalError": "확인을 저장할 수 없습니다. 로그인하고 다시 시도하십시오.",
+    "communityPrinterProfilesTitle": "프린터 연결 및 인터페이스 규칙",
+    "communityPrinterTargetAdapter": "이 프린터에 의해 사용되는 규칙",
+    "communityPrinterRefresh": "커뮤니티 규칙",
+    "communityPrinterCreateProfile": "회사 소개",
+    "communityPrinterSystemAdapters": "시스템 어댑터",
+    "communityPrinterSystemAdaptersDescription": "연결 및 인터페이스 규칙은 현재 MakerSpell로 배송됩니다.",
+    "communityPrinterRegistryUnavailable": "시스템 어댑터 레지스트리는 사용할 수 없습니다.",
+    "communityPrinterOverrides": "커뮤니티 overrides",
+    "communityPrinterOverridesDescription": "컴파일된 어댑터를 확장하는 프로파일과 초안을 설치했습니다.",
+    "communityPrinterNoOverrides": "커뮤니티가 설치되지 않았습니다.",
+    "communityPrinterSystemBadge": "시스템",
+    "communityPrinterSectionsCount": "{count} 섹션",
+    "@communityPrinterSectionsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterControlsCount": "{count} 제어",
+    "@communityPrinterControlsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterServicesCount": "{count} 서비스",
+    "@communityPrinterServicesCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterCreateOverride": "오버라이드",
+    "communityPrinterConnection": "연결",
+    "communityPrinterCapabilities": "성능",
+    "communityPrinterInterfaceSections": "공용영역 단면도",
+    "communityPrinterJobControls": "작업 관리",
+    "communityPrinterDeviceControls": "장치 제어",
+    "communityPrinterPrintOptions": "인쇄 옵션",
+    "communityPrinterRuntimeContracts": "Runtime 계약",
+    "communityPrinterCreateEditableOverride": "편집 가능한 커뮤니티 오버라이드",
+    "communityPrinterNone": "없음",
+    "communityPrinterSettingsDescription": "편집, 미리보기, 검증 및 검토 커뮤니티 기반 프린터 지원.",
+    "communityPrinterDocumentation": "회사 소개",
+    "communityPrinterDocumentationOpenError": "프린터 프로파일 가이드가 열릴 수 없습니다.",
+    "communityPrinterCommunicationTitle": "이 프로필은 어떻게 통신",
+    "communityPrinterCommunicationDescription": "기본적인 수송은 검토한 인쇄 기계 특정한 HTTP, WebSocket 또는 본래 의정서 부호를 선택합니다. 공용영역 통제는 아래에 논리 가동 mappings를 부릅니다; 그들은 모두 동일한 납품업자 요구를 사용하지 않습니다.",
+    "communityPrinterUnknownBaseTransport": "이 기본 운송은 설치된 런타임 레지스트리에서 사용할 수 없습니다.",
+    "communityPrinterOperationMappings": "작업 맵핑",
+    "communityPrinterOpenOperationJson": "오픈 작업 JSON",
+    "communityPrinterDelegateMapping": "이름 *{action}으로{adapter}",
+    "@communityPrinterDelegateMapping": {
+        "placeholders": {
+            "action": {
+                "type": "String"
+            },
+            "adapter": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRuntimeReviewRequired": "sandboxed declarative runtime ({kind})를 통해 실행합니다.",
+    "@communityPrinterRuntimeReviewRequired": {
+        "placeholders": {
+            "kind": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterDeclarativeConnection": "선언 연결",
+    "communityPrinterDeclarativeConnectionDescription": "애플리케이션 코드를 추가하지 않고 새로운 프린터 프로토콜을 설명합니다.",
+    "communityPrinterDeclarativeEnable": "활성화",
+    "communityPrinterUseAsPrimaryTransport": "1 차적인 수송으로 사용",
+    "communityPrinterDeclarativeSafety": "요청은 선택한 프린터 주소로 제한됩니다. Redirects 및 unsafe 헤더가 차단됩니다.",
+    "communityPrinterConnectionScheme": "팟캐스트",
+    "communityPrinterConnectionPort": "포트 (empty = 발견 포트)",
+    "communityPrinterConnectionBasePath": "기본 경로",
+    "communityPrinterConnectionTimeout": "타임아웃 (ms)",
+    "communityPrinterConnectionAuthentication": "회사연혁",
+    "communityPrinterConnectionAuthHeader": "인증 헤더",
+    "communityPrinterHttpWebSocketChannel": "HTTP / WebSocket 채널",
+    "communityPrinterHttpWebSocketChannelDescription": "HTTP 작업이 엔드포인트를 사용합니다. WebSocket 작업은 동일한 프린터 엔드포인트에서 WS 또는 WSS를 자동으로 사용합니다.",
+    "communityPrinterMqttChannel": "MQTT / MQTTS 채널",
+    "communityPrinterMqttChannelDescription": "명령을 게시하고 선택적으로 프린터 주제에 대한 답변을 기다립니다.",
+    "communityPrinterFtpChannel": "FTP / FTPS 채널",
+    "communityPrinterFtpChannelDescription": "프린터 파일 서비스에 파일 목록, 업로드 또는 삭제.",
+    "communityPrinterEnableChannel": "Enable 채널",
+    "communityPrinterDisableChannel": "Disable 수로",
+    "communityPrinterClientId": "고객 ID",
+    "communityPrinterKeepAliveSeconds": "살아있다 (둘째)",
+    "communityPrinterUsername": "사용자 이름",
+    "communityPrinterTlsMode": "TLS 모드",
+    "communityPrinterRootPath": "루트 경로",
+    "communityPrinterMqttTopic": "MQTT 주제",
+    "communityPrinterMqttResponseTopic": "응답 주제 (선택 사항)",
+    "communityPrinterMqttQos": "사이트맵",
+    "communityPrinterFtpAction": "FTP 활동",
+    "communityPrinterFtpPath": "원격 파일 경로",
+    "communityPrinterTcpChannel": "TCP / TCPS 콘솔",
+    "communityPrinterTcpChannelDescription": "Line-centric 명령을 프린터 소켓에 직접 보내고 선택적으로 답장을 읽습니다.",
+    "communityPrinterLineEnding": "연락처",
+    "communityPrinterResponseMode": "응답 모드",
+    "communityPrinterMaxResponseBytes": "최대 응답 크기 (bytes)",
+    "communityPrinterTcpCommand": "TCP 명령 템플릿",
+    "communityPrinterProtocolOperations": "Protocol 운영",
+    "communityPrinterSecureDeclarativeRuntime": "보안 선언 실행 시간",
+    "communityPrinterAddOperation": "관련 제품",
+    "communityPrinterEditOperation": "편집 작업",
+    "communityPrinterOperationId": "운영 ID",
+    "communityPrinterOperationExecutionType": "실행 유형",
+    "communityPrinterCompiledAdapterAction": "Compiled 접합기 활동",
+    "communityPrinterHttpMethod": "HTTP 방법",
+    "communityPrinterRelativeUrlPath": "프린터 관계 URL 경로",
+    "communityPrinterRelativeWebSocketPath": "Printer-relative WebSocket 경로",
+    "communityPrinterCommandTemplate": "명령 템플릿",
+    "communityPrinterRequestJson": "JSON 요청",
+    "communityPrinterResponseMappingJson": "JSON 맵핑 응답",
+    "communityPrinterResponseMappingHelp": "지도 정상화되는 분야, 예를 들면: {example}",
+    "@communityPrinterResponseMappingHelp": {
+        "placeholders": {
+            "example": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRunningPrintOption": "실행 {option}...",
+    "@communityPrinterRunningPrintOption": {
+        "placeholders": {
+            "option": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterPermissions": "제출",
+    "communityPrinterInterfaceControls": "공용영역 통제",
+    "communityPrinterAddInterfaceControl": "인터페이스 컨트롤 추가",
+    "communityPrinterEditInterfaceControl": "편집 인터페이스 제어",
+    "communityPrinterAddOperationFirst": "인터페이스 제어를 만들기 전에 작업 추가.",
+    "communityPrinterNewControl": "새로운 통제",
+    "communityPrinterControlId": "제어 ID",
+    "communityPrinterControlLabel": "이름 *",
+    "communityPrinterControlType": "통제 유형",
+    "communityPrinterControlOperation": "작업",
+    "communityPrinterControlValuePath": "(선택) 가치 경로",
+    "communityPrinterControlVisibleWhen": "(선택) 눈에 보이는",
+    "communityPrinterControlMinimum": "최소",
+    "communityPrinterControlMaximum": "최대",
+    "communityPrinterControlStep": "단계",
+    "communityPrinterControlUnit": "(선택) 단위",
+    "communityPrinterControlConfirmation": "자주 묻는 질문",
+    "communityPrinterControlRequired": "ID와 상표는 요구됩니다.",
+    "communityPrinterControlUnique": "제어 ID는 고유해야합니다.",
+    "communityPrinterControlMustBeNumber": "{field}는 숫자가 있어야 합니다.",
+    "@communityPrinterControlMustBeNumber": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRestoreProfile": "이전 버전 복원",
+    "communityPrinterRestoreProfileTitle": "Restore 프린터 프로파일?",
+    "communityPrinterRestoreUnsavedMessage": "수정되지 않은 변경은 삭제되고 프로파일은 편집이 시작될 때 열린 버전으로 돌아갑니다.",
+    "communityPrinterRestoreInstalledMessage": "현재 로컬 프로파일은 이전 유효 버전으로 대체됩니다.",
+    "communityPrinterRestoreAction": "복원",
+    "communityPrinterRestoreSuccess": "이전 프린터 프로파일은 복원되었습니다.",
+    "communityPrinterRestoreUnavailable": "이전 프로파일 버전은 없습니다.",
+    "communityPrinterRestoreFailure": "프로파일은 복원 할 수 없습니다 : {error}",
+    "@communityPrinterRestoreFailure": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingCurrencyMismatch": "선택된 {store} 마켓 플레이스는 {currency}가 필요합니다. 제품 세부 사항으로 이동하여 {currency}로 통화를 설정하고 그 통화에서 판매 가격을 입력합니다. 통화를 변경하면 금액을 변환하지 않습니다.",
+    "@listingCurrencyMismatch": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "currency": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPreparationFailed": "현재 상점 규칙 또는 환율은로드 할 수 없습니다. 인터넷 연결 및 staging 규칙 주소를 확인 한 다음 재시. 아무것도 게시되지 않았습니다.",
+    "listingCurrencyConversion": "{source}을 {target}로 변환? 프랑크푸르트 참조 비율은 {date}를 날짜. 확인 후, 업데이트 된 가격을 검토하고 다시 게시를 누릅니다. 이것은 보장 된 은행 변환 속도가 아닙니다.",
+    "@listingCurrencyConversion": {
+        "placeholders": {
+            "source": {
+                "type": "String"
+            },
+            "target": {
+                "type": "String"
+            },
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerMeshBoolean": "메시 합집합/차집합/교집합",
+    "viewerBooleanDescription": "2개의 unpainted 단단한 메시를 선정하십시오. A는 결과에 의해 대체되고 B는 소모됩니다. 구멍을 삭감하기 위하여는, B로 주요 모형을, 그 후에 다름 (A − B) 선택합니다. 최대 50,000 입력 삼각형.",
+    "viewerBooleanUnion": "조합 (A + B)",
+    "viewerBooleanDifference": "차이 (A − B)",
+    "viewerBooleanIntersection": "단면 (A ∩ B)",
+    "viewerBooleanUnionShort": "합집합",
+    "viewerBooleanDifferenceShort": "차집합",
+    "viewerBooleanIntersectionShort": "회사연혁",
+    "viewerBooleanMainModel": "A · 주요 모델",
+    "viewerBooleanToolModel": "B · 공구 모양",
+    "viewerBooleanChooseObject": "개체 선택",
+    "viewerBooleanSwap": "스왑 A와 B",
+    "viewerBooleanUnionHint": "1개의 단단한 모형에 A와 B를 결합하십시오.",
+    "viewerBooleanDifferenceHint": "A에서 B의 볼륨을 제거.",
+    "viewerBooleanIntersectionHint": "A와 B가 공유한 볼륨만 유지하십시오.",
+    "viewerBooleanSelectOnModel": "자주 묻는 질문",
+    "viewerBooleanSelectModels": "Boolean 모델 선택",
+    "viewerBooleanTapSelect": "제품정보",
+    "viewerBooleanBoxSelect": "제품 정보",
+    "viewerBooleanClearSelection": "자주 묻는 질문",
+    "viewerBooleanSelectedCount": "{count} 선택 · 정확히 2 선택",
+    "@viewerBooleanSelectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerBooleanCalculate": "계산",
+    "viewerBooleanNeedTwoMeshes": "최소 2개의 지원되는 단단한 메시를 포함하는 모형을 추가하거나 선정하십시오.",
+    "viewerBooleanMemoryWarning": "이 작업은 대용량의 메모리를 사용하고 일시적으로 반응하지 않는 응용 프로그램을 만들 수 있습니다. 계속?",
+    "viewerBooleanApplyTitle": "Boolean 결과 적용?",
+    "viewerBooleanResultSummary": "결과는 {count} 삼각형을 포함합니다. 대체될 것입니다, B는 소모되고, Undo는 둘 다 회복할 수 있습니다.",
+    "@viewerBooleanResultSummary": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerBooleanRunning": "Boolean 기하학 ...",
+    "viewerBooleanApply": "적용",
+    "viewerBooleanFailed": "메시 Boolean 실패: {error}",
+    "@viewerBooleanFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerBooleanInvalidMesh": "둘 다 operands는 닫히고, 비 각자 간결 단단한 메시이어야 합니다.",
+    "viewerBooleanEmptyResult": "이 작업은 빈 결과를 생산했습니다.",
+    "viewerBooleanSourceChanged": "선택된 기하학은 계산 중 변경됩니다. 다시 시도하십시오.",
+    "viewerBooleanUnsupported": "선택한 메쉬 중 하나는 지원되지 않은 페인트, 재료 또는 프로젝트 메타 데이터를 포함합니다.",
+    "viewerBooleanMemoryLimit": "이 Boolean 가동은 유효한 장치 기억을 위해 너무 크습니다.",
+    "remindersTitle": "알림",
+    "remindersDescription": "저장한 항목에 대한 조용한 알림: 팔로우한 디자이너의 새 모델, 즐겨찾기 가격 인하, 저장한 검색의 새 결과, 콘테스트 마감, 슬라이싱 할당량. 모두 기기에서 계산됩니다.",
+    "remindersPermissionDenied": "알림 권한이 허용되지 않아 알림은 앱 내 알림 센터에만 표시됩니다.",
+    "retentionDesignerNewModelsTitle": "{designer}의 새 모델",
+    "retentionDesignerNewModelsBody": "마지막 방문 이후 새 모델이 {count}개 있습니다.",
+    "retentionFavoritePriceDropTitle": "즐겨찾기 가격이 내렸습니다",
+    "retentionFavoritePriceDropBody": "{model}이(가) 이제 {price}입니다.",
+    "retentionFavoriteNowFreeTitle": "즐겨찾기가 무료가 되었습니다",
+    "retentionFavoriteNowFreeBody": "{model}을(를) 무료로 내려받을 수 있습니다.",
+    "retentionSavedSearchTitle": "저장한 검색에 새 결과",
+    "retentionSavedSearchBody": "{query}에 대한 새 결과가 {count}개 있습니다.",
+    "retentionContestEndingTitle": "곧 끝나는 콘테스트",
+    "retentionContestEndingBody": "{contest}이(가) 이틀 안에 마감됩니다.",
+    "retentionContestStartingTitle": "콘테스트가 시작되었습니다",
+    "retentionContestStartingBody": "{contest}이(가) 작품을 접수 중입니다.",
+    "retentionContestEndingDaysBody": "{contest}이(가) {days}일 안에 마감됩니다.",
+    "retentionContestEndingHoursBody": "{contest}이(가) {hours}시간 안에 마감됩니다.",
+    "retentionContestEndingImminentBody": "{contest}이(가) 한 시간 안에 마감됩니다.",
+    "retentionContestStartingSoonBody": "{contest}이(가) 24시간 안에 시작됩니다.",
+    "retentionContestNameOnPlatform": "{platform} 콘테스트",
+    "retentionContestNameGeneric": "콘테스트",
+    "remindersContestRuleNote": "콘테스트 알림은 가장 가까운 마감을 선택하며, 같은 콘테스트는 한 번만 알려드립니다.",
+    "retentionQuotaExhaustedTitle": "이번 주 슬라이싱 할당량을 모두 사용했습니다",
+    "retentionQuotaExhaustedBody": "보상형 광고를 보면 한 번 더 슬라이싱할 수 있습니다.",
+    "retentionQuotaRenewedTitle": "슬라이싱 할당량이 다시 생겼습니다",
+    "retentionQuotaRenewedBody": "이번 주에도 모델을 슬라이싱할 수 있습니다.",
+    "retentionShopTrialTitle": "Shop 체험을 아직 사용하지 않았습니다",
+    "retentionShopTrialBody": "Shop 가격 워크플로를 한 번 사용해 보세요.",
+    "activationChecklistTitle": "첫 걸음",
+    "activationChecklistSubtitle": "선택 사항입니다. 순서에 상관없이 진행하거나 이 목록을 닫아도 됩니다.",
+    "activationChecklistProgress": "{completed}/{total} 완료",
+    "activationChecklistHide": "이 목록 닫기",
+    "activationStepSearch": "모델 검색하기",
+    "activationStepSave": "즐겨찾기 저장하기",
+    "activationStepSlice": "모델 슬라이싱하기",
+    "activationStepPrinter": "프린터 연결하기",
+    "activationStepPrint": "출력 시작하기",
+    "remindersPermissionInAppFallback": "시스템 알림이 꺼져 있어 알림은 앱 내 알림 센터에만 표시됩니다.",
+    "notificationCenterPermissionInAppFallback": "시스템 알림이 꺼져 있어 알림이 여기에 모입니다.",
+    "settingsSlicingQuotaTitle": "슬라이싱 잔여 횟수",
+    "settingsSlicingQuotaSubtitle": "이번 주 슬라이싱 잔여 횟수를 한눈에 확인하세요.",
+    "settingsSlicingQuotaCatalogTitle": "카탈로그 프로젝트",
+    "settingsSlicingQuotaLocalTitle": "로컬 파일",
+    "settingsSlicingQuotaWelcomeTitle": "웰컸 프로젝트",
+    "settingsSlicingQuotaRewardedTitle": "광고 시청으로 추가",
+    "settingsSlicingQuotaRewardedDescription": "선택형 보상형 광고를 보면 24시간 잠금 해제를 한 번 더 받을 수 있습니다.",
+    "settingsSlicingQuotaRewardedWeekUsedUp": "이번 주 추가 횟수를 모두 사용했습니다.",
+    "settingsSlicingQuotaUnlockActive": "{time}까지 잠금 해제됨",
+    "settingsSlicingQuotaUnlimitedPro": "무제한 (Pro)",
+    "settingsSlicingQuotaUnlimitedShop": "무제한 (Shop)",
+    "settingsSlicingQuotaUnlimitedSubtitle": "이 요금제에는 슬라이싱 제한이 없습니다.",
+    "settingsSlicingQuotaChecking": "잔여 횟수를 확인하는 중…",
+    "settingsSlicingQuotaRemaining": "남은 횟수 {remaining} / {limit}",
+    "settingsSlicingQuotaRewardedToday": "오늘 남은 횟수 {remaining} / {limit}"
+}

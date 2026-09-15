@@ -1,0 +1,4271 @@
+{
+    "@@locale": "zh",
+    "listingOptionsTimedOut": "正在加载选项超时。 请检查您的连接并再次尝试 。",
+    "settingsTitle": "设置",
+    "appPreferences": "App 首选项",
+    "privacyAndData": "隐私数据( D)",
+    "privacyAndDataSubtitle": "管理您的隐私、广告和账户数据",
+    "privacyPolicy": "隐私协议",
+    "privacyPolicySubtitle": "看什么数据MakerSpell进程和原因",
+    "accountDeletionPage": "账户删除页面",
+    "accountDeletionPageSubtitle": "即使在无法访问应用程序时请求删除",
+    "deleteSelectedData": "删除选中的数据",
+    "dataDeletionSubtitle": "保存账户时删除选中的数据",
+    "dataDeletionIntro": "选择MakerSpell您想要永久删除的数据。",
+    "dataDeletionKeepAccount": "您的登录账户、 电子邮件、 订阅访问、 存储记录和个人 Drive 文件将保留 。",
+    "dataCategoryProfile": "简介细节",
+    "dataCategoryProfileDescription": "显示名称,配置图像参考,公共加密密钥,以及语言偏好.",
+    "dataCategoryActivity": "活动和统计",
+    "dataCategoryActivityDescription": "使用计数器,应用统计,完成移民史.",
+    "dataCategoryDiagnostics": "技术诊断",
+    "dataCategoryDiagnosticsDescription": "与您的账户相关的隐私过滤的应用程序和打印机诊断事件 。",
+    "dataCategorySupport": "支持历史",
+    "dataCategorySupportDescription": "支持信件和与您的账户链接的附加截图 。",
+    "dataCategoryDriveConnection": "Google Drive连接",
+    "dataCategoryDriveConnectionDescription": "连接元数据和授权。 您驱动器中的文件不会被删除 。",
+    "selectAllOptionalData": "选择所有可选数据",
+    "selectAtLeastOneDataCategory": "选择至少一个数据类别。",
+    "deleteSelectedDataQuestion": "永久删除选中的数据吗 ?",
+    "deleteSelectedDataWarning": "此无法撤销。MakerSpell账户将继续运行。",
+    "selectedDataDeleted": "选中的数据已被删除。 您的账户仍在运行 。",
+    "dataDeletionFailed": "无法删除选中的数据 :{error}",
+    "@dataDeletionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "dataDeletionWebRequest": "在网络上提交删除请求",
+    "adPrivacyOptions": "广告隐私选择",
+    "adPrivacyOptionsSubtitle": "审查或改变广告中使用的同意选择",
+    "adPrivacyOptionsUnavailable": "您所在的地区不需要广告隐私选择或尚未提供。",
+    "couldNotOpenLink": "无法打开链接 。",
+    "modelCustomizerTitle": "自定义模式",
+    "modelCustomizerDescription": "根据您的需要调整此参数模型并下载生成的可打印文件 。",
+    "modelCustomizerOpen": "自定义",
+    "modelCustomizerDownloadHint": "修改, 然后使用自定义器的下载按钮 。MakerSpell将自动抓取生成的文件。",
+    "modelCustomizerDownloadFailed": "无法将生成的文件添加到下载中 。",
+    "theme": "主题",
+    "themeSubtitle": "选择您喜欢的主题",
+    "dark": "阴暗",
+    "light": "光线",
+    "system": "系统",
+    "language": "语言",
+    "languageSubtitle": "选择应用程序语言",
+    "translationContributionTitle": "提供翻译",
+    "translationContributionTileSubtitle": "审查您的语言并提出更正建议",
+    "translationContributionDescription": "与英文源一起审查当前译文。 只有您更改的行会被发送批准; 您的应用语言不被修改 。",
+    "translationContributionLanguage": "审查语言",
+    "translationContributionSearch": "搜索翻译",
+    "translationContributionEditTitle": "建议更正",
+    "translationContributionEdit": "编辑翻译",
+    "translationContributionProposedText": "拟议翻译",
+    "translationContributionTokenError": "占位符、链接和格式化符号必须保持不变。",
+    "translationContributionContactTitle": "贡献者详情",
+    "translationContributionContinue": "继续",
+    "translationContributionPending": "{count}更正准备就绪",
+    "@translationContributionPending": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "translationContributionSubmit": "发送{count}更正",
+    "@translationContributionSubmit": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "translationContributionSent": "谢谢 您的翻译更正被送去审查",
+    "translationContributionFailed": "无法发送更正 :{error}",
+    "@translationContributionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "translationContributionLoadFailed": "无法装入翻译目录 。",
+    "english": "联合国",
+    "turkish": "土耳其语Name",
+    "unitSystem": "单元系统",
+    "unitSystemSubtitle": "首选计量标准",
+    "metric": "公制",
+    "imperial": "英制",
+    "cancel": "取消",
+    "printSettings": "打印设置",
+    "sliceCompatibilityTitle": "切片前检查",
+    "sliceCompatibilityDescription": "这些检查不会使模型不兼容。 检查差异, 必要时更改打印设置, 或继续当前选择 。",
+    "sliceCompatibilityContinue": "继续",
+    "sliceCompatibilityVolumeTitle": "模型可能超过构建体积",
+    "sliceCompatibilityVolumeDescription": "当前场景的一部分位于所选打印机的盘子或可打印高度之外。打印前请检查位置和比例 。",
+    "sliceCompatibilityPrinterTitle": "3MF是为另一个打印机准备的",
+    "sliceCompatibilityPrinterDescription": "项目简介 :{project}选中的打印机 :{selected}.",
+    "@sliceCompatibilityPrinterDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "sliceCompatibilityMaterialsTitle": "使用的材料槽多于打印机支持",
+    "sliceCompatibilityMaterialsDescription": "项目使用{required}材料槽; 此打印机配置文件支持{supported}.",
+    "@sliceCompatibilityMaterialsDescription": {
+        "placeholders": {
+            "required": {
+                "type": "int"
+            },
+            "supported": {
+                "type": "int"
+            }
+        }
+    },
+    "sliceCompatibilityNozzleTitle": "喷嘴直径与工程不同",
+    "sliceCompatibilityNozzleDescription": "项目:{project}毫米。选中的 :{selected}垛",
+    "@sliceCompatibilityNozzleDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "sliceCompatibilityFilamentTitle": "细节类型与项目不同",
+    "sliceCompatibilityFilamentDescription": "项目:{project}选中的 :{selected}.",
+    "@sliceCompatibilityFilamentDescription": {
+        "placeholders": {
+            "project": {
+                "type": "String"
+            },
+            "selected": {
+                "type": "String"
+            }
+        }
+    },
+    "slicerPreferencesTitle": "剪刀爱好",
+    "sliceCompatibilityWarningsPreferenceTitle": "剪切前警告",
+    "showPrinterProfileMismatchWarningsTitle": "打印机配置图差异警告",
+    "showPrinterProfileMismatchWarningsDescription": "当为不同的打印机配置准备了 3MF 项目时警告。 在此可以再次启用兼容对话框中已禁用的警告 。",
+    "showNozzleMismatchWarningsTitle": "喷嘴差异警告",
+    "showNozzleMismatchWarningsDescription": "选择喷嘴直径时警告MakerSpell与工程内嵌值不同。",
+    "showFilamentMismatchWarningsTitle": "显示差异警告",
+    "showFilamentMismatchWarningsDescription": "当选定的丝状类型与项目中嵌入的材料不同时发出警告.",
+    "searchSettings": "搜索设置",
+    "discoveringModels": "发现惊人的3D模型...",
+    "searchByTagHint": "通过标签搜索( 标签: 关键字)...",
+    "searchAllPlatformsHint": "在所有平台搜索...",
+    "recentSearches": "最近搜索",
+    "searchSuggestions": "建议",
+    "clearAll": "全部清除",
+    "removeSearchHistory": "从搜索历史中删除",
+    "savedSearches": "已保存的搜索",
+    "followingAndSearches": "在搜索之后( S)",
+    "followedDesigners": "随后的设计者",
+    "noFollowedUpdates": "还没找到",
+    "noFollowedUpdatesDescription": "跟踪来自其配置文件的设计者或在 Explore 中保存搜索以构建您的个人更新列表 。",
+    "saveSearch": "保存搜索",
+    "removeSavedSearch": "删除已保存的搜索",
+    "noSavedSearches": "尚未保存搜索",
+    "noSavedSearchesDescription": "从 Explore 中保存搜索以返回到最新的匹配模式 。",
+    "runSavedSearch": "显示最新的匹配模式",
+    "noFiltersAvailable": "没有可用的过滤器",
+    "globalFilters": "全局过滤器",
+    "platformFilters": "{platform}过滤器",
+    "explore": "探索",
+    "favorites": "爱好",
+    "shop": "商店",
+    "workspace": "工作空间",
+    "close": "关闭",
+    "contests": "比赛",
+    "contestsDescription": "加入社区比赛 发现突出的挑战 展示你的设计",
+    "downloadedModels": "下载模型",
+    "downloadedModelsDescription": "查看下载的文件,在模型查看器中打开,共享,或管理活动下载.",
+    "networkPrinters": "网络打印机",
+    "myPrinters": "我的打印机,我的电脑",
+    "networkPrintersDescription": "在本地网络上发现和管理打印机。 打开设备面板, 手动添加打印机并发送任务 。",
+    "loadingMore": "正在加载...",
+    "somethingWentWrong": "出问题了",
+    "tryAgain": "再试一次",
+    "nothingHereYet": "这里还没有",
+    "emptyModelsDescription": "下拉以刷新或更改搜索以发现更多模型",
+    "free": "自由主义",
+    "@platformFilters": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "platforms": "平台",
+    "all": "所有",
+    "platformCount": "{count}平台",
+    "noCategoriesAvailable": "无可用类别",
+    "allPlatforms": "所有平台",
+    "selectAll": "选中所有",
+    "sortBy": "排序为",
+    "tapOnePlatform": "打开一个平台",
+    "selectedCount": "{count}选中",
+    "resetToDefaults": "重置为默认值",
+    "multi": "多个",
+    "onlyOne": "只有一个",
+    "done": "完成",
+    "clear": "清除",
+    "couldNotLoadCategories": "无法装入分类:\\n{error}",
+    "apply": "应用",
+    "sortTrending": "趋势",
+    "sortBestMatch": "最佳比对",
+    "sortNewest": "最新数据",
+    "sortDownloads": "大多数下载",
+    "sortLikes": "最喜欢的",
+    "@platformCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@selectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@couldNotLoadCategories": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "filters": "过滤器",
+    "reset": "重置",
+    "none": "无",
+    "ascendingOrder": "上升顺序",
+    "ok": "确认",
+    "calculating": "正在计算...",
+    "unknown": "未定义",
+    "loading": "正在装入...",
+    "makerSyncUser": "MakerSpell 用户",
+    "guest": "来宾",
+    "driveConnected": "驱动器 :{email}",
+    "driveNotConnected": "未连接驱动器",
+    "driveModelBackup": "备份模式文件以驱动",
+    "driveModelBackupDescription": "自动备份用于市场上市的下载模型和源文件.",
+    "driveModelBackupPremiumDescription": "页:1MakerSpellPro或Shop订阅需要使用此功能.",
+    "driveModelBackupViewPlans": "查看 Pro 和 Shop 计划",
+    "driveModelSyncNow": "现在同步",
+    "driveModelWifiOnly": "只有无线同步",
+    "driveModelWifiOnlyDescription": "使用移动数据时保持模式备份队列,并在可用Wi-Fi时自动继续.",
+    "driveModelWifiRequired": "需要Wi-Fi是因为启用了Wi-Fi唯一的同步.",
+    "driveModelSyncCompleted": "驱动同步完成{count}模型文件。",
+    "@driveModelSyncCompleted": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveModelSyncFailed": "模型文件同步失败 :{error}",
+    "@driveModelSyncFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "driveBackupNotificationTitle": "备份模式以驱动",
+    "driveBackupNotificationPreparing": "准备{count}模式文件...",
+    "@driveBackupNotificationPreparing": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveBackupNotificationProgress": "{percent}%* 妇女{current}页:1{total}* 妇女{fileName}",
+    "@driveBackupNotificationProgress": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            },
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "driveBackupNotificationCompleteTitle": "驱动备份完成",
+    "driveBackupNotificationCompleteBody": "{count}模型文件同步 。",
+    "@driveBackupNotificationCompleteBody": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "driveBackupNotificationPendingTitle": "驱动备份暂停",
+    "driveBackupNotificationPendingBody": "{count}文件正在等待同步。",
+    "@driveBackupNotificationPendingBody": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "notSignedIn": "未签名",
+    "connected": "已连接",
+    "signOut": "签字",
+    "signInWithGoogle": "与 Google 签约",
+    "premium": "ium",
+    "unlockPremium": "解锁高级",
+    "removeAds": "删除广告",
+    "upgrade": "升级",
+    "makerSyncFree": "MakerSpell免费",
+    "chooseMakerSpellPlan": "选择您的 MakerSpell 计划",
+    "freePlanBenefits": "获得无限项目切片和无广告体验 Pro,或者解锁每个 Pro and Shop 特性MakerSpell店铺",
+    "freeCoreTitle": "你能免费做的",
+    "freeCoreDescription": "核心查找、准备和打印工作流程不需要订阅。",
+    "freeCoreFeatureDiscovery": "发现模型并审查其来源和许可证",
+    "freeCoreFeatureSlicing": "在免费津贴范围内在当地切片和出口G编码",
+    "freeCoreFeaturePrinters": "发现和管理兼容的本地打印机",
+    "freeCoreFeatureWeeklyAllowance": "{catalog}目录+{local} 每周局部切片项目,加上{welcome}欢迎新账户项目",
+    "@freeCoreFeatureWeeklyAllowance": {
+        "placeholders": {
+            "catalog": {
+                "type": "int"
+            },
+            "local": {
+                "type": "int"
+            },
+            "welcome": {
+                "type": "int"
+            }
+        }
+    },
+    "freeCoreFeatureRewardedUnlock": "免给津贴?{daily}(每日) (单位:千美元)",
+    "@freeCoreFeatureRewardedUnlock": {
+        "placeholders": {
+            "daily": {
+                "type": "int"
+            }
+        }
+    },
+    "continueWithFree": "继续自由",
+    "continueFreeWithAd": "继续免费... 观看一个广告",
+    "freeActionProLimitNote": "此工作流程在 Free 上仍然可用。 Pro 只删除使用限制和广告 。",
+    "makerToolsSection": "可选制造商升级",
+    "sellerToolsSection": "卖方的单独工具",
+    "proOptionalUpgradeNote": "继续免费使用核心工作流程,或者选择Pro无限使用,没有广告.",
+    "betaAccessBannerTitle": "21天 主动访问——不需要支付方法",
+    "betaAccessBannerDescription": "您的开放式测试奖励正在激活。 它不会自动更新或收费 。",
+    "settingsCommerceFeaturesTitle": "显示商店和电子商务工具",
+    "settingsCommerceFeaturesDescription": "将销售,上市,定价和存储功能与核心打印工作流程分开.",
+    "settingsCommerceFeaturesIncludedWithShop": "可见因为MakerSpell商店正在营业",
+    "proPlanActive": "计划已经启动",
+    "proPlanBenefits": "启用了无限制的项目切片和无广告体验 。",
+    "shopPlanActive": "您的商店计划已启动",
+    "shopPlanBenefits": "全体MakerSpellPro and Shop 特性启用 。",
+    "viewPlans": "查看计划",
+    "upgradeToShop": "升级到商店",
+    "viewPlanDetails": "查看计划细节",
+    "checkingSubscription": "正在检查订阅",
+    "pleaseWait": "请等一下...",
+    "activeNodes": "活动节点",
+    "cloudPlatformSynchronizations": "云平台同步",
+    "manageActiveNodes": "管理活动节点",
+    "connectedCount": "{connected}页:1{total}已连接",
+    "account": "账户",
+    "signIn": "签名",
+    "signedIn": "签署于",
+    "continueWithGoogle": "继续谷歌",
+    "onboardingSkip": "跳过",
+    "onboardingNext": "下一步",
+    "onboardingBack": "背面",
+    "onboardingGetStarted": "开始吧",
+    "onboardingWelcomeTitle": "制造者需要的一切,\n在一个地方",
+    "onboardingWelcomeDescription": "从多个平台发现可打印模型,而不在应用程序之间跳跃.",
+    "onboardingDiscoverTitle": "找到您的下一个打印",
+    "onboardingDiscoverDescription": "搜索,比较,保存最爱,保持您的模型库组织.",
+    "onboardingSliceTitle": "手机上的切片和指纹",
+    "onboardingSliceDescription": "在手机上准备并切片模型,将G码发送到打印机,从一个地方监控和管理本地网络上的打印机.",
+    "onboardingShopTitle": "将指纹变成企业",
+    "onboardingShopDescription": "与MakerSpell商店 连接市场 准备上市 计算价格 和你的团队合作",
+    "onboardingCloudTitle": "保持你的项目与你",
+    "onboardingCloudDescription": "与 Google 签名连接您的驱动器,同步设置和购买,并访问您的MakerSpell跨设备的数据。",
+    "onboardingGoogleSignIn": "与 Google 签约",
+    "onboardingGoogleSigningIn": "签名于...",
+    "onboardingGoogleConnected": "谷歌账户已连接",
+    "onboardingGoogleOptional": "可选的——也可以连接Google Drive后从设置.",
+    "onboardingGoogleSignInFailed": "无法完成 Google 签名。 您可以再次尝试, 也可以不签名而继续 。",
+    "onboardingPurposeTitle": "您将使用 MakerSpell 做什么 ?",
+    "onboardingCommerceTitle": "你对电子商务感兴趣吗?",
+    "onboardingCommerceDescription": "您的答案只能塑造我们推荐的起始目标。 您可以在稍后手动调整建议 。",
+    "onboardingCommerceYes": "是的,我卖或计划卖",
+    "onboardingCommerceYesDescription": "商店工具、产品制作和销售工作流程都加入到您的建议中。",
+    "onboardingCommerceNo": "不,我是来为个人服务的",
+    "onboardingCommerceNoDescription": "建议采用模型发现、切片和打印机控制的核心流。",
+    "onboardingPurposeDescription": "选择一个或多个目标, 然后将它们拖入优先级。 您可以在设置中明确选择您的家并稍后更改它 。",
+    "usagePurposeDiscover": "查找要打印的模型",
+    "usagePurposeDiscoverDescription": "从模型发现,搜索,最爱,下载开始.",
+    "usagePurposeSlice": "切开我自己的模特",
+    "usagePurposeSliceDescription": "在工作区开始打开、安排和切片本地模型。",
+    "usagePurposePrinter": "控制网络打印机",
+    "usagePurposePrinterDescription": "以保存的打印机、 实时状态、 相机和打印控制器开始 。",
+    "usagePurposeShop": "准备产品销售",
+    "usagePurposeShopDescription": "从商店的草稿、定价和市场上市工具开始。",
+    "usagePurposeFavorites": "看我的最爱",
+    "usagePurposeFavoritesDescription": "在 Favorites 中开始重温保存的模型,并快速返回您的收藏.",
+    "usagePurposeSelectedTitle": "你的优先事项",
+    "usagePurposeAvailableTitle": "其他目标",
+    "usagePurposeMakeHome": "做这个家",
+    "usagePurposeHome": "首页",
+    "usagePurposeInfoTooltip": "关于这个目标",
+    "usagePurposeSelectRecommended": "选择建议",
+    "usagePurposeNavigationPreviewTitle": "导航预览",
+    "usagePurposeNavigationPreviewDescription": "您的选择、顺序和主页设置会立即反映在底部导航栏中。",
+    "notificationCenterTitle": "通知",
+    "notificationCenterEmpty": "没有MakerSpell通知已经通知",
+    "notificationCenterEmptyDescription": "在Android面板上显示的下载、切片、打印机和Drive通知将在此显示。",
+    "notificationCenterActive": "活跃于 Android 通知面板",
+    "notificationCenterMarkRead": "全部标为已读",
+    "notificationCenterClear": "清除通知历史",
+    "notificationOnboardingTitle": "不看屏幕就通知你",
+    "notificationOnboardingDescription": "通知会告诉你打印何时完成或需要注意,切片何时完成,下载或驱动备份何时准备好。我们不使用此权限来进行不必要的宣传提醒 。",
+    "notificationOnboardingEnable": "启用通知",
+    "notificationOnboardingLater": "现在不行",
+    "notificationOnboardingEnabled": "已启用通知",
+    "notificationOnboardingDenied": "通知没有启用。 您可以稍后从系统设置中允许 。",
+    "weeklyDiscoveryDigestTitle": "每周发现摘要",
+    "weeklyDiscoveryDigestDescription": "一种可选的,安静的模型发现摘要,默认关闭,最多每周出现一次.",
+    "weeklyDiscoveryDigestNotificationTitle": "下次打印的新想法",
+    "weeklyDiscoveryDigestNotificationBody": "看这周的模型发现MakerSpell.",
+    "weeklyDiscoveryDigestPermissionDenied": "由于未获得通知许可,无法启用每周摘要。",
+    "weeklyDiscoveryDigestViewedCount": "本周浏览了 {count} 个模型。",
+    "@weeklyDiscoveryDigestViewedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestSavedCount": "已保存 {count} 个模型。",
+    "@weeklyDiscoveryDigestSavedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestFollowedCount": "来自你关注的设计师的 {count} 个新模型。",
+    "@weeklyDiscoveryDigestFollowedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "weeklyDiscoveryDigestEndingContests": "有 {count} 个比赛即将结束。",
+    "@weeklyDiscoveryDigestEndingContests": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "settingsUsagePurposeTitle": "我怎样使用MakerSpell",
+    "settingsUsagePurposeDescription": "将目标按优先顺序排列,并明确选择自己的家.",
+    "settingsUsagePurposeSelectedCount": "{count}选定目标",
+    "@settingsUsagePurposeSelectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "settingsUsagePurposeHomeSummary": "ưμ㼯A{purpose}",
+    "@settingsUsagePurposeHomeSummary": {
+        "placeholders": {
+            "purpose": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsUsagePurposeUpdated": "你的开始经验已经更新了",
+    "slicerTourMenu": "显示切片器巡演",
+    "slicerTourSkip": "跳过巡演",
+    "slicerTourNext": "下一步",
+    "slicerTourBack": "背面",
+    "slicerTourDone": "来啦",
+    "slicerTourStepCount": "%1,即%2 的缩写。",
+    "slicerTourPrinterTitle": "选择打印机",
+    "slicerTourPrinterDescription": "选择打印机配置并在此打开打印设置 。",
+    "slicerTourMenuTitle": "更多切片工具",
+    "slicerTourMenuDescription": "访问对象等级,导出,机器设置,网络打印机,以及偏好.",
+    "slicerTourAddTitle": "添加模型文件",
+    "slicerTourAddDescription": "在当前板块中加入STL或3MF部件,并构建多段项目.",
+    "slicerTourEditTitle": "编辑模型",
+    "slicerTourEditDescription": "移动、旋转、缩放、安排、克隆或优化选定对象。",
+    "slicerTourSliceTitle": "生成 G 代码",
+    "slicerTourSliceDescription": "盘子准备好后, 您可以在此切片。 您可以在打印前查看工具路径 。",
+    "homeTourMenu": "显示探索之旅",
+    "homeTourSearchTitle": "搜索每个平台",
+    "homeTourSearchDescription": "一起搜索所有支持的模型平台。 使用菜单进行下载和打印机, 或者使用过滤按钮来获取详细结果 。",
+    "homeTourPlatformsTitle": "选择源和排序",
+    "homeTourPlatformsDescription": "选择模型平台、类别和排序而不离开 Explore 屏幕。",
+    "homeTourModelsTitle": "发现并保存模型",
+    "homeTourModelsDescription": "打开一张详细内容的卡片或使用其书签按钮将模型添加到您的库中.",
+    "homeTourNavigationTitle": "MakerSpell工作空间",
+    "homeTourNavigationDescription": "在 Shop, Favorites, Explore, 本地切片工作空间和设置之间移动 。",
+    "networkPrinterTourMenu": "显示网络打印机访问",
+    "networkPrinterTourAddTitle": "手动添加打印机",
+    "networkPrinterTourAddDescription": "当无法自动发现打印机时, 请输入 IP 地址和连接细节 。",
+    "networkPrinterTourScanTitle": "扫描您的本地网络",
+    "networkPrinterTourScanDescription": "再次搜索连接到同一本地网络的兼容打印机 。",
+    "networkPrinterTourListTitle": "连接和管理打印机",
+    "networkPrinterTourListDescription": "添加已发现的打印机, 检查连接状态和能力, 或点击保存的打印机打开普通控制 。",
+    "printerControlTourMenu": "显示打印机控制行程",
+    "printerControlTourStatusTitle": "打印机状态",
+    "printerControlTourStatusDescription": "参见连接, 当前打印机状态, 协议, 和基本设备信息 。",
+    "printerControlTourJobTitle": "监视当前工作",
+    "printerControlTourJobDescription": "跟踪文件进度,层,经过时间,并在支持时使用暂停,恢复,或取消.",
+    "printerControlTourSettingsTitle": "温度和速度控制",
+    "printerControlTourSettingsDescription": "根据打印机的能力调整喷嘴和床位目标,照明,风扇功率,以及打印速度.",
+    "printerControlTourFilamentTitle": "管理装入的丝",
+    "printerControlTourFilamentDescription": "审查材料档并更新所支持的打印机上的品牌、材料、名称和颜色。",
+    "printerControlTourMotionTitle": "移动并管理打印机",
+    "printerControlTourMotionDescription": "将X,Y,Z等斧头或送至本部位置.",
+    "printerControlTourDeviceTitle": "打开设备接口",
+    "printerControlTourDeviceDescription": "使用打印机制造商自己的本地界面来获取高级或模型特定特性.",
+    "networkPrinterShowCapabilities": "显示能力",
+    "networkPrinterHideCapabilities": "隐藏能力",
+    "shopTourMenu": "显示商店巡演",
+    "shopTourOverviewTitle": "您的市场工作空间",
+    "shopTourOverviewDescription": "浏览一下连接的商店和支持的市场,然后直接跳转到你的产品上.",
+    "shopTourTeamTitle": "携手合作",
+    "shopTourTeamDescription": "邀请队友,分享加密的商店数据,继续一起列出草稿.",
+    "shopTourConnectTitle": "连接市场",
+    "shopTourConnectDescription": "利用每个有支持的市场规定的连接规则添加一个卖方账户。",
+    "shopTourQuickAccessTitle": "您的商店工具",
+    "shopTourQuickAccessDescription": "打开上传的产品, 连接自己的产品Google Drive,或配置 AI 提供者。",
+    "shopTourPricingTitle": "市场价格公式",
+    "shopTourPricingDescription": "建立成本,佣金,利润,最终销售价格等平台专用公式.",
+    "about": "关于",
+    "aboutSubtitle": "产品信息和切片工艺边界",
+    "licenses": "许可证",
+    "licensesSubtitle": "AGPL 切片器 CLI 源码和开源通知",
+    "thirdPartyLicenses": "第三方包件许可证",
+    "thirdPartyLicensesSubtitle": "查看 Flutter 注册的许可通知和安装的软件包",
+    "clearImageCache": "清除图像缓存",
+    "clearImageCacheSubtitle": "通过清除缓存图像释放存储( E){size}页:1",
+    "clearImageCacheQuestion": "您确定要清除所有缓存图像吗 ? 此动作无法撤销 。",
+    "imageCacheCleared": "图像缓存已成功清除",
+    "automaticImageCacheCleanup": "自动图像缓存清理",
+    "automaticImageCacheCleanupSubtitle": "默认情况下。 当缓存图像超过 2 GB时, 最古老的图像会被删除, 直到缓存大约 1 GB 。",
+    "errorClearingCache": "清除缓存出错 :{error}",
+    "contactSupport": "联系人支持",
+    "contactSupportSubtitle": "发送截图和诊断细节",
+    "notSignedInMessage": "你没有签字。",
+    "signOutQuestion": "签字?",
+    "signOutDescription": "你会作为客人留在应用程序里 把这个设备和Drive上的秘密保存下来",
+    "signingOut": "签名...",
+    "signedOut": "签了字",
+    "signOutFailed": "签名失败 :{error}",
+    "signInFirstDelete": "先签名删除您的账户 。",
+    "deleteAccountQuestion": "永久删除账户 ?",
+    "deleteAccountDescription": "此删除您MakerSpell配置文件、 数据、 购买和认证用户。\\ n\\ n 您Google Drive文件不删除( BYOC) 。 本地设备加密密钥将被擦除 。\\ nn\\ n 无法撤销 。",
+    "deleteAccount": "删除账户",
+    "typeDeleteToConfirm": "要确认的 DELETE 类型",
+    "confirm": "确定",
+    "accountDeleted": "账户已删除 。",
+    "deleteFailed": "删除失败 :{error}",
+    "dangerZone": "危险区",
+    "dangerZoneSignedIn": "签名退出MakerSpell,或者永久删除您的账户。驱动您拥有的文件不会被删除。",
+    "dangerZoneSignedOut": "签名以管理会话和账户删除 。",
+    "@driveConnected": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorClearingCache": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@signOutFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@deleteFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@clearImageCacheSubtitle": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "@connectedCount": {
+        "placeholders": {
+            "connected": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "authenticated": "已认证",
+    "notConnected": "未连接",
+    "disconnect": "断开连接",
+    "connect": "连接",
+    "noPlatformsRequireAuthentication": "没有平台需要认证.",
+    "copySource": "复制来源",
+    "copiedMarkdownSource": "复制标记下源",
+    "failedToLoad": "装入失败 :{error}",
+    "supportIntro": "向MakerSpell。已签名的用户可以根据我的要求跟踪答复。",
+    "yourName": "你的名字",
+    "requiredField": "要求数",
+    "email": "电子邮件",
+    "enterValidEmail": "输入有效的电子邮件",
+    "category": "类别",
+    "subject": "议题",
+    "howCanWeHelp": "我们能帮上什么忙?",
+    "writeMoreDetail": "请写出更多细节",
+    "sending": "正在发送...",
+    "sendMessage": "发送消息",
+    "messageSent": "消息已经发出, 您可以根据我的请求追踪它 。",
+    "couldNotSendMessage": "无法发送消息 :{error}",
+    "supportCategoryGeneral": "一般性问题",
+    "supportCategoryBug": "错误报告",
+    "supportCategoryBilling": "账单/订阅",
+    "supportCategoryFeature": "特性请求",
+    "supportCategoryAccount": "账户/ 登录",
+    "supportCategoryOther": "其他",
+    "supportAttachments": "附录",
+    "supportAttachmentsDescription": "添加一个截图,如果您选择的话, 隐私过滤技术诊断。",
+    "supportAddScreenshot": "添加截图",
+    "supportScreenshot": "截图",
+    "supportScreenshotTooLarge": "截图必须小于1.5 MB.",
+    "supportScreenshotPickFailed": "无法添加截图 :{error}",
+    "supportAttachmentSignIn": "签名以附加截图 。",
+    "supportIncludeDiagnostics": "包括技术诊断",
+    "supportDiagnosticsDescription": "共享最多 10 个最近被隐私过滤的错误事件。 密码、 令牌、 URL、 响应机构、 文件名和原始错误消息不包含在内 。",
+    "@supportScreenshotPickFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedToLoad": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotSendMessage": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "newCollection": "新收藏库",
+    "collectionName": "收藏名称",
+    "descriptionOptional": "描述( 可选)",
+    "visibleToTeam": "球队看得见",
+    "shopMembersCanSeeCollection": "店员可以看这个收藏",
+    "onlyYouDriveBackup": "只有你(仍然备份驱动器)",
+    "enterCollectionName": "请输入收藏名称",
+    "collectionCreatedTeam": "创建收藏( 可见于团队)",
+    "collectionCreated": "成功创建收藏",
+    "errorMessage": "错误 :{error}",
+    "create": "创建",
+    "syncing": "同步中...",
+    "allCollectionsBackedUp": "所有收藏都备份到驱动器",
+    "syncCollectionsWithDrive": "用 Drive 同步收藏",
+    "driveNotConnectedLocalOnly": "未连接驱动器—— 仅本地",
+    "syncIssue": "同步发行 :{error}",
+    "collectionsBackedUp": "{count}已备份收藏到驱动器",
+    "driveNotAvailableKeptLocal": "驱动器不可用——保持本地状态",
+    "models": "模型",
+    "collections": "收款",
+    "noCollectionsYet": "还没有收藏",
+    "createCollectionDescription": "创建收藏来组织您的模型 。\\ nWithGoogle Drive连接,所有收藏(包括私人收藏)都会被备份和恢复.",
+    "myCollections": "我的藏书",
+    "teamCollections": "团队收藏",
+    "itemCount": "{count}项目",
+    "yourLibraryIsEmpty": "您的库为空",
+    "saveModelsFromExplore": "从 Explore 中保存模型到此处查看",
+    "exploreModels": "探索模式",
+    "@errorMessage": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@syncIssue": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@collectionsBackedUp": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@itemCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "addedToCollection": "添加到{name}",
+    "change": "变动",
+    "addedToCollections": "添加到{count}收藏",
+    "removedFromCollection": "删除{name}",
+    "removedFromCollections": "删除{count}收藏",
+    "updatedCollections": "更新的收藏",
+    "addToCollections": "添加到收藏中",
+    "createCollection": "创建收藏",
+    "@addedToCollection": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@removedFromCollection": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@addedToCollections": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@removedFromCollections": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "makerSyncPlans": "MakerSpell计划",
+    "restore": "恢复",
+    "makerSyncPro": "MakerSpell (中文(简体) ).",
+    "makerSyncShop": "MakerSpell商店",
+    "proPlanSubtitle": "无限切换目录和当地项目",
+    "unlimitedProjectSlicing": "无限制的项目切片",
+    "noNativeAds": "没有本地广告",
+    "cloudProfileSyncReports": "云剖面同步和高级报告",
+    "shopPlanSubtitle": "一切在Pro,加上市场自动化",
+    "allProFeatures": "所有 MakerSpell Pro 特性",
+    "marketplaceListingTools": "市场上市工具",
+    "shopAutomationFeatures": "商店团队、定价和产品自动化",
+    "shopShowcaseEyebrow": "以铸币出售",
+    "shopShowcaseTitle": "将3D型机车转化为可销售产品.",
+    "shopShowcaseDescription": "准备市场上市,计算正确的价格, 并保持您的商店工作流程—— 从一个模型到每个销售渠道。",
+    "shopWorkflowModel": "模型",
+    "shopWorkflowPrepare": "准备",
+    "shopWorkflowPublish": "发布",
+    "shopFeatureStoresTitle": "连接您的市场",
+    "shopFeatureStoresDescription": "管理支持的销售渠道,并从单个工作空间存储设置.",
+    "shopFeatureListingTitle": "构建更快的列表",
+    "shopFeatureListingDescription": "将模型细节,图像,和生产数据转化为结构化的产品上市.",
+    "shopFeaturePricingTitle": "自动盈利定价",
+    "shopFeaturePricingDescription": "制定成本、市场收费、税收和目标利润的公式。",
+    "shopFeatureTeamTitle": "一体行动",
+    "shopFeatureTeamDescription": "分享草稿和收藏,使队友可以审查并延续工作流程.",
+    "shopIncludesProTitle": "MakerSpell Pro 列入",
+    "shopIncludesProDescription": "获得无限的项目切片, 一个免费的广告体验,和每一个MakerSpell专业特色.",
+    "shopRequiredTitle": "MakerSpell所需商店",
+    "shopRequiredDescription": "您需要一个 MakerSpell 商店订阅才能使用此功能 。",
+    "shopExplorePlan": "探索MakerSpell商店",
+    "shopExplorePlanHint": "在签名前审查软件包的细节 。",
+    "shopMarketplacePriceFormulas": "市场价格公式",
+    "pricingSavedFormula": "保存的公式%1",
+    "pricingAddMarketplaceFormula": "添加市场公式",
+    "pricingCustomPlatformId": "自定义平台 ID...",
+    "pricingPlatformId": "平台标识",
+    "pricingPlatformIdHint": "例如,肝脏",
+    "pricingFormulaFallbackName": "公式",
+    "pricingAddFormula": "添加公式",
+    "pricingIntro": "每个电子商务平台都可以使用自己的价格公式。默认是典型的Trendyol使用丝绸、包装、航运、平台收费、佣金和利润计算。",
+    "pricingTrendyolTemplate": "Trendyol模板",
+    "pricingCustomFormula": "自定义公式",
+    "pricingCardSummary": "%1* 妇女%2收费%3• 佣金%4%",
+    "pricingNoFormulas": "还没有公式——增加一个公式。Trendyol在下一个保存时默认创建。",
+    "pricingAddParameter": "添加参数",
+    "pricingParameterName": "名称( 识别符)",
+    "pricingParameterNameHint": "例如,劳动成本,脱脂",
+    "pricingParameterNameHelper": "使用字母、数字和下划线;从字母开始",
+    "pricingDefaultValue": "默认值",
+    "pricingAdd": "添加",
+    "pricingInvalidParameterName": "无效名称。 使用有效的标识符, 例如 laborCost 。",
+    "pricingParameterExists": "参数“%1”已经存在或保留。",
+    "pricingFormulaMustSetGrandTotal": "公式必须设置大总和 。",
+    "pricingFormulaError": "公式错误 :%1",
+    "pricingSave": "保存",
+    "pricingDisplayName": "显示名称",
+    "pricingParameters": "参数",
+    "pricingParametersDescription": "内建参数和您的额外参数可以用作公式变量。运行时输入总是可用的: filamentGR, extraPartCost 。",
+    "pricingCustomTag": "自定义",
+    "pricingRemoveParameter": "删除参数",
+    "pricingFormulaSection": "公式(任务),函数:最大,分,如果,abs。",
+    "pricingFormulaHint": "Grand Total =... (中文(简体) ).",
+    "pricingTestWeight": "测试g",
+    "pricingPreview": "预览",
+    "pricingPreviewResult": "样本%1克/销售价格%2个",
+    "pricingTip": "Tip: 默认正文是经典的 Trendyol 公式。 需要输出: grandTotal。 有自定义参数的示例: grandTotal = 总计 * (1 + 利润率) + 劳动成本",
+    "viewerSectionQuality": "质量",
+    "viewerLayerHeight": "层高",
+    "viewerSectionInfill": "监 查",
+    "viewerPattern": "图案",
+    "viewerDensity": "密度",
+    "viewerSectionSupport": "支助",
+    "viewerEnableSupport": "开启支撑",
+    "viewerType": "类型",
+    "viewerSectionAdhesion": "附加",
+    "viewerBrimType": "Brim类型",
+    "viewerApplySettings": "应用设置",
+    "viewerPatternGyroid": "螺旋体",
+    "viewerPatternGrid": "网格",
+    "viewerPatternTriangles": "三角形",
+    "viewerPatternCubic": "立方体",
+    "viewerSupportTreeAuto": "树状(自动)",
+    "viewerSupportNormalAuto": "普通(自动)",
+    "viewerBrimOuterOnly": "仅外部",
+    "viewerBrimInnerOnly": "只有内",
+    "viewerNoBrim": "没有",
+    "viewerStartingSlicer": "开始切片...",
+    "slicingProgressPreparing": "准备OrcaSlicer. .  ....",
+    "slicingProgressStarting": "开始切片...",
+    "slicingProgressMesh": "切丝网...",
+    "slicingProgressWalls": "生成墙壁...",
+    "slicingProgressInfillRegions": "正在生成填充区域...",
+    "slicingProgressInfillToolpath": "正在生成填充工具路径...",
+    "slicingProgressCheckingSupport": "正在检查是否需要支持...",
+    "slicingProgressSupport": "正在生成支持...",
+    "slicingProgressSupportContacts": "正在生成支持联系人...",
+    "slicingProgressSkirtBrim": "产生裙子和胸...",
+    "slicingProgressDetectingOverhangs": "侦测超架自动起降...",
+    "slicingProgressOptimizingToolpath": "优化工具路径...",
+    "slicingProgressGeneratingGcode": "正在生成 G 代码...",
+    "slicingProgressGeneratingGcodeLayer": "正在生成 G 代码 · 第 %1 层…",
+    "slicingProgressExportingGcode": "导出 G 代码...",
+    "slicingProgressFinalizingGcode": "最后确定 G 码...",
+    "slicingProgressComplete": "切片完成",
+    "viewerCouldNotOpenSliceResult": "无法打开切片结果",
+    "viewerSlicingFailed": "切片失败",
+    "viewerNativeSlicerStopped": "原生切片机停止使用.",
+    "viewerCouldNotCloseSafely": "无法安全关闭三维查看器",
+    "viewerSlicingFile": "切换%1",
+    "viewerSlicingStopped": "切换停止",
+    "viewerCancelledOrFailed": "取消或失败",
+    "viewerEmptyGcode": "空 G 码",
+    "viewerSliceComplete": "切换完成",
+    "viewerLowMemorySlicing": "低金属切片",
+    "viewerSlicing": "正在切片",
+    "viewerKeepOpenDuringSlicing": "保持 MakerSpell 打开并保留在屏幕上直到切换完成。 关闭应用程序或移动到背景可能会中断进程 。",
+    "viewerClosedForSlicing": "3D查看器完全关闭.\n此屏幕上没有 WebView 运行 。",
+    "viewerSlicerThreads": "%1条切片线",
+    "viewerCancelling": "正在取消...",
+    "viewerBackToModel": "回到模特儿身边",
+    "viewerCancel": "取消",
+    "viewerSimplifyAndHollowTitle": "简化和空洞的模型?",
+    "viewerSimplifyAndHollowDescription": "此模式过于复杂, 无法进行可靠的安装空心操作。 它首先会被简化, 然后自动应用空心操作。 您可以取消整个操作 。",
+    "viewerSimplifyAndHollowAction": "简化和空洞",
+    "viewerSelectModelBeforeClone": "先在盘子上选择一个模型,然后复制.",
+    "viewerModelCloned": "模型克隆",
+    "viewerCopiesCloned": "克隆%1份副本",
+    "viewerAutoRotateApplied": "自动旋转: 应用的最低打印高度",
+    "viewerAutoRotateSelectModel": "自动旋转失败——先选择一个模型",
+    "viewerAutoRotateError": "自动旋转错误 :%1",
+    "viewerArrangingObjects": "排列对象...",
+    "viewerAddingModel": "正在添加模型...",
+    "viewerNotReady": "查看器还没有准备好 。",
+    "viewerGcodeCannotBeAdded": "G 码不能作为固态对象添加, 改为打开为新文件 。",
+    "viewerCannotAddExtension": "无法添加“。%1\"到现场. 使用3MF或STL.",
+    "viewerFilePickFailed": "文件选择失败 :%1",
+    "viewerAddPrimitive": "添加原始内容",
+    "viewerPrimitiveCube": "立方体",
+    "viewerPrimitiveCylinder": "圆柱体",
+    "viewerPrimitiveSphere": "球",
+    "viewerPrimitiveCone": "锥体",
+    "viewerPrimitiveDisc": "圆盘",
+    "viewerPrimitiveTorus": "环面",
+    "viewerPrimitiveDescription": "立方体、圆柱体、圆锥、圆盘或圆锥",
+    "viewerFromLibrary": "从图书馆",
+    "viewerFromLibraryDescription": "校准和有用的测试模型",
+    "viewerFromDownloads": "从下载",
+    "viewerFromDownloadsDescription": "选择已完成的下载",
+    "viewerFromDevice": "从设备",
+    "viewerFromDeviceDescription": "选择 3MF 或 STL 文件",
+    "viewerHandyModels": "有用的模型",
+    "viewerFormat": "格式 :%1",
+    "viewerArrangeSettings": "安排设置",
+    "viewerSpacing": "间距",
+    "viewerAuto": "自动",
+    "viewerAutoSpacingDescription": "0表示自动间隔.",
+    "viewerAutoRotateArrangement": "为安排自动旋转",
+    "viewerAllowMultipleMaterials": "允许同一板块上的多个材料",
+    "viewerMultiplePlatesUnsupported": "多个板块不支持,所有对象都会排列在当前板块上.",
+    "viewerAlignYAxis": "向 Y 轴对齐",
+    "viewerArrange": "自动摆放",
+    "viewerApplied": "应用",
+    "viewerAutoRotateComplete": "自动旋转完成",
+    "viewerMinSupportComplete": "最低支助完成",
+    "viewerAutoOrientationFailed": "自动方向失败——找不到模型面孔 。",
+    "viewerAddModelToScene": "添加模型到场景",
+    "viewerExistingObjectsStay": "现有物体留在盘子上",
+    "viewerModelDimensions": "模型维度",
+    "viewerLayOnFace": "趴在地上(贝塔)",
+    "viewerLayOnFaceDescription": "Beta — 拍拍表面, 将这张脸放在床上。 复杂的 meshes可能需要第二次尝试 。",
+    "viewerCut": "切割",
+    "viewerPlanar": "平面",
+    "viewerDovetail": "燕尾榫",
+    "viewerCutHeight": "剪切高度( Z ) :",
+    "viewerWidth": "线宽:",
+    "viewerDepth": "深度 :",
+    "viewerFlapAngle": "平滑角度 :",
+    "viewerGrooveAngle": "角 :",
+    "viewerAfterCut": "剪切后 :",
+    "viewerUpperPart": "上半部分",
+    "viewerLowerPart": "下半部分",
+    "viewerKeep": "保持",
+    "viewerLayFlat": "平躺着",
+    "viewerRotate": "旋转",
+    "viewerPositionControl": "位置控制(毫米)",
+    "viewerRotationControl": "旋转控制(°)",
+    "viewerScaleControl": "缩放控制",
+    "viewerDimensionsMm": "尺寸(毫米)",
+    "viewerUniform": "制服",
+    "viewerFree": "免费",
+    "viewerMove": "移动",
+    "viewerScale": "缩放",
+    "viewerMirror": "镜像",
+    "viewerMirrorModel": "镜像模型",
+    "viewerMirrorDescription": "选择轴来反射选中的模型。 镜像同一轴再次恢复其先前的方向 。",
+    "viewerMirrorLeftRight": "左转右转",
+    "viewerMirrorFrontBack": "前面 \\ 后边",
+    "viewerMirrorTopBottom": "上 \\\\ 下",
+    "viewerMirrorApplied": "模型镜像于{axis}轴。",
+    "@viewerMirrorApplied": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerMirrorSelectModel": "镜像前选择一个模型 。",
+    "viewerColorPainting": "颜色绘制",
+    "viewerPaintCircle": "圆",
+    "viewerPaintSphere": "球",
+    "viewerPaintTriangle": "三角形",
+    "viewerPaintSmartFill": "智能填充",
+    "viewerPaintHeightRange": "高度范围",
+    "viewerPaintFilament": "档案%1",
+    "viewerPaintBrushSize": "画笔尺寸",
+    "viewerPaintAngle": "填充角度",
+    "viewerPaintHeight": "高度",
+    "viewerPaintEraser": "擦除画",
+    "viewerPaintNavigate": "旋转和缩放视图",
+    "viewerPaintClear": "擦除所有绘制",
+    "viewerPaintSelectModel": "打开彩色画前选择一个模型 。",
+    "viewerPaintStartFailed": "无法打开彩色画 :%1",
+    "viewerViewCube": "查看立方体",
+    "viewerChooseView": "选择相机视图",
+    "viewerViewFront": "前",
+    "viewerViewBack": "背面",
+    "viewerViewLeft": "左",
+    "viewerViewRight": "右",
+    "viewerViewTop": "顶部",
+    "viewerViewBottom": "底部",
+    "viewerViewIsometric": "不对称",
+    "viewerAutoRotate": "自动朝向",
+    "viewerMinSupport": "最低限度支助",
+    "viewerLayFaceShort": "张面β",
+    "viewerAnalyzingSurfaces": "分析参考表面...",
+    "viewerClone": "克隆",
+    "viewerCloneModel": "克隆模型",
+    "viewerCloneCount": "印数",
+    "viewerCloneCountDescription": "选择要创建的选定模型的新副本 。",
+    "viewerCloneCountRange": "输入从 1 到 20 的值",
+    "viewerCloneCountInvalid": "输入1至20之间的数字。",
+    "viewerAdd": "添加",
+    "viewerClose": "关闭",
+    "viewerEditModel": "编辑模式",
+    "viewerMeasure": "Measure",
+    "viewerMeasureResult": "Measurement",
+    "viewerMeasureTapFirstPoint": "Tap the first point on the model.",
+    "viewerMeasureSecondPoint": "Now tap the second point on the model.",
+    "viewerMeasureTapToReplace": "Tap again to replace it, or tap Clear.",
+    "viewerMeasureClear": "Clear",
+    "viewerMeasureAngle": "角度",
+    "viewerMeasureInfinite": "无限距离",
+    "viewerMeasureCircle": "圆",
+    "viewerMeasureCenter": "居中",
+    "viewerMeshDiagnostics": "网格诊断",
+    "meshDiagnosticsStatsTitle": "网格统计",
+    "meshDiagnosticsTriangleLabel": "三角形",
+    "meshDiagnosticsVertexLabel": "维度",
+    "meshDiagnosticsShellLabel": "贝壳",
+    "meshDiagnosticsIdleHint": "分析当前可能影响到切片的网格问题的场景.",
+    "meshDiagnosticsAnalyzingTitle": "分析网格...",
+    "meshDiagnosticsCancellingTitle": "正在取消...",
+    "meshDiagnosticsFailedTitle": "分析失败",
+    "meshDiagnosticsFailedHint": "无法分析网格。 您的项目没有改变 。",
+    "meshDiagnosticsCleanTitle": "网点很健康",
+    "meshDiagnosticsCleanMessage": "没有网格问题 模型可以切片了",
+    "meshDiagnosticsResultsTitle": "网目调查结果",
+    "meshDiagnosticsResultsBlockingIntro": "发现了可能阻碍切片的问题。",
+    "meshDiagnosticsResultsWarningIntro": "发现警告, 目前没有阻断切换 。",
+    "meshDiagnosticsBlockingLabel": "封锁",
+    "meshDiagnosticsWarningLabel": "警告",
+    "meshDiagnosticsRepairableLabel": "可修理",
+    "meshDiagnosticsNotRepairableLabel": "不可修复",
+    "meshDiagnosticsAnalyzeAction": "分析",
+    "meshDiagnosticsUnexpected": "网状分析结果出乎意料。",
+    "meshDiagnosticsMemoryLimit": "这个模型比设备目前需要更多的自由内存.",
+    "meshDiagnosticsMemoryWarningTitle": "高内存使用率",
+    "meshDiagnosticsMemoryWarningBody": "此分析可能使用大量的内存。 在继续前关闭其它应用程序 。",
+    "meshDiagnosticsContinueAction": "继续",
+    "meshDiagnosticsExportFailed": "目前的情况无法进行分析。",
+    "meshDiagnosticsOpenEdges": "打开边缘",
+    "meshDiagnosticsNonManifoldEdges": "非线性边缘",
+    "meshDiagnosticsInvertedFaces": "颠倒的面孔",
+    "meshDiagnosticsDegenerateTriangles": "脱原三角形",
+    "meshDiagnosticsDisconnectedShells": "断开贝壳",
+    "meshDiagnosticsSelfIntersections": "自我交互",
+    "meshDiagnosticsOccurrences": "{count, plural, =1{1次发生} other{{count} 发生}}",
+    "@meshDiagnosticsOccurrences": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerSelectedPlatesFirst": "将选中的盘片先剪切 :%1",
+    "viewerNoSizeWeight": "还没有大小或重量信息。 等待模型先加载或切片 。",
+    "viewerLoadingModel": "正在装入模型...",
+    "viewerPreparingModel": "准备显示模型...",
+    "viewerLoadingGcode": "正在装入 G 码...",
+    "viewerLoadingGcodePreview": "正在装入 G 代码预览...",
+    "viewerReloadingModel": "正在重新装入模型...",
+    "viewerLoadingToolpath": "正在装入工具路径预览...",
+    "viewerFailedToLoadGcode": "加载 G 码失败 :%1",
+    "viewerSwitchSolidTitle": "切换到 Solid Mode 吗 ?",
+    "viewerSwitchSolidDescription": "离开 G 代码预览会丢弃装入的 G 代码, 返回空的固态场景。 继续吗 ?",
+    "viewerSolidMode": "固态",
+    "viewerGcodePreview": "G 代码预览",
+    "viewerPreparationTab": "准备",
+    "viewerPreviewTab": "预览",
+    "viewerReslice": "重切开",
+    "viewerPrintSettingsChangedTitle": "打印设置已更改",
+    "viewerPrintSettingsChangedReslicePrompt": "现有 G-code 是使用之前的设置生成的。现在重新切片吗？",
+    "viewerSliceForListing": "列入名单的片断",
+    "viewerSliceGcode": "切片( G 码)",
+    "viewerProjectFileUnverified": "无法校验工程文件 。",
+    "viewerWeeklyProjectLimit": "达到每周项目限额",
+    "viewerCatalogProjectLimitDescription": "您在过去7天中使用了您的 %1 免费目录项目。 此模型及其所有文件都算为一个项目 。",
+    "viewerLocalProjectLimitDescription": "你用过你的%1过去7天免费本地文件项目。",
+    "viewerLater": "回头见",
+    "viewerViewPro": "视图 Pro",
+    "viewerWatchAdProject": "观看广告 +1 项目",
+    "viewerRewardedAdUnavailable": "现在没有奖赏广告",
+    "viewerSelectedPathUnreadable": "无法读取选中的文件路径 。",
+    "viewerUnsupportedFileType": "不支持的文件类型“.%1使用3MF、STL、OBJ或G码。",
+    "viewerOpen": "打开",
+    "viewerOpenFile": "打开文件",
+    "viewerOpenFileDescription": "替换当前工作空间模式",
+    "viewerDownloadsDescription": "选择一个已下载 MakerSpell 的模型",
+    "viewerDeviceDescription": "浏览存储或使用系统文件拾取器",
+    "viewerAddCurrentScene": "添加到当前场景",
+    "viewerAddCurrentSceneDescription": "库、下载或设备——保留现有对象",
+    "viewerProjectSettingsAdapted": "适应项目设置",
+    "viewerProjectSettingsAdaptedDescription": "此文件中的一些值已经过时或不再有效。 它们被更新为当前 Orca 默认值, 因此切换工作正确 。",
+    "viewerSettingsUpdatedCount": "%1个新设置",
+    "viewerClosing3d": "完全关闭 3D 查看器...",
+    "viewerViewerClosedStartingSlice": "查看器关闭——开始隔离切片......",
+    "viewerLoadedFromCache": "从缓存装入",
+    "viewerCachedSliceTitle": "用上一个切片吗?",
+    "viewerCachedSliceDescription": "您以前用相同的打印机和设置切换过这个模型。 您想要使用缓存的 G 代码吗 ?",
+    "viewerUseCachedSlice": "使用缓存的 G 代码",
+    "viewerSliceCompleteCache": "切片完成( 缓存)",
+    "viewerFileReady": "%1 备妥",
+    "viewerSliceDoneListing": "切片完成(~%1(g) 通过“用于上市”来应用重量和大小。",
+    "viewerSliceDoneExport": "切换完成。 使用导出 G 码来保存 。",
+    "viewerSliceSettingsAdapted": "调整剪切设置",
+    "viewerSliceSettingsAdaptedDescription": "在切片时调整了其他配置值。",
+    "viewerSliceSettingsAdaptedFailure": "一些配置值在切片失败前进行了调整.",
+    "viewerSlicingFailedDetail": "切换失败 :%1",
+    "viewerSelectPrinter": "选择打印机",
+    "viewerBack": "背面",
+    "viewerUndo": "撤销",
+    "viewerRedo": "重做",
+    "viewerMenu": "菜单",
+    "viewerObjectsHierarchy": "对象等级",
+    "viewerExportGcode": "导出 G 代码",
+    "viewerExport3mf": "导出3MF",
+    "viewerMachineSettings": "机器设置",
+    "viewerPrinterAndSettings": "打印机和设置",
+    "viewerNetworkPrinters": "网络打印机",
+    "viewerPreferences": "偏好设置",
+    "viewerAutoOrienting": "自动定向...",
+    "viewerSlicingCancelled": "切换已取消",
+    "viewerStoppedByUser": "用户已停止",
+    "viewerListingPrepareDescription": "列出准备 – 选择打印机, 缩放模型, 调整打印设置, 切片, 然后用于列出。 如果您跳过更改, 则使用最后一个活动打印机和覆盖 。",
+    "viewerSimplify": "简化",
+    "viewerWeight": "重量 :%1",
+    "viewerSliceSummary": "片段摘要",
+    "viewerPlate": "盘片%1",
+    "viewerAllPlates": "所有车牌",
+    "viewerSinglePlate": "焦点选定盘",
+    "viewerUseSlicedListing": "用于上市(被切片)",
+    "viewerUseMeshListing": "列表使用网格大小",
+    "viewerPrint": "打印",
+    "viewerAddFile": "添加文件",
+    "viewerEditModelTooltip": "编辑模型( 比例 / 移动 / 旋转)",
+    "viewerLineType": "行类型",
+    "viewerFilament": "耗材丝",
+    "viewerTime": "时间",
+    "viewerUsage": "用法",
+    "viewerModel": "模型",
+    "viewerSupport": "支撑",
+    "viewerTower": "擦料塔",
+    "viewerTotal": "总计",
+    "viewerTotalFilament": "总丝状",
+    "viewerModelFilament": "模型丝",
+    "viewerCost": "成本",
+    "viewerSlicingTime": "切片时间",
+    "viewerPrepareTime": "准备时间",
+    "viewerModelPrintTime": "模型打印时间",
+    "viewerTotalTime": "总时间",
+    "viewerFilamentChanges": "材料切换",
+    "viewerUnknownError": "未知错误",
+    "viewerOffFullDetail": "3D 查看器关闭\n(全细切).",
+    "viewerOffFreeMemory": "3D 查看器关闭\n以释放内存",
+    "viewerRestoring3d": "恢复三维查看器...",
+    "viewerNoSimplifyDescription": "您选择了不简化 。 查看器在切片完成前将禁用 。",
+    "viewerNeedsRamDescription": "切片机需要所有可用的RAM来优化工具路径.",
+    "viewerModelAdded": "现场新增的模型",
+    "viewerModelAddFailed": "无法将模型添加到现场",
+    "viewerExporting": "导出中...",
+    "viewerPreparingPlateProgress": "正在准备当前盘片...%1%. . . . . .%2",
+    "viewerExporting3mfProgress": "导出 3MF...%1%. . . . . .%2",
+    "viewerLargeGcodeTitle": "G大码",
+    "viewerLargeGcodeDescription": "此 G 代码非常大( %1 ) 。 在移动模型以保持平滑时会显示一个临时的低细节预览。 发布时会返回全部细节 。",
+    "viewerCutSuccess": "模型切成功 。",
+    "viewerCutFailed": "剪切失败 :%1",
+    "viewerUnknownFailure": "未知错误",
+    "viewerGcodePreviewLoadFailed": "无法装入 G 代码预览",
+    "viewerLoadingPercent": "正在装入...%1%",
+    "viewerLoading": "正在装入...",
+    "viewerModelLoadWarning": "模型载荷警告",
+    "viewerModelTooLarge": "此模型对于设备内存来说太大了。 3D 预览被禁用, 但您仍然可以直接切片并生成 G 代码 。",
+    "viewerModelLoadWarningDescription": "装入模型时发生了错误。 3D 预览可能没有出现, 但是您仍然可以直接尝试切片 。",
+    "viewerSliceBeforePrint": "在打印前切除一个模型.",
+    "viewerSliceOrOpenGcode": "先切换一个模型或打开一个G码文件.",
+    "viewerSaveDownloads": "保存为下载",
+    "viewerSaveDownloadsDescription": "内部存储 ^ 下载文件夹",
+    "viewerShare": "共享...",
+    "viewerShareDescription": "文件、 驱动和其他应用程序",
+    "viewerExportUsb": "导出为USB −%1",
+    "viewerNoUsb": "未检测到 USB / OTG 驱动器",
+    "viewerNoUsbDescription": "连接驱动器并再次打开此菜单",
+    "viewerGcodeSaved": "G 代码已保存 :\n%1",
+    "viewerShareFailed": "共享失败 :%1",
+    "viewerUsbSaved": "已保存到 USB (%1号:\n%2个",
+    "viewerUsbWriteFailed": "无法写入 USB (S)%1. 检查存储权限。\n%2个",
+    "viewerUsbExportFailed": "USB 导出失败 :%1",
+    "viewerSliceCompleteElapsed": "切换完成%1%2。 。 。 。",
+    "viewerElapsedIn": "%1 输入",
+    "viewerWeightSuffix": "(~%1克)",
+    "viewerSimplifyQuestion": "简化这个模型?",
+    "viewerHighPolyDescription": "此型号为高Poly(~%1三角形),在移动中,这可以减缓切片速度,并使用大量的内存.",
+    "viewerSimplifyRecommendation": "我们建议在切片前简化。 三角形较少通常意味着切片速度更快。 细微的细节可能会减少, 多彩颜料也会受到影响 。",
+    "viewerKeepOriginal": "保持原样",
+    "viewerSimplifyRecommended": "简化(建议)",
+    "viewerSimplifying": "简化模型...",
+    "viewerSimplifiedCount": "简化型号:%1→%2三角形",
+    "viewerSimplified": "模式简化——切片应更快.",
+    "viewerSimplifyUnavailable": "无法简化; 将使用原始网格 。",
+    "viewerSimplifyFailed": "简化失败; 将使用原始网格 :%1",
+    "viewerLowMemoryMode": "低分切模式",
+    "viewerLowMemoryDescription": "这个模型需要额外的内存切片.MakerSpell将临时切换到低模模式,并在切片时关闭3D查看器.",
+    "viewerFullDetailPreserved": "您的模型保留了完整的几何细节。 切片完成后, G 编码预览会自动打开 。",
+    "viewerKeepForeground": "保持 MakerSpell 打开并在前景中, 直到切片完成。 将应用程序移动到背景上可能会使 Android 停止进程 。",
+    "viewerModelTriangleInfo": "型号:~%1个三角形%2个",
+    "viewerStartSlicing": "开始切片",
+    "viewer3mfSaved": "保存的 3MF 模型 :%1",
+    "viewer3mfShareOpened": "3MF 共享对话框打开。 您也可以将其保存到下载 。",
+    "viewer3mfExportFailed": "导出 3MF 失败 :%1",
+    "viewerRenamePlate": "重命名盘",
+    "viewerPlateNameHint": "输入新盘名",
+    "viewerSave": "保存",
+    "viewerSelectedPlatesSliced": "已切片的牌照总数%1 g. 采用“用于上市”法。",
+    "viewerPreparingPlate": "准备%1 %2...",
+    "viewerSimplifyingPolygons": "简化模型多边形...\n(切片引擎活动)",
+    "viewerCpuSlicingActive": "CPU 切换引擎激活!\n切片:%1%",
+    "viewerRoleInnerWall": "内墙",
+    "viewerRoleOuterWall": "外墙",
+    "viewerRoleOverhangWall": "悬空墙",
+    "viewerRoleSparseInfill": "稀疏填充",
+    "viewerRoleInternalSolidInfill": "内部实心填充",
+    "viewerRoleTopSurface": "顶面",
+    "viewerRoleBottomSurface": "底面",
+    "viewerRoleBridge": "桥接",
+    "viewerRoleInternalBridge": "内部桥梁",
+    "viewerRoleGapInfill": "填缝",
+    "viewerRoleIroning": "熨烫",
+    "viewerRoleSkirt": "裙边",
+    "viewerRoleBrim": "Brim",
+    "viewerRoleSupportInterface": "支撑面",
+    "viewerRoleSupportTransition": "支撑转换层",
+    "viewerRolePrimeTower": "擦拭塔",
+    "viewerRoleCustom": "自定义",
+    "viewerRoleMixed": "混合",
+    "viewerRoleTravel": "空驶",
+    "viewerRoleRetract": "回抽",
+    "viewerRoleUnretract": "装填回抽",
+    "viewerRoleWipe": "擦拭",
+    "viewerRoleSeams": "缝",
+    "viewerRoleToolChange": "工具更改",
+    "viewerRoleColorChange": "颜色更换",
+    "viewerRolePause": "暂停",
+    "viewerRoleCustomGcode": "自定义 G-code",
+    "shopConnectStore": "连接存储",
+    "shopDrafts": "草稿",
+    "shopDraftsDescription": "您的商店团队可以使用未完成的市场列表。 团队成员可以审查保存的字段, 从最后一步继续 。",
+    "shopNoDrafts": "没有未完成的市场列表。",
+    "shopYourStores": "你的店铺",
+    "shopQuickAccess": "快速进入",
+    "shopListOwnModel": "列出自己的型号",
+    "shopListOwnModelDescription": "从本地的3MF,STL,或OBJ文件中创建市场产品.",
+    "shopPreparingLocalModel": "准备您的本地模型...",
+    "shopLocalModel": "当地模式",
+    "shopLocalModelFileUnavailable": "选中的模型文件已无法使用 。",
+    "shopLocalListingPrepareFailed": "无法编写本地模式 :%1",
+    "shopEmbeddedImagesTitle": "使用 3MF 的图像",
+    "shopEmbeddedImagesDescription": "选择要用作市场产品图像的嵌入式模型预览。",
+    "shopUseSelectedImages": "使用选中的( E)%1个",
+    "shopUploadingEmbeddedImages": "安全上传选中的 3MF 图像...",
+    "shopUploadedProducts": "上传产品",
+    "shopUploadedProductsDescription": "列出、过滤和管理送往市场的产品",
+    "shopConnectGoogleDrive": "连接Google Drive",
+    "shopDriveLinked": "链接 :%1",
+    "shopDriveByocDescription": "BYOC: 加密存储数据到您的驱动器",
+    "shopAiProvider": "AI 供应商",
+    "shopAiProviderDescription": "选择双子座或自由AI模型并配置内容语言",
+    "aiProviderIntro": "选择自由模型或连接双子座,ChatGPT,Claude,或任何OpenAI兼容的提供者与你自己的API密钥. BYOK秘密留在安全设备存储中.",
+    "aiProviderLabel": "AI 供应商",
+    "aiProviderSelectionSection": "提供者和产出",
+    "aiProviderConnectionSection": "连接细节",
+    "aiProviderDataSection": "储存和分享",
+    "aiProviderFreeModel": "自由模式( 无 API 密钥)",
+    "aiProviderGeminiByok": "双子座- BYOK",
+    "aiProviderOpenAiByok": "ChatGPT / OpenAI – BYOK 游戏",
+    "aiProviderClaudeByok": "Claude/Anthropic · BYOK (英语).",
+    "aiProviderCompatibleByok": "与 OpenAI 兼容的 BYOK",
+    "aiProviderApiKey": "API秘钥",
+    "aiProviderOpenAiApiKey": "OpenAI API 密钥",
+    "aiProviderAnthropicApiKey": "Anthropic API 密钥",
+    "aiProviderBaseUrl": "基础 URL",
+    "aiProviderModelId": "型号标识",
+    "aiProviderImageModelId": "图像模型 ID( 可选)",
+    "aiProviderImageModelHelper": "用于产品图像。 留空以使用模型 ID 。",
+    "aiProviderContentLanguage": "内容语言",
+    "aiProviderSystemLanguage": "系统语言",
+    "aiProviderBackupDrive": "备份到Google Drive",
+    "aiProviderBackupDriveDescription": "保存连接到{appName}私人Drive应用程序数据。",
+    "@aiProviderBackupDriveDescription": {
+        "placeholders": {
+            "appName": {
+                "type": "String"
+            }
+        }
+    },
+    "aiProviderShareTeam": "跟我的商店团队分享",
+    "aiProviderShareTeamDescription": "仅在同步时将此密钥包含在端到端加密的商店窗口中 。",
+    "aiProviderSaveSettings": "保存 AI 设置",
+    "aiProviderTestAndSave": "测试和保存",
+    "aiProviderRestoreDrive": "从Google Drive",
+    "aiProviderEnterBaseUrl": "输入提供者基础 URL。",
+    "aiProviderEnterApiKey": "输入选定提供者的 API 密钥 。",
+    "aiProviderTesting": "测试 AI 提供者...",
+    "aiProviderSaving": "正在保存...",
+    "aiProviderConnected": "AI 提供者连接成功 。",
+    "aiProviderSaved": "已保存 AI 提供者设置 。",
+    "aiProviderConnectionFailed": "无法连接 :{error}",
+    "@aiProviderConnectionFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "aiProviderRestoringDrive": "恢复从Google Drive…",
+    "aiProviderNoDriveBackup": "Drive 找不到 AI 提供者备份 。",
+    "aiProviderRestoredDrive": "从 Drive 恢复 AI 提供者设置 。",
+    "aiProviderRestoreFailed": "驱动器恢复失败 :{error}",
+    "@aiProviderRestoreFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "shopComingSoon": "马上就来",
+    "shopComingSoonDescription": "这些市场尚未可供连接。",
+    "shopLegacyMigrationTitle": "迁移遗留服务器设置",
+    "shopLegacyMigrationDescription": "将旧定价和设置移动到您的驱动器",
+    "shopLegacyMigrationComplete": "迁移完成。%1 出口:%2个%3个%4 旧文件被废弃:%5.五.%6个",
+    "shopLegacyMigrationFullDump": "· 完全垃圾堆",
+    "shopLegacyMigrationWarning": "警告: 导出可能不完整; 重新部署后端并再次迁移 。",
+    "shopLegacyMigrationFailed": "迁移失败 :%1",
+    "shopDraftMissingSource": "该草案不包含源模型信息.",
+    "shopDeleteDraftQuestion": "删除草稿?",
+    "shopDeleteDraftDescription": "“......%1”将从草案中删除。",
+    "shopDelete": "删除",
+    "shopDraftDeleted": "草案已删除。",
+    "shopDraftDeleteFailed": "无法删除草稿 :%1",
+    "shopStoreConnected": "%1商店连通.",
+    "shopStoreUpdated": "存储更新 。",
+    "shopDisconnectStoreQuestion": "断线店?",
+    "shopDisconnectStoreDescription": "从此设备中删除“ %1” (%2] ? 服务器上的产品历史不会被删除 。",
+    "shopDisconnect": "断开连接",
+    "shopProductListingUnavailable": "%1 产品上市尚未公布.",
+    "shopSignInFirst": "签名到MakerSpell先说",
+    "shopDriveConnectedAs": "驱动器连接为%1. 联合国",
+    "shopDriveConnectFailed": "驱动器连接失败 :%1",
+    "shopTeamScope": "团队",
+    "shopLocalScope": "当地",
+    "shopDraftStep": "步骤%1页:1%2* 妇女%3* 妇女%4",
+    "shopStepSelectModels": "选择模式",
+    "shopStepSelectStores": "选择仓库",
+    "shopStepProductDetails": "产品详情",
+    "shopStepStoreDetails": "存储细节",
+    "shopStepReviewPublish": "审查和出版",
+    "shopContinue": "继续",
+    "shopDeleteDraftTooltip": "删除草稿",
+    "shopMarketplaceHub": "采购中心",
+    "shopSupportedMarketplacesTitle": "支助市场",
+    "shopSupportedMarketplacesDescription": "直接连接和发布到这里显示的市场。 支持是规则驱动的, 可以扩展而不更新应用程序 。",
+    "shopFreePublishingTitle": "免费每周出版",
+    "shopFreePublishingRemaining": "%1,其中%2列出过去7天的剩余时间",
+    "shopFreePublishingExplanation": "一个成功的产品 × 商店出版物使用一个插槽。 失败的出版物不使用您的备抵 。",
+    "shopPublishingUnlimited": "无限制市场出版方式MakerSpell商店",
+    "shopPublishingQuotaUnavailable": "无法装入出版备忘 。",
+    "shopPublishingSignIn": "签收使用免费的每周出版津贴。",
+    "shopUpgradeForUnlimited": "获得无限出版",
+    "shopConnectSellerDescription": "利用特定市场一体化领域连接销售账户。",
+    "shopHubLinkedSummary": "%1 链接 ^ %2 目录中的市场",
+    "shopViewProducts": "查看产品",
+    "shopNoStoresConnected": "没有连接仓库",
+    "shopNoStoresDescription": "从目录中添加一个支持的市场开始管理产品.",
+    "shopConnectFirstStore": "连接您的第一家店",
+    "shopSeller": "销售者%1",
+    "shopConnectedStatus": "已连接",
+    "shopIncompleteStatus": "不完整",
+    "shopLinkedDate": "链接%1",
+    "shopProducts": "产品",
+    "shopEdit": "编辑",
+    "shopDefaultFormula": "%1 默认公式",
+    "shopUnavailableYet": "%1个尚未提供。",
+    "shopFieldRequired": "%1需要这样做。",
+    "shopHttpsUrlRequired": "%1必须是有效的HTTPS URL.",
+    "shopConnectionVerificationFailed": "无法校验存储连接 :%1",
+    "shopCredentialsRequired": "需要销售者身份证、API密钥和API保密。",
+    "shopStoreDisplayName": "存储显示名称",
+    "shopSellerIdLabel": "销售者身份",
+    "shopApiKeyLabel": "API 密钥",
+    "shopApiSecretLabel": "API 秘密",
+    "shopOriginCountryInvalid": "原籍国必须是两个字母代码,例如TR.",
+    "shopDefaultBrandRequired": "需要默认品牌.",
+    "shopDefaultCargoRequired": "需要有默认货运公司。",
+    "shopDefaultStoreName": "%1个仓库",
+    "shopEditStore": "编辑存储",
+    "shopCredentialsSecure": "你的市场证书在安全存储处加密",
+    "shopPriceFormula": "价格公式",
+    "shopPriceFormulaDescription": "计算这家店的售价时使用",
+    "shopManageFormulas": "管理公式",
+    "shopSelectFormula": "选择公式",
+    "shopListingDefaults": "列出默认值",
+    "shopDefaultCountryOrigin": "默认原籍国",
+    "shopCountryCodeHelper": "使用双字母 ISO 国家代码",
+    "shopDefaultBrand": "默认品牌",
+    "shopBrandCatalogHelper": "与市场品牌目录匹配",
+    "shopDefaultCargoCompany": "默认货运公司",
+    "shopDescriptionExtraText": "产品描述附加文本",
+    "shopDescriptionExtraHint": "本店的每个产品说明都附加了",
+    "shopSaveChanges": "保存更改",
+    "shopTeamTitle": "商店团队",
+    "shopTeamDescription": "请队友管理你共享的加密商店工作空间",
+    "shopTeamPremiumTitle": "团队工作空间",
+    "shopTeamPremiumDescription": "与您的商店团队共享商店、加密证书、定价和草稿。 您的免费出版试验仍然可用 。",
+    "shopAutomationPremiumTitle": "高级定价自动化",
+    "shopAutomationPremiumDescription": "创建市场特定公式,实现成本、佣金和利润率自动化。 基本产品出版仍然可用。",
+    "shopPricingWeeklyLimitReachedDescription": "免费用户可以使用每个每周上市时段的定价自动化。 您的当前备抵已经用尽; 等待一个时段返回或获取MakerSpell商店可以无限进入",
+    "shopPricingTrialTitle": "尝试定价自动化一次",
+    "shopPricingTrialDescription": "探索每个公式工具。 您的一次性试验只在公式成功保存时使用 。",
+    "shopPricingTrialSignInDescription": "签个字 保证你的一次性定价自动化测试",
+    "shopPricingTrialUnavailable": "您的定价测试无法校验 。 请检查您的连接并再次尝试 。",
+    "shopPricingTrialSaveFailed": "公式无法保存。 您的试验没有被使用 。",
+    "shopPricingSaveFailed": "无法保存定价公式。 请再试一次 。",
+    "shopPricingTrialUsedTitle": "审判完成",
+    "shopPricingTrialUsedDescription": "您的公式已保存 。MakerSpell商店继续使用定价自动化.",
+    "shopViewPlan": "查看商店计划",
+    "shopTeamSummary": "%1 成员 · %2 加入商店",
+    "shopInviteTeammate": "邀请",
+    "shopLinkAndQr": "链接或QR",
+    "shopJoinTeam": "加入商店",
+    "shopScanOrPaste": "扫描或粘贴",
+    "shopJoinTeamDescription": "粘贴 aMakerSpell商店邀请链接或扫描其QR代码.",
+    "shopInviteLink": "邀请链接",
+    "shopJoinWithLink": "与链接连接",
+    "shopInvalidInviteLink": "这不是有效的MakerSpell商店邀请链接.",
+    "shopCopyInviteLink": "复制链接",
+    "shopShareInviteLink": "共享链接",
+    "shopPasteClipboard": "粘贴",
+    "shopTeamSignInHint": "签名邀请队友或扫描商店QR。",
+    "shopShowInviteQr": "显示邀请QR",
+    "shopScanToJoin": "扫描要加入",
+    "shopSyncVaultToDrive": "同步金库以驱动",
+    "shopRestoreBackup": "恢复商店备份",
+    "shopRestoreBackupDescription": "选择私下存储的加密回收点Google Drive应用数据.",
+    "shopLatestBackup": "最近备份",
+    "shopDatedBackup": "每日备份",
+    "shopNoBackupFound": "找不到商店备份Google Drive.",
+    "shopRestoreBackupConfirmTitle": "恢复备份?",
+    "shopRestoreBackupConfirmDescription": "从这个回收点删除的商店和产品将合并回你的商店并与团队同步.",
+    "shopBackupRestored": "商店备份恢复并同步 。",
+    "shopRestoreBackupFailed": "无法恢复商店备份 :%1",
+    "shopProtectRecoveryKey": "保护恢复密钥",
+    "shopRecoveryProtectionHint": "在重新设置应用程序或丢失此设备后, 防止永久数据丢失 。",
+    "shopRecoveryProtected": "保护回收密钥",
+    "shopRecoveryPasswordTitle": "设置恢复密码",
+    "shopRecoveryPasswordDescription": "使用至少 12 个字符。 在重置应用程序或丢失此设备后, 您需要此密码 。MakerSpell无法恢复被遗忘的密码。",
+    "shopRecoveryPassword": "恢复密码",
+    "shopRecoveryPasswordConfirm": "确认密码",
+    "shopRecoveryPasswordTooShort": "至少使用12个字符。",
+    "shopRecoveryPasswordsDoNotMatch": "密码不匹配 。",
+    "shopRecoveryKeySaved": "您的加密恢复密钥被私自保存到Google Drive.",
+    "shopRecoveryKeySaveFailed": "无法保护恢复密钥 :%1",
+    "shopRecoveryPasswordRequiredTitle": "需要恢复密码",
+    "shopRecoveryPasswordRequiredDescription": "此备份已用您先前的设备密钥加密 。 请输入您在重排应用程序前创建的恢复密码 。",
+    "shopRecoveryPasswordIncorrect": "密码不正确或恢复密钥损坏 。",
+    "shopRecoveryKeyMissing": "找不到保护的恢复密钥Google Drive此备份无法在此设备上打开 。",
+    "shopRecoverDeviceKey": "恢复先前的设备密钥",
+    "shopRecoveryMustRestoreBeforeSync": "您的 Google Drive 备份使用不同的设备密钥。 在同步前恢复它, 以避免覆盖可恢复的数据 。",
+    "shopRecoveryKeyRecovered": "前一个设备密钥被安全回收.",
+    "shopMembersCount": "成员%1个",
+    "shopKeyReady": "密钥已准备好",
+    "shopNoPublicKey": "无公钥",
+    "shopMemberRemoved": "成员被除名。",
+    "shopMemberRemoveFailed": "无法删除成员 :%1",
+    "shopJoinedShops": "你加入的商店",
+    "shopOwnerLabel": "拥有者 %1...",
+    "shopRoleOwner": "拥有者",
+    "shopRoleAdmin": "管理员",
+    "shopRoleMember": "成员",
+    "shopSignInToShare": "注册到 MakerSpell 分享您的商店 。",
+    "shopSignInToJoin": "签名到MakerSpell加入一家商店。",
+    "shopJoinedOwner": "已经加入%1的商店。",
+    "shopVaultSaved": "商店金库同步%1名成员。%2号...",
+    "shopVaultSyncFailed": "默认同步失败 :%1",
+    "shopShareTitle": "共享商店",
+    "shopShareDescription": "任何在签名时扫描此 QR 的人都可以加入您的商店。 证书和定价同步通过加密的金库; 模型文件留在驱动器上的 MakerSpell- Library 中 。",
+    "shopRetry": "重试",
+    "shopVaultScope": "破损:商店 证书 定价\n模型:可见的 MakerSpell-Library 文件夹",
+    "shopInviteCopied": "已复制邀请链接 。",
+    "shopCopyInviteData": "复制邀请数据",
+    "shopInvalidInviteQr": "这不是一个MakerSpell商店邀请QR。",
+    "shopJoining": "正在加入商店...",
+    "shopSignInThenScan": "签名到MakerSpell首先,然后再次扫描。",
+    "shopScanInviteTitle": "扫描商店邀请",
+    "shopScanInviteDescription": "扫描所有者的商店 QR 以加入他们的商店、 证书和定价工作空间。 模型文件仍保存在 MakerSpell-Library 在 Drive 上 。",
+    "storeProductsUnavailable": "在此建筑中无法存储产品。 在 Google Play 和 App Store 连接中配置产品ID 。",
+    "currentPlan": "目前计划",
+    "betaProBadge": "贝塔·普罗",
+    "betaProActive": "Beta Pro 活动",
+    "betaProDaysRemaining": "Beta 测试访问权限...{days}剩余天数",
+    "@betaProDaysRemaining": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "betaProNoRenewal": "没有支付方法或自动续约。",
+    "unavailable": "无法获取",
+    "subscribePrice": "订阅...{price}",
+    "freeTrialAvailable": "免费审判",
+    "freeTrialDays": "{days}- 每日免费审判",
+    "startFreeTrial": "开始免费审判",
+    "startFreeTrialDays": "尝试免费{days}天数",
+    "freeTrialThenPrice": "然后{price}/月,随时取消.",
+    "@freeTrialDays": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@startFreeTrialDays": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@freeTrialThenPrice": {
+        "placeholders": {
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "subscriptionProductUnavailable": "本商店大楼中没有订阅产品 。",
+    "purchaseFailed": "采购失败。",
+    "signInBeforePurchase": "在购买订阅前签字。",
+    "purchaseBelongsToAnotherAccount": "这次购买属于另一个MakerSpell账户。",
+    "purchaseVerificationFailed": "Google Play 无法校验此购买。 请再试一次 。",
+    "includedInShop": "列入商店",
+    "purchaseAccountConfirmation": "此订阅将链接到{email}继续?",
+    "@purchaseAccountConfirmation": {
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+    "@subscribePrice": {
+        "placeholders": {
+            "price": {
+                "type": "String"
+            }
+        }
+    },
+    "noDataFound": "未找到数据 。",
+    "errorSharingModel": "共享模式出错 :{error}",
+    "translationError": "翻译错误 :{error}",
+    "translationModelsReady": "翻译语言文件已经下载。 从现在起, 翻译速度将更快 。",
+    "noPlatesAvailable": "此配置文件中没有可用的板块",
+    "fileAlreadyDownloaded": "文件已下载",
+    "profileDownloadedBefore": "此配置文件已经下载过 。 您确定要再次下载吗 ?",
+    "yes": "是",
+    "downloadRequiresLoginNoAuth": "此下载需要登录, 但无法提供认证配置 。",
+    "downloadLoginNoticeTitle": "下载需要签名",
+    "downloadLoginNoticeMessage": "有些平台要求您在下载前签名。 您将会被重定向到平台的登录页面。 在您成功签名后, 您的待下载将自动启动 。",
+    "operationCancelled": "操作取消 。",
+    "failedDownloadProfile": "下载配置文件失败 :{error}",
+    "modelDownloadedBefore": "此模型之前已经下载过 。 您确定要再次下载吗 ?",
+    "downloadAgain": "再次下载",
+    "downloadStarted": "下载开始 :{name}",
+    "downloadCaptchaCancelled": "下载已取消: captcha 未解决 。",
+    "failedStartDownload": "开始下载失败 :{error}",
+    "profiles": "简介",
+    "detail": "细节",
+    "comments": "评论",
+    "related": "相关",
+    "showOriginal": "显示原始",
+    "translateToTurkish": "翻译为土耳其语",
+    "translateToLanguage": "翻译为{language}",
+    "shareModel": "共享模式",
+    "removeFromWishlist": "从愿望列表中删除",
+    "addToWishlist": "添加到愿望列表",
+    "downloads": "下载",
+    "tags": "标记",
+    "relatedModels": "相关模式",
+    "downloadedFileNotFound": "磁盘上找不到已下载的文件。 请再尝试下载 。",
+    "openIn3dViewer": "以3D 查看器打开",
+    "downloadAgainTooltip": "再次下载",
+    "download": "下载",
+    "printerControlDownloadUnavailable": "打印机没有提供文件下载地址 。",
+    "printProfiles": "打印配置文件",
+    "showLess": "显示小点",
+    "showMore": "显示更多",
+    "logInToViewFiles": "登录查看和下载文件",
+    "logIn": "登录",
+    "licenseAgreement": "许可证协议",
+    "noLicenseText": "没有可用的许可证文本 。",
+    "source": "来源",
+    "listOnMarketplace": "市场清单",
+    "prepareAndPrint": "准备打印( P)",
+    "prepareAndPrintDescription": "在工作空间打开模型,审查打印设置,切片,选择打印机并发送任务.",
+    "preparingModel": "正在准备模型...",
+    "openAndPrepare": "打开并准备",
+    "downloadAndPrepare": "下载和准备",
+    "allDiscussions": "所有讨论{count}页:1",
+    "ascending": "递升",
+    "descending": "降级",
+    "loadingComments": "正在装入注释...",
+    "noCommentsYet": "还没有评论",
+    "loadMoreComments": "装入更多注释",
+    "showReplies": "显示回复",
+    "showRepliesCount": "显示回复( E){count}页:1",
+    "failedLoadReplies": "装入回复失败 :{error}",
+    "@errorSharingModel": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@translationError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedDownloadProfile": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedStartDownload": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@failedLoadReplies": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@downloadStarted": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "@allDiscussions": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@showRepliesCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "price": "价格",
+    "likes": "喜欢",
+    "license": "许可证",
+    "licenseAndCommercialUse": "许可证和商业用途",
+    "viewOnNamedPlatform": "视图{platformName}",
+    "@viewOnNamedPlatform": {
+        "placeholders": {
+            "platformName": {
+                "type": "String"
+            }
+        }
+    },
+    "licenseStoreAllowed": "这一许可证一般允许在商店出售实物印刷的产品。",
+    "licenseStoreNotAllowed": "在添加此产品到您的商店之前, 获得创建者的许可 。",
+    "licenseStoreReview": "在将这个型号添加到商店之前,先审查完整的许可证.",
+    "licensePhysicalProductDisclaimer": "这一评估适用于实物印刷产品,而不是数字模型文件的转售或再分配,平台条款和完整许可证仍然具有权威性。",
+    "viewFullLicense": "查看全部许可证",
+    "licenseMoreInfo": "关于此许可证的更多信息",
+    "licenseSummaryPublicDomain": "作品专用于公有领域,一般可以在不归属的情况下进行商业使用.",
+    "licenseSummaryAttribution": "商业用途一般是允许的,但原始创作者和许可证必须贷记.",
+    "licenseSummaryShareAlike": "通常允许商业用途带有归属性,改造可能需要使用同样的许可证。",
+    "licenseSummaryNonCommercial": "未经创作者另行许可,不得商业使用和销售印刷品.",
+    "licenseSummaryCommercial": "许可证标签表明商业用途,但须符合其确切的条件和平台条件。",
+    "licenseSummaryOpenSource": "商业用途一般是可能的,但可适用归属、来源、通知或类似份额的义务。",
+    "licenseSummaryUnknown": "这个平台专用或未知的许可证无法安全分类.",
+    "licenseStandardPersonalUse": "标准/ 仅个人使用",
+    "licensePlatformPersonalUseDisclaimer": "此平台上的模型默认由个人使用许可证提供. 请检查来源页面中的商业使用条款和当前细节.",
+    "timeWeight": "时间 :{time}体重:{weight}(单位:千美元)",
+    "platesNozzle": "挂图 :{plates}诺兹尔:{nozzle}",
+    "notAvailable": "N/A",
+    "downloadProfile": "下载配置文件",
+    "discussions": "讨论情况",
+    "noDescriptionProvided": "未提供说明。",
+    "storeListingsTitle": "存储此模型于",
+    "refresh": "刷新",
+    "storeListingsDescription": "看哪家市场已经有这个模型的产品了.",
+    "couldNotLoadStoreListings": "无法装入商店列表 。",
+    "listingCount": "{count}列名",
+    "product": "产品",
+    "storeMarketplace": "存储 :{store}市场:{marketplace}",
+    "barcode": "条码",
+    "sku": "韩国",
+    "listedAt": "名单{date}",
+    "listingDetails": "列出详情",
+    "store": "存储",
+    "marketplace": "市场",
+    "title": "标题",
+    "status": "设备状态",
+    "salePrice": "销售价格",
+    "manageListingsHint": "管理商店 → 上传产品下的所有上市 。",
+    "notListedYet": "尚未在任何商店上市",
+    "notListedDescription": "当你把这个模型上传到一个市场, 它会在这里出现与商店和状态。",
+    "retry": "重试",
+    "@listedAt": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@platesNozzle": {
+        "placeholders": {
+            "nozzle": {
+                "type": "String"
+            },
+            "plates": {
+                "type": "int"
+            }
+        }
+    },
+    "@storeMarketplace": {
+        "placeholders": {
+            "marketplace": {
+                "type": "String"
+            },
+            "store": {
+                "type": "String"
+            }
+        }
+    },
+    "@timeWeight": {
+        "placeholders": {
+            "time": {
+                "type": "String"
+            },
+            "weight": {
+                "type": "String"
+            }
+        }
+    },
+    "fetchingModelInfo": "正在获取模型信息...",
+    "loadingModelDetails": "正在装入模型细节...",
+    "preparingDownloadLink": "正在准备下载链接...",
+    "openingDownloadPage": "打开下载页面...",
+    "downloadUrlCaptureFailed": "无法下载 URL",
+    "unsupportedPlatform": "不支持的平台 :{platform}",
+    "downloading3mfFile": "正在下载 3MF 文件...",
+    "printTime": "打印时间",
+    "filamentWeight": "质量",
+    "plateCount": "盘点数",
+    "nozzle": "喷嘴",
+    "multiColor": "多颜色",
+    "no": "否",
+    "processing": "正在处理...",
+    "dimensionInfo": "尺寸信息",
+    "loaded": "已装入",
+    "couldNotGetDimensionInfo": "无法获取维度信息",
+    "fileTooLargeTryAgain": "文件太大了 请再试一次",
+    "serverAccessErrorTryAgain": "服务器访问错误。 请再试一次 。",
+    "errorWithMessage": "错误 :{message}",
+    "materials": "材料",
+    "compatiblePrinters": "兼容打印机",
+    "plates": "挂图",
+    "weight": "重量",
+    "threeMfDimensionInfo": "3MF 维度信息",
+    "fileLabel": "文件 :{fileName}",
+    "plateNumber": "盘片{number}",
+    "modelCountLabel": "{count}模型",
+    "sizeLabel": "大小 :{size}",
+    "partCountLabel": "部分数 :{count}",
+    "@unsupportedPlatform": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorWithMessage": {
+        "placeholders": {
+            "message": {
+                "type": "String"
+            }
+        }
+    },
+    "@fileLabel": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "@plateNumber": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "@modelCountLabel": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@sizeLabel": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "@partCountLabel": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "replyCount": "{count, plural, =1{1份答复} other{{count} 答复}}",
+    "repliesTitle": "答复({count}页:1",
+    "moreReplies": "+ 键{count}更多",
+    "@replyCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@repliesTitle": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@moreReplies": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "filterAndSort": "过滤器排序( S)",
+    "downloading": "下载中",
+    "downloadNotificationRunningTitle": "下载{fileName}",
+    "@downloadNotificationRunningTitle": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationRunningBody": "{progress}• 支助{speed}• 支助{remaining}剩余",
+    "@downloadNotificationRunningBody": {
+        "placeholders": {
+            "progress": {
+                "type": "String"
+            },
+            "speed": {
+                "type": "String"
+            },
+            "remaining": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationRunningProgress": "{progress}下载",
+    "@downloadNotificationRunningProgress": {
+        "placeholders": {
+            "progress": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationCompleteTitle": "下载完成",
+    "downloadNotificationCompleteBody": "{fileName} 准备打开",
+    "@downloadNotificationCompleteBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationErrorTitle": "下载失败",
+    "downloadNotificationErrorBody": "{fileName}无法下载",
+    "@downloadNotificationErrorBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadPause": "暂停",
+    "downloadResume": "继续",
+    "downloadNotificationPausedTitle": "下载已暂停",
+    "downloadNotificationPausedBody": "{fileName}已暂停",
+    "@downloadNotificationPausedBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "downloadNotificationCanceledTitle": "下载已取消",
+    "downloadNotificationCanceledBody": "{fileName}已取消",
+    "@downloadNotificationCanceledBody": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "completed": "已完成",
+    "failed": "失败",
+    "paused": "暂停",
+    "fileType": "文件类型",
+    "models3d": "3D 模型",
+    "gcode": "G码",
+    "archives": "档案",
+    "archiveViewerTitle": "打开归档模式",
+    "archiveViewerQuestion": "此归档包含{count}模型文件。 您想要打开吗 ?",
+    "@archiveViewerQuestion": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "archiveViewerSamePlate": "使用最少的盘片",
+    "archiveViewerSamePlateDescription": "安排有许可的车型,并只在需要时继续使用新的车牌。",
+    "archiveViewerSeparatePlates": "分开打开",
+    "archiveViewerSeparatePlatesDescription": "为每个模型创建单独的构建板.",
+    "images": "图像",
+    "other": "其他",
+    "allTypes": "各类",
+    "sortDownloadingFirst": "状态( 先下载)",
+    "nameAscending": "名称 A —— Z",
+    "nameDescending": "名称 Z − A",
+    "sizeLargestFirst": "大小( 第一个最大)",
+    "sizeSmallestFirst": "大小( 先小一点)",
+    "filePathNotFound": "未找到文件路径",
+    "fileNotFound": "未找到文件",
+    "sharingFailed": "共享失败 :{error}",
+    "imageFileNotFound": "未找到图像文件",
+    "deleteDownload": "删除下载",
+    "deleteDownloadQuestion": "您确定要删除“{fileName}从你的设备?",
+    "delete": "删除",
+    "downloadSearchHint": "搜索名称、类型、平台...",
+    "downloadResults": "{count}结果",
+    "downloadFilteredResults": "{shown}页:1{total}结果",
+    "noMatchingDownloads": "没有匹配的下载",
+    "noDownloadsYet": "尚未下载",
+    "downloadFilterHint": "尝试另一个搜索、 平台、 状态或文件类型 。",
+    "clearFilters": "清除过滤器",
+    "queued": "已加入队列",
+    "retrying": "重试",
+    "canceled": "已取消",
+    "notFound": "未找到",
+    "starting": "开始...",
+    "no3dFilesInFolder": "在此文件夹中找不到 3D 文件",
+    "view3d": "查看 3D",
+    "share": "份额",
+    "failedLoadImage": "装入图像失败",
+    "@sharingFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@deleteDownloadQuestion": {
+        "placeholders": {
+            "fileName": {
+                "type": "String"
+            }
+        }
+    },
+    "@downloadResults": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@downloadFilteredResults": {
+        "placeholders": {
+            "shown": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "platform": "平台",
+    "back": "背面",
+    "contestsLoadFailed": "无法加载比赛",
+    "noContestsFound": "未找到比赛",
+    "checkBackForContests": "稍后检查新比赛",
+    "views": "视图",
+    "entries": "条目",
+    "participants": "与会者",
+    "contestEnded": "结束",
+    "timeLeftDaysHours": "{days}D. 国家{hours}左侧",
+    "timeLeftHours": "{hours}h 左侧",
+    "timeLeftMinutes": "{minutes}左边 m",
+    "daysLeft": "{days}天后",
+    "hoursLeft": "{hours}剩余小时",
+    "minutesLeft": "{minutes} 分钟后",
+    "visitContestSite": "访问竞技场地",
+    "contestDetail": "比赛详情",
+    "contestRules": "竞争规则",
+    "allEntries": "所有条目",
+    "errorLoadingData": "装入数据出错",
+    "noDetailAvailable": "无可用细节",
+    "noRulesAvailable": "无可用规则",
+    "errorLoadingEntries": "装入条目出错",
+    "noEntriesYet": "尚未有条目",
+    "firstToSubmitEntry": "成为第一个提交条目的人!",
+    "prizes": "奖项",
+    "winnerCount": "{count} 获奖者",
+    "popularModels": "大众模式",
+    "rulesNotFound": "未找到规则",
+    "totalEntries": "共计{count}条目",
+    "description": "说明",
+    "contestStart": "开始 :{date}",
+    "submissionEnd": "提交结束 :{date}",
+    "reviewEnd": "审查结束 :{date}",
+    "winnerAnnouncement": "赢家公告 :{date}",
+    "upcoming": "即将",
+    "active": "活动",
+    "reviewing": "审查",
+    "ended": "结束",
+    "resultsPublished": "公布的结果",
+    "@timeLeftDaysHours": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            },
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@timeLeftHours": {
+        "placeholders": {
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@timeLeftMinutes": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@daysLeft": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "@hoursLeft": {
+        "placeholders": {
+            "hours": {
+                "type": "int"
+            }
+        }
+    },
+    "@minutesLeft": {
+        "placeholders": {
+            "minutes": {
+                "type": "int"
+            }
+        }
+    },
+    "@winnerCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@totalEntries": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@contestStart": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@submissionEnd": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@reviewEnd": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "@winnerAnnouncement": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "platformMissing": "缺少平台",
+    "uploadedProducts": "上传的产品",
+    "catalogSourceDrive": "资料来源:Google Drive",
+    "catalogSourceDevice": "来源:此设备",
+    "checkMarketplaceStatuses": "检查市场状况(待处理/失效)",
+    "openDriveSpreadsheet": "打开驱动器电子表格",
+    "syncCatalogDrive": "同步目录以驱动 Excel/ Sheets",
+    "uploadedProductSearchHint": "按标题、条码或SKU搜索...",
+    "pending": "等待中",
+    "success": "成绩",
+    "noProductsUploaded": "尚未上传产品",
+    "pageOf": "页次{page}页:1{total}",
+    "noTitle": "无标题",
+    "barcodeValue": "条码 :{barcode}",
+    "stockValue": "库存 :{stock}",
+    "errorLoadingProducts": "装入产品出错 :{error}",
+    "refreshMarketplaceStatuses": "刷新市场状况",
+    "refreshMarketplaceStatusesDescription": "检查您的连接商店的待售/ 失效产品。 市场上已经批准的产品将会成功。 大型目录可能需要一段时间 。",
+    "checkNow": "现在检查",
+    "startingMarketplaceCheck": "开始市场检查...",
+    "checkingProducts": "检查中{done}页:1{total}{barcode}",
+    "statusCheckFailed": "状态检查失败 :{error}",
+    "couldNotOpenSpreadsheet": "无法打开电子表格 :{url}",
+    "driveSpreadsheetError": "驱动电子表格错误 :{error}",
+    "syncToDrive": "要驱动的同步",
+    "syncToDriveDescription": "创建或更新“MakerSpell在您的连接上上传产品“Google Drive。可以在 Google 工作表中打开,也可以作为 Excel 下载。继续吗 ?",
+    "sync": "同步",
+    "productsSynced": "{count}产品同步到驱动电子表格。",
+    "open": "打开",
+    "syncError": "同步错误 :{error}",
+    "couldNotOpenUrlValue": "无法打开 URL :{url}",
+    "spreadsheetUpdated": "更新电子表格{count}产品在Drive上)。",
+    "sourcePlatformNotFound": "未找到源平台信息",
+    "modelIdNotFound": "未找到型号 ID",
+    "productIdNotFound": "未找到产品标识",
+    "deleteProduct": "删除产品",
+    "deleteProductQuestion": "您确定要删除此产品吗 ?\n\n标题 :{title}\n条码 :{barcode}\n编号:{id}\n\n这一行动不能取消。",
+    "productDeleted": "产品成功删除( ID: {id})",
+    "errorDeletingProduct": "删除产品出错 :{error}",
+    "changeStatus": "变化状况",
+    "currentStatus": "当前状况 :{status}",
+    "selectNewStatus": "选择新状态 :",
+    "statusUpdated": "更新状态 :{status}",
+    "errorUpdatingStatus": "更新状态出错 :{error}",
+    "sourceModelIdNotFound": "未找到源模式 ID",
+    "errorLoadingModelDetails": "装入模型细节出错 :{error}",
+    "warning": "警告",
+    "duplicateUploadWarning": "此产品已经成功上传。 您确定要再次上传吗 ?\n\n在一些市场中,可以使用同样的条码创建多种产品。",
+    "continueAction": "继续",
+    "batchStatus": "批量状态",
+    "batchIdValue": "批次编号 :{id}",
+    "closeAndRefresh": "关闭并刷新",
+    "batchStatusCheckFailed": "批次状态无法检查",
+    "productDetails": "产品细节",
+    "productImages": "产品图像",
+    "storeAndMarketplace": "存储市场( S)",
+    "stockCode": "股票代码",
+    "brand": "品牌",
+    "listPrice": "清单价格",
+    "calculatedPrice": "计算价格",
+    "stock": "库存",
+    "vat": "增值税",
+    "printProfile": "打印配置文件",
+    "sourcePlatform": "源平台",
+    "modelId": "型号标识",
+    "sourceUrl": "来源 URL :",
+    "batchId": "批次标识",
+    "checkBatchStatus": "检查批量状态",
+    "marketplaceResponse": "对采购网的回应",
+    "editAndReupload": "编辑和重新装入",
+    "openSourceModel": "开源模式",
+    "syncDriveSpreadsheet": "同步驱动电子表格",
+    "deleteProductAction": "删除产品",
+    "listingFallback": "列名",
+    "productStatus": "产品状况",
+    "failureReasons": "失败原因 :",
+    "lastUpdate": "上次更新 :{date}",
+    "detailedResponseJson": "详细答复(JSON)",
+    "@pageOf": {
+        "placeholders": {
+            "page": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "@barcodeValue": {
+        "placeholders": {
+            "barcode": {
+                "type": "String"
+            }
+        }
+    },
+    "@stockValue": {
+        "placeholders": {
+            "stock": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorLoadingProducts": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@checkingProducts": {
+        "placeholders": {
+            "done": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "barcode": {
+                "type": "String"
+            }
+        }
+    },
+    "@statusCheckFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotOpenSpreadsheet": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "@driveSpreadsheetError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@productsSynced": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@syncError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@couldNotOpenUrlValue": {
+        "placeholders": {
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "@spreadsheetUpdated": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@deleteProductQuestion": {
+        "placeholders": {
+            "title": {
+                "type": "String"
+            },
+            "barcode": {
+                "type": "String"
+            },
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@productDeleted": {
+        "placeholders": {
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorDeletingProduct": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@currentStatus": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "@statusUpdated": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorUpdatingStatus": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorLoadingModelDetails": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@batchIdValue": {
+        "placeholders": {
+            "id": {
+                "type": "String"
+            }
+        }
+    },
+    "@lastUpdate": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileUserFallback": "用户名",
+    "followDesigner": "跟随设计师",
+    "unfollowDesigner": "未跟踪",
+    "designerFollowed": "接下来{name}",
+    "@designerFollowed": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "designerUnfollowed": "已停止跟踪{name}",
+    "newModelsCount": "{count}自你上次访问以来的新模式",
+    "@newModelsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "@designerUnfollowed": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileUserInfoUnavailable": "无法获取用户信息",
+    "ownerProfileUserInfoLoadError": "装入用户信息出错 :{error}",
+    "@ownerProfileUserInfoLoadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "ownerProfileModelsCount": "型号{count}页:1",
+    "@ownerProfileModelsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "ownerProfileTryAgain": "再试一次",
+    "ownerProfileNoModels": "尚未找到模型",
+    "ownerProfileStatModels": "模型",
+    "ownerProfileStatLikes": "喜欢",
+    "ownerProfileStatFollowers": "跟踪者",
+    "ownerProfileStatDownloads": "下载",
+    "ownerProfileAbout": "关于",
+    "ownerProfileAscending": "递升",
+    "ownerProfileDescending": "降级",
+    "prepareSelectModel": "在继续前选择模型文件并计算其软件包尺寸。",
+    "prepareLoadedPrevious": "从上次上传中装入。 在再次发布前审查字段 。",
+    "statusCheckSummary": "已检查 {checked} : {success} 成功, {failed} 失败, {pending} 尚未确定, {notFound} 不在市场上, {errors} 错误。 Catalog 更新: {updated} 。",
+    "@statusCheckSummary": {
+        "placeholders": {
+            "checked": {
+                "type": "int"
+            },
+            "success": {
+                "type": "int"
+            },
+            "failed": {
+                "type": "int"
+            },
+            "pending": {
+                "type": "int"
+            },
+            "notFound": {
+                "type": "int"
+            },
+            "errors": {
+                "type": "int"
+            },
+            "updated": {
+                "type": "int"
+            }
+        }
+    },
+    "marketplaceRuleNotFound": "未找到选址规则 :{platform}",
+    "batchOrMarketplaceMissing": "缺少批次ID或市场",
+    "@marketplaceRuleNotFound": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "add": "添加",
+    "edit": "编辑",
+    "remove": "移除",
+    "save": "保存",
+    "objectHierarchyTitle": "对象等级",
+    "objectHierarchyNoPlates": "未检测到板块",
+    "objectHierarchySearchHint": "搜索盘片、物件和部件...",
+    "objectHierarchyShowInScene": "在现场显示",
+    "objectHierarchyRenamePlate": "重命名盘",
+    "objectHierarchyObjectActions": "对象动作",
+    "objectHierarchySplitToObjects": "拆分为对象",
+    "objectHierarchySplitToParts": "拆分为零件",
+    "objectHierarchyCannotSplit": "这个模型不包含多个可分离的天体.",
+    "objectHierarchyObject": "对象",
+    "objectHierarchyObjectNumbered": "对象{number}",
+    "@objectHierarchyObjectNumbered": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "objectHierarchyPart": "编{number}",
+    "@objectHierarchyPart": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "objectHierarchyPlate": "盘片{number}",
+    "@objectHierarchyPlate": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "printerSelectionTitle": "选择打印机",
+    "printerSelectionMultipleTitle": "选择打印机配置",
+    "printerSelectionUseSelected": "使用选中的打印机",
+    "printerSelectionSearchHint": "搜索打印机...",
+    "printerSelectionNotFound": "未找到打印机",
+    "workspacePrinterSetupTitle": "工作空间设置",
+    "workspacePrinterSetupHeading": "你用哪个打印机?",
+    "workspacePrinterSetupDescription": "选择您使用的所有打印机配置文件, 因此 Workspace 可以准备兼容的床位、预设和切换设置 。",
+    "workspacePrinterSetupLater": "回头见",
+    "workspacePrinterSetupPreparing": "正在准备打印机目录...",
+    "workspacePrinterSetupDownloading": "正在下载打印机配置...",
+    "workspacePrinterSetupDownloadHint": "您可以在下载在背景中运行时继续探索其他屏幕。 完成后返回工作空间 。",
+    "workspacePrinterSetupBrowse": "探索其他屏幕",
+    "workspacePrinterSetupError": "无法准备打印机目录。 请检查您的连接并再次尝试 。",
+    "workspacePrinterSetupEmpty": "选择一个或多个打印机配置文件。 第一个打印机将作为默认使用 。",
+    "workspacePrinterSetupCatalogTitle": "从打印机配置中选择",
+    "workspacePrinterSetupOfflineHint": "您的打印机不需要在网络上供电或连接。 您可以稍后再连接 。",
+    "workspacePrinterSetupAdd": "选择打印机配置",
+    "workspacePrinterSetupAddAnother": "添加另一个打印机",
+    "workspacePrinterSetupEditSelection": "编辑选中的打印机",
+    "workspacePrinterSetupContinue": "继续工作空间",
+    "workspacePrinterSetupDefault": "默认打印机",
+    "networkPrintersTitle": "网络打印机",
+    "networkPrinterAddManual": "手动添加打印机",
+    "networkPrinterNameHint": "打印机名称( 例如 )SnapmakerU1) (韩语).",
+    "networkPrinterIpHint": "IP地址(如192.168.1.50)",
+    "networkPrinterApiKeyOptional": "API 密钥( 可选)",
+    "networkPrinterApiKeyIfNeeded": "API 密钥( 如果需要)",
+    "networkPrinterCameraUrlOptional": "相机 URL (可选)",
+    "networkPrinterManualName": "手动打印机",
+    "networkPrinterDisplayName": "显示名称",
+    "networkPrinterEdit": "编辑打印机",
+    "networkPrinterSaved": "已保存的打印机",
+    "networkPrinterDiscovered": "已发现打印机",
+    "networkPrinterNoneFound": "本地网络上找不到打印机 。",
+    "networkPrinterType": "类型 :{type}",
+    "@networkPrinterType": {
+        "placeholders": {
+            "type": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterHostname": "主机名 :{hostname}",
+    "@networkPrinterHostname": {
+        "placeholders": {
+            "hostname": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterStatusDiscovering": "发现",
+    "networkPrinterStatusIdentifying": "识别",
+    "networkPrinterStatusConnected": "已连接",
+    "networkPrinterStatusAvailable": "可用",
+    "networkPrinterStatusAuthenticationRequired": "需要认证",
+    "networkPrinterStatusOffline": "离线",
+    "noInternetConnectionTitle": "没有互联网连接",
+    "noInternetConnectionMessage": "您目前已下线。 请稍候再试 。",
+    "networkPrinterStatusUnsupported": "不支持",
+    "networkPrinterStatusConnectionFailed": "连接失败",
+    "networkPrinterStatusNotChecked": "未检查",
+    "networkPrinterRemoteId": "服务器打印机 ID",
+    "networkPrinterRemoteIdHelp": "由打印机服务器管理,在此无法更改 。",
+    "printSettingsNozzle": "{size}喷嘴",
+    "@printSettingsNozzle": {
+        "placeholders": {
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "printSettingsSearchHint": "搜索设置...",
+    "selectModelFile": "选择模式文件",
+    "couldNotOpenSettings": "无法打开设置 。",
+    "modelFileStorageAccessDenied": "存储访问未获准。 您仍然可以浏览存储 。",
+    "modelFileCouldNotOpen": "无法打开选中的文件 。",
+    "modelFileUnsupportedType": "此文件类型无法在此工作流程中使用 。",
+    "modelFileAllTypes": "各类",
+    "modelFileSearchHint": "按文件名搜索...",
+    "modelFileScanning": "正在扫描设备...",
+    "modelFileScanningDescription": "这可能需要在大型储存上花点时间。",
+    "modelFileGrantStorageAccess": "赠款存储访问",
+    "modelFileBrowseStorage": "浏览存储...",
+    "modelFilePermissionRequired": "要自动列出模型文件需要存储权限.",
+    "modelFilePermissionInstructions": "允许“所有文件访问”MakerSpell然后回到这里。",
+    "modelFileNoFilterMatches": "没有匹配此过滤器或搜索的文件 。",
+    "modelFileNoneFound": "没有找到3MF,STL,OBJ或G码文件.",
+    "modelFileTryAnotherSearch": "尝试其它名称或文件类型 。",
+    "modelFileTryRefreshOrBrowse": "刷新列表或浏览存储 。",
+    "modelFileFilterSummary": "过滤器: {filter} → {query} → {count} 文件",
+    "@modelFileFilterSummary": {
+        "placeholders": {
+            "filter": {
+                "type": "String"
+            },
+            "query": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerSettingsTitle": "打印机设置",
+    "printerSettingsRefreshProfiles": "刷新配置文件( 调试)",
+    "printerSettingsSavePreset": "保存机器预设",
+    "printerSettingsPresetName": "预设名称",
+    "printSettingsGlobal": "全局",
+    "printSettingsObjects": "对象",
+    "printSettingsSelectHierarchyObject": "在等级中选择一个盘或对象来编辑其设置。",
+    "printSettingsSimple": "简单",
+    "printSettingsAdvanced": "高级",
+    "printSettingsNoSettings": "此标签中没有设置",
+    "printSettingsNoSearchResults": "没有匹配的设置“{query}“",
+    "@printSettingsNoSearchResults": {
+        "placeholders": {
+            "query": {
+                "type": "String"
+            }
+        }
+    },
+    "printSettingsSelectPreset": "选择预设",
+    "defaultLabel": "缺省",
+    "printSettingsPlateSettings": "盘参数设置",
+    "printSettingsFrequent": "常用",
+    "printSettingsColorMixingExperimental": "混色（试验）",
+    "bedTypeSmoothCoolPlate": "光滑的低温打印床",
+    "bedTypeEngineeringPlate": "工程材料热床",
+    "bedTypeSmoothHighTempPlate": "光滑高温打印热床",
+    "bedTypeTexturedPeiPlate": "纹理PEI热床",
+    "bedTypeTexturedCoolPlate": "纹理的低温打印床",
+    "bedTypeSuperTackPlate": "低温打印板（超强粘附）",
+    "filamentColors": "颜色",
+    "filamentSlotName": "档案{number}",
+    "@filamentSlotName": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "filamentMoreActions": "更多的丝状动作",
+    "filamentCurrent": "当前丝线 :{name}",
+    "@filamentCurrent": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentCurrentUnknown": "当前丝线: 未知",
+    "filamentEdit": "编辑",
+    "filamentMerge": "合并",
+    "filamentDelete": "删除",
+    "filamentMergeTarget": "合并目标",
+    "filamentSelectColor": "选择颜色",
+    "filamentCustomColor": "自定义颜色",
+    "filamentHue": "色调",
+    "filamentSaturation": "饱和度",
+    "filamentBrightness": "亮度",
+    "printerProfilesTitle": "打印机配置文件",
+    "printerProfilesRememberSelection": "记住选择",
+    "rememberLastModelWorkspace": "记住最后的模型工作空间",
+    "rememberLastModelWorkspaceSubtitle": "返回工作空间时恢复最后一个模型、选中的盘片和应用的打印设置。默认已禁用 。",
+    "printerProfilesProjectPresets": "项目预设",
+    "printerProfilesSystemPresets": "系统预设",
+    "printerProfilesUserPresets": "用户预设",
+    "printerProfilesNoneRegistered": "尚未注册打印机",
+    "printerProfilesAddPrinter": "添加新打印机",
+    "printerProfilesUnknownBrand": "未定义",
+    "printerProfilesActive": "实际",
+    "printerProfilesRename": "重命名",
+    "printerProfilesDelete": "删除",
+    "printerProfilesDeleteTitle": "删除配置文件",
+    "printerProfilesDeleteConfirmation": "您确定要删除配置文件“{name}“?” ? (中文).",
+    "@printerProfilesDeleteConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesRenameTitle": "重命名配置文件",
+    "printerProfilesNameHint": "配置文件名称",
+    "driveModelsReconnect": "重新连接Google Drive",
+    "printerProfilesImport": "导入打印机配置",
+    "printerProfilesExport": "导出配置",
+    "printerProfilesImportSuccess": "“......{name}“”已导入并启用。",
+    "@printerProfilesImportSuccess": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesImportInvalid": "无法读取此配置文件。 请选择一个有效的文件OrcaSlicerJSON简介.",
+    "printerProfilesImportNotMachine": "所选的JSON不是打印机配置文件(类型:机器).",
+    "printerProfilesExportSubject": "MakerSpell 打印机配置文件 : {name}",
+    "@printerProfilesExportSubject": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerProfilesExportFailed": "打印机配置文件无法导出 。",
+    "productInformation": "产品信息",
+    "productActions": "动作",
+    "listingStepSelectModels": "选择模式",
+    "listingStepSelectStores": "选择仓库",
+    "listingStepProductDetails": "产品详情",
+    "listingStepStoreDetails": "存储细节",
+    "listingStepReviewPublish": "审查和发布",
+    "listingStepProgress": "步骤{current}页:1{total}编号 :{title}",
+    "@listingStepProgress": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            },
+            "title": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPublished": "出版时间:{count}已经成功",
+    "@listingPublished": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "listingPublishedWithFailures": "出版时间:{success}已经成功{failed}失败",
+    "@listingPublishedWithFailures": {
+        "placeholders": {
+            "success": {
+                "type": "int"
+            },
+            "failed": {
+                "type": "int"
+            }
+        }
+    },
+    "listingPublishError": "发布错误 :{error}",
+    "listingDraftSaveError": "无法保存草稿 :{error}",
+    "listingAiGenerationFailed": "AI 列表生成失败 :{error}",
+    "@listingPublishError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingDraftSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingAiGenerationFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingAiProviderFallback": "选中的 AI 提供者无法使用。 尝试免费 AI 模式...",
+    "listingSaveDraft": "保存草稿",
+    "listingPublish": "发布",
+    "listingPublishing": "发布...",
+    "listingQuotaExceededTitle": "使用的每周出版津贴",
+    "listingQuotaExceededDescription": "该出版物需要%1插槽,不过%2留下来。MakerSpell商店包括无限市场出版.",
+    "listingQuotaSignInRequired": "在使用免费的每周市场出版津贴之前签字。",
+    "listingQuotaServiceUnavailable": "您的出版许可无法校验 。 请检查您的连接并再次尝试 。",
+    "listingUpgradeToShop": "视图MakerSpell商店",
+    "listingQuotaCountNotice": "此动作发布%1产品上市。只有成功的上市方才使用该备抵。",
+    "listingModelSelectionDescription": "选择一个 3MF 包, 或选择多个 STL 部件作为一个模型集。 选中的 STL 文件共享一个预览床, 并在切片器中一起打开。 已经下载的文件可以从下载管理器重用 。",
+    "listingModelFiles": "模型文件",
+    "listingNoModelFiles": "在此列表中找不到模型文件 。",
+    "listingDownloaded": "下载",
+    "listingActiveInViewer": "活跃于查看器",
+    "listingDownloadPreview": "下载 & 3D 预览",
+    "listingOpeningLogin": "正在打开登录...",
+    "listingDownloading": "下载中...",
+    "listingDownloadSelectedStl": "下载选中的 STL 文件",
+    "listingDownloadSelectedModel": "下载选中的模式",
+    "listingResliceCached": "重剪切缓存结果",
+    "listingOpenFullSlicer": "打开完整的切片机(打印机 ^ 比例 ^ 切片)",
+    "listingFullSlicerDescription": "在上市模式中打开本地模式查看器。 选择打印机, 调整模型大小, 编辑打印设置、 切片, 然后点击使用以上市 。 可兼容的缓存切片值会被自动重用 。 如果设置不变, 则使用最后一个活动打印机配置和进程覆盖 。",
+    "listingSelectModelToPreview": "选择和下载打开3D预览的模型文件",
+    "listingIncludedObjects": "应当包括哪些物体?",
+    "listingApplyViewerSelection": "在查看器中应用选择",
+    "listingCalculationMethod": "我们应如何计算重量大小?",
+    "listingQuickMath": "快速数学( 建议)",
+    "listingQuickMathDescription": "网格量加贝壳/填充量估计。 不切片; 为所有平台工作 。",
+    "listingSliceBased": "基于切片(更精确的重量)",
+    "listingSliceBasedDescription": "打开完整的模型查看器来选择打印机、缩放、配置打印设置和切片。",
+    "listingCalculating": "正在计算...",
+    "listingRunQuickCalculation": "运行快速计算",
+    "listingOpenSlicerCalculate": "打开切片器计算( C)",
+    "listingNoConnectedStores": "没有与上市支持连接的商店 。\n先连接商店的市场",
+    "listingOpenShopHub": "开店枢纽",
+    "listingStoreSelectionDescription": "选择一个或多个商店。 共享产品数据输入一次 。",
+    "listingReviewGeneratedContent": "审查生成的内容",
+    "listingProductTitle": "产品名称",
+    "listingProductDescription": "产品说明",
+    "listingUseThisContent": "使用此内容",
+    "listingGeneratedContentApplied": "已应用生成内容 。",
+    "listingGeneratingContent": "生成产品内容...",
+    "listingGenerateWithAi": "用 AI 生成标题描述( D)",
+    "listingLanguageSuggestionTitle": "列出语言",
+    "listingLanguageRecommended": "推荐的 {store} 列表语言是 {language}。 您的应用语言不会改变。 此商店和市场会记住这个选择 。",
+    "@listingLanguageRecommended": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingLanguageRequired": "{store} 需要在 {language} 中列出。 您的应用语言不会改变 。",
+    "@listingLanguageRequired": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingContinueInLanguage": "继续{language}",
+    "@listingContinueInLanguage": {
+        "placeholders": {
+            "language": {
+                "type": "String"
+            }
+        }
+    },
+    "listingContentLanguage": "生成的内容语言",
+    "listingContentLanguageDescription": "本列表中仅用于AI生成的标题和描述.",
+    "listingUseApplicationLanguage": "使用应用程序语言",
+    "listingNoStoresSelected": "未选择存储",
+    "listingStoreFieldsLoadFailed": "无法装入存储列表字段 。",
+    "listingReloadStoreFields": "重新装入存储字段",
+    "listingAnalyzingCategory": "分析类...",
+    "listingSelectCategoryWithAi": "选择带有 AI 的类属性( C)",
+    "listingMarketplacePreview": "市场产品预览",
+    "listingMarketplacePreviewDescription": "出版后大致产品细节外观",
+    "listingAvailableStock": "可用库存:{quantity}",
+    "@listingAvailableStock": {
+        "placeholders": {
+            "quantity": {
+                "type": "String"
+            }
+        }
+    },
+    "listingProductDetails": "产品详情",
+    "listingModels": "模型",
+    "listingStores": "存储",
+    "listingResults": "结果",
+    "listingFailed": "失败",
+    "listingLoadOptionsFailed": "无法装入选项 :{error}",
+    "@listingLoadOptionsFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingEbaySandboxInventoryUnavailable": "eBay Sandbox 库存服务暂时无法使用( error 25001) 。 请稍后再试 。",
+    "listingFilterCategories": "过滤类别",
+    "listingClosePreview": "关闭预览",
+    "listingConnectGoogleDrive": "连接Google Drive",
+    "listingDriveImageStorageDescription": "产品图像将存储在您在 Drive 上的 MakerSpell- Library 文件夹中。 只有上传的产品图像才能被任何有链接的人读取, 这样市场才能下载它们 。",
+    "listingConnectDrive": "连接驱动器",
+    "listingGenerateProductImage": "生成产品图像",
+    "listingCreateProductImageVariation": "创建产品图像变异",
+    "listingInstructions": "说明",
+    "listingGenerate": "生成",
+    "listingRemoveImage": "删除图像",
+    "listingCreateAiVariation": "创建 AI 变量",
+    "listingUploadImages": "上传图像",
+    "listingGenerateWithAiShort": "用人工智能生成",
+    "listingDraftRestored": "已保存草稿还原 。",
+    "listingSelectModelFirst": "先选择一个模型文件 。",
+    "listingSignInToDownload": "请签名至 {platform} 下载.",
+    "@listingSignInToDownload": {
+        "placeholders": {
+            "platform": {
+                "type": "String"
+            }
+        }
+    },
+    "listingCaptchaCancelled": "队长取消。",
+    "listingDownloadFailed": "下载失败 。",
+    "listingDownloadError": "下载失败 :{error}",
+    "@listingDownloadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingStlFilesReady": "共享预览中已准备好所选的 STL 文件 。",
+    "listingDownloadModelFirst": "先下载这个模型 。",
+    "listingSelectAtLeastOneModel": "选择至少一个要列表的模型文件 。",
+    "listingDownloadMeasureBeforeContinue": "下载和测量“{model}在继续之前。",
+    "@listingDownloadMeasureBeforeContinue": {
+        "placeholders": {
+            "model": {
+                "type": "String"
+            }
+        }
+    },
+    "listingSelectAtLeastOneStore": "选择至少一个商店。",
+    "listingFieldRequired": "{field}需要这样做。",
+    "@listingFieldRequired": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingStoreFieldRequired": "{store}:需要{field}.",
+    "@listingStoreFieldRequired": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPriceFormulaError": "价格公式错误 :{error}",
+    "listingAiCategoryFailed": "AI 类别选择失败 :{error}",
+    "@listingPriceFormulaError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@listingAiCategoryFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingNoAiCategoryRules": "本店不提供AI可以填写的类别规则.",
+    "listingLoadField": "装入{field}",
+    "@listingLoadField": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "listingViewerStarting": "正在开始观看...",
+    "listingViewerFileNotFound": "未找到文件",
+    "listingViewerReady": "已准备好查看器",
+    "listingViewerLoadingModel": "正在装入模型...",
+    "listingViewerModelLoaded": "装入型号",
+    "filamentSelect": "选择文件",
+    "filamentUserPresets": "用户预设",
+    "filamentAvailablePresets": "耗材丝",
+    "filamentSaveTitle": "保存图像",
+    "filamentPresetName": "名称",
+    "filamentSaveCopySuffix": "拷贝",
+    "filamentPresetSaved": "\"{name}\" 保存",
+    "@filamentPresetSaved": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSavingFailed": "保存失败 :{error}",
+    "@filamentSavingFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentPresetLoaded": "\" , \"{name}\" 装载",
+    "@filamentPresetLoaded": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentDeleteTitle": "删除文件",
+    "filamentDeleteConfirmation": "您是否想要永久删除用户预设 \"{name}\" ? 说",
+    "@filamentDeleteConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSettingsNotFound": "未找到文件设置",
+    "filamentSearchSettings": "搜索设置...",
+    "filamentNoSearchResults": "没有匹配的设置“{query}“",
+    "@filamentNoSearchResults": {
+        "placeholders": {
+            "query": {
+                "type": "String"
+            }
+        }
+    },
+    "filamentSetValue": "设定...",
+    "filamentRammingWarningTitle": "警告",
+    "filamentRammingWarningDescription": "Ramming 是一个快速的挤压, 紧接在单倍径多材料打印机上的工具改变之前。 它会塑造卸下的丝状尖端, 这样就可以可靠地插入下一个丝状。 不同的材料可能需要不同的挤压速度。 这是专家设置; 错误的值会导致干扰或丝状磨损 。",
+    "filamentProfilesDirectoryMissing": "无法找到配置目录 。",
+    "filamentPrinterBrandsMissing": "未找到打印机品牌 。",
+    "filamentNoPrinterProfiles": "未找到可用的打印机配置 。",
+    "filamentNoProcessProfiles": "未找到可用的进程配置 。",
+    "filamentSelectCompatiblePrinters": "选择兼容打印机",
+    "filamentSelectCompatibleProcesses": "选择兼容进程配置",
+    "networkPrinterNoControlPanel": "此打印机协议不提供网络控制面板 。",
+    "networkPrinterControlPanelUnavailable": "打印机的网络控制面板不可用 。",
+    "networkPrinterConnectTitle": "连接到打印机",
+    "networkPrinterAuthenticationDescription": "{printerName} 需要认证。 输入其 API 密钥、 密码或设备验证码才能继续 。",
+    "@networkPrinterAuthenticationDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterCredentialLabel": "API 密钥、密码或校验码",
+    "networkPrinterSupportVerified": "已验证",
+    "networkPrinterSupportCommunityVerified": "社区核查",
+    "networkPrinterSupportProtocolCompatible": "协议兼容",
+    "networkPrinterSupportExperimental": "实验",
+    "networkPrinterSupportUnsupported": "不支持",
+    "networkPrinterCapabilityControlPanel": "控制面板",
+    "networkPrinterCapabilityUpload": "上传",
+    "networkPrinterCapabilityStartPrint": "开始打印",
+    "networkPrinterCapabilityStatus": "设备状态",
+    "networkPrinterCapabilityCamera": "摄像机",
+    "networkPrinterCapabilityMaterials": "材料",
+    "networkPrinterCapabilityMultiMaterial": "多材料",
+    "networkPrinterCapabilityExcludeObjects": "对象排除",
+    "networkPrinterConnect": "连接",
+    "networkPrinterDiagnosticsExport": "导出经编辑的诊断",
+    "networkPrinterDiagnosticsShareSubject": "MakerSpell网络打印机诊断",
+    "networkPrinterDiagnosticsExportFailed": "无法创建诊断包 。",
+    "printerDiagnosticsTelemetry": "共享匿名诊断",
+    "printerDiagnosticsTelemetrySubtitle": "自动报告应用程序和打印机故障,无需搜索,IP地址,证书,文件名,响应机构或G码.",
+    "networkPrinterBambuAccessCodeDescription": "{printerName} 需要Bambu LAN访问代码. 打开打印机的网络或LAN模式设置,并输入显示的访问代码.",
+    "@networkPrinterBambuAccessCodeDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterBambuAccessCodeLabel": "局域网访问代码",
+    "networkPrinterBambuModeTitle": "选择 Bambu 连接模式",
+    "networkPrinterBambuModeDescription": "此选择决定命令MakerSpell可能发送到打印机。",
+    "networkPrinterBambuStandardTitle": "标准局域网",
+    "networkPrinterBambuStandardSubtitle": "安全监控模式.MakerSpell可以读取打印机和AMS状态,但不能上传文件,开始打印,使用相机,或控制打印机.",
+    "networkPrinterBambuDeveloperTitle": "开发者模式",
+    "networkPrinterBambuDeveloperSubtitle": "完全本地控制。 在打印机、 打开网络或局域网模式设置上, 启用开发者模式, 然后使用显示的局域网访问代码。 Bambu Cloud 在此模式运行时无法使用 。",
+    "networkPrinterBambuLocalServerTitle": "Bambu 本地服务器",
+    "networkPrinterBambuLocalServerSubtitle": "即将到来,正在准备正式访问和移动兼容的服务器支持。",
+    "networkPrinterBambuComingSoon": "马上就来",
+    "networkPrinterBambuModeSettingsHint": "您可以稍后从打印机设置中更改此模式 。",
+    "networkPrinterElegooAccessCodeDescription": "{printerName} 需要Elegoo LAN访问代码. 打开打印机的网络或LAN设置,并输入显示的访问代码.",
+    "@networkPrinterElegooAccessCodeDescription": {
+        "placeholders": {
+            "printerName": {
+                "type": "String"
+            }
+        }
+    },
+    "networkPrinterElegooAccessCodeLabel": "局域网访问代码",
+    "networkPrinterConnectAndAdd": "连接和添加",
+    "printerControlTitle": "打印机控制",
+    "printerControlDeviceInterface": "打印机接口",
+    "printerControlDeviceInterfaceDescription": "打开此打印机所提供的控制接口 。",
+    "printerControlExpandSection": "扩展区域",
+    "printerControlCollapseSection": "折叠部分",
+    "printerControlFilesAndHistory": "文件、历史和录像",
+    "printerControlLocalFiles": "本地文件",
+    "printerControlPrintHistory": "打印历史",
+    "printerControlNoPrintHistory": "此打印机没有报告打印历史 。",
+    "printerControlHistoryCompleted": "已完成",
+    "printerControlHistoryInProgress": "进行中",
+    "printerControlHistoryCancelled": "已取消",
+    "printerControlHistoryFailed": "失败",
+    "printerControlHistoryUnknown": "未定义",
+    "printerControlTimelapse": "时滞视频",
+    "printerControlNoTimelapses": "此打印机上没有超时录像 。",
+    "printerControlPlayTimelapse": "播放视频",
+    "printerControlTimelapseUnavailable": "无法播放此时滞视频 。",
+    "printerControlNoLocalFiles": "此打印机上没有可打印文件 。",
+    "printerControlSortFiles": "排序文件",
+    "printerControlFileSize": "文件大小",
+    "printerControlFileCreatedAt": "创建时间",
+    "printerControlFilesSelected": "{count}选中",
+    "@printerControlFilesSelected": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlDeleteFilesTitle": "删除{count}档案?",
+    "@printerControlDeleteFilesTitle": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlDeleteFilesWarning": "删除的打印机文件无法恢复 。",
+    "printerControlCannotDeleteActiveFile": "当前打印的文件无法删除 。",
+    "printerControlFilesDeleted": "选中的文件被删除 。",
+    "printerControlStartPrint": "开始打印",
+    "printerControlPrintOptions": "打印选项",
+    "printerControlEmbeddedSettingsHint": "打印机将使用此文件中嵌入的切片和材料设置 。",
+    "printerControlRunCalibration": "运行校准/ 自我测试",
+    "printerControlRunCalibrationDescription": "在开始前运行打印机支持的预打印校准 。",
+    "printerControlPrintStarted": "打印开始。",
+    "printerControlJob": "目前的工作",
+    "printerControlNoActiveJob": "没有活动打印任务",
+    "printerControlPause": "暂停",
+    "printerControlResume": "继续",
+    "printerControlCancelPrint": "取消打印",
+    "printerControlCancelConfirmation": "取消当前打印任务吗 ?",
+    "printerControlCommandFailed": "打印机无法完成此命令 。",
+    "printerControlExcludeObjects": "对象排除",
+    "printerControlExcludeObjectsDescription": "在剩余对象继续时停止打印失败对象 。",
+    "printerControlExcludeObjectsIdle": "对象排除在活动多对象打印时可用 。",
+    "printerControlExcludeObjectsUnavailable": "此打印不包含单个命名对象。 在切换下一个文件前, 在打印设置中启用“ 排除对象 ” 。",
+    "printerControlExcludeObjectAction": "不包括",
+    "printerControlExcludeObjectCurrent": "现在打印",
+    "printerControlExcludeObjectExcluded": "不包括",
+    "printerControlExcludeObjectLastRemaining": "无法排除最后一个剩余对象。 取消打印 。",
+    "printerControlExcludeObjectConfirmationTitle": "排除此对象吗 ?",
+    "doNotAskAgain": "别再问了",
+    "printerControlExcludeObjectConfirmation": "打印机将永久停止打印“{name}”用于当前任务。其他对象将继续。",
+    "@printerControlExcludeObjectConfirmation": {
+        "placeholders": {
+            "name": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlExcludeObjectSuccess": "此对象已排除, 其余对象将继续打印 。",
+    "printerControlCamera": "摄像机",
+    "printerCameraWallTitle": "相机墙",
+    "printerCameraWallLayout": "相机布局",
+    "printerCameraWallLarge": "大型摄像头",
+    "printerCameraWallBalanced": "平衡网格",
+    "printerCameraWallCompact": "压缩网格",
+    "printerCameraWallPause": "暂停所有相机",
+    "printerCameraWallResume": "恢复相机",
+    "printerCameraWallResumeCount": "继续{count}摄像头",
+    "@printerCameraWallResumeCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerCameraWallOpenPrinter": "打开打印机控制",
+    "printerCameraWallEmpty": "未找到带有支持的相机的保存打印机 。",
+    "printerCameraWallScan": "扫描打印机",
+    "printerControlCameraConnecting": "正在连接到相机...",
+    "printerControlCameraUnavailable": "无法装入相机 。",
+    "printerControlCameraDiscovering": "我们正在尝试连接打印机相机。 测试方法 {current} of {total} 。",
+    "@printerControlCameraDiscovering": {
+        "placeholders": {
+            "current": {
+                "type": "int"
+            },
+            "total": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlCameraManualHint": "已知的相机方法都行不通。 手动输入相机地址 。",
+    "printerControlCameraEnterAddress": "输入相机地址",
+    "printerControlCameraStopAndEnterManually": "停止并手动输入",
+    "printerControlCameraAddress": "相机地址",
+    "printerControlCameraAddressExample": "例如:http://192.168.1.50:8080/?action=stream",
+    "printerControlCameraInvalidAddress": "输入有效的 HTTP 或 HTTPS 地址 。",
+    "printerControlCameraTestAddress": "测试地址",
+    "printerControlSettings": "打印机设置",
+    "printerControlExtruders": "挤出机",
+    "printerControlPickExtruder": "选择入侵者",
+    "printerControlExtruderSelected": "工具{tool}选中 。",
+    "@printerControlExtruderSelected": {
+        "placeholders": {
+            "tool": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlNozzle": "喷嘴",
+    "printerControlBed": "热床",
+    "printerControlNozzleTemperature": "喷嘴目标温度",
+    "printerControlBedTemperature": "床位目标温度",
+    "printerControlLight": "室内灯光",
+    "printerControlPartFan": "部件冷却风扇",
+    "printerControlRearFan": "后置风扇",
+    "printerControlAuxiliaryFan": "辅助风扇",
+    "printerControlPrintSpeed": "打印速度",
+    "printerControlMotion": "XYZ 控制器",
+    "printerControlMotionPositionUnavailable": "位置或移动限制没有。 移动前, 将打印机存放并刷新 。",
+    "printerControlMotionHomeRequired": "移动前将这个轴归家.",
+    "printerControlMotionLimitReached": "要求的移动将超过打印机的限制。",
+    "printerControlMotionSafetyHint": "移动按钮在打印机报告的限度内被禁用 。",
+    "printerControlMoveAxisTitle": "移动{axis}轴",
+    "@printerControlMoveAxisTitle": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlTargetCoordinate": "目标坐标",
+    "printerControlCoordinateRange": "允许的范围 :{minimum}- 说吧{maximum}毫米",
+    "@printerControlCoordinateRange": {
+        "placeholders": {
+            "minimum": {
+                "type": "String"
+            },
+            "maximum": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlMoveTo": "移动",
+    "printerControlHomeAxis": "页 次{axis}轴",
+    "@printerControlHomeAxis": {
+        "placeholders": {
+            "axis": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlHomeXY": "主轴 X 和 Y",
+    "printerControlTemperatureRange": "输入0至0之间的温度{maximum}°C. (美国英语).",
+    "@printerControlTemperatureRange": {
+        "placeholders": {
+            "maximum": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlHomeAll": "家所有轴",
+    "printerControlFilaments": "耗材丝",
+    "printerControlEmpty": "空",
+    "printerControlSlot": "槽{number}",
+    "@printerControlSlot": {
+        "placeholders": {
+            "number": {
+                "type": "int"
+            }
+        }
+    },
+    "printerControlEditFilament": "编辑{slot}",
+    "@printerControlEditFilament": {
+        "placeholders": {
+            "slot": {
+                "type": "String"
+            }
+        }
+    },
+    "printerControlMaterialType": "材料类型",
+    "printerControlMaterialName": "物质变体",
+    "printerControlFilamentBrand": "品牌",
+    "printerControlFilamentColor": "颜色",
+    "printerControlColorHex": "颜色代码",
+    "printerControlInvalidColor": "输入有效的六位数颜色代码。",
+    "printerControlRequiredValue": "需要这个字段(最多64个字符).",
+    "printerControlInvalidValue": "此值包含不支持的字符 。",
+    "printerControlFilamentUpdated": "更新档位 。",
+    "printerControlProtocol": "连接 :{protocol}",
+    "@printerControlProtocol": {
+        "placeholders": {
+            "protocol": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateTitle": "打印机配置文件更新",
+    "profilesUpdateMessage": "提供了一个新的打印机配置文件包( 版本){version}, (中文).{size}您现在想要更新它吗 ?",
+    "@profilesUpdateMessage": {
+        "placeholders": {
+            "version": {
+                "type": "String"
+            },
+            "size": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateLater": "回头见",
+    "profilesUpdateNow": "现在更新",
+    "profilesUpdateDownloading": "正在下载打印机配置... 您可以保留MakerSpell并跟踪通知的进展情况。",
+    "profilesUpdateDone": "更新的简介",
+    "profilesUpdateDoneMessage": "打印机配置文件版本{version}准备使用。",
+    "@profilesUpdateDoneMessage": {
+        "placeholders": {
+            "version": {
+                "type": "String"
+            }
+        }
+    },
+    "profilesUpdateError": "打印机配置文件无法更新。 您的现有配置文件已保存 。",
+    "scrollToTop": "滚动到顶端",
+    "experimentalPrinterBeta": "实验打印机特性",
+    "experimentalPrinterBetaSubtitle": "未验证打印机协议的受控β特性",
+    "anycubicBetaTitle": "Anycubic 局域网控制β",
+    "anycubicBetaIntro": "帮助验证本地 Anycubic 支持在普遍可用之前。 如果发现固件不兼容, 特性是可选择的, 可以远程禁用 。",
+    "anycubicBetaJoin": "加入受控β",
+    "anycubicBetaLeave": "离开β并全部禁用",
+    "anycubicBetaConsentTitle": "加入Anycubic LAN β吗?",
+    "anycubicBetaConsentBody": "这些操作通过自动协议测试, 但还没有在每个物理打印机或固件上进行校验。 测试在参加打印机时, 以一个无害的小文件开始, 并准备从打印机屏幕上阻止它 。",
+    "anycubicBetaConsentCheck": "我知道这些功能是实验性的, 我会监督每一个测试。",
+    "anycubicBetaEnableTitle": "启用{feature}? 。 。 。",
+    "@anycubicBetaEnableTitle": {
+        "placeholders": {
+            "feature": {
+                "type": "String"
+            }
+        }
+    },
+    "anycubicBetaFeatureWarning": "测试时保留打印机 。MakerSpell如果报告存在兼容性问题,则可能远程禁用此特性。",
+    "anycubicBetaCamera": "实验FLV照相机",
+    "anycubicBetaCameraSubtitle": "启动并显示打印机的本地相机流.",
+    "anycubicBetaUpload": "实验 G 码上传",
+    "anycubicBetaUploadSubtitle": "在打印机未开始打印的情况下,通过已签名的URL上传。",
+    "anycubicBetaStart": "实验打印开始",
+    "anycubicBetaStartSubtitle": "允许启动一个上传文件。 先启用上传 。",
+    "anycubicBetaRemotelyDisabled": "暂时无法使用, 因为远程禁用兼容性 。",
+    "anycubicBetaEnrolled": "受控β在此设备上活动.",
+    "anycubicBetaNotGeneralSupport": "这个β目前针对的是sock-LAN Kobra 3和 Kobra S1 家族,它不主张Kobra 2或Photon/resin模型.",
+    "bambuBetaTitle": "Bambu 实验室局域网控制β",
+    "bambuBetaIntro": "帮助验证 Bambu 局域网上的远程启动和本地预打印校准。 这些功能是可选择的、可远程禁用, 在参加打印机时必须进行测试 。",
+    "bambuBetaJoin": "加入 Bambu 控制β",
+    "bambuBetaLeave": "离开 Bambu beta 并全部禁用",
+    "bambuBetaConsentTitle": "加入班布实验室LANβ?",
+    "bambuBetaConsentBody": "远程启动和校准使用 Bambu 本地的 FTPS 和 MQTT 命令, 并且尚未在每一个模型或固件上进行实物验证 。 可能会发生意外的移动、 加热、 校准故障、 打印故障或设备损坏 。 请保持建筑板清空, 从一个小型无害的 G 码文件开始, 留在打印机旁边, 并准备从打印机屏幕上阻止它 。 您自愿并冒着风险使用这些β 特性 。MakerSpell并且其开发者对使用这些实验性特征造成的损害或损失不负责.",
+    "bambuBetaConsentCheck": "我理解这些班布特征是实验性的,接受上述风险,并将监督每一个测试.",
+    "bambuBetaEnrolled": "Bambu control beta在此装置上活动.",
+    "bambuBetaStart": "实验班布远程启动",
+    "bambuBetaStartSubtitle": "启动通过 Bambu LAN MQTT 协议上传到打印机缓存的 G 码 。",
+    "bambuBetaCalibration": "实验班布预印校准",
+    "bambuBetaCalibrationSubtitle": "运行本地床位平整和振动校准, 等待完成, 然后启动上传的 G 码。 必须启用远程启动 。",
+    "bambuBetaPrintWarning": "Bambu操作是实验性的,使用时有风险。意外的移动、加热、打印故障或设备损坏可能发生。在校准过程中保持建筑板清晰,留在打印机旁边,并准备从打印机屏幕上停止。在适用法律允许的范围内,MakerSpell并且其开发者不对由此造成的损害或损失负责。",
+    "bambuBetaRiskNotice": "实验特性 —— 冒险使用 , 物理行为可以因打印机模型和固件而异, 永远不要测试未处理.",
+    "recentlyViewedModels": "最近浏览的模型",
+    "recentlyViewedModelsSubtitle": "见您最近在此设备上打开的模型",
+    "recentlyViewedEmpty": "您打开的模型将出现在这里 。",
+    "clearViewingHistory": "清除查看历史",
+    "clearViewingHistoryConfirm": "从此设备中删除所有最近查看的模型 ?",
+    "removeFromViewingHistory": "从查看历史中删除",
+    "viewedAt": "{date}时间{time}",
+    "@viewedAt": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            },
+            "time": {
+                "type": "String"
+            }
+        }
+    },
+    "mySupportRequests": "我的请求",
+    "mySupportRequestsSubtitle": "跟踪诊断和支助请求",
+    "supportRequest": "支助请求",
+    "supportRequestsSignIn": "签名查看并跟踪您的支持请求 。",
+    "supportRequestsLoadFailed": "您的支持请求无法装入 。",
+    "supportRequestsEmpty": "您还没有支持请求 。",
+    "supportStatusNew": "实收",
+    "supportStatusOpen": "接受审查",
+    "supportStatusPending": "等待时",
+    "supportStatusResolved": "已决定",
+    "supportStatusClosed": "关闭",
+    "supportRequestAwaitingResponse": "设备状态",
+    "supportRequestAwaitingResponseBody": "我们收到了你的请求,并将审查诊断信息。",
+    "supportRequestResponse": "MakerSpell回应",
+    "sendFailureDiagnosticsTitle": "帮助我们修复这个功能",
+    "sendFailureDiagnosticsBody": "此特性未达到预期效果 。 您想要发送隐私过滤错误诊断吗 ? 如果您发送的话, 我们会尽快调查这个问题 。 您可以在设置中根据我的请求跟踪请求, 并在回复时看到内应用通知 。",
+    "sendFailureDiagnosticsPrivacy": "IP地址,访问码,证书,文件名,G码和原始打印机回复从未包含.",
+    "sendFailureDiagnostics": "发送诊断",
+    "failureDiagnosticsSent": "已发送诊断,请求身份证明:{requestId}",
+    "@failureDiagnosticsSent": {
+        "placeholders": {
+            "requestId": {
+                "type": "String"
+            }
+        }
+    },
+    "failureDiagnosticsFailed": "无法发送诊断。 请确认您已经注册并再次尝试 。",
+    "reportProblem": "报告问题",
+    "blockUser": "隐藏此用户",
+    "blockedUserHidden": "这个用户的评论现在隐藏在这个平台上.",
+    "undo": "撤销",
+    "printSendTitle": "发送 G 代码",
+    "printSendUploading": "正在上传...",
+    "printSendDoNotLeaveDuringUpload": "保持此屏幕打开, 直到上传完成 。",
+    "printSendStartPrint": "开始打印",
+    "printSendUploadOnly": "仅上传",
+    "printSendUploadAndPrint": "上传和打印",
+    "printSendManagePrinters": "管理",
+    "printSendOnDevice": "在打印机上",
+    "printSendAddPrinter": "添加或发现打印机",
+    "printSendTime": "时间 :{value}",
+    "@printSendTime": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "printSendMaterial": "材料 :{value}",
+    "@printSendMaterial": {
+        "placeholders": {
+            "value": {
+                "type": "String"
+            }
+        }
+    },
+    "printSendToolChanges": "工具更改 :{count}",
+    "@printSendToolChanges": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printSendCapabilityUpload": "上传",
+    "printSendCapabilityStart": "远程启动",
+    "printSendCapabilityMultiMaterial": "多材料",
+    "printSendFilamentAssignment": "申报转让",
+    "printSendRefreshFilaments": "刷新打印机丝线槽",
+    "printSendFilamentMappingHelp": "将每个 G 码工具映射到物理打印机插槽 。",
+    "printSendFilamentManagedHelp": "装入的丝状信息由打印机报告时显示。 槽重映射被隐藏, 除非适配器能够安全应用它 。",
+    "printSendPreferences": "打印机支持的选项",
+    "printSendFlowCalibration": "挤压流校准",
+    "printSendFlowCalibrationHelp": "在此打印开始时使用打印机配置文件流程校准程序 。",
+    "printSendTimelapseCapture": "时滞相机",
+    "printSendTimelapseCaptureHelp": "在此打印时抓取时长框架 。",
+    "printSendAutoLeveling": "自动定级",
+    "printSendAutoLevelingHelp": "运行打印机的本土床位平整常规,作为打印起始序列的一部分.",
+    "printSendRunCalibration": "运行打印机校准",
+    "printSendRunCalibrationHelp": "打印机自己的协议会在打印前运行其支持的校准程序.",
+    "printSendAuthenticationRequired": "此打印机需要认证。 打开打印机管理并输入所要求的证书 。",
+    "printSendPrinterOffline": "此打印机已下线, 请检查它的电源和网络连接 。",
+    "printSendConnectionFailed": "MakerSpell无法连接到此打印机 。",
+    "printSendUnsupported": "此打印机连接不支持 G 代码传输 。",
+    "printSendConnectionNotReady": "打印机连接尚未准备好 。",
+    "printSendUploadUnsupported": "此打印机适配器无法上传 G 代码。 您可以用打印机自己的界面导出文件并传输 。",
+    "printSendBedMeshCalibration": "家轴和校准床网",
+    "printSendBedMeshCalibrationHelp": "在打印之前,MakerSpell验证 Klipper 报告 bed mesh 支持, 然后队列 G28 和 BED MESH  CALIBRATE。 如果支持无法被验证, 打印将不会开始 。",
+    "printSendCalibrating": "校准打印机...",
+    "printSendStartingPrint": "开始打印...",
+    "printSendBambuCalibration": "运行班布床平整和振动校准",
+    "printSendBambuCalibrationHelp": "受控β:MakerSpell启动 Bambu 本地校准, 等待它完成, 然后启动上传的 G 码 。",
+    "networkPrinterBambuDeveloperPrintTitle": "从 Bambu 开发者模式开始吗 ?",
+    "networkPrinterBambuDeveloperPrintWarning": "MakerSpell 将直接将本地校准和打印命令发送到这个 Bambu 打印机。 请在任务开始时确保构建盘清晰, 在打印机附近停留 。",
+    "modelFileBrowseDrive": "浏览Google Drive",
+    "driveModelsTitle": "Google Drive 型号",
+    "driveModelsSubtitle": "MakerSpell-图书馆中的模型",
+    "driveModelsEmpty": "MakerSpell-Library中找不到支持的模型文件。 您可以使用系统文件拾取器在 Drive 的其他地方选择文件 。",
+    "driveModelsError": "Google Drive无法装入文件。 请检查您的连接并再次尝试 。",
+    "driveModelDownloading": "从 Google Drive 下载中...",
+    "preparingSignIn": "正在准备登录...",
+    "driveModelDownloadingProgress": "{percent}%* 妇女{received}页:1{total}",
+    "@driveModelDownloadingProgress": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            },
+            "received": {
+                "type": "String"
+            },
+            "total": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerVariableLayers": "可变层",
+    "viewerVariableLayerHeight": "可变层高",
+    "viewerVariableLayerHeightDescription": "在详细的表面自动使用较薄的层,在节省时间的地方使用较厚的层。",
+    "viewerQualitySpeed": "细节/速度",
+    "viewerQuality": "质量",
+    "viewerSpeed": "速度",
+    "viewerSmoothing": "平滑度",
+    "viewerKeepMinimumLayerHeight": "保持最小层高度固定",
+    "viewerVariableLayerHeightApplied": "下一块将使用可变层高度",
+    "viewerDeleteModel": "删除模式",
+    "viewerSelectModelToDelete": "选择要删除的模型",
+    "viewerAddPlate": "添加新盘",
+    "viewerNewProject": "新项目",
+    "viewerNewProjectConfirmation": "创建空工程? 未保存的场景更改将被清除 。",
+    "viewerCreate": "创建",
+    "viewerRecentProjects": "最近的项目",
+    "viewerRecentProjectsEmpty": "没有最近的工程文件",
+    "viewerMoveToPlate": "移动到盘中",
+    "viewerSelectModelToMove": "选择要移动的模式",
+    "viewerCurrentPlate": "当前盘片",
+    "viewerMoveToNewPlate": "移动到新盘",
+    "viewerAddConnector": "添加连接件",
+    "viewerEditConnector": "编辑连接符",
+    "viewerCutConnectors": "连接件",
+    "viewerConnectorPlug": "插销",
+    "viewerConnectorDowel": "销钉",
+    "viewerConnectorSnap": "按扣",
+    "viewerConnectorTolerance": "容差",
+    "viewerConnectorSize": "大小",
+    "viewerConnectorRotation": "旋转",
+    "viewerConnectorStyle": "样式",
+    "viewerConnectorShape": "形状",
+    "viewerConnectorPlacementHint": "点击模型放置连接器。 您仍然可以旋转并放大场景 。",
+    "viewerConnectorSelectionHint": "点击连接器以启用或禁用它 。",
+    "viewerConnectorPlaceMode": "添加连接件",
+    "viewerConnectorSelectMode": "选择连接器",
+    "viewerConnectorControlsTitle": "连接器控制",
+    "viewerConnectorControlsBody": "点击剪切的表面可以添加连接器。 点击选择模式的连接器可以启用或禁用它; 活动连接器是绿色的, 禁用的连接器是灰色的。 双拖放连接器可以移除它。 按住并握住连接器, 然后拖动它 。",
+    "viewerConnectorOptions": "连接选项",
+    "viewerConnectorMove": "移动",
+    "viewerConnectorMoveHint": "点击模型将连接器移动到一个新的位置.",
+    "viewerConnectorDuplicate": "复制",
+    "viewerConnectorMoved": "连接器已移动",
+    "viewerConnectorPrism": "棱角",
+    "viewerConnectorFrustum": "锥体",
+    "viewerConnectorCircle": "圆",
+    "viewerConnectorTriangle": "三角形",
+    "viewerConnectorSquare": "正方形",
+    "viewerConnectorHexagon": "六边形",
+    "appUpdateTitle": "新版本已经准备好",
+    "appUpdateAvailable": "较新的版本{appName}可以在 Google Play 上找到。您可以在下载时继续使用该应用程序。",
+    "@appUpdateAvailable": {
+        "placeholders": {
+            "appName": {
+                "type": "String"
+            }
+        }
+    },
+    "appUpdateLater": "回头见",
+    "appUpdateNow": "固件更新",
+    "appUpdateDownloading": "该更新正在背景下载。 您可以继续使用该应用程序 。",
+    "appUpdateReadyTitle": "下载更新",
+    "appUpdateReadyMessage": "重新启动应用程序以完成更新的安装 。",
+    "appUpdateRestart": "重新启动和更新",
+    "appUpdateFailed": "更新无法完成。 请稍后再试 。",
+    "serverUpdateRequiredTitle": "Update required",
+    "serverUpdateRequiredContent": "This version is no longer supported. Please update the app to continue.",
+    "serverUpdateRecommendedContent": "A newer version is available. We recommend updating for the best experience.",
+    "serverUpdateActionUpdate": "Update",
+    "betaProRewardReady": "你的封口奖已经准备好了",
+    "betaProSignInDescription": "签名以激活21天MakerSpellPro. 不需要付款方法。",
+    "betaProActivating": "激活 beta Pro 程序",
+    "betaProActivatingDescription": "您的账户应享权利正在核实中。",
+    "betaProActivationFailed": "Beta Pro 需要您注意 。",
+    "betaProActivationRetryDescription": "我们无法验证奖励, 请检查您的连接, 再试一次 。",
+    "downloadDestination": "下载目的地",
+    "downloadDestinationDescription": "选择下载文件保存位置 。",
+    "imagesDestination": "图像",
+    "modelsProfilesDestination": "模型配置文件( P)",
+    "picturesMakerSpell": "图片 /MakerSpell",
+    "downloadsMakerSpell": "下载 /MakerSpell",
+    "customFolder": "自定义文件夹...",
+    "destinationCustomNote": "自定义文件夹不在此平台上支持; 使用应用存储 。",
+    "destinationRevoked": "保存的文件夹访问已丢失。 请重新选择目的地 。",
+    "printFarmTab": "农场",
+    "printFarmTitle": "农场",
+    "printFarmDescription": "在一个地方管理打印机组和量产工作。",
+    "printFarmNewOrder": "生产订单",
+    "printFarmFleetPrinting": "打印中",
+    "printFarmFleetReady": "准备",
+    "printFarmFleetAttention": "请注意",
+    "printFarmFleetOffline": "离线",
+    "printFarmFleetChecking": "检查中",
+    "printFarmSafetyNotice": "工作从不自动开始。 在每个新打印前确认构建板是清晰的 。",
+    "printFarmOrders": "生产订单",
+    "printFarmNoOrders": "还没有生产订单 创建你的第一个基于数量的工作",
+    "printFarmRemainingSummary": "{orders} 开放 {units} 剩余单元",
+    "@printFarmRemainingSummary": {
+        "placeholders": {
+            "orders": {
+                "type": "int"
+            },
+            "units": {
+                "type": "int"
+            }
+        }
+    },
+    "printFarmOrderName": "产品或职务名称",
+    "printFarmTargetQuantity": "目标数量",
+    "printFarmInvalidQuantity": "输入至少 1",
+    "printFarmMaterialOptional": "材料(可选)",
+    "printFarmMaterialUnspecified": "未具体说明的材料",
+    "printFarmOrderProgress": "{completed}/{target}完成 ·{remaining}剩余",
+    "@printFarmOrderProgress": {
+        "placeholders": {
+            "completed": {
+                "type": "int"
+            },
+            "target": {
+                "type": "int"
+            },
+            "remaining": {
+                "type": "int"
+            }
+        }
+    },
+    "printFarmCompleted": "已完成",
+    "printFarmFailed": "失败",
+    "printFarmStateActive": "活动",
+    "printFarmStatePaused": "暂停",
+    "printFarmStateCompleted": "已完成",
+    "printFarmStateCancelled": "已取消",
+    "printFarmPause": "暂停",
+    "printFarmResume": "继续",
+    "printFarmSuggestPrinter": "建议打印机",
+    "printFarmSuggestionExplanation": "打印机按活状态,文件支持,材料槽和已知的硬件要求排序,任务从不开始打印.",
+    "printFarmNoPrinters": "没有保存的打印机 。",
+    "printFarmPrinterCompatible": "符合已知的工作要求",
+    "printFarmAssignedPrinter": "指定打印机",
+    "printFarmChangePrinter": "变动",
+    "printFarmOperatorConfirmed": "操作员检查了打印机和任务",
+    "printFarmBedClearConfirmed": "建筑板已经准备好",
+    "printFarmReadyForManualStart": "准备手动启动",
+    "printFarmFitCannotStart": "无法接收并启动此任务",
+    "printFarmFitFileUnsupported": "不支持文件类型",
+    "printFarmFitOffline": "打印机已下线",
+    "printFarmFitAttention": "打印机需要关注",
+    "printFarmFitBusy": "忙碌; 可在当前打印后排队",
+    "printFarmFitSlotsUnknown": "无法校验材料槽",
+    "printFarmFitNotEnoughSlots": "装载的材料槽不足",
+    "printFarmFitMaterialUnknown": "无法校验装入的材料",
+    "printFarmFitMaterialChange": "需要进行的重大变化",
+    "printFarmFitNozzleUnknown": "必须验证喷嘴直径",
+    "printFarmFitNozzleMismatch": "喷嘴直径不匹配",
+    "printFarmFitBedTooSmall": "构建体积太小",
+    "printFarmFitBedUnknown": "构建体积必须被验证",
+    "printFarmNoVerifiedGCode": "未附加经过核实的 G 码",
+    "printFarmAttachGCode": "附加已验证的 G 码",
+    "printFarmChangeGCode": "更改 G 代码",
+    "printFarmAttachGCodeDescription": "选择存档的打印中心任务 。MakerSpell验证其散列,并保存独立的农场副本。",
+    "printFarmNoArchivedGCode": "尚未提供存档的 G 代码 。",
+    "printFarmGCodeVerificationFailed": "无法校验 G- code 归档 。",
+    "printFarmGCodeRequirements": "{tools}· 用过的工具{nozzle}毫米喷嘴",
+    "@printFarmGCodeRequirements": {
+        "placeholders": {
+            "tools": {
+                "type": "int"
+            },
+            "nozzle": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterTitle": "打印中心",
+    "printCenterSubtitle": "您的打印机、 活动任务和准备中的文件在一个地方",
+    "printCenterActive": "活动",
+    "printCenterReady": "准备",
+    "printCenterHistory": "历史",
+    "printCenterOnlinePrinters": "在线打印机",
+    "printCenterViewAll": "全部查看",
+    "printCenterNoActiveJobs": "无活动打印",
+    "printCenterNoReadyJobs": "没有要打印的文件",
+    "printCenterNoHistory": "打印历史将在此出现",
+    "printCenterNotifications": "打印机通知",
+    "printCenterNotifyCompleted": "打印完成",
+    "printCenterNotifyInterrupted": "打印中断或失败",
+    "printCenterNotifyOffline": "打印机下线",
+    "printCenterStart": "开始打印",
+    "printCenterRefresh": "刷新状态",
+    "printCenterClearHistory": "清除历史",
+    "printCenterQueueSafety": "已准备好的任务不会自动启动。 在开始下一个打印前确认构建盘已清晰 。",
+    "printCenterStartFailed": "无法启动打印",
+    "printCenterRepeatExact": "用相同的设置再次打印",
+    "printCenterRepeatChecking": "正在检查存档的文件、 配置和打印机...",
+    "printCenterRepeatReady": "存档的 G 编码完好无损 。 在再次打印前确认已清晰 。",
+    "printCenterRepeatChanged": "源工程或打印机配置自此打印后已更改。 已验证的存档的 G 代码不会被转换, 并且仍然可以发送到之前的打印 。",
+    "printCenterRepeatPrinterChanged": "保存的打印机现在报告不同的硬件或连接细节。 在继续前请检查差异 。",
+    "printCenterRepeatUnavailable": "无法提供确切的存档副本, 或检查完整性失败。 重新打开源头并安全准备打印 。",
+    "printCenterRepeatOldPrinter": "打印方式为:{printer}",
+    "@printCenterRepeatOldPrinter": {
+        "placeholders": {
+            "printer": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterRepeatCurrentPrinter": "当前打印机 :{printer}",
+    "@printCenterRepeatCurrentPrinter": {
+        "placeholders": {
+            "printer": {
+                "type": "String"
+            }
+        }
+    },
+    "printCenterOpenSource": "开源",
+    "printCenterStateReady": "准备打印",
+    "printCenterStatePrinting": "打印中",
+    "printCenterStatePaused": "暂停",
+    "printCenterStateCompleted": "已完成",
+    "printCenterStateFailed": "需要关注",
+    "printCenterStateCancelled": "已取消",
+    "printCenterQuietHours": "安静时间",
+    "printCenterQuietHoursStart": "安静时间开始",
+    "printCenterQuietHoursEnd": "安静小时结束",
+    "printJournalEntryTitle": "打印日记条目",
+    "printJournalEdit": "向打印日记添加结果",
+    "printJournalRating": "这个指纹是怎么出来的?",
+    "printJournalNote": "个人说明",
+    "printJournalNoteHint": "记录表面质量,适合,材料变化或者下次要尝试什么.",
+    "printJournalAddPhoto": "添加结果照片",
+    "printJournalRemovePhoto": "删除照片",
+    "printJournalOpenProject": "按项目打开",
+    "printJournalSave": "保存",
+    "printJournalDelete": "删除条目",
+    "printerMaintenanceTab": "护理",
+    "printerMaintenanceDescription": "维护是根据印刷能力文件中的实际印刷用量和阈值计算的。",
+    "printerMaintenanceEmpty": "这些打印机没有有待维修或未解决的问题。",
+    "printerMaintenanceRecommendations": "维护建议",
+    "printerIssuesTitle": "需要注意的问题",
+    "printerIssueResolve": "已决定",
+    "printerIssueResolved": "已决定",
+    "printerIssueRetry": "再试一次",
+    "printerIssueResolveAll": "解决所有问题",
+    "printCenterProgressTab": "进程",
+    "progressCenterTitle": "иMakerSpell进展",
+    "progressCenterDescription": "只有真正完成的工作出现在这里。 这里没有记录、 积分或领导牌 。",
+    "progressFirstPrintTitle": "第一个成功打印",
+    "progressFirstPrintDescription": "成功完成网络打印机上的打印 。",
+    "progressFirstSendTitle": "第一个网络发送",
+    "progressFirstSendDescription": "将已准备好的 G 代码发送到打印机 。",
+    "progressMultiPlateTitle": "多平台项目",
+    "progressMultiPlateDescription": "成功切片包含多个板块的项目 。",
+    "progressFirstListingTitle": "第一次产品发布",
+    "progressFirstListingDescription": "完成你第一次成功的市场发布 通过商店。",
+    "progressUnlocked": "已完成",
+    "progressLocked": "尚未完成",
+    "progressInviteTitle": "份额MakerSpell",
+    "progressInviteDescription": "与朋友共享您的邀请代码。 在他们接受并完成第一个真实打印、网络发送或产品发布任务后, 请被验证, 社区建设者徽章解锁。 单输入一个代码不会产生奖励 。",
+    "progressInviteCodeHelp": "如果有人给你发了 MakerSpell 邀请码, 请在这里接受。 它只有在您第一次真正成功后才被验证为发送者 。",
+    "progressInviteShare": "共享邀请码",
+    "progressInviteShareText": "发现并切片 3D 模型并用 MakerSpell 发送到您的打印机。 我的邀请码 : {code}\n{url} (中文(简体) ).",
+    "@progressInviteShareText": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            },
+            "url": {
+                "type": "String"
+            }
+        }
+    },
+    "progressInviteActivated": "{count}经核实的邀请",
+    "@progressInviteActivated": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "progressInvitePending": "{count} 等待启动",
+    "@progressInvitePending": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "progressCommunityBadge": "社区建设者徽章解锁",
+    "progressHaveInviteCode": "我有邀请密码",
+    "progressEnterInviteCode": "输入邀请代码",
+    "progressAcceptInvite": "接受代码",
+    "progressInviteAccepted": "已保存邀请。 这将在您第一次真正成功后自动激活 。",
+    "progressInviteInvalid": "无法接受代码。 请检查代码和您的连接 。",
+    "progressInviteUnavailable": "目前没有邀请信息。",
+    "progressInviteSignIn": "签名创建并共享您的邀请代码 。",
+    "progressInviteLoadFailed": "您已经签名, 但邀请信息无法从服务器上加载 。 请检查您的连接并再次尝试 。",
+    "printerMaintenanceDone": "完成",
+    "printerMaintenanceBuildPlate": "清理和检查建筑板",
+    "printerMaintenanceBeltSurface": "清理和检查皮带表面",
+    "printerMaintenanceBelts": "检查带紧张",
+    "printerMaintenanceNozzle": "检查或替换喷嘴",
+    "printerMaintenanceCfsPath": "清除 CFS 丝路",
+    "printerMaintenanceLinearMotion": "检查线性运动系统",
+    "printerMaintenanceToolheads": "检查工具头",
+    "printerMaintenanceHoursProgress": "{used} / {limit}打印时数",
+    "@printerMaintenanceHoursProgress": {
+        "placeholders": {
+            "used": {
+                "type": "String"
+            },
+            "limit": {
+                "type": "String"
+            }
+        }
+    },
+    "printerMaintenanceFilamentProgress": "{used} / {limit}g 丝线",
+    "@printerMaintenanceFilamentProgress": {
+        "placeholders": {
+            "used": {
+                "type": "String"
+            },
+            "limit": {
+                "type": "String"
+            }
+        }
+    },
+    "printJournalExport": "导出日记",
+    "printJournalExportDescription": "MakerSpell打印日记导出",
+    "printJournalExportFailed": "无法导出打印日记 :{error}",
+    "@printJournalExportFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "continueHubTitle": "继续",
+    "continueActivePrint": "活动打印",
+    "continueRecentProject": "最近的项目",
+    "continueLastSuccessfulSetup": "上次成功设置",
+    "continueSetupApplied": "成功打印设置已准备好",
+    "printResultShareTitle": "共享打印结果",
+    "printResultShareSubtitle": "只共享此预览卡。 文件路径和打印机地址保持私密 。",
+    "printResultShareAction": "份额",
+    "printResultShareCaption": "打印为MakerSpell",
+    "printResultCompleted": "打印完成",
+    "printerNeedsAttention": "打印机需要关注",
+    "crealityErrorFr2849": "连接无法撤回到 CFS 中枢( FR2849) 。 清除连接路径, 然后从打印机中重试 。",
+    "plateSettingsTitle": "盘参数设置",
+    "plateSettingsName": "盘名称",
+    "plateSettingsBedType": "热床类型",
+    "plateSettingsGlobalBedType": "与全球板块类型相同",
+    "plateSettingsSmoothHighTempPlate": "平滑 PEI / 高温板",
+    "plateSettingsTexturedPeiPlate": "纹理PEI热床",
+    "plateSettingsCustomizedPlate": "自定义板",
+    "plateSettingsEpoxyResinPlate": "Epoxy 重排盘",
+    "plateSettingsCoolPlate": "低温打印热床",
+    "plateSettingsTexturedCoolPlate": "纹理的低温打印床",
+    "plateSettingsSuperTackPlate": "超级盘片",
+    "plateSettingsPrintSequence": "打印顺序",
+    "plateSettingsGlobalPrintSequence": "与全局打印序列相同",
+    "plateSettingsByLayer": "逐层",
+    "plateSettingsByObject": "逐件",
+    "plateSettingsSpiralVase": "旋转花瓶",
+    "plateSettingsSameAsGlobal": "与全球相同",
+    "plateSettingsOn": "打开",
+    "plateSettingsOff": "关",
+    "plateSettingsFirstLayerFilamentSequence": "首层耗材打印顺序",
+    "plateSettingsOtherLayerFilamentSequence": "其它层耗材打印顺序",
+    "plateSettingsAutomatic": "自动",
+    "plateSettingsCustomize": "自定义",
+    "plateSettingsAddLayerRange": "添加图层范围",
+    "plateSettingsRemoveLastLayerRange": "删除最后一层范围",
+    "plateSettingsLayer": "层",
+    "plateSettingsTo": "到",
+    "plateSettingsEnd": "结束",
+    "viewer3mfSettingsTitle": "3MF 项目设置",
+    "viewer3mfSettingsSummary": "所有丝状调色板已经合并, 没有更改模型的颜色任务。 请选择3MF , 其打印机和进程设置应该控制此工程 。",
+    "viewer3mfPaletteMerged": "%1可用于油漆和切片的项目丝绸。",
+    "viewer3mfPrimaryFile": "主文件 ^ 当前偏好",
+    "viewer3mfUseSettings": "使用这些设置",
+    "viewer3mfSettingsSourceTooltip": "选择 3MF 设置源",
+    "platformAuthCreateAccount": "创建账户",
+    "printerErrorOfficialSolution": "查看正式解决方案",
+    "printerErrorCodeLabel": "错误代码 :{code}",
+    "@printerErrorCodeLabel": {
+        "placeholders": {
+            "code": {
+                "type": "String"
+            }
+        }
+    },
+    "printerCommunityBannerTitle": "帮助改进此打印机",
+    "printerCommunityBannerDescription": "开发者可能无法访问此打印机, 所以每个真设备测试都很重要。 审查它的连接和接口规则, 然后标记什么是可行的,什么是需要改进的 。",
+    "printerCommunityBannerWorkingDescription": "在打印机旁边安全测试后, 请记住分享您的发现并批准工作功能。 您的确认支持MakerSpell帮助这个装置获得社区核查地位。",
+    "printerCommunityEditRules": "审查和改进",
+    "printerCommunityApprove": "一切都会成功",
+    "printerCommunityApproved": "确认",
+    "printerCommunityApprovalCount": "经确认{count}人员",
+    "@printerCommunityApprovalCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "printerCommunityApprovalError": "无法保存确认文件。 请签名并再次尝试 。",
+    "communityPrinterProfilesTitle": "打印机连接和接口规则",
+    "communityPrinterTargetAdapter": "此打印机使用的规则",
+    "communityPrinterRefresh": "更新社区规则",
+    "communityPrinterCreateProfile": "创建配置",
+    "communityPrinterSystemAdapters": "系统适配器",
+    "communityPrinterSystemAdaptersDescription": "连接和接口规则目前已运出MakerSpell.",
+    "communityPrinterRegistryUnavailable": "没有系统适配器登记册。",
+    "communityPrinterOverrides": "社区覆盖",
+    "communityPrinterOverridesDescription": "安装了扩展编译适配器的配置和草稿 。",
+    "communityPrinterNoOverrides": "没有安装社区覆盖 。",
+    "communityPrinterSystemBadge": "系统",
+    "communityPrinterSectionsCount": "{count}节次",
+    "@communityPrinterSectionsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterControlsCount": "{count}控件",
+    "@communityPrinterControlsCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterServicesCount": "{count}服务",
+    "@communityPrinterServicesCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "communityPrinterCreateOverride": "创建覆盖",
+    "communityPrinterConnection": "连接",
+    "communityPrinterCapabilities": "能力",
+    "communityPrinterInterfaceSections": "界面部分",
+    "communityPrinterJobControls": "任务控制",
+    "communityPrinterDeviceControls": "设备控制",
+    "communityPrinterPrintOptions": "打印选项",
+    "communityPrinterRuntimeContracts": "运行时间合同",
+    "communityPrinterCreateEditableOverride": "创建可编辑社区覆盖",
+    "communityPrinterNone": "无",
+    "communityPrinterSettingsDescription": "编辑、预览、验证和审查社区维护的打印机支持。",
+    "communityPrinterDocumentation": "打印机配置指南",
+    "communityPrinterDocumentationOpenError": "无法打开打印机配置文件指南 。",
+    "communityPrinterCommunicationTitle": "此配置文件如何沟通",
+    "communityPrinterCommunicationDescription": "基运会选择经过审查的打印机专用HTTP,WebSocket或本地协议代码. 接口控制将逻辑操作映射到下面;它们并不都使用相同的供应商请求.",
+    "communityPrinterUnknownBaseTransport": "安装的运行时间登记册中没有这种基本运输工具。",
+    "communityPrinterOperationMappings": "行动绘图",
+    "communityPrinterOpenOperationJson": "打开操作 JSON",
+    "communityPrinterDelegateMapping": "各位代表{action}改为{adapter}",
+    "@communityPrinterDelegateMapping": {
+        "placeholders": {
+            "action": {
+                "type": "String"
+            },
+            "adapter": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRuntimeReviewRequired": "运行在沙箱的宣布运行时间({kind}).",
+    "@communityPrinterRuntimeReviewRequired": {
+        "placeholders": {
+            "kind": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterDeclarativeConnection": "声明连接",
+    "communityPrinterDeclarativeConnectionDescription": "描述一个新的打印机协议,而不添加应用程序代码 。",
+    "communityPrinterDeclarativeEnable": "开启",
+    "communityPrinterUseAsPrimaryTransport": "用作主要运输",
+    "communityPrinterDeclarativeSafety": "请求仅限于选定的打印机地址。 重定向和不安全信头被屏蔽 。",
+    "communityPrinterConnectionScheme": "计划",
+    "communityPrinterConnectionPort": "端口( 空 = 发现端口)",
+    "communityPrinterConnectionBasePath": "基础路径",
+    "communityPrinterConnectionTimeout": "超时( 毫秒)",
+    "communityPrinterConnectionAuthentication": "认证",
+    "communityPrinterConnectionAuthHeader": "认证信头",
+    "communityPrinterHttpWebSocketChannel": "HTTP / WebSocket 频道",
+    "communityPrinterHttpWebSocketChannelDescription": "HTTP操作使用这个端点. WebSocket操作在同一打印机端点上自动使用WS或WSS.",
+    "communityPrinterMqttChannel": "MQTT / MQTTS 频道",
+    "communityPrinterMqttChannelDescription": "发布命令和可选等待打印机主题的回复 。",
+    "communityPrinterFtpChannel": "FTP / FTPS 频道",
+    "communityPrinterFtpChannelDescription": "列出、上传或删除打印机文件服务中的文件。",
+    "communityPrinterEnableChannel": "启用频道",
+    "communityPrinterDisableChannel": "禁用频道",
+    "communityPrinterClientId": "客户身份",
+    "communityPrinterKeepAliveSeconds": "保持生命( 秒)",
+    "communityPrinterUsername": "用户名",
+    "communityPrinterTlsMode": "TLS 模式",
+    "communityPrinterRootPath": "根路径",
+    "communityPrinterMqttTopic": "MQTT 专题",
+    "communityPrinterMqttResponseTopic": "答复专题(可选)",
+    "communityPrinterMqttQos": "MQTT QoS 软件",
+    "communityPrinterFtpAction": "FTP 动作",
+    "communityPrinterFtpPath": "远程文件路径",
+    "communityPrinterTcpChannel": "TCP / TCPS 控制台",
+    "communityPrinterTcpChannelDescription": "将面向行的命令直接发送到打印机套接字,并选择读取回复。",
+    "communityPrinterLineEnding": "结束行",
+    "communityPrinterResponseMode": "响应模式",
+    "communityPrinterMaxResponseBytes": "最大响应大小( 字节)",
+    "communityPrinterTcpCommand": "TCP 命令模板",
+    "communityPrinterProtocolOperations": "礼宾业务",
+    "communityPrinterSecureDeclarativeRuntime": "安全声明运行时间",
+    "communityPrinterAddOperation": "添加操作",
+    "communityPrinterEditOperation": "编辑操作",
+    "communityPrinterOperationId": "操作标识",
+    "communityPrinterOperationExecutionType": "执行类型",
+    "communityPrinterCompiledAdapterAction": "编译的适配器动作",
+    "communityPrinterHttpMethod": "HTTP 方法",
+    "communityPrinterRelativeUrlPath": "打印机相对 URL 路径",
+    "communityPrinterRelativeWebSocketPath": "打印机相对 WebSocket 路径",
+    "communityPrinterCommandTemplate": "命令模板",
+    "communityPrinterRequestJson": "请求 JSON",
+    "communityPrinterResponseMappingJson": "反应绘图",
+    "communityPrinterResponseMappingHelp": "映射正常字段, 例如:{example}",
+    "@communityPrinterResponseMappingHelp": {
+        "placeholders": {
+            "example": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRunningPrintOption": "运行{option}…",
+    "@communityPrinterRunningPrintOption": {
+        "placeholders": {
+            "option": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterPermissions": "权限",
+    "communityPrinterInterfaceControls": "接口控制",
+    "communityPrinterAddInterfaceControl": "添加接口控制",
+    "communityPrinterEditInterfaceControl": "编辑接口控制",
+    "communityPrinterAddOperationFirst": "在创建接口控制之前添加操作 。",
+    "communityPrinterNewControl": "新控件",
+    "communityPrinterControlId": "控制标识",
+    "communityPrinterControlLabel": "标签",
+    "communityPrinterControlType": "控制类型",
+    "communityPrinterControlOperation": "操作",
+    "communityPrinterControlValuePath": "值路径( 可选)",
+    "communityPrinterControlVisibleWhen": "何时可见( 可选)",
+    "communityPrinterControlMinimum": "最小",
+    "communityPrinterControlMaximum": "最大",
+    "communityPrinterControlStep": "步骤",
+    "communityPrinterControlUnit": "单位(可选)",
+    "communityPrinterControlConfirmation": "需要确认",
+    "communityPrinterControlRequired": "需要身份证和标签。",
+    "communityPrinterControlUnique": "控制ID必须是独一无二的。",
+    "communityPrinterControlMustBeNumber": "{field} 必须是一个数字。",
+    "@communityPrinterControlMustBeNumber": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "communityPrinterRestoreProfile": "恢复上一个版本",
+    "communityPrinterRestoreProfileTitle": "恢复打印机配置文件吗 ?",
+    "communityPrinterRestoreUnsavedMessage": "未保存的更改将被丢弃, 配置文件将返回到编辑开始时打开的版本 。",
+    "communityPrinterRestoreInstalledMessage": "目前的本地配置将被先前的验证版本所取代.",
+    "communityPrinterRestoreAction": "恢复",
+    "communityPrinterRestoreSuccess": "恢复了先前的打印机配置 。",
+    "communityPrinterRestoreUnavailable": "没有先前的配置文件版本可用 。",
+    "communityPrinterRestoreFailure": "无法恢复配置文件 :{error}",
+    "@communityPrinterRestoreFailure": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "listingCurrencyMismatch": "选定的 {store} 市场需要 {currency} 。 返回到产品细节中, 将货币设定为 {currency} , 并输入该货币的销售价格。 改变货币不会转换金额 。",
+    "@listingCurrencyMismatch": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            },
+            "currency": {
+                "type": "String"
+            }
+        }
+    },
+    "listingPreparationFailed": "无法装入当前存储规则或汇率 。 请检查您的互联网连接和运行规则地址, 然后重试。 没有发布 。",
+    "listingCurrencyConversion": "将 {source} 转换为 {target} ? 法兰克福参考率 日期为 {date} 。 在确认后, 请再次检查更新的价格并按下 Publishing 。 这不是保证的银行换算率 。",
+    "@listingCurrencyConversion": {
+        "placeholders": {
+            "source": {
+                "type": "String"
+            },
+            "target": {
+                "type": "String"
+            },
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerMeshBoolean": "布尔运算",
+    "viewerBooleanDescription": "选择两个未涂色的固态网格。 A 被结果所取代, B 被消耗。 要切开一个孔, 请选择主模型为 A, 切换形状为 B, 然后是 Difference( A – B) 。 最大 50,000 个输入三角 。",
+    "viewerBooleanUnion": "联盟(A+B)",
+    "viewerBooleanDifference": "差额(A-B)",
+    "viewerBooleanIntersection": "交叉(A ++ B)",
+    "viewerBooleanUnionShort": "并集",
+    "viewerBooleanDifferenceShort": "差集",
+    "viewerBooleanIntersectionShort": "交叉",
+    "viewerBooleanMainModel": "主要模式",
+    "viewerBooleanToolModel": "B 工具形状",
+    "viewerBooleanChooseObject": "选择对象",
+    "viewerBooleanSwap": "交换A和B",
+    "viewerBooleanUnionHint": "将A和B合并为一个坚实的模型.",
+    "viewerBooleanDifferenceHint": "从A中删除B卷.",
+    "viewerBooleanIntersectionHint": "只保留A和B共享的音量.",
+    "viewerBooleanSelectOnModel": "在视图中选择",
+    "viewerBooleanSelectModels": "选择布尔模型",
+    "viewerBooleanTapSelect": "磁带",
+    "viewerBooleanBoxSelect": "专栏",
+    "viewerBooleanClearSelection": "清除选择",
+    "viewerBooleanSelectedCount": "选 {count} 精确选择 2",
+    "@viewerBooleanSelectedCount": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerBooleanCalculate": "计算",
+    "viewerBooleanNeedTwoMeshes": "添加或选择至少包含两个支持的固态网格的模型 。",
+    "viewerBooleanMemoryWarning": "此操作可能使用大量的内存, 并且可以使应用程序暂时失去响应 。 继续吗 ?",
+    "viewerBooleanApplyTitle": "应用布尔结果 ?",
+    "viewerBooleanResultSummary": "其结果包括:{count}三角形。 A 将被替换, B 将被消耗, Undo 可以恢复两者。",
+    "@viewerBooleanResultSummary": {
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "viewerBooleanRunning": "计算布尔几何...",
+    "viewerBooleanApply": "应用",
+    "viewerBooleanFailed": "Mesh Boolean 失败 :{error}",
+    "@viewerBooleanFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "viewerBooleanInvalidMesh": "两个操作都必须是封闭的,非自我交互的固态介质.",
+    "viewerBooleanEmptyResult": "这次行动产生了空洞的结果.",
+    "viewerBooleanSourceChanged": "选择的几何在计算时有所改变。 请再试一次 。",
+    "viewerBooleanUnsupported": "其中一个被选的网格包含无支持的油漆,材料或项目元数据.",
+    "viewerBooleanMemoryLimit": "这个布尔操作对于可用的设备内存来说太大了.",
+    "remindersTitle": "提醒",
+    "remindersDescription": "关于你保存内容的安静提醒：关注的创作者发布新模型、收藏降价、保存的搜索有新结果、比赛截止以及切片额度。全部在你的设备上计算。",
+    "remindersPermissionDenied": "未获得通知权限，因此提醒只会显示在应用内通知中心。",
+    "retentionDesignerNewModelsTitle": "{designer} 有新模型",
+    "retentionDesignerNewModelsBody": "自上次访问以来有 {count} 个新模型。",
+    "retentionFavoritePriceDropTitle": "收藏的模型降价了",
+    "retentionFavoritePriceDropBody": "{model} 现在 {price}。",
+    "retentionFavoriteNowFreeTitle": "收藏的模型现在免费",
+    "retentionFavoriteNowFreeBody": "{model} 现在可以免费下载。",
+    "retentionSavedSearchTitle": "保存的搜索有新结果",
+    "retentionSavedSearchBody": "{query} 有 {count} 条新结果。",
+    "retentionContestEndingTitle": "有比赛即将结束",
+    "retentionContestEndingBody": "{contest} 将在两天内截止。",
+    "retentionContestStartingTitle": "有比赛刚刚开始",
+    "retentionContestStartingBody": "{contest} 正在征集作品。",
+    "retentionContestEndingDaysBody": "{contest} 将在 {days} 天内截止。",
+    "retentionContestEndingHoursBody": "{contest} 将在 {hours} 小时内截止。",
+    "retentionContestEndingImminentBody": "{contest} 将在一小时内截止。",
+    "retentionContestStartingSoonBody": "{contest} 将在 24 小时内开始。",
+    "retentionContestNameOnPlatform": "{platform} 比赛",
+    "retentionContestNameGeneric": "比赛",
+    "remindersContestRuleNote": "比赛提醒只选最近的截止时间，同一比赛只通知一次。",
+    "retentionQuotaExhaustedTitle": "本周切片额度已用完",
+    "retentionQuotaExhaustedBody": "观看激励广告即可再解锁一次切片。",
+    "retentionQuotaRenewedTitle": "切片额度已恢复",
+    "retentionQuotaRenewedBody": "本周又可以切片模型了。",
+    "retentionShopTrialTitle": "你的 Shop 试用仍未使用",
+    "retentionShopTrialBody": "试用一次 Shop 定价流程。",
+    "activationChecklistTitle": "第一步",
+    "activationChecklistSubtitle": "可选：按任意顺序完成，或关闭此列表。",
+    "activationChecklistProgress": "{completed}/{total} 已完成",
+    "activationChecklistHide": "关闭此列表",
+    "activationStepSearch": "搜索模型",
+    "activationStepSave": "收藏模型",
+    "activationStepSlice": "切片模型",
+    "activationStepPrinter": "连接打印机",
+    "activationStepPrint": "开始打印",
+    "remindersPermissionInAppFallback": "系统通知已关闭，提醒只会显示在应用内通知中心。",
+    "notificationCenterPermissionInAppFallback": "系统通知已关闭，提醒会集中显示在这里。",
+    "settingsSlicingQuotaTitle": "切片额度",
+    "settingsSlicingQuotaSubtitle": "一眼查看本周的切片额度。",
+    "settingsSlicingQuotaCatalogTitle": "目录项目",
+    "settingsSlicingQuotaLocalTitle": "本地文件",
+    "settingsSlicingQuotaWelcomeTitle": "新用户项目",
+    "settingsSlicingQuotaRewardedTitle": "看广告增加额度",
+    "settingsSlicingQuotaRewardedDescription": "观看可选的激励视频，可额外获得 24 小时解锁。",
+    "settingsSlicingQuotaRewardedWeekUsedUp": "本周的额外额度已用完。",
+    "settingsSlicingQuotaUnlockActive": "已解锁，有效期至 {time}。",
+    "settingsSlicingQuotaUnlimitedPro": "无限制 (Pro)",
+    "settingsSlicingQuotaUnlimitedShop": "无限制 (Shop)",
+    "settingsSlicingQuotaUnlimitedSubtitle": "当前方案没有切片限制。",
+    "settingsSlicingQuotaChecking": "正在读取额度…",
+    "settingsSlicingQuotaRemaining": "剩余 {remaining} / {limit}",
+    "settingsSlicingQuotaRewardedToday": "今天剩余 {remaining} / {limit}"
+}
