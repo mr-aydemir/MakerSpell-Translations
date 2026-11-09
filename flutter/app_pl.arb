@@ -4267,5 +4267,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "Ten plan nie ma limitu krojenia.",
     "settingsSlicingQuotaChecking": "Sprawdzanie limitu…",
     "settingsSlicingQuotaRemaining": "{remaining, plural, =1{Został 1 z {limit}} few{Zostały {remaining} z {limit}} many{Zostało {remaining} z {limit}} other{Zostało {remaining} z {limit}}}",
-    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Dziś: został 1 z {limit}} few{Dziś: zostały {remaining} z {limit}} many{Dziś: zostało {remaining} z {limit}} other{Dziś: zostało {remaining} z {limit}}}"
+    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Dziś: został 1 z {limit}} few{Dziś: zostały {remaining} z {limit}} many{Dziś: zostało {remaining} z {limit}} other{Dziś: zostało {remaining} z {limit}}}",
+    "testerProgramJoinSuccess": "{days, plural, =1{Dodano 1 dzień.} few{Dodano {days} dni.} many{Dodano {days} dni.} other{Dodano {days} dnia.}}",
+    "testerProgramDaysLeft": "{days, plural, =1{Został 1 dzień} few{Zostały {days} dni} many{Zostało {days} dni} other{Zostało {days} dnia}}",
+    "testerProgramMonthlyRemaining": "{days, plural, =1{W tym miesiącu został 1 dzień nagrody} few{W tym miesiącu zostały {days} dni nagrody} many{W tym miesiącu zostało {days} dni nagrody} other{W tym miesiącu zostało {days} dnia nagrody}}",
+    "testerRewardGranted": "{days, plural, =1{Potwierdzone — +1 dzień} few{Potwierdzone — +{days} dni} many{Potwierdzone — +{days} dni} other{Potwierdzone — +{days} dnia}}",
+    "retentionTesterExpiryBody": "{days, plural, =1{Tester Pro kończy się w ciągu 1 dnia.} few{Tester Pro kończy się w ciągu {days} dni.} many{Tester Pro kończy się w ciągu {days} dni.} other{Tester Pro kończy się w ciągu {days} dni.}}",
+    "retentionTesterExpiryAction": "{reward, plural, =1{Wyślij raport i zyskaj 1 dodatkowy dzień.} few{Wyślij raport i zyskaj do {reward} dni.} many{Wyślij raport i zyskaj do {reward} dni.} other{Wyślij raport i zyskaj do {reward} dni.}}"
 }

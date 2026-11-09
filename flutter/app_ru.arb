@@ -4267,5 +4267,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "В этом плане нет лимита нарезки.",
     "settingsSlicingQuotaChecking": "Проверяем лимит…",
     "settingsSlicingQuotaRemaining": "{remaining, plural, =1{Остался 1 из {limit}} few{Осталось {remaining} из {limit}} many{Осталось {remaining} из {limit}} other{Осталось {remaining} из {limit}}}",
-    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Сегодня: остался 1 из {limit}} few{Сегодня: осталось {remaining} из {limit}} many{Сегодня: осталось {remaining} из {limit}} other{Сегодня: осталось {remaining} из {limit}}}"
+    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Сегодня: остался 1 из {limit}} few{Сегодня: осталось {remaining} из {limit}} many{Сегодня: осталось {remaining} из {limit}} other{Сегодня: осталось {remaining} из {limit}}}",
+    "testerProgramJoinSuccess": "{days, plural, =1{Добавлен 1 день.} few{Добавлено {days} дня.} many{Добавлено {days} дней.} other{Добавлено {days} дня.}}",
+    "testerProgramDaysLeft": "{days, plural, =1{Остался 1 день} few{Осталось {days} дня} many{Осталось {days} дней} other{Осталось {days} дня}}",
+    "testerProgramMonthlyRemaining": "{days, plural, =1{В этом месяце остался 1 день награды} few{В этом месяце осталось {days} дня награды} many{В этом месяце осталось {days} дней награды} other{В этом месяце осталось {days} дня награды}}",
+    "testerRewardGranted": "{days, plural, =1{Проверено — +1 день} few{Проверено — +{days} дня} many{Проверено — +{days} дней} other{Проверено — +{days} дня}}",
+    "retentionTesterExpiryBody": "{days, plural, =1{Tester Pro завершится в течение 1 дня.} few{Tester Pro завершится в течение {days} дней.} many{Tester Pro завершится в течение {days} дней.} other{Tester Pro завершится в течение {days} дней.}}",
+    "retentionTesterExpiryAction": "{reward, plural, =1{Отправьте отчёт и получите ещё 1 день.} few{Отправьте отчёт и получите до {reward} дней.} many{Отправьте отчёт и получите до {reward} дней.} other{Отправьте отчёт и получите до {reward} дней.}}"
 }

@@ -4267,5 +4267,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "У цьому плані немає ліміту нарізки.",
     "settingsSlicingQuotaChecking": "Перевіряємо ліміт…",
     "settingsSlicingQuotaRemaining": "{remaining, plural, =1{Залишився 1 з {limit}} few{Залишилося {remaining} з {limit}} many{Залишилося {remaining} з {limit}} other{Залишилося {remaining} з {limit}}}",
-    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Сьогодні: залишився 1 з {limit}} few{Сьогодні: залишилося {remaining} з {limit}} many{Сьогодні: залишилося {remaining} з {limit}} other{Сьогодні: залишилося {remaining} з {limit}}}"
+    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Сьогодні: залишився 1 з {limit}} few{Сьогодні: залишилося {remaining} з {limit}} many{Сьогодні: залишилося {remaining} з {limit}} other{Сьогодні: залишилося {remaining} з {limit}}}",
+    "testerProgramJoinSuccess": "{days, plural, =1{Додано 1 день.} few{Додано {days} дні.} many{Додано {days} днів.} other{Додано {days} дня.}}",
+    "testerProgramDaysLeft": "{days, plural, =1{Залишився 1 день} few{Залишилося {days} дні} many{Залишилося {days} днів} other{Залишилося {days} дня}}",
+    "testerProgramMonthlyRemaining": "{days, plural, =1{Цього місяця залишився 1 день винагороди} few{Цього місяця залишилося {days} дні винагороди} many{Цього місяця залишилося {days} днів винагороди} other{Цього місяця залишилося {days} дня винагороди}}",
+    "testerRewardGranted": "{days, plural, =1{Перевірено — +1 день} few{Перевірено — +{days} дні} many{Перевірено — +{days} днів} other{Перевірено — +{days} дня}}",
+    "retentionTesterExpiryBody": "{days, plural, =1{Tester Pro завершиться протягом 1 дня.} few{Tester Pro завершиться протягом {days} днів.} many{Tester Pro завершиться протягом {days} днів.} other{Tester Pro завершиться протягом {days} днів.}}",
+    "retentionTesterExpiryAction": "{reward, plural, =1{Надішліть звіт і отримайте ще 1 день.} few{Надішліть звіт і отримайте до {reward} днів.} many{Надішліть звіт і отримайте до {reward} днів.} other{Надішліть звіт і отримайте до {reward} днів.}}"
 }

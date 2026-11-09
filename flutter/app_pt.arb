@@ -4267,5 +4267,10 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "Este plano não tem limite de corte.",
     "settingsSlicingQuotaChecking": "A verificar a quota…",
     "settingsSlicingQuotaRemaining": "{remaining, plural, =1{Resta 1 de {limit}} other{Restam {remaining} de {limit}}}",
-    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Hoje: resta 1 de {limit}} other{Hoje: restam {remaining} de {limit}}}"
+    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Hoje: resta 1 de {limit}} other{Hoje: restam {remaining} de {limit}}}",
+    "testerProgramDaysLeft": "{days, plural, =1{1 dia restante} other{{days} dias restantes}}",
+    "testerProgramMonthlyRemaining": "{days, plural, =1{1 dia de recompensa restante neste mês} other{{days} dias de recompensa restantes neste mês}}",
+    "testerRewardGranted": "{days, plural, =1{Verificado — +1 dia} other{Verificado — +{days} dias}}",
+    "retentionTesterExpiryBody": "{days, plural, =1{O Tester Pro termina em 1 dia.} other{O Tester Pro termina em {days} dias.}}",
+    "retentionTesterExpiryAction": "{reward, plural, =1{Envie um relatório e ganhe mais 1 dia.} other{Envie um relatório e ganhe até {reward} dias.}}"
 }

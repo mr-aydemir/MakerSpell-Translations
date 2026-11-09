@@ -4267,5 +4267,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "Tvůj tarif nemá limit krájení.",
     "settingsSlicingQuotaChecking": "Zjišťuji limit…",
     "settingsSlicingQuotaRemaining": "{remaining, plural, =1{Zbývá 1 z {limit}} few{Zbývají {remaining} z {limit}} many{Zbývá {remaining} z {limit}} other{Zbývá {remaining} z {limit}}}",
-    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Dnes: zbývá 1 z {limit}} few{Dnes: zbývají {remaining} z {limit}} many{Dnes: zbývá {remaining} z {limit}} other{Dnes: zbývá {remaining} z {limit}}}"
+    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Dnes: zbývá 1 z {limit}} few{Dnes: zbývají {remaining} z {limit}} many{Dnes: zbývá {remaining} z {limit}} other{Dnes: zbývá {remaining} z {limit}}}",
+    "testerProgramJoinSuccess": "{days, plural, =1{Přidán 1 den.} few{Přidány {days} dny.} many{Přidáno {days} dne.} other{Přidáno {days} dne.}}",
+    "testerProgramDaysLeft": "{days, plural, =1{Zbývá 1 den} few{Zbývají {days} dny} many{Zbývá {days} dne} other{Zbývá {days} dne}}",
+    "testerProgramMonthlyRemaining": "{days, plural, =1{Tento měsíc zbývá 1 den odměny} few{Tento měsíc zbývají {days} dny odměny} many{Tento měsíc zbývá {days} dne odměny} other{Tento měsíc zbývá {days} dne odměny}}",
+    "testerRewardGranted": "{days, plural, =1{Ověřeno — +1 den} few{Ověřeno — +{days} dny} many{Ověřeno — +{days} dne} other{Ověřeno — +{days} dní}}",
+    "retentionTesterExpiryBody": "{days, plural, =1{Tester Pro končí do 1 dne.} few{Tester Pro končí do {days} dnů.} many{Tester Pro končí do {days} dne.} other{Tester Pro končí do {days} dne.}}",
+    "retentionTesterExpiryAction": "{reward, plural, =1{Pošli zprávu a získej 1 den navíc.} few{Pošli zprávu a získej až {reward} dny.} many{Pošli zprávu a získej až {reward} dne.} other{Pošli zprávu a získej až {reward} dne.}}"
 }

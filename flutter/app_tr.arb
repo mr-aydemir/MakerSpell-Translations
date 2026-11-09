@@ -4127,5 +4127,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "Paketinde dilimleme limiti yok.",
     "settingsSlicingQuotaChecking": "Hakkın kontrol ediliyor…",
     "settingsSlicingQuotaRemaining": "{remaining} / {limit} kaldı",
-    "settingsSlicingQuotaRewardedToday": "Bugün {remaining} / {limit} kaldı"
+    "settingsSlicingQuotaRewardedToday": "Bugün {remaining} / {limit} kaldı",
+    "testerProgramJoinSuccess": "{days} gün eklendi.",
+    "testerProgramDaysLeft": "Kalan {days} gün",
+    "testerProgramMonthlyRemaining": "Bu ay {days} ödül günü kaldı",
+    "testerRewardGranted": "Doğrulandı — +{days} gün",
+    "retentionTesterExpiryBody": "Tester Pro {days} gün içinde bitiyor.",
+    "retentionTesterExpiryAction": "Rapor gönder ve {reward} gün daha kazan."
 }

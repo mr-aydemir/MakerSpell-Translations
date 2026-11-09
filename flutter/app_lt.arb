@@ -4267,5 +4267,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "Šis planas neturi pjovimo limito.",
     "settingsSlicingQuotaChecking": "Tikrinamas limitas…",
     "settingsSlicingQuotaRemaining": "{remaining, plural, =1{Liko 1 iš {limit}} few{Liko {remaining} iš {limit}} many{Liko {remaining} iš {limit}} other{Liko {remaining} iš {limit}}}",
-    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Šiandien: liko 1 iš {limit}} few{Šiandien: liko {remaining} iš {limit}} many{Šiandien: liko {remaining} iš {limit}} other{Šiandien: liko {remaining} iš {limit}}}"
+    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Šiandien: liko 1 iš {limit}} few{Šiandien: liko {remaining} iš {limit}} many{Šiandien: liko {remaining} iš {limit}} other{Šiandien: liko {remaining} iš {limit}}}",
+    "testerProgramJoinSuccess": "{days, plural, =1{Pridėta 1 diena.} few{Pridėtos {days} dienos.} many{Pridėta {days} dienos.} other{Pridėta {days} dienos.}}",
+    "testerProgramDaysLeft": "{days, plural, =1{Liko 1 diena} few{Liko {days} dienos} many{Liko {days} dienos} other{Liko {days} dienos}}",
+    "testerProgramMonthlyRemaining": "{days, plural, =1{Šį mėnesį liko 1 atlygio diena} few{Šį mėnesį liko {days} atlygio dienos} many{Šį mėnesį liko {days} atlygio dienos} other{Šį mėnesį liko {days} atlygio dienos}}",
+    "testerRewardGranted": "{days, plural, one{Patvirtinta — +{days} diena} few{Patvirtinta — +{days} dienos} many{Patvirtinta — +{days} dienos} other{Patvirtinta — +{days} dienos}}",
+    "retentionTesterExpiryBody": "{days, plural, =1{Tester Pro baigiasi per 1 dieną.} few{Tester Pro baigiasi per {days} dienas.} many{Tester Pro baigiasi per {days} dienos.} other{Tester Pro baigiasi per {days} dienos.}}",
+    "retentionTesterExpiryAction": "{reward, plural, =1{Atsiųsk ataskaitą ir gauk dar 1 dieną.} few{Atsiųsk ataskaitą ir gauk iki {reward} dienų.} many{Atsiųsk ataskaitą ir gauk iki {reward} dienų.} other{Atsiųsk ataskaitą ir gauk iki {reward} dienų.}}"
 }

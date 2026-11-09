@@ -4267,5 +4267,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "このプランにスライス回数の制限はありません。",
     "settingsSlicingQuotaChecking": "残り回数を確認しています…",
     "settingsSlicingQuotaRemaining": "残り {remaining} / {limit}",
-    "settingsSlicingQuotaRewardedToday": "本日: 残り {remaining} / {limit}"
+    "settingsSlicingQuotaRewardedToday": "本日: 残り {remaining} / {limit}",
+    "testerProgramJoinSuccess": "{days} 日追加。",
+    "testerProgramDaysLeft": "残り {days} 日",
+    "testerProgramMonthlyRemaining": "今月の残り報酬は {days} 日",
+    "testerRewardGranted": "検証済み — +{days}日",
+    "retentionTesterExpiryBody": "Tester Pro は {days} 日以内に終了します。",
+    "retentionTesterExpiryAction": "レポートを送信して最大 {reward} 日獲得。"
 }

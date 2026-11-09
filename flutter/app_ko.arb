@@ -4267,5 +4267,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "이 요금제에는 슬라이싱 제한이 없습니다.",
     "settingsSlicingQuotaChecking": "잔여 횟수를 확인하는 중…",
     "settingsSlicingQuotaRemaining": "남은 횟수 {remaining} / {limit}",
-    "settingsSlicingQuotaRewardedToday": "오늘 남은 횟수 {remaining} / {limit}"
+    "settingsSlicingQuotaRewardedToday": "오늘 남은 횟수 {remaining} / {limit}",
+    "testerProgramJoinSuccess": "{days}일이 추가되었습니다.",
+    "testerProgramDaysLeft": "{days}일 남음",
+    "testerProgramMonthlyRemaining": "이번 달 보상 {days}일 남음",
+    "testerRewardGranted": "검증됨 — +{days}일",
+    "retentionTesterExpiryBody": "Tester Pro가 {days}일 이내에 종료됩니다.",
+    "retentionTesterExpiryAction": "보고서를 보내 최대 {reward}일을 더 받으세요."
 }

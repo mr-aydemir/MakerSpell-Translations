@@ -4267,5 +4267,10 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "Cette formule n'a pas de limite de découpe.",
     "settingsSlicingQuotaChecking": "Vérification du quota…",
     "settingsSlicingQuotaRemaining": "{remaining, plural, =1{1 sur {limit} restant} other{{remaining} sur {limit} restants}}",
-    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Aujourd'hui : 1 sur {limit} restant} other{Aujourd'hui : {remaining} sur {limit} restants}}"
+    "settingsSlicingQuotaRewardedToday": "{remaining, plural, =1{Aujourd'hui : 1 sur {limit} restant} other{Aujourd'hui : {remaining} sur {limit} restants}}",
+    "testerProgramDaysLeft": "{days, plural, =1{1 jour restant} other{{days} jours restants}}",
+    "testerProgramMonthlyRemaining": "{days, plural, =1{1 jour de récompense restant ce mois-ci} other{{days} jours de récompense restants ce mois-ci}}",
+    "testerRewardGranted": "{days, plural, =1{Vérifié — +1 jour} other{Vérifié — +{days} jours}}",
+    "retentionTesterExpiryBody": "{days, plural, =1{Tester Pro se termine dans 1 jour.} other{Tester Pro se termine dans {days} jours.}}",
+    "retentionTesterExpiryAction": "{reward, plural, =1{Envoyez un rapport et gagnez 1 jour de plus.} other{Envoyez un rapport et gagnez jusqu'à {reward} jours de plus.}}"
 }

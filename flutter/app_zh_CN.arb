@@ -4267,5 +4267,11 @@
     "settingsSlicingQuotaUnlimitedSubtitle": "当前方案没有切片限制。",
     "settingsSlicingQuotaChecking": "正在读取额度…",
     "settingsSlicingQuotaRemaining": "剩余 {remaining} / {limit}",
-    "settingsSlicingQuotaRewardedToday": "今天剩余 {remaining} / {limit}"
+    "settingsSlicingQuotaRewardedToday": "今天剩余 {remaining} / {limit}",
+    "testerProgramJoinSuccess": "已增加 {days} 天。",
+    "testerProgramDaysLeft": "还剩 {days} 天",
+    "testerProgramMonthlyRemaining": "本月还剩 {days} 个奖励日",
+    "testerRewardGranted": "已验证 — +{days} 天",
+    "retentionTesterExpiryBody": "Tester Pro 将在 {days} 天内结束。",
+    "retentionTesterExpiryAction": "提交报告最多可获得 {reward} 天。"
 }
