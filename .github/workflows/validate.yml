@@ -1,11 +1,78 @@
 name: validate
+
+# The community catalogue is where translators work; the app repository is
+# where reviewed copy ships. `validate.yml` already checks this repository's
+# own invariants. This workflow adds the other half: the catalogue must not
+# fall behind the app's catalogs, so a contribution that lands here also has a
+# clear path back into the product.
+#
+# The app repository is private to this project, so the read is done with a
+# token. When `APP_REPO_TOKEN` is absent the cross-repo step is skipped with a
+# warning instead of failing, keeping forks and outside contributors green.
+
 on: [push, pull_request]
+
+permissions:
+  contents: read
+
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python tools/check_translations.py
+
+      - name: Validate this catalogue
+        run: python tools/check_translations.py
+
+  cross-repo:
+    runs-on: ubuntu-latest
+    needs: check
+    steps:
+      - name: Check for an app-repository token
+        id: gate
+        env:
+          TOKEN: ${{ secrets.APP_REPO_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::warning::APP_REPO_TOKEN is not set; skipping the cross-repo parity check."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out the app repository
+        if: steps.gate.outputs.available == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: mr-aydemir/MakerSync
+          token: ${{ secrets.APP_REPO_TOKEN }}
+          path: app
+
+      - name: Check out this catalogue next to it
+        if: steps.gate.outputs.available == 'true'
+        uses: actions/checkout@v4
+        with:
+          path: app/MakerSpell-Translations
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.available == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Catalogue and app must agree
+        if: steps.gate.outputs.available == 'true'
+        working-directory: app/makersync_app
+        env:
+          MAKERSPELL_TRANSLATIONS_DIR: ${{ github.workspace }}/app/MakerSpell-Translations/flutter
+        run: |
+          if ! python scripts/sync_translations.py --check; then
+            echo "::error::This catalogue and the app catalogs disagree."
+            echo "Run in the app repository, then commit both:"
+            echo "  cd makersync_app"
+            echo "  python scripts/sync_translations.py --apply"
+            exit 1
+          fi
