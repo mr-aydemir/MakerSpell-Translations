@@ -4432,5 +4432,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Safe-Mode Active: Neověřené komunitní profily běží v režimu Pouze nahrávání.",
     "communityPrinterInstallAndActivate": "Instalovat a aktivovat",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Propojený 3D model",
+    "orderDetailViewModel": "Zobrazit model",
+    "orderDetailPrintModel": "Tisk / Výřez",
+    "orderDetailLinkModel": "Propojit 3D model",
+    "orderDetailModelNotFound": "Zdrojový 3D model nelze otevřít.",
+    "orderDetailLinkModelTitle": "Vyberte 3D model pro produkt",
+    "orderDetailModelLinkedSuccess": "Model úspěšně propojen s produktem.",
+    "communityForum": "Komunitní fórum",
+    "communityForumDescription": "Zapojte se do 3D diskusí, nápadů na funkce a řešení problémů."
 }

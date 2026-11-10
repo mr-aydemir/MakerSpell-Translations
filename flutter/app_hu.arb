@@ -4438,5 +4438,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Csökkentett mód aktív: Az ellenőrizetlen közösségi profilok csak feltöltés módban futnak.",
     "communityPrinterInstallAndActivate": "Telepítés és aktiválás",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Kapcsolt 3D-s modell",
+    "orderDetailViewModel": "Modell megtekintése",
+    "orderDetailPrintModel": "Nyomtatás / Szelet",
+    "orderDetailLinkModel": "Link 3D modell",
+    "orderDetailModelNotFound": "A forrás 3D-s modellt nem sikerült megnyitni.",
+    "orderDetailLinkModelTitle": "Válassza ki a 3D modellt a termékhez",
+    "orderDetailModelLinkedSuccess": "A modell sikeresen összekapcsolva a termékkel.",
+    "communityForum": "Közösségi Fórum",
+    "communityForumDescription": "Csatlakozzon a 3D-s beszélgetésekhez, a funkcióötletekhez és a hibaelhárításhoz."
 }

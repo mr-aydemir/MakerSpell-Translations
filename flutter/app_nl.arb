@@ -4438,5 +4438,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Veilige modus actief: niet-geverifieerde communityprofielen worden uitgevoerd in de modus Alleen uploaden.",
     "communityPrinterInstallAndActivate": "Installeren en activeren",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Gekoppeld 3D-model",
+    "orderDetailViewModel": "Bekijk model",
+    "orderDetailPrintModel": "Afdrukken / Snijden",
+    "orderDetailLinkModel": "3D-model koppelen",
+    "orderDetailModelNotFound": "Het bron-3D-model kan niet worden geopend.",
+    "orderDetailLinkModelTitle": "Selecteer 3D-model voor product",
+    "orderDetailModelLinkedSuccess": "Model succesvol gekoppeld aan product.",
+    "communityForum": "Gemeenschapsforum",
+    "communityForumDescription": "Neem deel aan 3D-discussies, functie-ideeën en probleemoplossing."
 }

@@ -4432,5 +4432,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Aktywny tryb awaryjny: niezweryfikowane profile społeczności działają w trybie tylko do przesyłania.",
     "communityPrinterInstallAndActivate": "Zainstaluj i aktywuj",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Połączony model 3D",
+    "orderDetailViewModel": "Zobacz model",
+    "orderDetailPrintModel": "Drukuj / Pokrój",
+    "orderDetailLinkModel": "Połącz model 3D",
+    "orderDetailModelNotFound": "Nie można otworzyć źródłowego modelu 3D.",
+    "orderDetailLinkModelTitle": "Wybierz Model 3D dla produktu",
+    "orderDetailModelLinkedSuccess": "Model został pomyślnie powiązany z produktem.",
+    "communityForum": "Forum społeczności",
+    "communityForumDescription": "Dołącz do dyskusji 3D, pomysłów na funkcje i rozwiązywania problemów."
 }

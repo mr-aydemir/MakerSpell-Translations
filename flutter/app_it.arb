@@ -4438,5 +4438,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Modalità provvisoria attiva: i profili della community non verificati vengono eseguiti in modalità Solo caricamento.",
     "communityPrinterInstallAndActivate": "Installa e attiva",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Modello 3D collegato",
+    "orderDetailViewModel": "Visualizza modello",
+    "orderDetailPrintModel": "Stampa/Taglia",
+    "orderDetailLinkModel": "Collega il modello 3D",
+    "orderDetailModelNotFound": "Impossibile aprire il modello 3D di origine.",
+    "orderDetailLinkModelTitle": "Seleziona il modello 3D per il prodotto",
+    "orderDetailModelLinkedSuccess": "Modello collegato correttamente al prodotto.",
+    "communityForum": "Foro comunitario",
+    "communityForumDescription": "Partecipa alle discussioni 3D, alle idee sulle funzionalità e alla risoluzione dei problemi."
 }

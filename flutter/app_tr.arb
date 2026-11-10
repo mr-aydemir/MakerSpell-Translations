@@ -4292,5 +4292,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Güvenli Mod Aktif: Doğrulanmamış topluluk profilleri Yalnızca-Yükleme modunda çalışır.",
     "communityPrinterInstallAndActivate": "Yükle ve Etkinleştir",
-    "authNoInternetConnection": "Herhangi bir ağa bağlı değilsiniz. Lütfen internet bağlantınızı kontrol edip tekrar deneyin."
+    "authNoInternetConnection": "Herhangi bir ağa bağlı değilsiniz. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.",
+    "orderDetailLinkedModel": "Bağlı 3D Model",
+    "orderDetailViewModel": "Modele Git",
+    "orderDetailPrintModel": "Bas / Dilimle",
+    "orderDetailLinkModel": "Model Eşle",
+    "orderDetailModelNotFound": "Kaynak 3D model açılamadı.",
+    "orderDetailLinkModelTitle": "Ürün İçin 3D Model Seçin",
+    "orderDetailModelLinkedSuccess": "Model başarıyla ürüne eşlendi.",
+    "communityForum": "Topluluk Forumu",
+    "communityForumDescription": "3B tartışmalarına katılın, fikir paylaşın ve teknik yardım alın."
 }

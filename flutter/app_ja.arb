@@ -4432,5 +4432,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "セーフモードアクティブ: 未検証のコミュニティプロファイルはアップロード専用モードで実行されます。",
     "communityPrinterInstallAndActivate": "インストールとアクティベーション",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "リンクされた 3D モデル",
+    "orderDetailViewModel": "モデルの表示",
+    "orderDetailPrintModel": "印刷/スライス",
+    "orderDetailLinkModel": "3Dモデルをリンク",
+    "orderDetailModelNotFound": "ソース 3D モデルを開けませんでした。",
+    "orderDetailLinkModelTitle": "製品の3Dモデルを選択してください",
+    "orderDetailModelLinkedSuccess": "モデルが製品に正常にリンクされました。",
+    "communityForum": "コミュニティフォーラム",
+    "communityForumDescription": "3D ディスカッション、機能のアイデア、トラブルシューティングに参加してください。"
 }

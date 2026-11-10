@@ -4173,5 +4173,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Safe-Mode Active: Unverified community profiles run in Upload-Only mode.",
     "communityPrinterInstallAndActivate": "Install & Activate",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Linked 3D Model",
+    "orderDetailViewModel": "View Model",
+    "orderDetailPrintModel": "Print / Slice",
+    "orderDetailLinkModel": "Link 3D Model",
+    "orderDetailModelNotFound": "Source 3D model could not be opened.",
+    "orderDetailLinkModelTitle": "Select 3D Model for Product",
+    "orderDetailModelLinkedSuccess": "Model successfully linked to product.",
+    "communityForum": "Community Forum",
+    "communityForumDescription": "Join 3D discussions, feature ideas, and troubleshooting."
 }

@@ -4432,5 +4432,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Aktyvus saugusis režimas: nepatvirtinti bendruomenės profiliai veikia tik įkėlimo režimu.",
     "communityPrinterInstallAndActivate": "Įdiegti ir suaktyvinti",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Susietas 3D modelis",
+    "orderDetailViewModel": "Žiūrėti modelį",
+    "orderDetailPrintModel": "Spausdinti / Supjaustyti",
+    "orderDetailLinkModel": "Susieti 3D modelį",
+    "orderDetailModelNotFound": "Šaltinio 3D modelio atidaryti nepavyko.",
+    "orderDetailLinkModelTitle": "Pasirinkite gaminio 3D modelį",
+    "orderDetailModelLinkedSuccess": "Modelis sėkmingai susietas su produktu.",
+    "communityForum": "Bendruomenės forumas",
+    "communityForumDescription": "Prisijunkite prie 3D diskusijų, funkcijų idėjų ir trikčių šalinimo."
 }

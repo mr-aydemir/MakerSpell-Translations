@@ -4432,5 +4432,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "안전 모드 활성: 확인되지 않은 커뮤니티 프로필이 업로드 전용 모드에서 실행됩니다.",
     "communityPrinterInstallAndActivate": "설치 및 활성화",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "연결된 3D 모델",
+    "orderDetailViewModel": "모델 보기",
+    "orderDetailPrintModel": "인쇄 / 슬라이스",
+    "orderDetailLinkModel": "3D 모델 링크",
+    "orderDetailModelNotFound": "소스 3D 모델을 열 수 없습니다.",
+    "orderDetailLinkModelTitle": "제품의 3D 모델 선택",
+    "orderDetailModelLinkedSuccess": "모델이 제품에 성공적으로 연결되었습니다.",
+    "communityForum": "커뮤니티 포럼",
+    "communityForumDescription": "3D 토론, 기능 아이디어 및 문제 해결에 참여하세요."
 }

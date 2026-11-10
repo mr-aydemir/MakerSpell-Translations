@@ -4438,5 +4438,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Mode segur actiu: els perfils de comunitat no verificats s'executen en mode Només per a càrrega.",
     "communityPrinterInstallAndActivate": "Instal·la i activa",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Model 3D enllaçat",
+    "orderDetailViewModel": "Veure model",
+    "orderDetailPrintModel": "Imprimir / Tallar",
+    "orderDetailLinkModel": "Enllaç model 3D",
+    "orderDetailModelNotFound": "No s'ha pogut obrir el model 3D d'origen.",
+    "orderDetailLinkModelTitle": "Seleccioneu el model 3D per al producte",
+    "orderDetailModelLinkedSuccess": "El model s'ha vinculat correctament al producte.",
+    "communityForum": "Fòrum comunitari",
+    "communityForumDescription": "Uneix-te a debats en 3D, idees de funcions i resolució de problemes."
 }

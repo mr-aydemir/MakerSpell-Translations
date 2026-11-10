@@ -4438,5 +4438,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Säkert läge aktivt: Overifierade communityprofiler körs i endast uppladdningsläge.",
     "communityPrinterInstallAndActivate": "Installera och aktivera",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Länkad 3D-modell",
+    "orderDetailViewModel": "Se modell",
+    "orderDetailPrintModel": "Skriv ut / Skiva",
+    "orderDetailLinkModel": "Länk 3D-modell",
+    "orderDetailModelNotFound": "Källa 3D-modellen kunde inte öppnas.",
+    "orderDetailLinkModelTitle": "Välj 3D-modell för produkt",
+    "orderDetailModelLinkedSuccess": "Modellen har länkats till produkten.",
+    "communityForum": "Samhällsforum",
+    "communityForumDescription": "Gå med i 3D-diskussioner, funktionsidéer och felsökning."
 }

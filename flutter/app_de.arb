@@ -4438,5 +4438,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Abgesicherter Modus aktiv: Nicht verifizierte Community-Profile werden im Nur-Upload-Modus ausgeführt.",
     "communityPrinterInstallAndActivate": "Installieren und aktivieren",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Verknüpftes 3D-Modell",
+    "orderDetailViewModel": "Modell ansehen",
+    "orderDetailPrintModel": "Drucken / Schneiden",
+    "orderDetailLinkModel": "3D-Modell verknüpfen",
+    "orderDetailModelNotFound": "Das Quell-3D-Modell konnte nicht geöffnet werden.",
+    "orderDetailLinkModelTitle": "Wählen Sie 3D-Modell als Produkt aus",
+    "orderDetailModelLinkedSuccess": "Modell erfolgreich mit Produkt verknüpft.",
+    "communityForum": "Community-Forum",
+    "communityForumDescription": "Nehmen Sie an 3D-Diskussionen, Feature-Ideen und Fehlerbehebungen teil."
 }

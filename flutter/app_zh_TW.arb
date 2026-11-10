@@ -4432,5 +4432,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "安全模式活動：未經驗證的社群設定檔在僅上傳模式下運作。",
     "communityPrinterInstallAndActivate": "安裝和啟用",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "連結 3D 模型",
+    "orderDetailViewModel": "查看模型",
+    "orderDetailPrintModel": "列印/切片",
+    "orderDetailLinkModel": "連結 3D 模型",
+    "orderDetailModelNotFound": "無法開啟來源 3D 模型。",
+    "orderDetailLinkModelTitle": "選擇產品的 3D 模型",
+    "orderDetailModelLinkedSuccess": "模型已成功連結到產品。",
+    "communityForum": "社群論壇",
+    "communityForumDescription": "加入 3D 討論、功能創意和故障排除。"
 }

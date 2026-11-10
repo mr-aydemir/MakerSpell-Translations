@@ -4432,5 +4432,14 @@
     "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
     "communityPrinterSafeModeNotice": "Активний безпечний режим: неперевірені профілі спільноти працюють у режимі лише завантаження.",
     "communityPrinterInstallAndActivate": "Встановити та активувати",
-    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again.",
+    "orderDetailLinkedModel": "Пов’язана 3D-модель",
+    "orderDetailViewModel": "Переглянути модель",
+    "orderDetailPrintModel": "Друк / Зріз",
+    "orderDetailLinkModel": "Посилання на 3D-модель",
+    "orderDetailModelNotFound": "Не вдалося відкрити вихідну 3D-модель.",
+    "orderDetailLinkModelTitle": "Виберіть 3D-модель для продукту",
+    "orderDetailModelLinkedSuccess": "Модель успішно пов’язано з продуктом.",
+    "communityForum": "Форум спільноти",
+    "communityForumDescription": "Приєднуйтесь до 3D-обговорень, ідей щодо функцій і пошуку несправностей."
 }
