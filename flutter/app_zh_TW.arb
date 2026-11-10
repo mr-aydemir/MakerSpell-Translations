@@ -4416,5 +4416,21 @@
     "openTestAnnouncementTesterActiveBody": "你的報告每通過一份驗證，測試者天數就會延長。",
     "openTestAnnouncementTesterEndedBody": "你的測試者天數已到期。通過驗證的報告可重新取得天數。",
     "purchasesRestoredSuccess": "已成功驗證並恢復您的訂閱。",
-    "noPurchasesToRestore": "未找到可恢復的有效訂閱。"
+    "noPurchasesToRestore": "未找到可恢復的有效訂閱。",
+    "communityPrinterImportProfile": "導入設定檔 (.json)",
+    "communityPrinterImportProfileTooltip": "從檔案匯入並測試 JSON 驅動程式設定檔",
+    "communityPrinterImportDialogTitle": "設定檔導入和驗證",
+    "communityPrinterImportSuccess": "設定檔“{name}”已成功驗證並安裝。",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "所選檔案包含無效的 JSON。",
+    "communityPrinterImportMissingIdentity": "設定檔缺少必填欄位（id、名稱或 schemaVersion）。",
+    "communityPrinterTestConnection": "測試連接",
+    "communityPrinterTestingConnection": "測試連接...",
+    "communityPrinterTestSuccess": "印表機回應成功（{latency} 毫秒）。",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "無法連接到印表機：{error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "安全模式活動：未經驗證的社群設定檔在僅上傳模式下運作。",
+    "communityPrinterInstallAndActivate": "安裝和啟用",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

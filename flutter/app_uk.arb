@@ -4416,5 +4416,21 @@
     "openTestAnnouncementTesterActiveBody": "Ваші дні тестувальника продовжуються щоразу, коли підтверджують один із ваших звітів.",
     "openTestAnnouncementTesterEndedBody": "Ваші дні тестувальника закінчилися. Підтверджений звіт знову додасть дні.",
     "purchasesRestoredSuccess": "Підписки перевірено та успішно відновлено.",
-    "noPurchasesToRestore": "Не знайдено активних підписок для відновлення."
+    "noPurchasesToRestore": "Не знайдено активних підписок для відновлення.",
+    "communityPrinterImportProfile": "Імпорт профілю (.json)",
+    "communityPrinterImportProfileTooltip": "Імпортуйте та протестуйте профіль драйвера JSON із файлу",
+    "communityPrinterImportDialogTitle": "Імпорт і перевірка профілю",
+    "communityPrinterImportSuccess": "Профіль “{name}” успішно перевірено та встановлено.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Вибраний файл містить недійсний JSON.",
+    "communityPrinterImportMissingIdentity": "У профілі відсутні обов’язкові поля (id, name або schemaVersion).",
+    "communityPrinterTestConnection": "Тестове підключення",
+    "communityPrinterTestingConnection": "Тестування з’єднання…",
+    "communityPrinterTestSuccess": "Принтер успішно відповів ({latency} мс).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Не вдалося підключитися до принтера: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Активний безпечний режим: неперевірені профілі спільноти працюють у режимі лише завантаження.",
+    "communityPrinterInstallAndActivate": "Встановити та активувати",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

@@ -4422,5 +4422,21 @@
     "openTestAnnouncementTesterActiveBody": "Deine Tester-Tage werden verlängert, sobald einer deiner Berichte geprüft wird.",
     "openTestAnnouncementTesterEndedBody": "Deine Tester-Tage sind abgelaufen. Ein geprüfter Bericht bringt wieder Tage.",
     "purchasesRestoredSuccess": "Abonnements wurden überprüft und erfolgreich aktualisiert.",
-    "noPurchasesToRestore": "Keine aktiven Abonnements zur Wiederherstellung gefunden."
+    "noPurchasesToRestore": "Keine aktiven Abonnements zur Wiederherstellung gefunden.",
+    "communityPrinterImportProfile": "Profil importieren (.json)",
+    "communityPrinterImportProfileTooltip": "Importieren und testen Sie ein JSON-Treiberprofil aus einer Datei",
+    "communityPrinterImportDialogTitle": "Profilimport und -überprüfung",
+    "communityPrinterImportSuccess": "Profil „{name}“ erfolgreich überprüft und installiert.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Die ausgewählte Datei enthält ungültiges JSON.",
+    "communityPrinterImportMissingIdentity": "Im Profil fehlen erforderliche Felder (ID, Name oder SchemaVersion).",
+    "communityPrinterTestConnection": "Testverbindung",
+    "communityPrinterTestingConnection": "Verbindung wird getestet…",
+    "communityPrinterTestSuccess": "Der Drucker hat erfolgreich geantwortet ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Es konnte keine Verbindung zum Drucker hergestellt werden: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Abgesicherter Modus aktiv: Nicht verifizierte Community-Profile werden im Nur-Upload-Modus ausgeführt.",
+    "communityPrinterInstallAndActivate": "Installieren und aktivieren",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

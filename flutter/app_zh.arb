@@ -4416,5 +4416,21 @@
     "openTestAnnouncementTesterActiveBody": "你的报告每通过一份验证，测试者天数就会延长。",
     "openTestAnnouncementTesterEndedBody": "你的测试者天数已到期。通过验证的报告可重新获得天数。",
     "purchasesRestoredSuccess": "已成功验证并恢复您的订阅。",
-    "noPurchasesToRestore": "未找到可恢复的有效订阅。"
+    "noPurchasesToRestore": "未找到可恢复的有效订阅。",
+    "communityPrinterImportProfile": "导入配置文件 (.json)",
+    "communityPrinterImportProfileTooltip": "从文件导入并测试 JSON 驱动程序配置文件",
+    "communityPrinterImportDialogTitle": "配置文件导入和验证",
+    "communityPrinterImportSuccess": "配置文件“{name}”已成功验证并安装。",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "所选文件包含无效的 JSON。",
+    "communityPrinterImportMissingIdentity": "配置文件缺少必填字段（id、名称或 schemaVersion）。",
+    "communityPrinterTestConnection": "测试连接",
+    "communityPrinterTestingConnection": "测试连接...",
+    "communityPrinterTestSuccess": "打印机响应成功（{latency} 毫秒）。",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "无法连接到打印机：{error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "安全模式活动：未经验证的社区配置文件在仅上传模式下运行。",
+    "communityPrinterInstallAndActivate": "安装和激活",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

@@ -4422,5 +4422,21 @@
     "openTestAnnouncementTesterActiveBody": "Els teus dies de tester s'amplien cada vegada que es valida un dels teus informes.",
     "openTestAnnouncementTesterEndedBody": "Els teus dies de tester s'han esgotat. Un informe validat torna a afegir dies.",
     "purchasesRestoredSuccess": "Subscripcions comprovades i restaurades amb èxit.",
-    "noPurchasesToRestore": "No s'han trobat subscripcions actives per restaurar."
+    "noPurchasesToRestore": "No s'han trobat subscripcions actives per restaurar.",
+    "communityPrinterImportProfile": "Importa el perfil (.json)",
+    "communityPrinterImportProfileTooltip": "Importa i prova un perfil de controlador JSON des del fitxer",
+    "communityPrinterImportDialogTitle": "Importació i verificació de perfils",
+    "communityPrinterImportSuccess": "El perfil \"{name}\" s'ha verificat i instal·lat correctament.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "El fitxer seleccionat conté JSON no vàlid.",
+    "communityPrinterImportMissingIdentity": "Falten camps obligatoris al perfil (identificador, nom o esquemaVersió).",
+    "communityPrinterTestConnection": "Prova de connexió",
+    "communityPrinterTestingConnection": "S'està provant la connexió...",
+    "communityPrinterTestSuccess": "La impressora ha respost correctament ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "No s'ha pogut connectar a la impressora: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Mode segur actiu: els perfils de comunitat no verificats s'executen en mode Només per a càrrega.",
+    "communityPrinterInstallAndActivate": "Instal·la i activa",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

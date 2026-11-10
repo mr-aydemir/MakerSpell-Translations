@@ -4417,5 +4417,21 @@
     "openTestAnnouncementTesterActiveBody": "Seus dias de testador são estendidos sempre que um de seus relatos é validado.",
     "openTestAnnouncementTesterEndedBody": "Seus dias de testador acabaram. Um relato validado adiciona dias de novo.",
     "purchasesRestoredSuccess": "Assinaturas verificadas e restauradas com sucesso.",
-    "noPurchasesToRestore": "Nenhuma assinatura ativa encontrada para restaurar."
+    "noPurchasesToRestore": "Nenhuma assinatura ativa encontrada para restaurar.",
+    "communityPrinterImportProfile": "Perfil de importação (.json)",
+    "communityPrinterImportProfileTooltip": "Importe e teste um perfil de driver JSON do arquivo",
+    "communityPrinterImportDialogTitle": "Importação e verificação de perfil",
+    "communityPrinterImportSuccess": "Perfil “{name}” verificado e instalado com sucesso.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "O arquivo selecionado contém JSON inválido.",
+    "communityPrinterImportMissingIdentity": "Faltam campos obrigatórios no perfil (id, nome ou esquemaVersion).",
+    "communityPrinterTestConnection": "Conexão de teste",
+    "communityPrinterTestingConnection": "Testando conexão…",
+    "communityPrinterTestSuccess": "A impressora respondeu com sucesso ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Não foi possível conectar à impressora: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Modo de segurança ativo: perfis de comunidade não verificados são executados no modo somente upload.",
+    "communityPrinterInstallAndActivate": "Instalar e ativar",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

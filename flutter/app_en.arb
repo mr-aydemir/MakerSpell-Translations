@@ -4157,5 +4157,21 @@
     "openTestAnnouncementTesterActiveBody": "Your tester days are extended whenever one of your reports is validated.",
     "openTestAnnouncementTesterEndedBody": "Your tester days ran out. A validated report adds days again.",
     "purchasesRestoredSuccess": "Subscriptions checked and restored successfully.",
-    "noPurchasesToRestore": "No active subscriptions found to restore."
+    "noPurchasesToRestore": "No active subscriptions found to restore.",
+    "communityPrinterImportProfile": "Import profile (.json)",
+    "communityPrinterImportProfileTooltip": "Import and test a JSON driver profile from file",
+    "communityPrinterImportDialogTitle": "Profile Import & Verification",
+    "communityPrinterImportSuccess": "Profile “{name}” successfully verified and installed.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "The selected file contains invalid JSON.",
+    "communityPrinterImportMissingIdentity": "Profile is missing required fields (id, name, or schemaVersion).",
+    "communityPrinterTestConnection": "Test Connection",
+    "communityPrinterTestingConnection": "Testing connection…",
+    "communityPrinterTestSuccess": "Printer responded successfully ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Could not connect to printer: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Safe-Mode Active: Unverified community profiles run in Upload-Only mode.",
+    "communityPrinterInstallAndActivate": "Install & Activate",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

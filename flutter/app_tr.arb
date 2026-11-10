@@ -4276,5 +4276,21 @@
     "openTestAnnouncementTesterActiveBody": "Raporlarından biri doğrulandıkça tester günlerin uzatılır.",
     "openTestAnnouncementTesterEndedBody": "Tester günlerin bitti. Doğrulanan bir rapor yeniden gün ekler.",
     "purchasesRestoredSuccess": "Aboneliğiniz kontrol edildi ve başarıyla güncellendi.",
-    "noPurchasesToRestore": "Geri yüklenecek aktif bir abonelik bulunamadı."
+    "noPurchasesToRestore": "Geri yüklenecek aktif bir abonelik bulunamadı.",
+    "communityPrinterImportProfile": "Profil içe aktar (.json)",
+    "communityPrinterImportProfileTooltip": "Dosyadan JSON sürücü profili içe aktar ve test et",
+    "communityPrinterImportDialogTitle": "Profil İçe Aktarma ve Doğrulama",
+    "communityPrinterImportSuccess": "“{name}” profili başarıyla doğrulandı ve yüklendi.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Seçilen dosya geçersiz bir JSON içeriyor.",
+    "communityPrinterImportMissingIdentity": "Profilde zorunlu alanlar eksik (id, name veya schemaVersion).",
+    "communityPrinterTestConnection": "Bağlantıyı Test Et",
+    "communityPrinterTestingConnection": "Bağlantı test ediliyor…",
+    "communityPrinterTestSuccess": "Yazıcı başarıyla yanıt verdi ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Yazıcıya bağlanılamadı: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Güvenli Mod Aktif: Doğrulanmamış topluluk profilleri Yalnızca-Yükleme modunda çalışır.",
+    "communityPrinterInstallAndActivate": "Yükle ve Etkinleştir",
+    "authNoInternetConnection": "Herhangi bir ağa bağlı değilsiniz. Lütfen internet bağlantınızı kontrol edip tekrar deneyin."
 }

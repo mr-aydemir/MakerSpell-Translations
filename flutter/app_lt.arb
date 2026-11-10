@@ -4416,5 +4416,21 @@
     "openTestAnnouncementTesterActiveBody": "Jūsų testerio dienos pratęsiamos kiekvieną kartą patvirtinus jūsų pranešimą.",
     "openTestAnnouncementTesterEndedBody": "Jūsų testerio dienos baigėsi. Patvirtintas pranešimas vėl prideda dienų.",
     "purchasesRestoredSuccess": "Prenumeratos patikrintos ir sėkmingai atnaujintos.",
-    "noPurchasesToRestore": "Aktyvių prenumeratų atkūrimui nerasta."
+    "noPurchasesToRestore": "Aktyvių prenumeratų atkūrimui nerasta.",
+    "communityPrinterImportProfile": "Importuoti profilį (.json)",
+    "communityPrinterImportProfileTooltip": "Importuokite ir išbandykite JSON tvarkyklės profilį iš failo",
+    "communityPrinterImportDialogTitle": "Profilio importavimas ir patvirtinimas",
+    "communityPrinterImportSuccess": "Profilis „{name}“ sėkmingai patikrintas ir įdiegtas.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Pasirinktame faile yra netinkamas JSON.",
+    "communityPrinterImportMissingIdentity": "Profilyje trūksta būtinų laukų (id, pavadinimas arba schemos versija).",
+    "communityPrinterTestConnection": "Bandomasis ryšys",
+    "communityPrinterTestingConnection": "Bandomas ryšys…",
+    "communityPrinterTestSuccess": "Spausdintuvas sėkmingai atsakė ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Nepavyko prisijungti prie spausdintuvo: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Aktyvus saugusis režimas: nepatvirtinti bendruomenės profiliai veikia tik įkėlimo režimu.",
+    "communityPrinterInstallAndActivate": "Įdiegti ir suaktyvinti",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

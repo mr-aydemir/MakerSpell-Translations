@@ -4422,5 +4422,21 @@
     "openTestAnnouncementTesterActiveBody": "Je testerdagen worden verlengd zodra een van je meldingen wordt gevalideerd.",
     "openTestAnnouncementTesterEndedBody": "Je testerdagen zijn op. Een gevalideerde melding voegt weer dagen toe.",
     "purchasesRestoredSuccess": "Abonnementen gecontroleerd en succesvol hersteld.",
-    "noPurchasesToRestore": "Geen actieve abonnementen gevonden om te herstellen."
+    "noPurchasesToRestore": "Geen actieve abonnementen gevonden om te herstellen.",
+    "communityPrinterImportProfile": "Profiel importeren (.json)",
+    "communityPrinterImportProfileTooltip": "Importeer en test een JSON-stuurprogrammaprofiel uit een bestand",
+    "communityPrinterImportDialogTitle": "Profielimport en -verificatie",
+    "communityPrinterImportSuccess": "Profiel “{name}” succesvol geverifieerd en geïnstalleerd.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Het geselecteerde bestand bevat ongeldige JSON.",
+    "communityPrinterImportMissingIdentity": "Er ontbreken verplichte velden in het profiel (id, naam of schemaVersion).",
+    "communityPrinterTestConnection": "Verbinding testen",
+    "communityPrinterTestingConnection": "Verbinding testen…",
+    "communityPrinterTestSuccess": "Printer heeft succesvol gereageerd ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Kan geen verbinding maken met printer: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Veilige modus actief: niet-geverifieerde communityprofielen worden uitgevoerd in de modus Alleen uploaden.",
+    "communityPrinterInstallAndActivate": "Installeren en activeren",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

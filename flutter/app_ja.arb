@@ -4416,5 +4416,21 @@
     "openTestAnnouncementTesterActiveBody": "レポートが1件検証されるたびに、テスター日数が延長されます。",
     "openTestAnnouncementTesterEndedBody": "テスター日数がなくなりました。検証済みのレポートで再び日数が付きます。",
     "purchasesRestoredSuccess": "定期購入が確認され、正常に更新されました。",
-    "noPurchasesToRestore": "復元する有効な定期購入が見つかりませんでした。"
+    "noPurchasesToRestore": "復元する有効な定期購入が見つかりませんでした。",
+    "communityPrinterImportProfile": "プロファイル (.json) をインポートします",
+    "communityPrinterImportProfileTooltip": "ファイルから JSON ドライバー プロファイルをインポートしてテストする",
+    "communityPrinterImportDialogTitle": "プロファイルのインポートと検証",
+    "communityPrinterImportSuccess": "プロファイル「{name}」は正常に検証され、インストールされました。",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "選択したファイルには無効な JSON が含まれています。",
+    "communityPrinterImportMissingIdentity": "プロファイルに必須フィールド (ID、名前、またはスキーマバージョン) がありません。",
+    "communityPrinterTestConnection": "テスト接続",
+    "communityPrinterTestingConnection": "接続をテスト中…",
+    "communityPrinterTestSuccess": "プリンターは正常に応答しました ({latency} ミリ秒)。",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "プリンターに接続できませんでした: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "セーフモードアクティブ: 未検証のコミュニティプロファイルはアップロード専用モードで実行されます。",
+    "communityPrinterInstallAndActivate": "インストールとアクティベーション",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

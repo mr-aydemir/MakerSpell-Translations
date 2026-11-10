@@ -4416,5 +4416,21 @@
     "openTestAnnouncementTesterActiveBody": "Twoje dni testera są przedłużane, gdy któreś z Twoich zgłoszeń zostanie potwierdzone.",
     "openTestAnnouncementTesterEndedBody": "Twoje dni testera się skończyły. Potwierdzone zgłoszenie znów doda dni.",
     "purchasesRestoredSuccess": "Subskrypcje zostały sprawdzone i pomyślnie zaktualizowane.",
-    "noPurchasesToRestore": "Nie znaleziono aktywnych subskrypcji do przywrócenia."
+    "noPurchasesToRestore": "Nie znaleziono aktywnych subskrypcji do przywrócenia.",
+    "communityPrinterImportProfile": "Importuj profil (.json)",
+    "communityPrinterImportProfileTooltip": "Zaimportuj i przetestuj profil sterownika JSON z pliku",
+    "communityPrinterImportDialogTitle": "Import i weryfikacja profilu",
+    "communityPrinterImportSuccess": "Profil „{name}” został pomyślnie zweryfikowany i zainstalowany.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Wybrany plik zawiera nieprawidłowy format JSON.",
+    "communityPrinterImportMissingIdentity": "W profilu brakuje wymaganych pól (identyfikatora, nazwy lub wersji schematu).",
+    "communityPrinterTestConnection": "Połączenie testowe",
+    "communityPrinterTestingConnection": "Testuję połączenie…",
+    "communityPrinterTestSuccess": "Drukarka odpowiedziała pomyślnie ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Nie można połączyć się z drukarką: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Aktywny tryb awaryjny: niezweryfikowane profile społeczności działają w trybie tylko do przesyłania.",
+    "communityPrinterInstallAndActivate": "Zainstaluj i aktywuj",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

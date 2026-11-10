@@ -4422,5 +4422,21 @@
     "openTestAnnouncementTesterActiveBody": "A tesztelői napjaid minden jóváhagyott jelentésnél hosszabbodnak.",
     "openTestAnnouncementTesterEndedBody": "Elfogytak a tesztelői napjaid. Egy jóváhagyott jelentés újra napokat ad.",
     "purchasesRestoredSuccess": "Az előfizetések ellenőrzése és visszaállítása sikeres volt.",
-    "noPurchasesToRestore": "Nem található visszaállítható aktív előfizetés."
+    "noPurchasesToRestore": "Nem található visszaállítható aktív előfizetés.",
+    "communityPrinterImportProfile": "Profil importálása (.json)",
+    "communityPrinterImportProfileTooltip": "JSON illesztőprogram-profil importálása és tesztelése fájlból",
+    "communityPrinterImportDialogTitle": "Profil importálása és ellenőrzése",
+    "communityPrinterImportSuccess": "Az „{name}” profil sikeresen ellenőrizve és telepítve.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "A kiválasztott fájl érvénytelen JSON-t tartalmaz.",
+    "communityPrinterImportMissingIdentity": "A profilból hiányoznak a kötelező mezők (azonosító, név vagy sémaverzió).",
+    "communityPrinterTestConnection": "Kapcsolat tesztelése",
+    "communityPrinterTestingConnection": "Kapcsolat tesztelése…",
+    "communityPrinterTestSuccess": "A nyomtató sikeresen válaszolt ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Nem sikerült csatlakozni a következő nyomtatóhoz: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Csökkentett mód aktív: Az ellenőrizetlen közösségi profilok csak feltöltés módban futnak.",
+    "communityPrinterInstallAndActivate": "Telepítés és aktiválás",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

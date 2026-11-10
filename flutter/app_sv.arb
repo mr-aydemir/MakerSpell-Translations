@@ -4422,5 +4422,21 @@
     "openTestAnnouncementTesterActiveBody": "Dina testardagar förlängs varje gång en av dina rapporter valideras.",
     "openTestAnnouncementTesterEndedBody": "Dina testardagar tog slut. En validerad rapport lägger till dagar igen.",
     "purchasesRestoredSuccess": "Prenumerationer har kontrollerats och återställts.",
-    "noPurchasesToRestore": "Inga aktiva prenumerationer hittades att återställa."
+    "noPurchasesToRestore": "Inga aktiva prenumerationer hittades att återställa.",
+    "communityPrinterImportProfile": "Importera profil (.json)",
+    "communityPrinterImportProfileTooltip": "Importera och testa en JSON-drivrutinsprofil från filen",
+    "communityPrinterImportDialogTitle": "Profilimport och verifiering",
+    "communityPrinterImportSuccess": "Profilen \"{name}\" har verifierats och installerats.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Den valda filen innehåller ogiltig JSON.",
+    "communityPrinterImportMissingIdentity": "Profilen saknar obligatoriska fält (id, namn eller schemaVersion).",
+    "communityPrinterTestConnection": "Testa anslutningen",
+    "communityPrinterTestingConnection": "Testar anslutning...",
+    "communityPrinterTestSuccess": "Skrivaren svarade framgångsrikt ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Kunde inte ansluta till skrivaren: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Säkert läge aktivt: Overifierade communityprofiler körs i endast uppladdningsläge.",
+    "communityPrinterInstallAndActivate": "Installera och aktivera",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

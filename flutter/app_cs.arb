@@ -4416,5 +4416,21 @@
     "openTestAnnouncementTesterActiveBody": "Vaše testovací dny se prodlouží vždy, když se potvrdí některý z vašich reportů.",
     "openTestAnnouncementTesterEndedBody": "Vaše testovací dny vypršely. Potvrzený report znovu přidá dny.",
     "purchasesRestoredSuccess": "Předplatná byla zkontrolována a úspěšně obnovena.",
-    "noPurchasesToRestore": "Nebyla nalezena žádná aktivní předplatná k obnovení."
+    "noPurchasesToRestore": "Nebyla nalezena žádná aktivní předplatná k obnovení.",
+    "communityPrinterImportProfile": "Importovat profil (.json)",
+    "communityPrinterImportProfileTooltip": "Importujte a otestujte profil ovladače JSON ze souboru",
+    "communityPrinterImportDialogTitle": "Import a ověření profilu",
+    "communityPrinterImportSuccess": "Profil „{name}“ byl úspěšně ověřen a nainstalován.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Vybraný soubor obsahuje neplatný JSON.",
+    "communityPrinterImportMissingIdentity": "V profilu chybí povinná pole (id, name nebo schemaVersion).",
+    "communityPrinterTestConnection": "Test připojení",
+    "communityPrinterTestingConnection": "Testování připojení…",
+    "communityPrinterTestSuccess": "Tiskárna úspěšně odpověděla ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Nelze se připojit k tiskárně: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Safe-Mode Active: Neověřené komunitní profily běží v režimu Pouze nahrávání.",
+    "communityPrinterInstallAndActivate": "Instalovat a aktivovat",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

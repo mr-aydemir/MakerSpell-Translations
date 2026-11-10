@@ -4417,5 +4417,21 @@
     "openTestAnnouncementTesterActiveBody": "Vos jours de testeur sont prolongés dès qu'un de vos signalements est validé.",
     "openTestAnnouncementTesterEndedBody": "Vos jours de testeur sont épuisés. Un signalement validé rajoute des jours.",
     "purchasesRestoredSuccess": "Abonnements vérifiés et restaurés avec succès.",
-    "noPurchasesToRestore": "Aucun abonnement actif trouvé à restaurer."
+    "noPurchasesToRestore": "Aucun abonnement actif trouvé à restaurer.",
+    "communityPrinterImportProfile": "Profil d'importation (.json)",
+    "communityPrinterImportProfileTooltip": "Importer et tester un profil de pilote JSON à partir d'un fichier",
+    "communityPrinterImportDialogTitle": "Importation et vérification de profil",
+    "communityPrinterImportSuccess": "Profil « {name} » vérifié et installé avec succès.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "Le fichier sélectionné contient du JSON non valide.",
+    "communityPrinterImportMissingIdentity": "Le profil ne contient pas de champs obligatoires (identifiant, nom ou version de schéma).",
+    "communityPrinterTestConnection": "Tester la connexion",
+    "communityPrinterTestingConnection": "Test de connexion…",
+    "communityPrinterTestSuccess": "L'imprimante a répondu avec succès ({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "Impossible de se connecter à l'imprimante : {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "Mode sans échec actif : les profils de communauté non vérifiés s'exécutent en mode Téléchargement uniquement.",
+    "communityPrinterInstallAndActivate": "Installer et activer",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }

@@ -4416,5 +4416,21 @@
     "openTestAnnouncementTesterActiveBody": "리포트가 검증될 때마다 테스터 일수가 연장됩니다.",
     "openTestAnnouncementTesterEndedBody": "테스터 일수가 끝났습니다. 검증된 리포트가 일수를 다시 더해 줍니다.",
     "purchasesRestoredSuccess": "구독을 확인하고 성공적으로 복원했습니다.",
-    "noPurchasesToRestore": "복원할 활성 구독을 찾을 수 없습니다."
+    "noPurchasesToRestore": "복원할 활성 구독을 찾을 수 없습니다.",
+    "communityPrinterImportProfile": "프로필 가져오기(.json)",
+    "communityPrinterImportProfileTooltip": "파일에서 JSON 드라이버 프로필 가져오기 및 테스트",
+    "communityPrinterImportDialogTitle": "프로필 가져오기 및 확인",
+    "communityPrinterImportSuccess": "프로필 “{name}”가 성공적으로 확인 및 설치되었습니다.",
+    "@communityPrinterImportSuccess": {"placeholders": {"name": {"type": "String"}}},
+    "communityPrinterImportInvalidJson": "선택한 파일에 잘못된 JSON이 포함되어 있습니다.",
+    "communityPrinterImportMissingIdentity": "프로필에 필수 필드(ID, 이름 또는 SchemaVersion)가 누락되었습니다.",
+    "communityPrinterTestConnection": "연결 테스트",
+    "communityPrinterTestingConnection": "연결 테스트 중…",
+    "communityPrinterTestSuccess": "프린터가 성공적으로 응답했습니다({latency} ms).",
+    "@communityPrinterTestSuccess": {"placeholders": {"latency": {"type": "int"}}},
+    "communityPrinterTestFailed": "프린터에 연결할 수 없습니다: {error}",
+    "@communityPrinterTestFailed": {"placeholders": {"error": {"type": "String"}}},
+    "communityPrinterSafeModeNotice": "안전 모드 활성: 확인되지 않은 커뮤니티 프로필이 업로드 전용 모드에서 실행됩니다.",
+    "communityPrinterInstallAndActivate": "설치 및 활성화",
+    "authNoInternetConnection": "You are not connected to any network. Please check your internet connection and try again."
 }
